@@ -1,0 +1,50 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  date: Date;
+  slug: string;
+  tags: string[];
+}
+
+const { title, description, date, slug, tags } = Astro.props;
+
+const formattedDate = new Intl.DateTimeFormat('en-GB', {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+}).format(date);
+
+const tagColorMap: Record<string, string> = {
+  Tech: 'var(--color-tag-tech)',
+  Anime: 'var(--color-tag-anime)',
+  Writing: 'var(--color-tag-writing)',
+  Life: 'var(--color-tag-life)',
+};
+---
+
+<article class="group py-6 border-b" style="border-color: var(--color-border);">
+  <a href={`/posts/${slug}`} class="block">
+    <time class="text-xs mb-2 block" style="color: var(--color-text-muted);">{formattedDate}</time>
+
+    <h2
+      class="text-xl mb-2 transition-colors"
+      style={`font-family: var(--font-family-heading); color: var(--color-text);`}
+    >
+      {title}
+    </h2>
+
+    <p class="text-sm leading-relaxed mb-3" style="color: var(--color-text-muted);">{description}</p>
+
+    <div class="flex flex-wrap gap-2">
+      {tags.map(tag => (
+        <span
+          class="text-xs px-2 py-0.5 rounded-full"
+          style={`background-color: ${tagColorMap[tag] ?? 'var(--color-surface)'}; color: var(--color-text);`}
+        >
+          {tag}
+        </span>
+      ))}
+    </div>
+  </a>
+</article>

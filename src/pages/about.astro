@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About" description="A bit about Debangan Thakuria — backend engineer, reader, writer, and fish keeper.">
+  <article>
+    <h1 class="text-3xl mb-8" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+      About
+    </h1>
+
+    <div class="prose">
+      <p>
+        I'm Debangan — a backend software engineer with about four and a half years of experience,
+        mostly in distributed systems and API design. I like building things that are simple, correct,
+        and boring in the best possible way.
+      </p>
+
+      <p>
+        I'm also a reader. I grew up on manga and light novels, and somewhere along the way that
+        expanded into web novels and the occasional fantasy or sci-fi epic. The stories I gravitate
+        towards tend to be long, unhurried, and character-driven — the kind where you spend a hundred
+        chapters just learning to care about people.
+      </p>
+
+      <p>
+        I've been writing my own web novel for a while. Slowly, which is fine. Writing that way feels
+        more honest.
+      </p>
+
+      <p>
+        Outside of that: I go to the gym, I keep fish (currently a betta and a peaceful community
+        tank), and I tend to prefer small spaces, quiet evenings, and very good tea.
+      </p>
+
+      <p>
+        This site is a place to write things I'd otherwise lose to scattered notes. No theme, no
+        niche — just whatever's on my mind.
+      </p>
+    </div>
+
+    <div class="mt-12 pt-8 border-t" style="border-color: var(--color-border);">
+      <h2 class="text-sm font-medium uppercase tracking-widest mb-6" style="color: var(--color-text-muted);">
+        Currently
+      </h2>
+
+      <dl class="space-y-4">
+        <div>
+          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Reading</dt>
+          <dd class="text-sm" style="color: var(--color-text);">Whatever web novel has pulled me in this week</dd>
+        </div>
+        <div>
+          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Watching</dt>
+          <dd class="text-sm" style="color: var(--color-text);">Keeping up with the current anime season</dd>
+        </div>
+        <div>
+          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Writing</dt>
+          <dd class="text-sm" style="color: var(--color-text);">My web novel, slowly and steadily</dd>
+        </div>
+        <div>
+          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Working on</dt>
+          <dd class="text-sm" style="color: var(--color-text);">Backend infrastructure, distributed systems</dd>
+        </div>
+      </dl>
+    </div>
+  </article>
+</BaseLayout>

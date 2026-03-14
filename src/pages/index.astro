@@ -1,17 +1,45 @@
 ---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
 
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Home" description="Personal site of Debangan Thakuria — backend engineer, reader, writer, fish enthusiast.">
+  <section class="mb-14">
+    <h1 class="text-3xl mb-3" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+      Debangan Thakuria
+    </h1>
+    <p class="text-base leading-relaxed" style="color: var(--color-text-muted);">
+      Backend engineer &middot; reader &middot; writer &middot; fish enthusiast
+    </p>
+    <p class="text-sm mt-4 leading-relaxed" style="color: var(--color-text-muted);">
+      A quiet corner of the internet. I write about tech, books, anime, and whatever else
+      is on my mind. No agenda — just a place to put things down.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="text-sm font-medium uppercase tracking-widest mb-6" style="color: var(--color-text-muted);">
+      Writing
+    </h2>
+
+    {posts.length === 0 ? (
+      <p style="color: var(--color-text-muted);">Nothing here yet — check back soon.</p>
+    ) : (
+      <div>
+        {posts.map(post => (
+          <PostCard
+            title={post.data.title}
+            description={post.data.description}
+            date={post.data.date}
+            slug={post.id}
+            tags={post.data.tags}
+          />
+        ))}
+      </div>
+    )}
+  </section>
+</BaseLayout>
