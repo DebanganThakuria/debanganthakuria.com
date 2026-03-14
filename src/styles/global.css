@@ -5,48 +5,109 @@
 @import "@fontsource/inter/500.css";
 
 @theme {
-  --color-bg: #FAF8F4;
-  --color-surface: #F2EDE6;
-  --color-text: #2C2825;
-  --color-text-muted: #7C6F65;
-  --color-accent: #6B8F71;
-  --color-accent-hover: #5a7a60;
-  --color-tag-tech: #D4E4D7;
-  --color-tag-anime: #E4D4D7;
-  --color-tag-writing: #D4DAE4;
-  --color-tag-life: #E4E0D4;
-  --color-border: #E0D8CF;
+  --color-bg: #FAFAFA;
+  --color-surface: #F3F3F3;
+  --color-text: #1A1A2E;
+  --color-text-muted: #6B7280;
+  --color-border: #E5E7EB;
+
+  /* Palette */
+  --color-coral: #FF6B6B;
+  --color-sky: #4ECDC4;
+  --color-sun: #FFD93D;
+  --color-mint: #6BCB77;
+  --color-purple: #C77DFF;
+  --color-orange: #FF9A3C;
+
+  /* Tag chips */
+  --color-tag-tech-bg: #DBEAFE;
+  --color-tag-tech-text: #1D4ED8;
+  --color-tag-anime-bg: #FAE8FF;
+  --color-tag-anime-text: #9333EA;
+  --color-tag-writing-bg: #FEF9C3;
+  --color-tag-writing-text: #A16207;
+  --color-tag-life-bg: #DCFCE7;
+  --color-tag-life-text: #15803D;
 
   --font-family-heading: "Lora", Georgia, serif;
   --font-family-body: "Inter", system-ui, sans-serif;
   --font-family-mono: "JetBrains Mono", "Fira Code", monospace;
 }
 
+html.dark {
+  --color-bg: #0F0F1A;
+  --color-surface: #1A1A2E;
+  --color-text: #F0EFF8;
+  --color-text-muted: #9CA3AF;
+  --color-border: #2D2D44;
+
+  /* Mute bento card bg in dark mode */
+  --bento-fish: #0d2e2d;
+  --bento-anime: #1e1030;
+  --bento-gym: #2e1515;
+  --bento-writing: #112914;
+
+  --color-tag-tech-bg: #1e3a5f;
+  --color-tag-tech-text: #93C5FD;
+  --color-tag-anime-bg: #3b1f5e;
+  --color-tag-anime-text: #D8B4FE;
+  --color-tag-writing-bg: #3f2f0a;
+  --color-tag-writing-text: #FDE68A;
+  --color-tag-life-bg: #0f2d1a;
+  --color-tag-life-text: #6EE7B7;
+}
+
 html {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-family-body);
+  scroll-behavior: smooth;
 }
 
-html.dark {
-  --color-bg: #1C1A18;
-  --color-surface: #242220;
-  --color-text: #E8E0D5;
-  --color-text-muted: #9E9188;
-  --color-border: #3A3530;
-  --color-tag-tech: #2A3D2D;
-  --color-tag-anime: #3D2A2D;
-  --color-tag-writing: #2A2F3D;
-  --color-tag-life: #3D3A2A;
+/* Bento card backgrounds — light */
+.bento-anime   { background-color: #F3E8FF; }
+.bento-gym     { background-color: #FFE4E4; }
+.bento-writing { background-color: #E4F7E7; }
+
+/* Bento card backgrounds — dark */
+html.dark .bento-anime   { background-color: #1e1030; }
+html.dark .bento-gym     { background-color: #2e1515; }
+html.dark .bento-writing { background-color: #112914; }
+
+/* ── Gradient text ───────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-coral), var(--color-purple), var(--color-sky));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* ── Wiggle animation ────────────────────────────────────── */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  20%       { transform: rotate(-12deg); }
+  60%       { transform: rotate(12deg); }
 }
 
-/* Prose styles for post content */
+.wiggle {
+  display: inline-block;
+  animation: wiggle 2.2s ease-in-out infinite;
+  transform-origin: 70% 80%;
+}
+
+/* ── Card lift ───────────────────────────────────────────── */
+.card-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+html.dark .card-lift:hover {
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+/* ── Prose (post body) ───────────────────────────────────── */
 .prose {
   color: var(--color-text);
   max-width: 68ch;
@@ -64,36 +125,29 @@ body {
 .prose h3 { font-size: 1.25rem; margin-bottom: 0.5rem; margin-top: 1.75rem; }
 
 .prose p {
-  line-height: 1.8;
+  line-height: 1.85;
   margin-bottom: 1.25rem;
-  color: var(--color-text);
 }
 
 .prose a {
-  color: var(--color-accent);
+  color: var(--color-coral);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.prose a:hover {
-  color: var(--color-accent-hover);
-}
+.prose a:hover { opacity: 0.75; }
 
 .prose ul, .prose ol {
   margin-bottom: 1.25rem;
   padding-left: 1.5rem;
 }
 
-.prose li {
-  line-height: 1.8;
-  margin-bottom: 0.25rem;
-}
-
+.prose li { line-height: 1.8; margin-bottom: 0.25rem; }
 .prose ul li { list-style-type: disc; }
 .prose ol li { list-style-type: decimal; }
 
 .prose blockquote {
-  border-left: 3px solid var(--color-accent);
+  border-left: 3px solid var(--color-purple);
   padding-left: 1rem;
   margin-left: 0;
   color: var(--color-text-muted);
@@ -104,6 +158,7 @@ body {
   font-family: var(--font-family-mono);
   font-size: 0.875em;
   background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
   padding: 0.125em 0.375em;
   border-radius: 0.25rem;
 }
@@ -111,7 +166,7 @@ body {
 .prose pre {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: 0.5rem;
+  border-radius: 0.75rem;
   padding: 1rem 1.25rem;
   overflow-x: auto;
   margin-bottom: 1.25rem;
@@ -119,6 +174,7 @@ body {
 
 .prose pre code {
   background: none;
+  border: none;
   padding: 0;
   font-size: 0.875rem;
 }

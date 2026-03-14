@@ -1,0 +1,187 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const sorted = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+// Group by year
+const byYear = sorted.reduce<Record<number, typeof sorted>>((acc, post) => {
+  const year = post.data.date.getFullYear();
+  if (!acc[year]) acc[year] = [];
+  acc[year].push(post);
+  return acc;
+}, {});
+
+const years = Object.keys(byYear)
+  .map(Number)
+  .sort((a, b) => b - a);
+
+const tagColors: Record<string, string> = {
+  Tech:    'var(--color-sky)',
+  Anime:   'var(--color-purple)',
+  Writing: 'var(--color-sun)',
+  Life:    'var(--color-mint)',
+  Travel:  'var(--color-coral)',
+};
+
+const tagTextColors: Record<string, string> = {
+  Tech:    'var(--color-tag-tech-text)',
+  Anime:   'var(--color-tag-anime-text)',
+  Writing: 'var(--color-tag-writing-text)',
+  Life:    'var(--color-tag-life-text)',
+  Travel:  'var(--color-coral)',
+};
+
+const tagBgs: Record<string, string> = {
+  Tech:    'var(--color-tag-tech-bg)',
+  Anime:   'var(--color-tag-anime-bg)',
+  Writing: 'var(--color-tag-writing-bg)',
+  Life:    'var(--color-tag-life-bg)',
+  Travel:  '#FFE4E4',
+};
+---
+
+<BaseLayout title="All Posts" description="Everything Debangan has written — tech, anime, life, writing, and more.">
+  <div class="mb-12">
+    <h1 class="text-4xl mb-3" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+      all posts
+    </h1>
+    <p class="text-base" style="color: var(--color-text-muted);">
+      {sorted.length} {sorted.length === 1 ? 'post' : 'posts'} — everything, in order
+    </p>
+  </div>
+
+  <div class="timeline">
+    {years.map(year => (
+      <div class="timeline-year">
+        <!-- Year marker -->
+        <div class="year-label">
+          <span class="gradient-text" style="font-family: var(--font-family-heading); font-size: 1.5rem; font-weight: 600;">
+            {year}
+          </span>
+        </div>
+
+        <!-- Posts for this year -->
+        <div class="year-posts">
+          {byYear[year].map(post => {
+            const primaryTag = post.data.tags[0] ?? 'Life';
+            const dotColor = tagColors[primaryTag] ?? 'var(--color-coral)';
+            const month = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short' }).format(post.data.date);
+            return (
+              <div class="timeline-entry">
+                <!-- Dot on the line -->
+                <div class="timeline-dot" style={`background: ${dotColor};`}></div>
+
+                <!-- Card -->
+                <a href={`/posts/${post.id}`} class="timeline-card card-lift">
+                  <div class="flex items-start justify-between gap-3 mb-1">
+                    <h2 class="text-base font-semibold leading-snug" style="font-family: var(--font-family-heading); color: var(--color-text);">
+                      {post.data.title}
+                    </h2>
+                    <time class="text-xs shrink-0 mt-0.5" style="color: var(--color-text-muted);">{month}</time>
+                  </div>
+
+                  <p class="text-sm leading-relaxed mb-3" style="color: var(--color-text-muted);">{post.data.description}</p>
+
+                  <div class="flex flex-wrap gap-1.5">
+                    {post.data.tags.map(tag => (
+                      <span
+                        class="text-xs px-2.5 py-0.5 rounded-full font-medium"
+                        style={`background-color: ${tagBgs[tag] ?? '#F3F3F3'}; color: ${tagTextColors[tag] ?? 'var(--color-text)'};`}
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                    {post.data.type === 'photo' && (
+                      <span class="text-xs px-2.5 py-0.5 rounded-full font-medium" style="background-color: #FFF4E4; color: #c2410c;">
+                        📷 photos
+                      </span>
+                    )}
+                  </div>
+                </a>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>
+
+<style>
+  .timeline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .timeline-year {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 0 1.5rem;
+    align-items: start;
+  }
+
+  .year-label {
+    padding-top: 0.2rem;
+    text-align: right;
+  }
+
+  .year-posts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--color-border);
+  }
+
+  .timeline-entry {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    left: -1.625rem; /* aligns with the border-left line */
+    top: 0.9rem;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 2px solid var(--color-bg);
+    flex-shrink: 0;
+  }
+
+  .timeline-card {
+    display: block;
+    width: 100%;
+    background-color: var(--color-surface);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .timeline-card:hover {
+    transform: translateX(4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  :global(html.dark) .timeline-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  @media (max-width: 480px) {
+    .timeline-year {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+    .year-label {
+      text-align: left;
+      padding-left: 1.5rem;
+    }
+  }
+</style>

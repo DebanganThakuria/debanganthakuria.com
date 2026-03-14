@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
-// Rough reading time estimate: ~200 words/min
+// Rough reading time: ~200 words/min
 const words = post.body?.split(/\s+/).length ?? 0;
 const readingTime = Math.max(1, Math.round(words / 200));
 ---
@@ -24,6 +24,8 @@ const readingTime = Math.max(1, Math.round(words / 200));
   date={post.data.date}
   tags={post.data.tags}
   readingTime={readingTime}
+  coverImage={post.data.cover_image}
+  type={post.data.type}
 >
   <Content />
 </PostLayout>

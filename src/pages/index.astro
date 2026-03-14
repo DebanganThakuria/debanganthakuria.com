@@ -4,33 +4,73 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
-const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const recentPosts = allPosts
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 5);
 ---
 
-<BaseLayout title="Home" description="Personal site of Debangan Thakuria — backend engineer, reader, writer, fish enthusiast.">
-  <section class="mb-14">
-    <h1 class="text-3xl mb-3" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
-      Debangan Thakuria
+<BaseLayout title="Home" description="Personal site of Debangan Thakuria — backend engineer, reader, writer.">
+  <!-- Hero -->
+  <section class="mb-16">
+    <div class="mb-5">
+      <span class="wiggle text-4xl" aria-hidden="true">👋</span>
+    </div>
+
+    <h1 class="text-4xl sm:text-5xl mb-4 leading-tight" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+      hey, i'm <span class="gradient-text">debangan.</span>
     </h1>
-    <p class="text-base leading-relaxed" style="color: var(--color-text-muted);">
-      Backend engineer &middot; reader &middot; writer &middot; fish enthusiast
+
+    <p class="text-lg mb-3 leading-relaxed" style="color: var(--color-text-muted);">
+      backend engineer ·
+      <span style="color: var(--color-purple);">anime nerd</span> ·
+      <span style="color: var(--color-mint);">web novel writer</span>
     </p>
-    <p class="text-sm mt-4 leading-relaxed" style="color: var(--color-text-muted);">
-      A quiet corner of the internet. I write about tech, books, anime, and whatever else
-      is on my mind. No agenda — just a place to put things down.
+
+    <p class="text-base leading-relaxed max-w-xl" style="color: var(--color-text-muted);">
+      This is my corner of the internet — a place to write about tech, books, anime,
+      and whatever else is rattling around in my head. No niche, no agenda.
     </p>
   </section>
 
-  <section>
-    <h2 class="text-sm font-medium uppercase tracking-widest mb-6" style="color: var(--color-text-muted);">
-      Writing
-    </h2>
+  <!-- Personality bento -->
+  <section class="mb-16">
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+      <div class="bento-anime card-lift rounded-2xl p-5 flex flex-col gap-1 cursor-default" style="border: 1px solid #C77DFF22;">
+        <span class="text-2xl mb-1" aria-hidden="true">⚔️</span>
+        <span class="text-sm font-semibold" style="color: var(--color-purple);">anime & manga</span>
+        <span class="text-xs leading-snug" style="color: var(--color-text-muted);">perpetually behind on seasonal</span>
+      </div>
 
-    {posts.length === 0 ? (
+      <div class="bento-gym card-lift rounded-2xl p-5 flex flex-col gap-1 cursor-default" style="border: 1px solid #FF6B6B22;">
+        <span class="text-2xl mb-1" aria-hidden="true">🏋️</span>
+        <span class="text-sm font-semibold" style="color: var(--color-coral);">lifts things</span>
+        <span class="text-xs leading-snug" style="color: var(--color-text-muted);">then puts them back down</span>
+      </div>
+
+      <div class="bento-writing card-lift rounded-2xl p-5 flex flex-col gap-1 cursor-default" style="border: 1px solid #6BCB7722;">
+        <span class="text-2xl mb-1" aria-hidden="true">✍️</span>
+        <span class="text-sm font-semibold" style="color: var(--color-mint);">web novelist</span>
+        <span class="text-xs leading-snug" style="color: var(--color-text-muted);">slowly, which is fine</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent posts -->
+  <section>
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xs font-semibold uppercase tracking-widest" style="color: var(--color-text-muted);">
+        recent posts
+      </h2>
+      <a href="/posts" class="text-xs font-medium" style="color: var(--color-coral);">
+        all posts →
+      </a>
+    </div>
+
+    {recentPosts.length === 0 ? (
       <p style="color: var(--color-text-muted);">Nothing here yet — check back soon.</p>
     ) : (
-      <div>
-        {posts.map(post => (
+      <div class="flex flex-col gap-3">
+        {recentPosts.map(post => (
           <PostCard
             title={post.data.title}
             description={post.data.description}

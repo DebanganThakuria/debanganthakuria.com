@@ -1,14 +1,25 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const currently = [
+  { icon: '📖', label: 'Reading', value: 'Whatever web novel has pulled me in this week', color: 'var(--color-purple)' },
+  { icon: '📺', label: 'Watching', value: 'Keeping up with the current anime season', color: 'var(--color-coral)' },
+  { icon: '✍️', label: 'Writing', value: 'My web novel, slowly and steadily', color: 'var(--color-mint)' },
+  { icon: '💻', label: 'Working on', value: 'Backend infrastructure, distributed systems', color: 'var(--color-sky)' },
+];
 ---
 
 <BaseLayout title="About" description="A bit about Debangan Thakuria — backend engineer, reader, writer, and fish keeper.">
   <article>
-    <h1 class="text-3xl mb-8" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
-      About
+    <div class="mb-8">
+      <span class="text-4xl" aria-hidden="true">🙂</span>
+    </div>
+
+    <h1 class="text-4xl mb-8" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+      about <span class="gradient-text">me</span>
     </h1>
 
-    <div class="prose">
+    <div class="prose mb-14">
       <p>
         I'm Debangan — a backend software engineer with about four and a half years of experience,
         mostly in distributed systems and API design. I like building things that are simple, correct,
@@ -38,29 +49,30 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       </p>
     </div>
 
-    <div class="mt-12 pt-8 border-t" style="border-color: var(--color-border);">
-      <h2 class="text-sm font-medium uppercase tracking-widest mb-6" style="color: var(--color-text-muted);">
-        Currently
+    <!-- Currently -->
+    <div>
+      <h2 class="text-xs font-semibold uppercase tracking-widest mb-6" style="color: var(--color-text-muted);">
+        currently
       </h2>
 
-      <dl class="space-y-4">
-        <div>
-          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Reading</dt>
-          <dd class="text-sm" style="color: var(--color-text);">Whatever web novel has pulled me in this week</dd>
-        </div>
-        <div>
-          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Watching</dt>
-          <dd class="text-sm" style="color: var(--color-text);">Keeping up with the current anime season</dd>
-        </div>
-        <div>
-          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Writing</dt>
-          <dd class="text-sm" style="color: var(--color-text);">My web novel, slowly and steadily</dd>
-        </div>
-        <div>
-          <dt class="text-xs uppercase tracking-wide mb-1" style="color: var(--color-text-muted);">Working on</dt>
-          <dd class="text-sm" style="color: var(--color-text);">Backend infrastructure, distributed systems</dd>
-        </div>
-      </dl>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {currently.map(item => (
+          <div
+            class="card-lift rounded-xl p-4 flex gap-3 items-start"
+            style="background-color: var(--color-surface);"
+          >
+            <span class="text-xl mt-0.5" aria-hidden="true">{item.icon}</span>
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wide mb-1" style={`color: ${item.color};`}>
+                {item.label}
+              </div>
+              <div class="text-sm leading-relaxed" style="color: var(--color-text);">
+                {item.value}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   </article>
 </BaseLayout>

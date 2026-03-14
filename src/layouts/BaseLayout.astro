@@ -1,6 +1,7 @@
 ---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import AuroraBackground from '../components/AuroraBackground.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -33,11 +34,31 @@ const { title, description = 'Personal site of Debangan Thakuria — backend eng
       })();
     </script>
   </head>
-  <body style="background-color: var(--color-bg); color: var(--color-text);">
-    <Header />
-    <main class="flex-1 max-w-2xl mx-auto w-full px-6 py-12">
-      <slot />
-    </main>
-    <Footer />
+  <body>
+    <AuroraBackground />
+    <div class="site-shell">
+      <Header />
+      <main class="flex-1 max-w-3xl mx-auto w-full px-6 py-14">
+        <slot />
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>
+
+<style>
+  body {
+    min-height: 100vh;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-family-body);
+  }
+
+  .site-shell {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    z-index: 0;
+  }
+</style>

@@ -2,11 +2,21 @@
 const year = new Date().getFullYear();
 ---
 
-<footer class="mt-auto border-t py-8" style="border-color: var(--color-border); background-color: var(--color-bg);">
-  <div class="max-w-2xl mx-auto px-6 flex items-center justify-between text-sm" style="color: var(--color-text-muted);">
-    <span>&copy; {year} Debangan Thakuria</span>
+<footer class="mt-auto py-8" style="border-top: 1px solid var(--color-border); background-color: var(--color-bg);">
+  <div class="max-w-3xl mx-auto px-6 flex items-center justify-between text-sm" style="color: var(--color-text-muted);">
+    <span>
+      made with <span style="color: var(--color-coral);">♥</span> · &copy; {year}
+    </span>
     <div class="flex items-center gap-4">
-      <a href="https://github.com/debanganthakuria" target="_blank" rel="noopener noreferrer" class="hover:underline" style="color: var(--color-text-muted);">GitHub</a>
+      <a
+        href="https://github.com/debanganthakuria"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-colors hover:underline"
+        style="color: var(--color-text-muted);"
+      >
+        github
+      </a>
     </div>
   </div>
 </footer>

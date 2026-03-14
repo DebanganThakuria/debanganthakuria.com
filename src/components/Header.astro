@@ -3,26 +3,34 @@ import ThemeToggle from './ThemeToggle.astro';
 
 const navLinks = [
   { href: '/', label: 'Home' },
+  { href: '/posts', label: 'Posts' },
   { href: '/about', label: 'About' },
 ];
 
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="border-b" style="border-color: var(--color-border); background-color: var(--color-bg);">
-  <div class="max-w-2xl mx-auto px-6 py-5 flex items-center justify-between">
-    <a href="/" class="font-heading text-lg font-semibold" style="font-family: var(--font-family-heading); color: var(--color-text);">
+<header style="background-color: var(--color-bg); border-bottom: 1px solid var(--color-border);">
+  <div class="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="/" class="text-lg font-semibold gradient-text" style="font-family: var(--font-family-heading);">
       debangan thakuria
     </a>
 
-    <nav class="flex items-center gap-6">
+    <nav class="flex items-center gap-5">
       {navLinks.map(link => (
         <a
           href={link.href}
-          class="text-sm transition-colors"
-          style={`color: ${currentPath === link.href ? 'var(--color-accent)' : 'var(--color-text-muted)'}`}
+          class="text-sm font-medium transition-all duration-150 relative nav-link"
+          data-active={currentPath === link.href ? 'true' : 'false'}
+          style={`color: ${currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href)) ? 'var(--color-coral)' : 'var(--color-text-muted)'};`}
         >
           {link.label}
+          {(currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))) && (
+            <span
+              class="absolute -bottom-0.5 left-0 right-0 h-0.5 rounded-full"
+              style="background: linear-gradient(90deg, var(--color-coral), var(--color-purple));"
+            ></span>
+          )}
         </a>
       ))}
       <ThemeToggle />
