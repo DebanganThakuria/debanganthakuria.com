@@ -7,9 +7,34 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  ogImage?: string;
 }
 
-const { title, description = 'Personal site of Debangan Thakuria — backend engineer, reader, writer.' } = Astro.props;
+const {
+  title,
+  description = 'Personal site of Debangan Thakuria — backend engineer, anime nerd, and web novel writer.',
+  ogImage = '/og-default.png',
+} = Astro.props;
+
+const siteUrl = 'https://debanganthakuria.vercel.app';
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
+const pageTitle = title === 'Home' ? 'Debangan Thakuria' : `${title} — Debangan Thakuria`;
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Debangan Thakuria',
+  url: siteUrl,
+  jobTitle: 'Backend Software Engineer',
+  description: 'Backend engineer, anime nerd, and web novel writer.',
+  sameAs: [
+    'https://github.com/DebanganThakuria',
+    'https://www.linkedin.com/in/debanganthakuria/',
+    'https://x.com/DebanganDaemon',
+    'https://www.facebook.com/debangan.thakuria',
+    'https://www.instagram.com/debangan.thakuria/',
+  ],
+};
 ---
 
 <!doctype html>
@@ -18,9 +43,30 @@ const { title, description = 'Personal site of Debangan Thakuria — backend eng
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
+    <link rel="canonical" href={canonicalUrl} />
     <meta name="generator" content={Astro.generator} />
+
+    <!-- Primary -->
+    <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <title>{title} — Debangan Thakuria</title>
+    <meta name="author" content="Debangan Thakuria" />
+    <meta name="keywords" content="Debangan Thakuria, backend engineer, anime, web novel" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content="Debangan Thakuria" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@DebanganDaemon" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- JSON-LD Person schema -->
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
 
     <script is:inline>
       (function () {
