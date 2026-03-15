@@ -62,11 +62,13 @@ html {
 }
 
 /* Bento card backgrounds — light */
+.bento-tech    { background-color: #DBEAFE; }
 .bento-anime   { background-color: #F3E8FF; }
 .bento-gym     { background-color: #FFE4E4; }
 .bento-writing { background-color: #E4F7E7; }
 
 /* Bento card backgrounds — dark */
+html.dark .bento-tech    { background-color: #1e3a5f; }
 html.dark .bento-anime   { background-color: #1e1030; }
 html.dark .bento-gym     { background-color: #2e1515; }
 html.dark .bento-writing { background-color: #112914; }
