@@ -13,7 +13,7 @@
   .aurora {
     position: fixed;
     inset: 0;
-    z-index: -1;
+    z-index: 0; /* above html base color, below site-shell (z-index: 1) */
     overflow: hidden;
     pointer-events: none;
   }
@@ -21,8 +21,8 @@
   .aurora-blob {
     position: absolute;
     border-radius: 50%;
-    filter: blur(90px);
-    opacity: 0.5;
+    filter: blur(120px);
+    opacity: 0.28;
     mix-blend-mode: multiply;
     will-change: transform;
   }
@@ -78,11 +78,11 @@
     animation: drift-5 28s ease-in-out infinite;
   }
 
-  /* Dark mode: screen blend + reduced opacity */
+  /* Dark mode: screen blend + very reduced opacity */
   :global(html.dark) .aurora-blob {
     mix-blend-mode: screen;
-    opacity: 0.12;
-    filter: blur(100px);
+    opacity: 0.09;
+    filter: blur(130px);
   }
 
   @keyframes drift-1 {

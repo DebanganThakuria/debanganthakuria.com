@@ -10,30 +10,23 @@ const navLinks = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header style="background-color: var(--color-bg); border-bottom: 1px solid var(--color-border);">
-  <div class="max-w-3xl mx-auto px-6 py-4 flex items-center justify-between">
-    <a href="/" class="text-lg font-semibold gradient-text" style="font-family: var(--font-family-heading);">
-      debangan thakuria
-    </a>
+<header style="display:flex; align-items:center; justify-content:space-between; padding:1rem 1.5rem; border-bottom:1px solid var(--color-border);">
+  <a href="/" style="font-family:var(--font-family-heading); font-size:1rem; font-weight:600; text-decoration:none;" class="gradient-text">
+    debangan thakuria
+  </a>
 
-    <nav class="flex items-center gap-5">
-      {navLinks.map(link => (
+  <nav style="display:flex; align-items:center; gap:1.25rem;">
+    {navLinks.map(link => {
+      const active = currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href));
+      return (
         <a
           href={link.href}
-          class="text-sm font-medium transition-all duration-150 relative nav-link"
-          data-active={currentPath === link.href ? 'true' : 'false'}
-          style={`color: ${currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href)) ? 'var(--color-coral)' : 'var(--color-text-muted)'};`}
+          style={`font-size:0.875rem; font-weight:500; text-decoration:none; color:${active ? 'var(--color-coral)' : 'var(--color-text-muted)'};`}
         >
           {link.label}
-          {(currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href))) && (
-            <span
-              class="absolute -bottom-0.5 left-0 right-0 h-0.5 rounded-full"
-              style="background: linear-gradient(90deg, var(--color-coral), var(--color-purple));"
-            ></span>
-          )}
         </a>
-      ))}
-      <ThemeToggle />
-    </nav>
-  </div>
+      );
+    })}
+    <ThemeToggle />
+  </nav>
 </header>

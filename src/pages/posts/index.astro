@@ -5,6 +5,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const sorted = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
+// Collect all unique tags
+const allTags = ['All', ...Array.from(new Set(sorted.flatMap(p => p.data.tags))).sort()];
+
 // Group by year
 const byYear = sorted.reduce<Record<number, typeof sorted>>((acc, post) => {
   const year = post.data.date.getFullYear();
@@ -13,11 +16,9 @@ const byYear = sorted.reduce<Record<number, typeof sorted>>((acc, post) => {
   return acc;
 }, {});
 
-const years = Object.keys(byYear)
-  .map(Number)
-  .sort((a, b) => b - a);
+const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
 
-const tagColors: Record<string, string> = {
+const tagDotColors: Record<string, string> = {
   Tech:    'var(--color-sky)',
   Anime:   'var(--color-purple)',
   Writing: 'var(--color-sun)',
@@ -40,41 +41,61 @@ const tagBgs: Record<string, string> = {
   Life:    'var(--color-tag-life-bg)',
   Travel:  '#FFE4E4',
 };
+
+const tabAccents: Record<string, string> = {
+  All:     'var(--color-coral)',
+  Tech:    'var(--color-sky)',
+  Anime:   'var(--color-purple)',
+  Writing: 'var(--color-sun)',
+  Life:    'var(--color-mint)',
+  Travel:  'var(--color-coral)',
+};
 ---
 
 <BaseLayout title="All Posts" description="Everything Debangan has written — tech, anime, life, writing, and more.">
-  <div class="mb-12">
-    <h1 class="text-4xl mb-3" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+  <div class="mb-8">
+    <h1 class="text-4xl mb-2" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
       all posts
     </h1>
     <p class="text-base" style="color: var(--color-text-muted);">
-      {sorted.length} {sorted.length === 1 ? 'post' : 'posts'} — everything, in order
+      <span id="post-count">{sorted.length}</span> posts — everything, in order
     </p>
   </div>
 
-  <div class="timeline">
+  <!-- Filter tabs -->
+  <div class="flex flex-wrap gap-2 mb-10" id="filter-tabs" role="tablist">
+    {allTags.map((tag, i) => (
+      <button
+        role="tab"
+        data-tag={tag}
+        aria-selected={i === 0 ? 'true' : 'false'}
+        class="tab-btn text-sm px-4 py-1.5 rounded-full font-medium transition-all"
+        style={`--accent: ${tabAccents[tag] ?? 'var(--color-coral)'};`}
+      >
+        {tag}
+      </button>
+    ))}
+  </div>
+
+  <!-- Timeline -->
+  <div class="timeline" id="timeline">
     {years.map(year => (
-      <div class="timeline-year">
-        <!-- Year marker -->
+      <div class="timeline-year" data-year={year}>
         <div class="year-label">
           <span class="gradient-text" style="font-family: var(--font-family-heading); font-size: 1.5rem; font-weight: 600;">
             {year}
           </span>
         </div>
 
-        <!-- Posts for this year -->
         <div class="year-posts">
           {byYear[year].map(post => {
             const primaryTag = post.data.tags[0] ?? 'Life';
-            const dotColor = tagColors[primaryTag] ?? 'var(--color-coral)';
+            const dotColor = tagDotColors[primaryTag] ?? 'var(--color-coral)';
             const month = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short' }).format(post.data.date);
             return (
-              <div class="timeline-entry">
-                <!-- Dot on the line -->
+              <div class="timeline-entry" data-tags={post.data.tags.join(',')}>
                 <div class="timeline-dot" style={`background: ${dotColor};`}></div>
-
-                <!-- Card -->
-                <a href={`/posts/${post.id}`} class="timeline-card card-lift">
+                <a href={`/posts/${post.id}`} class="timeline-card">
                   <div class="flex items-start justify-between gap-3 mb-1">
                     <h2 class="text-base font-semibold leading-snug" style="font-family: var(--font-family-heading); color: var(--color-text);">
                       {post.data.title}
@@ -110,8 +131,27 @@ const tagBgs: Record<string, string> = {
 </BaseLayout>
 
 <style>
+  /* ── Filter tabs ─────────────────────────────────────────── */
+  .tab-btn {
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    border: 1.5px solid transparent;
+    cursor: pointer;
+  }
+
+  .tab-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .tab-btn[aria-selected="true"] {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  /* ── Timeline ────────────────────────────────────────────── */
   .timeline {
-    position: relative;
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -119,7 +159,7 @@ const tagBgs: Record<string, string> = {
 
   .timeline-year {
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 72px 1fr;
     gap: 0 1.5rem;
     align-items: start;
   }
@@ -142,11 +182,16 @@ const tagBgs: Record<string, string> = {
     position: relative;
     display: flex;
     align-items: flex-start;
+    transition: opacity 0.2s ease;
+  }
+
+  .timeline-entry.hidden {
+    display: none;
   }
 
   .timeline-dot {
     position: absolute;
-    left: -1.625rem; /* aligns with the border-left line */
+    left: -1.625rem;
     top: 0.9rem;
     width: 11px;
     height: 11px;
@@ -162,11 +207,11 @@ const tagBgs: Record<string, string> = {
     border-radius: 0.75rem;
     padding: 1rem 1.25rem;
     text-decoration: none;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
   }
 
   .timeline-card:hover {
-    transform: translateX(4px);
+    transform: translateX(5px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   }
 
@@ -174,14 +219,49 @@ const tagBgs: Record<string, string> = {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
   }
 
+  .timeline-year.hidden {
+    display: none;
+  }
+
   @media (max-width: 480px) {
     .timeline-year {
       grid-template-columns: 1fr;
       gap: 0.5rem;
     }
-    .year-label {
-      text-align: left;
-      padding-left: 1.5rem;
-    }
+    .year-label { text-align: left; padding-left: 1.5rem; }
   }
 </style>
+
+<script>
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+  const entries = document.querySelectorAll<HTMLElement>('.timeline-entry');
+  const yearBlocks = document.querySelectorAll<HTMLElement>('.timeline-year');
+  const countEl = document.getElementById('post-count');
+
+  function filter(tag: string) {
+    let visible = 0;
+
+    entries.forEach(entry => {
+      const tags = (entry.dataset.tags ?? '').split(',');
+      const show = tag === 'All' || tags.includes(tag);
+      entry.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+
+    // Hide year blocks that have no visible entries
+    yearBlocks.forEach(block => {
+      const anyVisible = [...block.querySelectorAll('.timeline-entry')].some(
+        e => !e.classList.contains('hidden')
+      );
+      block.classList.toggle('hidden', !anyVisible);
+    });
+
+    if (countEl) countEl.textContent = String(visible);
+
+    tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.tag === tag ? 'true' : 'false'));
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => filter(tab.dataset.tag ?? 'All'));
+  });
+</script>

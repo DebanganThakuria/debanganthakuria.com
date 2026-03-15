@@ -17,8 +17,6 @@
   --color-sun: #FFD93D;
   --color-mint: #6BCB77;
   --color-purple: #C77DFF;
-  --color-orange: #FF9A3C;
-
   /* Tag chips */
   --color-tag-tech-bg: #DBEAFE;
   --color-tag-tech-text: #1D4ED8;
@@ -41,8 +39,7 @@ html.dark {
   --color-text-muted: #9CA3AF;
   --color-border: #2D2D44;
 
-  /* Mute bento card bg in dark mode */
-  --bento-fish: #0d2e2d;
+  /* Bento card backgrounds — dark mode */
   --bento-anime: #1e1030;
   --bento-gym: #2e1515;
   --bento-writing: #112914;
