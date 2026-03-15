@@ -1,43 +1,89 @@
-# Astro Starter Kit: Minimal
+# debanganthakuria.com
 
-```sh
-npm create astro@latest -- --template minimal
+Personal site of Debangan Thakuria — backend engineer, anime nerd, web novel writer.
+
+Built with **Astro v6** + **Tailwind CSS v4**. Deployed on Vercel.
+
+---
+
+## Stack
+
+| Thing | Choice |
+|---|---|
+| Framework | Astro v6 (static output) |
+| Styling | Tailwind CSS v4 (CSS-based config, no `tailwind.config.js`) |
+| Fonts | Lora (headings), Inter (body) via `@fontsource` |
+| Hosting | Vercel |
+
+---
+
+## Structure
+
+```
+src/
+├── content.config.ts          # Collection schema (Astro v6 glob loader)
+├── content/posts/
+│   ├── life/                  # Personal posts
+│   ├── tech/                  # Engineering posts
+│   ├── anime/                 # Anime / manga posts
+│   ├── writing/               # Writing posts
+│   └── travel/                # Travel + photo posts
+├── layouts/
+│   ├── BaseLayout.astro       # Floating card shell, aurora background
+│   └── PostLayout.astro       # Reading layout with cover image support
+├── components/
+│   ├── Header.astro
+│   ├── Footer.astro
+│   ├── PostCard.astro
+│   ├── ThemeToggle.astro
+│   └── AuroraBackground.astro # 5-blob CSS aurora (dreamy background)
+├── pages/
+│   ├── index.astro            # Homepage: hero + bento + recent posts
+│   ├── about.astro            # Bio + grouped socials
+│   └── posts/
+│       ├── index.astro        # Timeline: all posts by year + tag filter
+│       └── [...slug].astro    # Dynamic post pages
+└── styles/global.css          # Design tokens, prose, aurora, utilities
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## Writing a post
 
-Inside of your Astro project, you'll see the following folders and files:
+Create a `.md` or `.mdx` file in the appropriate subfolder:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```
+src/content/posts/life/my-post.md
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Frontmatter schema:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```yaml
+---
+title: "Post title"
+description: "One-line summary shown in cards and meta tags"
+date: 2026-03-15
+tags: ["Life"]          # Life | Tech | Anime | Writing | Travel
+draft: false
+cover_image: /images/photo.jpg   # optional, for photo posts
+type: post                        # post | photo
+---
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+The post URL will be `/posts/life/my-post`.
 
-## 🧞 Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## Commands
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```bash
+npm run dev      # localhost:4321
+npm run build    # build to dist/
+npm run preview  # preview the build locally
+```
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Dark mode
+
+Toggleable via the moon/sun button in the nav. Preference is saved to `localStorage`. Initial state respects `prefers-color-scheme`.

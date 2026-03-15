@@ -5,10 +5,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const sorted = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 
-// Collect all unique tags
 const allTags = ['All', ...Array.from(new Set(sorted.flatMap(p => p.data.tags))).sort()];
 
-// Group by year
 const byYear = sorted.reduce<Record<number, typeof sorted>>((acc, post) => {
   const year = post.data.date.getFullYear();
   if (!acc[year]) acc[year] = [];
@@ -53,24 +51,29 @@ const tabAccents: Record<string, string> = {
 ---
 
 <BaseLayout title="All Posts" description="Everything Debangan has written — tech, anime, life, writing, and more.">
-  <div class="mb-8">
-    <h1 class="text-4xl mb-2" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+  <div style="margin-bottom:2rem;">
+    <div style="margin-bottom:0.75rem;">
+      <span style="font-family:var(--font-family-mono); font-size:1.1rem; color:var(--color-purple);" aria-hidden="true">(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</span>
+    </div>
+    <h1 style="font-family:var(--font-family-heading); font-size:2.25rem; font-weight:600; color:var(--color-text); margin-bottom:0.5rem;">
       all posts
     </h1>
-    <p class="text-base" style="color: var(--color-text-muted);">
+    <p style="font-size:1rem; color:var(--color-text-muted);">
       <span id="post-count">{sorted.length}</span> posts — everything, in order
     </p>
   </div>
 
   <!-- Filter tabs -->
-  <div class="flex flex-wrap gap-2 mb-10" id="filter-tabs" role="tablist">
+  <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-bottom:2.5rem;">
     {allTags.map((tag, i) => (
       <button
-        role="tab"
         data-tag={tag}
-        aria-selected={i === 0 ? 'true' : 'false'}
-        class="tab-btn text-sm px-4 py-1.5 rounded-full font-medium transition-all"
-        style={`--accent: ${tabAccents[tag] ?? 'var(--color-coral)'};`}
+        data-accent={tabAccents[tag] ?? 'var(--color-coral)'}
+        style={i === 0
+          ? `background:${tabAccents[tag]};color:#fff;border:1.5px solid ${tabAccents[tag]};padding:0.375rem 1rem;border-radius:9999px;font-size:0.875rem;font-weight:500;cursor:pointer;`
+          : `background:var(--color-surface);color:var(--color-text-muted);border:1.5px solid transparent;padding:0.375rem 1rem;border-radius:9999px;font-size:0.875rem;font-weight:500;cursor:pointer;`
+        }
+        class="filter-tab"
       >
         {tag}
       </button>
@@ -78,44 +81,46 @@ const tabAccents: Record<string, string> = {
   </div>
 
   <!-- Timeline -->
-  <div class="timeline" id="timeline">
+  <div style="display:flex; flex-direction:column; gap:3rem;" id="timeline">
     {years.map(year => (
-      <div class="timeline-year" data-year={year}>
-        <div class="year-label">
-          <span class="gradient-text" style="font-family: var(--font-family-heading); font-size: 1.5rem; font-weight: 600;">
+      <div data-year-block style="display:grid; grid-template-columns:72px 1fr; gap:0 1.5rem; align-items:start;">
+        <div style="padding-top:0.2rem; text-align:right;">
+          <span class="gradient-text" style="font-family:var(--font-family-heading); font-size:1.5rem; font-weight:600;">
             {year}
           </span>
         </div>
 
-        <div class="year-posts">
+        <div style="position:relative; display:flex; flex-direction:column; gap:1rem; padding-left:1.5rem; border-left:2px solid var(--color-border);">
           {byYear[year].map(post => {
             const primaryTag = post.data.tags[0] ?? 'Life';
             const dotColor = tagDotColors[primaryTag] ?? 'var(--color-coral)';
             const month = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short' }).format(post.data.date);
             return (
-              <div class="timeline-entry" data-tags={post.data.tags.join(',')}>
-                <div class="timeline-dot" style={`background: ${dotColor};`}></div>
-                <a href={`/posts/${post.id}`} class="timeline-card">
-                  <div class="flex items-start justify-between gap-3 mb-1">
-                    <h2 class="text-base font-semibold leading-snug" style="font-family: var(--font-family-heading); color: var(--color-text);">
+              <div data-tags={post.data.tags.join(',')} data-entry style="position:relative; display:flex; align-items:flex-start;">
+                <div style={`position:absolute; left:-1.625rem; top:0.9rem; width:11px; height:11px; border-radius:50%; border:2px solid var(--color-bg); background:${dotColor}; flex-shrink:0;`}></div>
+                <a
+                  href={`/posts/${post.id}`}
+                  style="display:block; width:100%; background-color:var(--color-surface); border-radius:0.75rem; padding:1rem 1.25rem; text-decoration:none; transition:transform 0.18s ease, box-shadow 0.18s ease;"
+                  onmouseover="this.style.transform='translateX(5px)';this.style.boxShadow='0 8px 24px rgba(0,0,0,0.08)'"
+                  onmouseout="this.style.transform='';this.style.boxShadow=''"
+                >
+                  <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:0.75rem; margin-bottom:0.25rem;">
+                    <h2 style="font-family:var(--font-family-heading); font-size:1rem; font-weight:600; line-height:1.4; color:var(--color-text); margin:0;">
                       {post.data.title}
                     </h2>
-                    <time class="text-xs shrink-0 mt-0.5" style="color: var(--color-text-muted);">{month}</time>
+                    <time style="font-size:0.75rem; flex-shrink:0; margin-top:0.125rem; color:var(--color-text-muted);">{month}</time>
                   </div>
 
-                  <p class="text-sm leading-relaxed mb-3" style="color: var(--color-text-muted);">{post.data.description}</p>
+                  <p style="font-size:0.875rem; line-height:1.6; margin-bottom:0.75rem; color:var(--color-text-muted);">{post.data.description}</p>
 
-                  <div class="flex flex-wrap gap-1.5">
+                  <div style="display:flex; flex-wrap:wrap; gap:0.375rem;">
                     {post.data.tags.map(tag => (
-                      <span
-                        class="text-xs px-2.5 py-0.5 rounded-full font-medium"
-                        style={`background-color: ${tagBgs[tag] ?? '#F3F3F3'}; color: ${tagTextColors[tag] ?? 'var(--color-text)'};`}
-                      >
+                      <span style={`font-size:0.75rem; padding:0.125rem 0.625rem; border-radius:9999px; font-weight:500; background-color:${tagBgs[tag] ?? '#F3F3F3'}; color:${tagTextColors[tag] ?? 'var(--color-text)'};`}>
                         {tag}
                       </span>
                     ))}
                     {post.data.type === 'photo' && (
-                      <span class="text-xs px-2.5 py-0.5 rounded-full font-medium" style="background-color: #FFF4E4; color: #c2410c;">
+                      <span style="font-size:0.75rem; padding:0.125rem 0.625rem; border-radius:9999px; font-weight:500; background-color:#FFF4E4; color:#c2410c;">
                         📷 photos
                       </span>
                     )}
@@ -130,113 +135,24 @@ const tabAccents: Record<string, string> = {
   </div>
 </BaseLayout>
 
-<style>
-  /* ── Filter tabs ─────────────────────────────────────────── */
-  .tab-btn {
-    background: var(--color-surface);
-    color: var(--color-text-muted);
-    border: 1.5px solid transparent;
-    cursor: pointer;
-  }
-
-  .tab-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-  }
-
-  .tab-btn[aria-selected="true"] {
-    background: var(--accent);
-    color: #fff;
-    border-color: var(--accent);
-  }
-
-  /* ── Timeline ────────────────────────────────────────────── */
-  .timeline {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-  }
-
-  .timeline-year {
-    display: grid;
-    grid-template-columns: 72px 1fr;
-    gap: 0 1.5rem;
-    align-items: start;
-  }
-
-  .year-label {
-    padding-top: 0.2rem;
-    text-align: right;
-  }
-
-  .year-posts {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding-left: 1.5rem;
-    border-left: 2px solid var(--color-border);
-  }
-
-  .timeline-entry {
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    transition: opacity 0.2s ease;
-  }
-
-  .timeline-entry.hidden {
-    display: none;
-  }
-
-  .timeline-dot {
-    position: absolute;
-    left: -1.625rem;
-    top: 0.9rem;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    border: 2px solid var(--color-bg);
-    flex-shrink: 0;
-  }
-
-  .timeline-card {
-    display: block;
-    width: 100%;
-    background-color: var(--color-surface);
-    border-radius: 0.75rem;
-    padding: 1rem 1.25rem;
-    text-decoration: none;
-    transition: transform 0.18s ease, box-shadow 0.18s ease;
-  }
-
-  .timeline-card:hover {
-    transform: translateX(5px);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  }
-
-  :global(html.dark) .timeline-card:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
-  }
-
-  .timeline-year.hidden {
-    display: none;
-  }
-
-  @media (max-width: 480px) {
-    .timeline-year {
-      grid-template-columns: 1fr;
-      gap: 0.5rem;
-    }
-    .year-label { text-align: left; padding-left: 1.5rem; }
-  }
-</style>
-
 <script>
-  const tabs = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
-  const entries = document.querySelectorAll<HTMLElement>('.timeline-entry');
-  const yearBlocks = document.querySelectorAll<HTMLElement>('.timeline-year');
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.filter-tab');
+  const entries = document.querySelectorAll<HTMLElement>('[data-entry]');
+  const yearBlocks = document.querySelectorAll<HTMLElement>('[data-year-block]');
   const countEl = document.getElementById('post-count');
+
+  function setTabStyle(btn: HTMLButtonElement, active: boolean) {
+    const accent = btn.dataset.accent ?? 'var(--color-coral)';
+    if (active) {
+      btn.style.background = accent;
+      btn.style.color = '#fff';
+      btn.style.borderColor = accent;
+    } else {
+      btn.style.background = 'var(--color-surface)';
+      btn.style.color = 'var(--color-text-muted)';
+      btn.style.borderColor = 'transparent';
+    }
+  }
 
   function filter(tag: string) {
     let visible = 0;
@@ -244,24 +160,19 @@ const tabAccents: Record<string, string> = {
     entries.forEach(entry => {
       const tags = (entry.dataset.tags ?? '').split(',');
       const show = tag === 'All' || tags.includes(tag);
-      entry.classList.toggle('hidden', !show);
+      (entry as HTMLElement).style.display = show ? 'flex' : 'none';
       if (show) visible++;
     });
 
-    // Hide year blocks that have no visible entries
     yearBlocks.forEach(block => {
-      const anyVisible = [...block.querySelectorAll('.timeline-entry')].some(
-        e => !e.classList.contains('hidden')
-      );
-      block.classList.toggle('hidden', !anyVisible);
+      const anyVisible = [...block.querySelectorAll<HTMLElement>('[data-entry]')]
+        .some(e => e.style.display !== 'none');
+      (block as HTMLElement).style.display = anyVisible ? 'grid' : 'none';
     });
 
     if (countEl) countEl.textContent = String(visible);
-
-    tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.tag === tag ? 'true' : 'false'));
+    tabs.forEach(t => setTabStyle(t, t.dataset.tag === tag));
   }
 
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => filter(tab.dataset.tag ?? 'All'));
-  });
+  tabs.forEach(tab => tab.addEventListener('click', () => filter(tab.dataset.tag ?? 'All')));
 </script>
