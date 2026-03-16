@@ -10,8 +10,9 @@ const recentPosts = allPosts
 ---
 
 <BaseLayout title="Home" description="Personal site of Debangan Thakuria — backend engineer, reader, writer.">
+
   <!-- Hero -->
-  <section class="mb-16">
+  <section class="mb-12">
     <div class="mb-5">
       <span class="wiggle text-4xl" aria-hidden="true">👋</span>
     </div>
@@ -26,15 +27,15 @@ const recentPosts = allPosts
       <span style="color: var(--color-mint);">web novel writer</span>
     </p>
 
-    <p class="text-base leading-relaxed max-w-xl" style="color: var(--color-text-muted);">
+    <p class="text-base leading-relaxed" style="color: var(--color-text-muted);">
       This is my corner of the internet — a place to write about tech, books, anime, webnovels,
       and whatever else is rattling around in my head. No niche, no agenda.
     </p>
   </section>
 
-  <!-- Personality bento -->
+  <!-- Bento -->
   <section class="mb-16">
-    <div class="grid grid-cols-1 sm:grid-cols-4 gap-3">
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
       <div class="bento-tech card-lift rounded-2xl p-5 flex flex-col gap-1 cursor-default" style="border: 1px solid #1D4ED822;">
         <span class="text-2xl mb-1" aria-hidden="true">💻</span>
         <span class="text-sm font-semibold" style="color: var(--color-sky);">tech bro</span>
@@ -61,7 +62,7 @@ const recentPosts = allPosts
     </div>
   </section>
 
-  <!-- Recent posts -->
+  <!-- Recent posts — full width -->
   <section>
     <div class="flex items-center justify-between mb-6">
       <h2 class="text-xs font-semibold uppercase tracking-widest" style="color: var(--color-text-muted);">
@@ -89,3 +90,4 @@ const recentPosts = allPosts
     )}
   </section>
 </BaseLayout>
+

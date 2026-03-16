@@ -109,7 +109,7 @@ html.dark .card-lift:hover {
 /* ── Prose (post body) ───────────────────────────────────── */
 .prose {
   color: var(--color-text);
-  max-width: 68ch;
+  max-width: 76ch;
 }
 
 .prose h1, .prose h2, .prose h3, .prose h4 {
