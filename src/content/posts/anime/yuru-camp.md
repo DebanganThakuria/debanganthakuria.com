@@ -4,7 +4,7 @@ description: "I found Laid Back Camp when I was lost and possibly depressed. Yea
 date: 2026-03-17
 tags: ["Anime"]
 draft: false
-cover_image: "/images/yuru-camp/yuru-camp-cover.jpg"
+cover_image: "../../../assets/images/yuru-camp/yuru-camp-cover.jpg"
 ---
 
 I want to talk about a show that I think about more than I admit.
@@ -83,4 +83,4 @@ I needed to be shown that some things are enough as they are. That a quiet life,
 
 Go watch it. Preferably in winter, with something warm in your hands.
 
-![Yuru Camp End Cover](/images/yuru-camp/yuru-camp-end-cover.png)
+![Yuru Camp End Cover](../../../assets/images/yuru-camp/yuru-camp-end-cover.png)

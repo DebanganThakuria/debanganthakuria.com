@@ -28,7 +28,7 @@ Arcane Translator is a local web app — React frontend, Go backend, SQLite data
 
 You give it a URL from a supported source (a handful of Chinese, Japanese, and Korean novel platforms), it pulls the metadata and chapter list, and adds it to your local library. When you open a chapter, it fetches the raw text, runs it through translation, and shows you the result. Reading progress is tracked. The library is yours, stored locally.
 
-![Arcane Translator homepage — the library view](/images/arcane-translator/novels-library.png)
+![Arcane Translator homepage — the library view](../../../assets/images/arcane-translator/novels-library.png)
 
 No subscription. No cloud sync. No data going anywhere you didn't put it.
 
@@ -42,11 +42,11 @@ Translation quality for xianxia and wuxia specifically is better than I expected
 
 The database is SQLite, which is the right call for a local-first tool. No server, no migrations in production, no connection pooling to think about.
 
-![Novel detail page — chapter list and metadata](/images/arcane-translator/novel-page.png)
+![Novel detail page — chapter list and metadata](../../../assets/images/arcane-translator/novel-page.png)
 
 The frontend is React with shadcn/ui components. Nothing clever — I wanted a reading experience that stayed out of the way. The kind of interface you build because you're going to be staring at it for hours at a time, so it had better not annoy you.
 
-![Reader view — translated chapter in progress](/images/arcane-translator/reader-view.png)
+![Reader view — translated chapter in progress](../../../assets/images/arcane-translator/reader-view.png)
 
 ## How it actually got built
 
@@ -68,4 +68,4 @@ There's also something satisfying about a tool that is exactly what you wanted a
 
 The code is on [GitHub](https://github.com/DebanganThakuria/arcane-translator) if you want to take a look. It's not polished enough to recommend to non-technical people yet, but if you can run a Go binary and an npm dev server you should be able to get it going.
 
-And if you have novel recommendations I haven't heard of — the about page has my socials. Please send them. The backlog is never long enough.
+And if you have novel recommendations I haven't heard of — my socials are on the [home page](/). Please send them. The backlog is never long enough.

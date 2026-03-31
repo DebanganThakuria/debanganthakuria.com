@@ -28,7 +28,7 @@ Some posts will be technical — things I've figured out, patterns I've started 
 
 I'm not writing for an audience, exactly. I'm writing the way you write in a journal you're okay with leaving on a table: not hidden, not performed.
 
-If you found this and something resonates — good. My socials are on the [about page](/about) if you want to say hello.
+If you found this and something resonates — good. My socials are on the [home page](/) if you want to say hello.
 
 ---
 

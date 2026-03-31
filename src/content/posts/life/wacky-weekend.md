@@ -4,7 +4,7 @@ description: "A travel-comedy YouTube series about two people making each other 
 date: 2026-03-21
 tags: ["Life"]
 draft: false
-cover_image: "/images/wacky-weekend/wacky-weekend-cover.png"
+cover_image: "../../../assets/images/wacky-weekend/wacky-weekend-cover.png"
 ---
 
 I've been watching two grown men spend $15,000 renting a Japanese castle and dress up as samurai for a full historical experience. And somehow, it's given me the itch to grab a friend and go somewhere weird this weekend.

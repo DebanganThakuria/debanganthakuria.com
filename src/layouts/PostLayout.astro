@@ -1,5 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 
 interface Props {
   title: string;
@@ -7,7 +9,7 @@ interface Props {
   date: Date;
   tags: string[];
   readingTime: number;
-  coverImage?: string;
+  coverImage?: ImageMetadata;
   type?: 'post' | 'photo';
 }
 
@@ -33,11 +35,13 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
     <!-- Cover image -->
     {coverImage && (
       <div class="mb-10 rounded-2xl overflow-hidden" style="max-height: 420px;">
-        <img
+        <Image
           src={coverImage}
           alt={title}
           class="w-full object-cover"
           style="max-height: 420px;"
+          format="webp"
+          quality={85}
         />
       </div>
     )}
