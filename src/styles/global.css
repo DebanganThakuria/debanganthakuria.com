@@ -186,3 +186,52 @@ html.dark .card-lift:hover {
 
 .prose strong { font-weight: 600; }
 .prose em { font-style: italic; }
+
+/* ── Focus styles (accessibility) ────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-coral);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ── Post card entrance animations ───────────────────────── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.card-enter {
+  animation: fade-up 0.35s ease both;
+}
+
+/* ── Image lightbox ──────────────────────────────────────── */
+.prose img {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+  border-radius: 0.5rem;
+}
+
+.image-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+  padding: 2rem;
+  animation: fade-in 0.2s ease;
+}
+
+.image-lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 0.5rem;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

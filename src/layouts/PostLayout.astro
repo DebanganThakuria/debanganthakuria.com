@@ -1,5 +1,8 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+
+import TableOfContents from '../components/TableOfContents.astro';
+import BackToTop from '../components/BackToTop.astro';
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 
@@ -11,9 +14,15 @@ interface Props {
   readingTime: number;
   coverImage?: ImageMetadata;
   type?: 'post' | 'photo';
+  headings?: { depth: number; slug: string; text: string }[];
+  prevPost?: { title: string; slug: string };
+  nextPost?: { title: string; slug: string };
 }
 
-const { title, description, date, tags, readingTime, coverImage, type = 'post' } = Astro.props;
+const {
+  title, description, date, tags, readingTime, coverImage,
+  type = 'post', headings = [], prevPost, nextPost,
+} = Astro.props;
 
 const formattedDate = new Intl.DateTimeFormat('en-GB', {
   day: 'numeric',
@@ -84,12 +93,107 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
       <div class="mt-8 border-t" style="border-color: var(--color-border);"></div>
     </header>
 
-    <div class="prose">
+    <!-- Table of Contents -->
+    <TableOfContents headings={headings} />
+
+    <div class="prose" id="post-content">
       <slot />
     </div>
 
-    <div class="mt-16 pt-8 border-t" style="border-color: var(--color-border);">
+    <!-- Post navigation -->
+    <div class="post-nav">
+      {prevPost ? (
+        <a href={`/posts/${prevPost.slug}`} class="post-nav-link">
+          <span class="post-nav-label">&larr; Previous</span>
+          <span class="post-nav-title">{prevPost.title}</span>
+        </a>
+      ) : <div />}
+      {nextPost ? (
+        <a href={`/posts/${nextPost.slug}`} class="post-nav-link post-nav-next">
+          <span class="post-nav-label">Next &rarr;</span>
+          <span class="post-nav-title">{nextPost.title}</span>
+        </a>
+      ) : <div />}
+    </div>
+
+    <div class="mt-6 mb-2">
       <a href="/posts" class="text-sm" style="color: var(--color-coral);">&larr; all posts</a>
     </div>
   </article>
+
+  <BackToTop />
 </BaseLayout>
+
+<style>
+  .post-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .post-nav-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: var(--color-surface);
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  .post-nav-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .post-nav-next { text-align: right; }
+
+  .post-nav-label {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+
+  .post-nav-title {
+    font-family: var(--font-family-heading);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    line-height: 1.4;
+  }
+
+  @media (max-width: 600px) {
+    .post-nav { grid-template-columns: 1fr; }
+  }
+</style>
+
+<!-- Image lightbox script -->
+<script>
+  function initLightbox() {
+    const proseEl = document.getElementById('post-content');
+    if (!proseEl) return;
+
+    proseEl.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      if (target.tagName !== 'IMG') return;
+      const src = (target as HTMLImageElement).src;
+      if (!src) return;
+
+      const overlay = document.createElement('div');
+      overlay.className = 'image-lightbox';
+      overlay.innerHTML = `<img src="${src}" alt="" />`;
+      overlay.addEventListener('click', () => overlay.remove());
+      document.addEventListener('keydown', function handler(e) {
+        if (e.key === 'Escape') { overlay.remove(); document.removeEventListener('keydown', handler); }
+      });
+      document.body.appendChild(overlay);
+    });
+  }
+
+  initLightbox();
+  document.addEventListener('astro:after-swap', initLightbox);
+</script>

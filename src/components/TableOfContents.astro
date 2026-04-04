@@ -1,0 +1,105 @@
+---
+interface Props {
+  headings: { depth: number; slug: string; text: string }[];
+}
+
+const { headings } = Astro.props;
+const tocHeadings = headings.filter(h => h.depth <= 3);
+---
+
+{tocHeadings.length > 2 && (
+  <nav class="toc" aria-label="Table of contents">
+    <details class="toc-details" open>
+      <summary class="toc-summary">On this page</summary>
+      <ul class="toc-list">
+        {tocHeadings.map(h => (
+          <li class:list={[`toc-depth-${h.depth}`]}>
+            <a href={`#${h.slug}`} class="toc-link" data-toc-link>{h.text}</a>
+          </li>
+        ))}
+      </ul>
+    </details>
+  </nav>
+)}
+
+<style>
+  .toc {
+    margin-bottom: 2rem;
+    padding: 1rem 1.25rem;
+    background: var(--color-surface);
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-border);
+  }
+
+  .toc-summary {
+    font-family: var(--font-family-heading);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  .toc-summary::-webkit-details-marker { display: none; }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0 0;
+  }
+
+  .toc-list li {
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .toc-depth-2 { padding-left: 0; }
+  .toc-depth-3 { padding-left: 1rem; }
+
+  .toc-link {
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.12s ease;
+    display: inline-block;
+    padding: 0.125rem 0;
+  }
+
+  .toc-link:hover {
+    color: var(--color-coral);
+  }
+
+  .toc-link.active {
+    color: var(--color-coral);
+    font-weight: 500;
+  }
+</style>
+
+<script>
+  function initToc() {
+    const tocLinks = document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]');
+    if (tocLinks.length === 0) return;
+
+    const headingIds = Array.from(tocLinks).map(link => link.getAttribute('href')?.slice(1)).filter(Boolean) as string[];
+    const headings = headingIds.map(id => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+
+    function updateActive() {
+      let current = '';
+      for (const h of headings) {
+        if (h.getBoundingClientRect().top <= 120) {
+          current = h.id;
+        }
+      }
+      tocLinks.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${current}`;
+        link.classList.toggle('active', isActive);
+      });
+    }
+
+    window.addEventListener('scroll', updateActive, { passive: true });
+    updateActive();
+  }
+
+  initToc();
+  document.addEventListener('astro:after-swap', initToc);
+</script>

@@ -9,19 +9,17 @@ const navLinks = [
 const currentPath = Astro.url.pathname;
 ---
 
-<header style="display:flex; align-items:center; justify-content:space-between; padding:1rem 1.5rem; border-bottom:1px solid var(--color-border);">
-  <a href="/" style="font-family:var(--font-family-heading); font-size:1rem; font-weight:600; text-decoration:none;" class="gradient-text">
-    debangan thakuria
+<header class="site-header">
+  <a href="/" class="site-logo gradient-text">
+    <span class="logo-full">debangan thakuria</span>
+    <span class="logo-short">debangan</span>
   </a>
 
-  <nav style="display:flex; align-items:center; gap:1.25rem;">
+  <nav class="site-nav">
     {navLinks.map(link => {
       const active = currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href));
       return (
-        <a
-          href={link.href}
-          style={`font-size:0.875rem; font-weight:500; text-decoration:none; color:${active ? 'var(--color-coral)' : 'var(--color-text-muted)'};`}
-        >
+        <a href={link.href} class:list={['nav-link', { active }]}>
           {link.label}
         </a>
       );
@@ -29,3 +27,79 @@ const currentPath = Astro.url.pathname;
     <ThemeToggle />
   </nav>
 </header>
+
+<style>
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .site-logo {
+    font-family: var(--font-family-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .logo-short { display: none; }
+
+  @media (max-width: 600px) {
+    .logo-full { display: none; }
+    .logo-short { display: inline; }
+    .site-header { padding: 0.75rem 1rem; }
+    .site-nav { gap: 0.75rem; }
+  }
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .nav-link {
+    position: relative;
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--color-text-muted);
+    transition: color 0.15s ease;
+    padding-bottom: 2px;
+  }
+
+  .nav-link:hover {
+    color: var(--color-text);
+  }
+
+  .nav-link.active {
+    color: var(--color-coral);
+  }
+
+  .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--color-coral);
+    border-radius: 1px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--color-border);
+    border-radius: 1px;
+  }
+
+  .nav-link.active:hover::after {
+    background: var(--color-coral);
+  }
+</style>

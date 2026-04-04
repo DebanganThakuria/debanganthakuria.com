@@ -1,7 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
+
+// Profile image — drop your photo at src/assets/images/me.png
+const profileGlob = import.meta.glob<{ default: ImageMetadata }>('../assets/images/me.{png,jpg,jpeg,webp}', { eager: true });
+const profileImage = Object.values(profileGlob)[0]?.default;
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const recentPosts = allPosts
@@ -45,42 +51,38 @@ const groups = [
 
   <!-- Intro -->
   <section class="mb-10">
-    <div class="mb-6">
-      <div class="mb-2">
-        <span class="wiggle text-3xl" aria-hidden="true">👋</span>
+    <div class="intro-row">
+      {profileImage ? (
+        <div class="profile-photo">
+          <Image src={profileImage} alt="Debangan Thakuria" width={128} height={128} class="profile-img" format="webp" quality={85} />
+        </div>
+      ) : (
+        <div class="profile-photo profile-initials" aria-hidden="true">DT</div>
+      )}
+      <div class="intro-text">
+        <div class="mb-1">
+          <span class="wiggle text-2xl" aria-hidden="true">👋</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl mb-2 leading-tight" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
+          hey, i'm <span class="gradient-text">debangan.</span>
+        </h1>
+        <p class="text-sm" style="color: var(--color-text-muted);">
+          backend engineer ·
+          <span style="color: var(--color-purple);">anime nerd</span> ·
+          <span style="color: var(--color-mint);">web novel writer</span>
+        </p>
       </div>
-      <h1 class="text-4xl sm:text-5xl mb-3 leading-tight" style="font-family: var(--font-family-heading); font-weight: 600; color: var(--color-text);">
-        hey, i'm <span class="gradient-text">debangan.</span>
-      </h1>
-      <p class="text-base" style="color: var(--color-text-muted);">
-        backend engineer ·
-        <span style="color: var(--color-purple);">anime nerd</span> ·
-        <span style="color: var(--color-mint);">web novel writer</span>
-      </p>
     </div>
 
-    <!-- Bio -->
-    <div class="prose">
+    <!-- Bio — condensed -->
+    <div class="prose mt-5">
       <p>
         I'm a backend software engineer with about four and a half years of experience, mostly in
         distributed systems and API design. I like building things that are simple, correct, and
         boring in the best possible way.
       </p>
       <p>
-        I'm also a reader. I grew up on Hardy Boys, Nancy Drew, Famous Five, Agatha Christie,
-        Goosebumps — the usual suspects. Somewhere along the way that expanded into manga and light
-        novels, then web novels and the occasional fantasy or sci-fi epic. The stories I gravitate
-        towards tend to feature capable protagonists who try to do the right thing, even when it's
-        hard. You might know the term <em>competency porn</em> — that's exactly it. Characters who
-        are genuinely good at what they do, and watching them grow and navigate the world is the
-        whole point.
-      </p>
-      <p>
-        I've recently started writing my own web novel. Slowly, which is fine — it's as much about
-        learning to write and tell stories as it is about finishing anything.
-      </p>
-      <p>
-        Outside of all that: I go to the gym, keep up with global news, watch anime and the
+        Outside of work, I go to the gym, keep up with global news, watch anime and the
         occasional fantasy show or film. I tend to prefer warm spaces, cosy evenings, and very
         good tea.
       </p>
@@ -90,10 +92,30 @@ const groups = [
       </p>
     </div>
 
+    <!-- Read more -->
+    <details class="bio-details mt-2">
+      <summary class="bio-summary">more about me</summary>
+      <div class="prose mt-3">
+        <p>
+          I'm also a reader. I grew up on Hardy Boys, Nancy Drew, Famous Five, Agatha Christie,
+          Goosebumps — the usual suspects. Somewhere along the way that expanded into manga and light
+          novels, then web novels and the occasional fantasy or sci-fi epic. The stories I gravitate
+          towards tend to feature capable protagonists who try to do the right thing, even when it's
+          hard. You might know the term <em>competency porn</em> — that's exactly it. Characters who
+          are genuinely good at what they do, and watching them grow and navigate the world is the
+          whole point.
+        </p>
+        <p>
+          I've recently started writing my own web novel. Slowly, which is fine — it's as much about
+          learning to write and tell stories as it is about finishing anything.
+        </p>
+      </div>
+    </details>
+
     <!-- Social icons -->
-    <div class="flex flex-col gap-3 mt-8">
+    <div class="flex flex-col gap-3 mt-6">
       {groups.map(group => (
-        <div class="flex flex-wrap gap-2">
+        <div class="social-row">
           {group.links.map(s => (
             <a
               href={s.href}
@@ -130,15 +152,22 @@ const groups = [
       <p style="color: var(--color-text-muted);">Nothing here yet — check back soon.</p>
     ) : (
       <div class="flex flex-col gap-3">
-        {recentPosts.map(post => (
-          <PostCard
-            title={post.data.title}
-            description={post.data.description}
-            date={post.data.date}
-            slug={post.id}
-            tags={post.data.tags}
-          />
-        ))}
+        {recentPosts.map((post, i) => {
+          const words = post.body?.split(/\s+/).length ?? 0;
+          const readingTime = Math.max(1, Math.round(words / 200));
+          return (
+            <div class="card-enter" style={`animation-delay: ${i * 0.07}s;`}>
+              <PostCard
+                title={post.data.title}
+                description={post.data.description}
+                date={post.data.date}
+                slug={post.id}
+                tags={post.data.tags}
+                readingTime={readingTime}
+              />
+            </div>
+          );
+        })}
       </div>
     )}
   </section>
@@ -150,7 +179,65 @@ const groups = [
     border-top: 1px solid var(--color-border);
   }
 
+  /* Intro row with photo */
+  .intro-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .profile-photo {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    border: 3px solid var(--color-border);
+  }
+
+  .profile-initials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family-heading);
+    font-size: 1.75rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--color-coral), var(--color-purple));
+    color: #fff;
+  }
+
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (max-width: 600px) {
+    .intro-row { gap: 1rem; }
+    .profile-photo { width: 96px; height: 96px; }
+  }
+
+  /* Bio details/summary */
+  .bio-details { border: none; }
+  .bio-summary {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-coral);
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+  }
+  .bio-summary::-webkit-details-marker { display: none; }
+  .bio-summary::before { content: '+ '; }
+  .bio-details[open] .bio-summary::before { content: '− '; }
+
   /* Social icon chips */
+  .social-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
   .social-chip {
     display: inline-flex;
     align-items: center;
@@ -195,5 +282,12 @@ const groups = [
 
   :global(html.dark) .social-chip:hover {
     border-color: var(--brand-dark);
+  }
+
+  /* Mobile: icon-only social chips */
+  @media (max-width: 600px) {
+    .social-row { gap: 0.4rem; }
+    .chip-label { display: none; }
+    .social-chip { padding: 0.35rem; }
   }
 </style>

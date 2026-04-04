@@ -5,9 +5,10 @@ interface Props {
   date: Date;
   slug: string;
   tags: string[];
+  readingTime?: number;
 }
 
-const { title, description, date, slug, tags } = Astro.props;
+const { title, description, date, slug, tags, readingTime } = Astro.props;
 
 const formattedDate = new Intl.DateTimeFormat('en-GB', {
   day: 'numeric',
@@ -46,7 +47,10 @@ const borderColor = borderColors[primaryTag] ?? 'var(--color-coral)';
       >
         {title}
       </h2>
-      <time class="text-xs shrink-0 mt-1" style="color: var(--color-text-muted);">{formattedDate}</time>
+      <div class="flex items-center gap-2 shrink-0 mt-1">
+        {readingTime && <span class="text-xs" style="color: var(--color-text-muted);">{readingTime} min</span>}
+        <time class="text-xs" style="color: var(--color-text-muted);">{formattedDate}</time>
+      </div>
     </div>
 
     <p class="text-sm leading-relaxed mb-3" style="color: var(--color-text-muted);">{description}</p>

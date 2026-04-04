@@ -1,10 +1,57 @@
 ---
 const year = new Date().getFullYear();
+const signoffs = [
+  'built with tea and stubbornness',
+  'powered by late nights and good playlists',
+  'handcrafted with questionable CSS',
+  'written in the margins of the internet',
+];
+const signoff = signoffs[Math.floor(Math.random() * signoffs.length)];
 ---
 
-<footer style="display:flex; align-items:center; justify-content:space-between; padding:0.75rem 1.5rem; border-top:1px solid var(--color-border); font-size:0.8rem; color:var(--color-text-muted);">
-  <span>made with <span style="color:var(--color-coral);">♥</span> · &copy; {year}</span>
-  <a href="https://github.com/DebanganThakuria/debanganthakuria.com" target="_blank" rel="noopener noreferrer" style="color:var(--color-text-muted); text-decoration:none;">
-    github ↗
-  </a>
+<footer class="site-footer">
+  <span class="footer-left">
+    <span class="footer-signoff">{signoff}</span>
+    <span class="footer-copy"> · &copy; {year}</span>
+  </span>
+  <span class="footer-right">
+    <a href="https://github.com/DebanganThakuria/debanganthakuria.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+      github ↗
+    </a>
+  </span>
 </footer>
+
+<style>
+  .site-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.5rem;
+    border-top: 1px solid var(--color-border);
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .footer-signoff {
+    font-style: italic;
+    opacity: 0.8;
+  }
+
+  .footer-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer-link {
+    color: var(--color-text-muted);
+    text-decoration: none;
+    transition: color 0.12s ease;
+  }
+
+  .footer-link:hover {
+    color: var(--color-coral);
+  }
+</style>

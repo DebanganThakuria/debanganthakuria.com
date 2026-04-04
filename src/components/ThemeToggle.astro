@@ -4,20 +4,51 @@
 <button
   id="theme-toggle"
   aria-label="Toggle dark mode"
-  class="w-8 h-8 flex items-center justify-center rounded-md transition-colors cursor-pointer"
-  style="color: var(--color-text-muted); background: transparent; border: 1px solid var(--color-border);"
+  class="theme-toggle"
 >
-  <span id="theme-icon-sun" class="hidden" aria-hidden="true">
+  <span id="theme-icon-sun" class="theme-icon hidden" aria-hidden="true">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
     </svg>
   </span>
-  <span id="theme-icon-moon" aria-hidden="true">
+  <span id="theme-icon-moon" class="theme-icon" aria-hidden="true">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
     </svg>
   </span>
 </button>
+
+<style>
+  .theme-toggle {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+    border: 1px solid var(--color-border);
+    background: transparent;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .theme-toggle:hover {
+    color: var(--color-text);
+    border-color: var(--color-text-muted);
+  }
+
+  .theme-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .theme-icon.spin {
+    transform: rotate(360deg);
+  }
+</style>
 
 <script>
   function initTheme() {
@@ -37,11 +68,28 @@
     }
   }
 
-  initTheme();
+  function setupToggle() {
+    initTheme();
 
-  document.getElementById('theme-toggle')?.addEventListener('click', () => {
-    const isDark = document.documentElement.classList.toggle('dark');
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    updateIcon(isDark);
-  });
+    document.getElementById('theme-toggle')?.addEventListener('click', () => {
+      const sun = document.getElementById('theme-icon-sun');
+      const moon = document.getElementById('theme-icon-moon');
+
+      // Trigger spin animation
+      [sun, moon].forEach(el => {
+        if (el) {
+          el.classList.remove('spin');
+          void el.offsetWidth; // reflow
+          el.classList.add('spin');
+        }
+      });
+
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+      updateIcon(isDark);
+    });
+  }
+
+  setupToggle();
+  document.addEventListener('astro:after-swap', setupToggle);
 </script>

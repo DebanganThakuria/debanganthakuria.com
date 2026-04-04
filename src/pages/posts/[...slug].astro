@@ -4,14 +4,20 @@ import PostLayout from '../../layouts/PostLayout.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
-  return posts.map(post => ({
+  const sorted = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+  return sorted.map((post, i) => ({
     params: { slug: post.id },
-    props: { post },
+    props: {
+      post,
+      prevPost: sorted[i + 1] ? { title: sorted[i + 1].data.title, slug: sorted[i + 1].id } : undefined,
+      nextPost: sorted[i - 1] ? { title: sorted[i - 1].data.title, slug: sorted[i - 1].id } : undefined,
+    },
   }));
 }
 
-const { post } = Astro.props;
-const { Content } = await render(post);
+const { post, prevPost, nextPost } = Astro.props;
+const { Content, headings } = await render(post);
 
 // Rough reading time: ~200 words/min
 const words = post.body?.split(/\s+/).length ?? 0;
@@ -26,6 +32,9 @@ const readingTime = Math.max(1, Math.round(words / 200));
   readingTime={readingTime}
   coverImage={post.data.cover_image}
   type={post.data.type}
+  headings={headings}
+  prevPost={prevPost}
+  nextPost={nextPost}
 >
   <Content />
 </PostLayout>
