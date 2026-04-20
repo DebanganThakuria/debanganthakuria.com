@@ -1,0 +1,513 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const novels = await getCollection('novels');
+  return novels.map(novel => ({ params: { novel: novel.id } }));
+}
+
+const { novel: novelSlug } = Astro.params;
+
+const novel = await getEntry('novels', novelSlug);
+if (!novel) return Astro.redirect('/novels');
+
+const allChapters = await getCollection('chapters', c => c.data.novel === novelSlug);
+const chapters = allChapters.sort((a, b) => a.data.chapterNumber - b.data.chapterNumber);
+
+const { Content: Synopsis, headings } = await render(novel);
+const hasSynopsis = novel.body && novel.body.trim().length > 0;
+
+const coverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '../../assets/images/novels/*.{png,jpg,jpeg,webp}',
+  { eager: true }
+);
+const coverImage =
+  coverGlob[`../../assets/images/novels/${novelSlug}.jpg`]?.default ??
+  coverGlob[`../../assets/images/novels/${novelSlug}.jpeg`]?.default ??
+  coverGlob[`../../assets/images/novels/${novelSlug}.png`]?.default ??
+  coverGlob[`../../assets/images/novels/${novelSlug}.webp`]?.default ??
+  null;
+---
+
+<BaseLayout
+  title={novel.data.title}
+  description={novel.data.description}
+>
+  <article>
+    <!-- Back link -->
+    <div class="mb-6">
+      <a href="/novels" class="back-link">← webnovels</a>
+    </div>
+
+    <!-- Novel header: two-column if cover present, single-column otherwise -->
+    <header class:list={['novel-header', { 'has-cover': !!coverImage }]}>
+      {coverImage && (
+        <div class="cover-col">
+          <Image
+            src={coverImage}
+            alt={`Cover of ${novel.data.title}`}
+            class="cover-img"
+            widths={[220, 440]}
+            sizes="220px"
+            format="webp"
+            quality={85}
+          />
+        </div>
+      )}
+
+      <div class="info-col">
+        <h1 class="novel-title">{novel.data.title}</h1>
+        {hasSynopsis ? (
+          <div class="novel-synopsis prose">
+            <Synopsis />
+          </div>
+        ) : (
+          <p class="novel-desc">{novel.data.description}</p>
+        )}
+
+        <div class="novel-meta">
+          <div class="genre-tags">
+            {novel.data.genre.map(g => (
+              <span class="genre-tag">{g}</span>
+            ))}
+          </div>
+
+          {novel.data.tags.length > 0 && (
+            <div class="tag-chips">
+              {novel.data.tags.map(t => (
+                <span class="tag-chip">{t}</span>
+              ))}
+            </div>
+          )}
+
+          <div class="meta-stats">
+            <span class="stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              {chapters.length} chapters
+            </span>
+            <span class:list={['status-badge', novel.data.status]}>
+              {novel.data.status}
+            </span>
+          </div>
+        </div>
+
+        <!-- Read / Continue CTA (populated by client-side JS) -->
+        <div
+          id="read-cta-wrap"
+          data-novel={novelSlug}
+          data-first={`/novels/${novelSlug}/chapter-01`}
+          class="read-cta-wrap"
+          style="display:none"
+        >
+          <a id="read-cta" href={`/novels/${novelSlug}/chapter-01`} class="read-cta">
+            <span id="read-cta-icon" aria-hidden="true">📖</span>
+            <span id="read-cta-text">Read First Chapter</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <hr class="divider" />
+
+    <!-- Chapter list header -->
+    <div class="chapter-list-header">
+      <h2 class="chapters-label">chapters</h2>
+      <button id="sort-btn" class="sort-btn" aria-label="Toggle sort order">
+        <svg id="sort-icon-asc" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M7 12h10M11 18h2"/></svg>
+        <svg id="sort-icon-desc" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M3 18h18M7 12h10M11 6h2"/></svg>
+        <span id="sort-label">oldest first</span>
+      </button>
+    </div>
+
+    <!-- Chapter list -->
+    <ol id="chapter-list" class="chapter-list">
+      {chapters.map(chapter => (
+        <li class="chapter-item" data-chapter={chapter.data.chapterNumber} data-chapter-file={chapter.id.split('/').pop()}>
+          <a href={`/novels/${novelSlug}/${chapter.id.split('/').pop()}`} class="chapter-link">
+            <span class="chapter-num">Ch. {chapter.data.chapterNumber}</span>
+            <span class="chapter-title-text">
+              {chapter.data.chapterTitle || `Chapter ${chapter.data.chapterNumber}`}
+            </span>
+            <span class="last-read-dot" aria-hidden="true" title="Last read"></span>
+            <span class="chapter-arrow" aria-hidden="true">→</span>
+          </a>
+        </li>
+      ))}
+    </ol>
+  </article>
+</BaseLayout>
+
+<script>
+  function initNovelPage() {
+    // ── Sort ──────────────────────────────────────────────────────────────
+    const btn = document.getElementById('sort-btn');
+    const list = document.getElementById('chapter-list');
+    const label = document.getElementById('sort-label');
+    const iconAsc = document.getElementById('sort-icon-asc');
+    const iconDesc = document.getElementById('sort-icon-desc');
+
+    let ascending = true;
+
+    if (btn && list && label && iconAsc && iconDesc) {
+      btn.addEventListener('click', () => {
+        ascending = !ascending;
+        label.textContent = ascending ? 'oldest first' : 'newest first';
+        iconAsc.style.display = ascending ? '' : 'none';
+        iconDesc.style.display = ascending ? 'none' : '';
+
+        const items = Array.from(list.querySelectorAll<HTMLElement>('li[data-chapter]'));
+        items.sort((a, b) => {
+          const na = parseInt(a.dataset.chapter ?? '0');
+          const nb = parseInt(b.dataset.chapter ?? '0');
+          return ascending ? na - nb : nb - na;
+        });
+        items.forEach(item => list.appendChild(item));
+      });
+    }
+
+    // ── Reading progress ──────────────────────────────────────────────────
+    const wrap = document.getElementById('read-cta-wrap') as HTMLElement | null;
+    const cta  = document.getElementById('read-cta') as HTMLAnchorElement | null;
+    const ctaText = document.getElementById('read-cta-text');
+    if (!wrap || !cta || !ctaText) return;
+
+    const novelSlug = wrap.dataset.novel!;
+    const firstHref = wrap.dataset.first!;
+    const storageKey = `novel_progress:${novelSlug}`;
+
+    // Clear stale last-read dots first
+    document.querySelectorAll('.chapter-item.last-read').forEach(el => el.classList.remove('last-read'));
+
+    let saved: { chapterFile: string; chapterNumber: number; title: string } | null = null;
+    try {
+      const raw = localStorage.getItem(storageKey);
+      if (raw) saved = JSON.parse(raw);
+    } catch { /* ignore */ }
+
+    if (saved) {
+      cta.href = `/novels/${novelSlug}/${saved.chapterFile}`;
+      ctaText.textContent = `Continue — ${saved.title}`;
+
+      // Mark last-read chapter in the list
+      const row = list?.querySelector<HTMLElement>(`li[data-chapter-file="${saved.chapterFile}"]`);
+      if (row) row.classList.add('last-read');
+    } else {
+      cta.href = firstHref;
+      ctaText.textContent = 'Read First Chapter';
+    }
+
+    wrap.style.display = '';
+  }
+
+  initNovelPage();
+  document.addEventListener('astro:after-swap', initNovelPage);
+</script>
+
+<style>
+  .back-link {
+    font-size: 0.875rem;
+    color: var(--color-coral);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .back-link:hover { text-decoration: underline; }
+
+  /* Header layout */
+  .novel-header {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .novel-header.has-cover {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  /* Cover image column */
+  .cover-col {
+    flex-shrink: 0;
+  }
+
+  .cover-img {
+    width: 200px;
+    height: auto;
+    border-radius: 0.75rem;
+    border: 1px solid var(--color-border);
+    display: block;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  :global(html.dark) .cover-img {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  }
+
+  /* Info column */
+  .info-col {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .novel-title {
+    font-family: var(--font-family-heading);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-text);
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
+  .novel-desc {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    flex: 1;
+  }
+
+  .novel-synopsis {
+    font-size: 0.9rem;
+    line-height: 1.75;
+    margin-bottom: 1rem;
+    color: var(--color-text-muted);
+  }
+
+  .novel-synopsis :global(p) {
+    margin-bottom: 0.75em;
+  }
+
+  .novel-synopsis :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  .novel-synopsis :global(em) {
+    font-style: italic;
+  }
+
+  .novel-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .genre-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .genre-tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-sage) 15%, transparent);
+    color: var(--color-sage);
+    border: 1px solid color-mix(in srgb, var(--color-sage) 30%, transparent);
+  }
+
+  .tag-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+  }
+
+  .tag-chip {
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.15rem 0.5rem;
+    border-radius: 999px;
+    background: var(--color-surface);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+  }
+
+  .meta-stats {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-top: 0.25rem;
+  }
+
+
+  .stat {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+  }
+
+  .status-badge {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    text-transform: capitalize;
+  }
+  .status-badge.ongoing { background: color-mix(in srgb,#22c55e 15%,transparent); color: #16a34a; }
+  :global(html.dark) .status-badge.ongoing { color: #4ade80; }
+  .status-badge.completed { background: color-mix(in srgb, var(--color-coral) 15%,transparent); color: var(--color-coral); }
+  .status-badge.hiatus { background: color-mix(in srgb,#f59e0b 15%,transparent); color: #d97706; }
+  :global(html.dark) .status-badge.hiatus { color: #fbbf24; }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 1.5rem 0;
+  }
+
+  .chapter-list-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .chapters-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-muted);
+  }
+
+  .sort-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    background: none;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 0.3rem 0.75rem;
+    cursor: pointer;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+
+  .sort-btn:hover {
+    color: var(--color-coral);
+    border-color: var(--color-coral);
+  }
+
+  .chapter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .chapter-item { }
+
+  .chapter-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background 0.12s ease;
+  }
+
+  .chapter-link:hover {
+    background: var(--color-surface);
+  }
+
+  .chapter-num {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-coral);
+    min-width: 2.5rem;
+    flex-shrink: 0;
+  }
+
+  .chapter-title-text {
+    flex: 1;
+    font-size: 0.875rem;
+    color: var(--color-text);
+    line-height: 1.4;
+  }
+
+  .chapter-arrow {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    opacity: 0;
+    transition: opacity 0.12s ease, transform 0.12s ease;
+  }
+
+  .chapter-link:hover .chapter-arrow {
+    opacity: 1;
+    transform: translateX(2px);
+  }
+
+  /* Read / Continue CTA */
+  .read-cta-wrap {
+    margin-top: 1.25rem;
+  }
+
+  .read-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.25rem;
+    border-radius: 999px;
+    background: var(--color-coral);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+  }
+
+  .read-cta:hover {
+    opacity: 0.88;
+    transform: translateY(-1px);
+  }
+
+
+  /* Last-read dot in chapter list */
+  .last-read-dot {
+    display: none;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--color-coral);
+    flex-shrink: 0;
+    margin-left: auto;
+  }
+
+  .chapter-item.last-read .last-read-dot {
+    display: block;
+  }
+
+  /* Push arrow after dot when last-read is shown */
+  .chapter-item.last-read .chapter-arrow {
+    margin-left: 0;
+  }
+
+  @media (max-width: 600px) {
+    .novel-header.has-cover {
+      grid-template-columns: 1fr;
+    }
+    .cover-img {
+      width: 140px;
+    }
+    .novel-title { font-size: 1.5rem; }
+    .novel-meta { flex-direction: column; align-items: flex-start; }
+    .chapter-link { padding: 0.65rem 0.5rem; }
+  }
+</style>

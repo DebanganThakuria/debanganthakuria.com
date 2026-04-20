@@ -14,6 +14,13 @@ const recentPosts = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 5);
 
+const allNovels = await getCollection('novels');
+const allNovelChapters = await getCollection('chapters');
+const novels = allNovels.slice(0, 4).map(novel => ({
+  ...novel,
+  chapterCount: allNovelChapters.filter(c => c.data.novel === novel.id).length,
+}));
+
 const icon = {
   facebook:   `<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`,
   github:     `<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>`,
@@ -171,6 +178,39 @@ const groups = [
       </div>
     )}
   </section>
+
+  <!-- Divider -->
+  <hr class="section-divider" style="margin-top: 2.5rem;" />
+
+  <!-- Webnovels section -->
+  <section class="mt-10">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-xs font-semibold uppercase tracking-widest" style="color: var(--color-text-muted);">
+        webnovels
+      </h2>
+      <a href="/novels" class="text-xs font-medium" style="color: var(--color-coral);">
+        all novels →
+      </a>
+    </div>
+
+    <div class="novels-preview-grid">
+      {novels.map(novel => (
+        <a href={`/novels/${novel.id}`} class="novel-preview-card">
+          <div class="novel-preview-body">
+            <h3 class="novel-preview-title">{novel.data.title}</h3>
+            <p class="novel-preview-desc">{novel.data.description}</p>
+            <div class="novel-preview-footer">
+              <span class="novel-preview-genre">{novel.data.genre[0]}</span>
+              <span class="novel-preview-chapters">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                {novel.chapterCount} ch
+              </span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
 </BaseLayout>
 
 <style>
@@ -289,5 +329,84 @@ const groups = [
     .social-row { gap: 0.4rem; }
     .chip-label { display: none; }
     .social-chip { padding: 0.35rem; }
+  }
+
+  /* Webnovels preview grid */
+  .novels-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .novel-preview-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.1rem;
+    border-radius: 0.75rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  .novel-preview-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+    border-color: var(--color-coral);
+  }
+
+  :global(html.dark) .novel-preview-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  }
+
+  .novel-preview-body { flex: 1; }
+
+  .novel-preview-title {
+    font-family: var(--font-family-heading);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text);
+    line-height: 1.3;
+    margin-bottom: 0.35rem;
+  }
+
+  .novel-preview-desc {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+    /* Clamp to 2 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .novel-preview-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+
+  .novel-preview-genre {
+    font-size: 0.65rem;
+    font-weight: 500;
+    padding: 0.15rem 0.45rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-sage) 15%, transparent);
+    color: var(--color-sage);
+  }
+
+  .novel-preview-chapters {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.7rem;
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 600px) {
+    .novels-preview-grid { grid-template-columns: 1fr; }
   }
 </style>

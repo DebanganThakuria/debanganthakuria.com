@@ -1,0 +1,291 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const allNovels = await getCollection('novels');
+const allChapters = await getCollection('chapters');
+
+const coverGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '../../assets/images/novels/*.{png,jpg,jpeg,webp}',
+  { eager: true }
+);
+
+function getCover(slug: string): ImageMetadata | null {
+  return (
+    coverGlob[`../../assets/images/novels/${slug}.jpg`]?.default ??
+    coverGlob[`../../assets/images/novels/${slug}.jpeg`]?.default ??
+    coverGlob[`../../assets/images/novels/${slug}.png`]?.default ??
+    coverGlob[`../../assets/images/novels/${slug}.webp`]?.default ??
+    null
+  );
+}
+
+const novels = allNovels.map(novel => {
+  const novelChapters = allChapters.filter(c => c.data.novel === novel.id);
+  return {
+    ...novel,
+    actualChapterCount: novelChapters.length,
+    cover: getCover(novel.id),
+  };
+});
+
+const STATUS_ORDER = ['ongoing', 'completed', 'hiatus', 'dropped'] as const;
+
+const novelsByStatus = STATUS_ORDER
+  .map(status => ({
+    status,
+    novels: novels
+      .filter(n => n.data.status === status)
+      .sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999)),
+  }))
+  .filter(group => group.novels.length > 0);
+---
+
+<BaseLayout title="Webnovels" description="Original web novels by Debangan Thakuria — fantasy, isekai, academy, slice-of-life.">
+  <section>
+    <div class="page-header">
+      <h1>webnovels</h1>
+      <p class="subtitle">Original fiction — fantasy, isekai, academy, and slice-of-life stories I've been writing over the years.</p>
+    </div>
+
+    {novelsByStatus.map(({ status, novels: group }, i) => (
+      <>
+        {(i > 0 || status !== 'ongoing') && (
+          <div class="section-label">{status}</div>
+        )}
+        <div class="novels-grid">
+          {group.map(novel => (
+            <a href={`/novels/${novel.id}`} class:list={['novel-card', { muted: status === 'dropped' }]}>
+              {novel.cover && (
+                <div class="card-cover-col">
+                  <Image
+                    src={novel.cover}
+                    alt={`Cover of ${novel.data.title}`}
+                    class="card-cover-img"
+                    width={64}
+                    height={90}
+                    format="webp"
+                    quality={85}
+                  />
+                </div>
+              )}
+              <div class="novel-card-body">
+                <h2 class="novel-title">{novel.data.title}</h2>
+                <p class="novel-desc">{novel.data.description}</p>
+                <div class="novel-meta">
+                  <div class="genre-tags">
+                    {novel.data.genre.map(g => (
+                      <span class="genre-tag">{g}</span>
+                    ))}
+                  </div>
+                  <div class="novel-stats">
+                    <span class="stat">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                      {novel.actualChapterCount} chapters
+                    </span>
+                    <span class:list={['status-badge', novel.data.status]}>
+                      {novel.data.status}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-arrow" aria-hidden="true">→</div>
+            </a>
+          ))}
+        </div>
+      </>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .page-header h1 {
+    font-family: var(--font-family-heading);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+  }
+
+  .novels-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text-muted);
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .novel-card.muted {
+    opacity: 0.65;
+  }
+
+  .novel-card.muted:hover {
+    opacity: 1;
+  }
+
+  .status-badge.dropped {
+    background: color-mix(in srgb, var(--color-text-muted) 12%, transparent);
+    color: var(--color-text-muted);
+  }
+
+  .novel-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 1rem;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  }
+
+  .card-cover-col {
+    flex-shrink: 0;
+  }
+
+  .card-cover-img {
+    width: 56px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 0.4rem;
+    border: 1px solid var(--color-border);
+    display: block;
+  }
+
+  .novel-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    border-color: var(--color-coral);
+  }
+
+  :global(html.dark) .novel-card:hover {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .novel-card-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .novel-title {
+    font-family: var(--font-family-heading);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 0.4rem;
+    line-height: 1.3;
+  }
+
+  .novel-desc {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+  }
+
+  .novel-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .genre-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .genre-tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--color-sage) 15%, transparent);
+    color: var(--color-sage);
+    border: 1px solid color-mix(in srgb, var(--color-sage) 30%, transparent);
+  }
+
+  .novel-stats {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .stat {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .status-badge {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    text-transform: capitalize;
+  }
+
+  .status-badge.ongoing {
+    background: color-mix(in srgb, #22c55e 15%, transparent);
+    color: #16a34a;
+  }
+  :global(html.dark) .status-badge.ongoing {
+    color: #4ade80;
+  }
+
+  .status-badge.completed {
+    background: color-mix(in srgb, var(--color-coral) 15%, transparent);
+    color: var(--color-coral);
+  }
+
+  .status-badge.hiatus {
+    background: color-mix(in srgb, #f59e0b 15%, transparent);
+    color: #d97706;
+  }
+  :global(html.dark) .status-badge.hiatus {
+    color: #fbbf24;
+  }
+
+  .card-arrow {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    transition: transform 0.15s ease, color 0.15s ease;
+  }
+
+  .novel-card:hover .card-arrow {
+    color: var(--color-coral);
+    transform: translateX(3px);
+  }
+
+  @media (max-width: 600px) {
+    .novel-card { padding: 1.25rem; }
+    .novel-meta { flex-direction: column; align-items: flex-start; }
+  }
+</style>
