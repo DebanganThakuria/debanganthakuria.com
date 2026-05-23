@@ -1,0 +1,6 @@
+src/content/posts/life/gym-journey.md
+  9a5ac2a7-5c9d-407a-bbd3-f32d7e5effad:2026-05-23T13:37:18.664Z 1-7,9,11,13,15,19,21,23,25,27,29,31,33,35,37,39,43,45,47,49,51,53,55,57,59,61,63,65,67,69,71,73
+  9a5ac2a7-5c9d-407a-bbd3-f32d7e5effad:2026-05-23T13:44:22.190Z 17
+  9a5ac2a7-5c9d-407a-bbd3-f32d7e5effad:2026-05-23T13:46:33.837Z 41
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"9a5ac2a7-5c9d-407a-bbd3-f32d7e5effad:2026-05-23T13:37:18.664Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 40, "overriden_lines": 0}, "9a5ac2a7-5c9d-407a-bbd3-f32d7e5effad:2026-05-23T13:44:22.190Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 40, "overriden_lines": 0}, "9a5ac2a7-5c9d-407a-bbd3-f32d7e5effad:2026-05-23T13:46:33.837Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 40, "overriden_lines": 0}}}
