@@ -1,0 +1,9 @@
+src/content/posts/tech/code-is-a-liability.md
+  494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:05:26.120Z 1-7,9,11,13,17,25,27,29,33,35,39,41,43,45,47,49,51,53,55,57,59,61,63,65,80,84,86,88,90,92,94,96,100,102,104,106,108,110,112,116,118,120,122,124,126,128,130,132,134
+  494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:12:51.578Z 15,19,21,23
+  494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:00.149Z 31,37
+  494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:09.077Z 82
+  494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:14.831Z 98
+  494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:20.025Z 114
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:05:26.120Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 64, "overriden_lines": 0}, "494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:12:51.578Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 64, "overriden_lines": 0}, "494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:00.149Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 64, "overriden_lines": 0}, "494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:09.077Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 64, "overriden_lines": 0}, "494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:14.831Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 64, "overriden_lines": 0}, "494d9e24-de7d-467f-a086-3b4622a5027d:2026-05-31T13:13:20.025Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 64, "overriden_lines": 0}}}
