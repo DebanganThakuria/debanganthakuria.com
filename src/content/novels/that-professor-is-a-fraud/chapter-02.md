@@ -1,152 +1,212 @@
 ---
 chapterNumber: 2
-title: "Chapter 2: Small Fish, Big Pond"
-chapterTitle: "Small Fish, Big Pond"
+title: "Chapter 2: The Lower Decks"
+chapterTitle: "The Lower Decks"
 novel: "that-professor-is-a-fraud"
 ---
 
-The town of Ashveil sat in the shadow of its academy like a servant waiting at the foot of a throne.
+The stairs from the middle deck to the lower decks were narrower than the public stairs from the upper deck to the middle. They were also less well-lit. The Lyceum had been built with the assumption that no guest of consequence would ever need to descend below the ballroom, and the lower decks reflected that view. Plain panelling. Practical mana-lamps every twelve feet. The hum of the propulsion screws, very faint, coming up through the boards.
 
-It was larger than Lucian had expected — a proper town, not a village. Cobblestone streets branched off from a central avenue lined with shops, taverns, and what appeared to be a modest marketplace. The buildings were stone and timber, sturdy rather than elegant, built to house the ecosystem that inevitably sprouts around any institution with money and prestige.
+Lucian descended without hurry. A gentleman taking himself away from a tedious banquet to find the lavatories. There was, indeed, a lavatory on the lower deck for the use of guests of moderate standing who did not wish to inconvenience themselves with the queue at the better one above.
 
-University towns. Same everywhere, apparently. Even in a world with magic.
+He passed a steward at the foot of the stairs. The steward inclined his head politely. Lucian returned the nod.
 
-The wagon rolled to a stop near a public stable at the edge of the market square. The driver — whose name, the borrowed memories reluctantly supplied, was Garrett — climbed down and began unhitching the horses with the practised ease of a man who'd done this ten thousand times.
+"The lavatories, sir?" the man enquired.
 
-"This is as far as I go, young master. The academy's up the hill — you can see the main gate from the square. Perhaps a twenty-minute walk."
+"If you would be so kind."
 
-"My thanks, Garrett. Truly."
+"Third door on the left, sir. The second on the right is also available, should the first be occupied."
 
-The old man paused, then bowed — deeper than was necessary, with the sort of careful formality that came from a lifetime of service to people who rarely noticed it.
+"Thank you."
 
-"It has been my honour, young master. House Caelmont has been good to my family. I pray the academy treats you well."
+The steward returned to his station. Lucian walked past the first lavatory and then past the second, and then continued down the corridor as if there was a third he preferred. He turned the corner at the end, out of the steward's sight, and stopped.
 
-He means that. He actually means that. The original Lucian had at least one person in his corner, and it was the bloke who drove his carriage.
+Three threads were now tracking the resonance with full attention. The note in the soul-field had clarified, gained shape. Toward the stern. Below this deck. Most likely in the storage rooms behind the kitchen. He could feel the layout of the barge with his diffused soul-sense, a faint architectural impression of corridors and bulkheads and crew spaces. The Lyceum had been carrying him for nearly five hours now, and he had been mapping it gently the whole time without quite meaning to.
 
-Lucian returned the bow — slightly, instinctively, the muscle memory of a nobleman's son doing the work his conscious mind hadn't yet learned. "Safe travels on your return."
+He proceeded.
 
-Garrett smiled, climbed back onto the driver's bench, and guided the horses back the way they'd come. Lucian watched until the wagon disappeared around a bend, then turned to face the town.
+The wine cellar was reached through a door at the back of the kitchen corridor, behind two storerooms and a small ice-house. The door was locked with a brass mechanism of the sort the Westmere lock-makers had been refining for sixty years. A skilled thief could pick it with a slim hook in forty seconds.
 
-Right. New world. New body. No tutorial, no save points, no friendly NPC with a quest marker hovering over their head. Let's see what we've got.
+Lucian, who was not a thief, simply extended his soul.
 
-His stomach growled.
+A thin tendril of cloud — invisible, atom-scale — flowed through the keyhole, found the pins, and lifted them in sequence. The mechanism gave. The door clicked open.
 
-Ah. That's what we've got. Hunger. Brilliant.
+He stepped through and closed it behind him.
+
+The cellar smelled of damp stone and old oak. Two long racks of bottles ran down the centre, brass-tagged with vintages. A single mana-lamp was burning low in the corner, casting the room in dim amber. Against the back wall, set away from the bottles and partially concealed by a stack of crates, was a wooden box. It was the size of a small footstool.
+
+He approached it.
+
+Crew members on the lower deck would not have wandered into the wine cellar tonight. The kitchen staff had access but were upstairs serving the banquet. The cellar was, for the duration of the symposium, effectively unattended. Whoever had placed the box here had counted on that.
+
+He lowered himself to one knee, drew off his gloves, and laid them on the floor beside him. He opened the box.
+
+Inside, fitted neatly into a frame of waxed cloth and lacquered wood, was a Soul Bomb.
+
+He looked at it for a moment with mild professional interest. He had read accounts of these. Two papers in the College library, both written in the previous century, both classified as restricted access. He had been studying them on and off for two months, on the general principle that knowing how soul-weapons worked might one day prove useful. The general principle had been correct.
+
+The device was a brass-and-crystal assembly about the size of a man's head. Twelve resonance plates were arranged in a circle around a central core of dark green crystal, each plate etched with a different pattern. The plates were turning, very slowly, around the core. When they reached the correct alignment, the core would discharge a destructive resonance across a field of perhaps three hundred yards — large enough to encompass the entire Lyceum and a good portion of the river around it. The discharge would not damage the building or the bottles. It would damage souls. The most senior magicians will be able to defend. But the younger prodigies will be at the mercy of lady luck.
+
+The kitchen staff and the crew would turn into monsters with permanent corruption in their souls. Most of the guests on the middle deck would go mad. Lara would probably be able to defend. Halverford would remain unscatched.
+
+He set this aside and considered the device itself.
+
+The craftsmanship was competent without being elegant. The brass-work was good but not first-rank. The etching on the plates was uneven in places where it should have been smooth. The central crystal was high quality but had been cut by a mage of moderate ability, not a master. Whoever had built this had skill, but not the kind of skill that came from sustained practice.
+
+This was, almost certainly, the work of a small organisation rather than a state-level adversary. A state would have produced something cleaner. This had the look of a workshop that had built perhaps three or four such devices in its history, and was learning as it went.
+
+But, it can also be true that a larger adversary is pulling the threads from even deeper shadows.
+
+He noted this. Then he noted something else — the pattern on the third plate. A specific etching style he had seen before, once, in a footnote to an old paper by a researcher named Helbridge Marrow. Marrow had been disgraced from the Royal College eleven years ago for unrelated reasons and had not been heard of since. His work had been quietly removed from the College's holdings.
+
+He had not been quietly removed from somebody else's holdings, apparently.
+
+Lucian set this thought aside too. Marrow was a problem for another day.
+
+He brought up the timeline. The plates were rotating at a constant rate. He measured their current alignment, calculated the rate, and worked out when the device would reach detonation alignment. Seventeen minutes. The Lyceum would, by then, have reached the great curve in the river opposite the Crown Borough. The palace, the chancery, the Council chambers — all visible from the banquet windows. A perfect line of sight for the witnessing.
+
+Whoever had built this had wanted the corpses to fall within sight of the throne.
+
+He looked at the device for another moment. Then he set to work.
+
+The defusing was, in theoretical terms, an exercise in anti-spell construction applied to a sustained resonance rather than a single cast. The principle was the same. Perceive the spell's structure, compute its inverse, apply the inverse so that the two patterns cancelled before completion. The difference, with a device of this sort, was that the resonance was already underway and had been refining itself for some time. The inverse would need to match not just the design pattern but the current phase of the rotation, which was changing every second.
+
+A single mage attempting this without parallel cognition would have to either stop the rotation by force — which would risk premature detonation — or somehow track and counter the rotation of multiple plates in real time, which was conventionally considered impossible.
+
+Lucian set six threads to the work. Two perceived the rotating plates and modelled their current state. Two computed the inverse pattern, updating it continuously. Two applied the inverse — not through external spell-marks, but through the cloud itself.
+
+He extended his soul outward toward the device. The cloud closed around the brass-and-crystal assembly, enveloping it entirely — every face of it, every brass fitting, the spinning plates, the dark green core. The plates continued their slow rotation, but now they were rotating inside him. Every phase of their movement was perceived directly. The core's resonance was no longer something he was sensing from outside.
+
+The inverse pattern, constructed in real time, was applied from within the cloud — directly to the device's mana flows, without any visible external action. Anyone watching from across the room would have seen a man kneeling in the dim light of a wine cellar with a wooden box open at his knees, doing nothing whatsoever.
+
+The remaining four threads continued with their evening. One listened to the corridor above. One monitored the wider soul-field of the barge. One worked on a problem of soul-lattice geometry that had been bothering him for some days. One observed his own physical state for any sign of strain, of which there was none.
+
+Three minutes passed. Above him, somewhere on the upper decks, he felt Lara Allard's soul-sight active and moving — slow, methodical, sweeping. She had also noticed the resonance.
+
+She was not, however, close. He continued his work.
+
+The device began to wind down. The plates slowed. The core lost its colour, fading from dark green to a dull grey. The hum dropped through a register and stopped. The waxed-cloth lining absorbed the residual heat. The brass cooled.
+
+He gave it another twenty seconds to ensure stability. The device remained inert.
+
+He closed the box. He picked up his gloves and drew them back on. He took out a folded handkerchief and dabbed at his forehead, which had not perspired. He did this because, when he stepped back into the corridor, it would be useful for any observer to see a man who had recently used a lavatory and was somewhat warm from the banquet wine.
+
+He stood. He smoothed the front of his coat. He left the cellar, closing the door behind him.
 
 ---
 
-The market square was busy in the way that late afternoons tend to be — merchants beginning to pack up, shoppers making their final rounds, and clusters of young people in matching dark coats moving between the food stalls with the noisy confidence of students everywhere.
+Two decks above, in a small side-chamber off the ballroom that was reserved for the use of senior figures who required a moment of quiet, Lara Allard set down her cup of tea.
 
-Academy students. Has to be. They've got that look — the one that says "I know everything and fear nothing" because nobody's beaten it out of them yet.
+She had felt the anomaly perhaps four minutes after the start of the banquet. She had not acted on it immediately. Her soul-sight was a tool of considerable precision, but it required some patience to apply at distance, and the anomaly had been faint at first — a fractional miscoloration in the soul-field of the vessel, somewhere below her. She had wanted to be certain.
 
-He found a food stall near the fountain at the centre of the square. The vendor was a heavyset woman with flour on her apron and the weathered hands of someone who'd been kneading dough since before Lucian — either version of him — had been born.
+It took her two minutes to pinpoint the location of the anomaly.
 
-"What'll it be, then?" she asked, not looking up from the pastry she was wrapping.
+She was now sitting with her tea, working through what she had observed and what it implied, and considering her next move.
 
-"What would you recommend?"
+The miscoloration was, on closer examination, a sustained resonance — a deliberate harmonic introduced into the soul-field by an external object. The harmonic had the signature of a soul-bomb of the older Marrow-school design, refined and improved by a workshop of moderate sophistication. She had seen one of these once, twenty years ago. It had been disarmed by a team of three Circle 5 specialists working for over an hour, and even then they had lost one of their number to soul-damage. She had assisted in the assessment afterwards. She remembered the device clearly.
 
-She glanced at him. Her eyes did a quick sweep — his clothes (plain, travel-worn, but cut well enough to suggest minor nobility), his face (young, tired, unremarkable), and then something else. Something he felt rather than saw.
+There was one on the Lyceum.
 
-She'd checked his mana signature.
+She had decided, perhaps thirty seconds ago, that she would not raise the alarm. Raising the alarm would cause panic, the panic would cause guests to attempt to disembark by jumping into the river, and a number of junior figures would drown or sustain other injuries before the bomb did its work. The bomb would still go off. Raising the alarm would simply add casualties to the casualties.
 
-The original Lucian's memories supplied the context: it was instinctive for anyone with even a trace of magical sensitivity. You couldn't help it, any more than you could help noticing whether someone was tall or short. Your soul reached out, brushed against the ambient field around another person, and came back with an impression. Strong. Weak. Dangerous. Irrelevant.
+She would, instead, go down to the lower decks herself and disarm it. She was Circle 7. She could disarm a Marrow-school device in perhaps eight minutes. The device had been refining for at least seven minutes already, given the strength of the resonance she could perceive. That left her some margin, but not much.
 
-The vendor's expression shifted. Not dramatically — she wasn't cruel about it — but the polite attentiveness dropped half a degree into something more perfunctory. The way a shopkeeper might treat someone who was clearly just browsing.
+She stood up, set down her cup, and had taken precisely one step toward the door of the side-chamber when she stopped.
 
-And there it is. Third Circle. She can tell I'm barely worth the mana it took to check.
+The resonance had changed.
 
-"Meat rolls are two coppers. Cheese pies are three. Ale's a copper."
+She extended her soul-sight downward, sharply, and watched the harmonic destabilise. It was not detonating. It was unwinding. Someone, somewhere below her, was applying an inverse pattern to the device — and applying it in a way she had not seen demonstrated in fifty years of practice. The inverse was tracking the resonance in real time. Each phase of the device's rotation was being met with an exactly matched countermove. The work was, technically, extraordinary.
 
-No "sir." No "if it please you." Just prices.
+She stood very still and watched the resonance die.
 
-I've been in this world for approximately four hours and I've already been sorted into the bottom tier by a pastry vendor. Speedrun, that.
+When it was over, she sat back down. She picked up her teacup. She considered.
 
-"Two meat rolls and an ale, if you would."
+Three people on the barge had the theoretical capability to do what she had just observed. She would identify which one within the hour.
 
-She served him without further conversation. The meat rolls were dense and peppery, stuffed with something that was probably lamb but could have been anything, and the ale was thin and lukewarm. He ate standing by the fountain and watched the world go by.
+She lifted the cup to her lips.
 
-It was extraordinary, if he was being honest with himself.
-
-The market wasn't just a market. It was a living demonstration of a magical civilisation at work. A shopkeeper across the square was using a minor levitation spell to arrange crates — his hands moving lazily while boxes drifted into neat stacks of their own accord. Two streets over, a pair of lamplighters were making their rounds, but instead of matches or oil, they pressed their palms against crystal-topped posts and fed them mana. The crystals bloomed with warm light that felt almost organic.
-
-And the mana signatures. Now that he was paying attention, they were everywhere — a constant background hum of magical presence, like the murmur of conversation at a party. Most were faint, civilian-level. But occasionally, someone would pass through the square and the hum would spike — a stronger mage, Fourth Circle perhaps, moving through the crowd like a stone dropped in still water. People stepped aside without consciously deciding to. Conversations paused and resumed.
-
-It's a pecking order. Not even a subtle one. Your mana signature is your credit score, your job title, and your social rank all rolled into one. And mine is basically a participation trophy.
-
-He finished his ale and set the cup on the fountain's edge.
-
-Actually, no. A participation trophy implies you participated. Mine's more of a "thanks for showing up" sticker.
+She suspected she already knew.
 
 ---
 
-The road to Ashveil Academy wound uphill through a grove of ancient trees whose bark shimmered faintly with residual mana — the same shimmer he'd noticed from the wagon, but stronger here, more deliberate. The trees had been growing in the presence of powerful magic for centuries, and it showed. Their trunks were wider than carriages, their canopies so dense that the late afternoon light filtered through in golden shafts thick enough to touch.
+Lucian climbed the stairs back to the middle deck, adjusted his cuffs in the corridor mirror, and returned to the ballroom.
 
-The path was well-maintained — smooth flagstone, lined with low walls of pale granite — and it was populated. Students walked in groups of two and three, their dark academy coats embroidered with insignia Lucian couldn't yet read. A few faculty members passed in the opposite direction, identifiable by the silver clasps at their collars and the slightly more authoritative way they occupied space.
+He had been away, by his count, nineteen minutes. A long lavatory break, but not so long as to draw remark. The banquet had progressed in his absence — the orchestra had begun to play, several of the older guests had retired to the lounge, and a small number of younger researchers had begun to dance at the far end of the ballroom. The conversation had moved on from him.
 
-Nobody looked at him twice.
+He retrieved his abandoned wine glass from the windowsill. The wine had warmed slightly. A cold breeze from his palm cilled it parfectly. He took a sip and stood by the window watching the river.
 
-Stealth: 100. Or maybe I'm just that unremarkable. Either way, works for me.
+Eight threads were running. One of them was looking for the observer.
 
-The trees thinned, the path crested the hill, and Ashveil Academy revealed itself in full.
+He found him within two minutes.
 
-Lucian stopped walking.
+A junior researcher in an unremarkable coat, standing near the bar at the far end of the ballroom, holding a glass and not drinking from it. The man's mana signature was Circle 4 and shielded. The shielding was not particularly good — Lucian's diffused soul-sense had no difficulty perceiving it — but it would have been adequate against any conventional scan. The man was holding something in his left hand that was tucked partially into his coat sleeve. A small object. Active. A soul-bound communication device.
 
-Oh.
+The observer was looking around the ballroom with the polite blankness of a man searching for someone without wishing to appear to search. He was looking for the man who had defused his bomb.
 
-It was larger than it had appeared from the valley. Much larger. The crystalline spires he'd seen from the wagon were just the most visible elements of a sprawling complex that covered the entire hilltop and spilled partway down the far slope. Stone buildings in varying states of antiquity clustered around courtyards and connected by covered walkways. Towers rose at irregular intervals — some elegant and clearly ceremonial, others squat and functional, trailing wisps of mana-smoke from vents near their peaks.
+Lucian did not move from the window. He let the observer keep looking. He watched the river.
 
-The main gate was a massive arch of dark stone, flanked by pillars carved with symbols that hummed faintly when he got close. Above the arch, etched in letters that seemed to shift between legible and abstract depending on the angle, were words in a script he couldn't — 
+After perhaps three minutes, the observer's eyes settled on him. Not directly — at the back of his head, the line of his shoulders, the cut of his coat. The observer's posture changed by a degree. He raised the glass to his lips and pretended to drink. Behind the glass, he was speaking quietly — to whatever was on the other end of the soul-bound device.
 
-No. He could read them. The original Lucian's language centres were still intact, even if everything else was in disrepair.
+Lucian still did not turn around.
 
-"Through knowledge, ascension."
+After another minute, the observer left the ballroom.
 
-Bit on the nose, isn't it? Then again, I suppose when your entire civilisation is built around the desperate race to reach Seventh Circle before you die of old age, subtlety goes out the window.
+Across the room, Lara Allard appeared at the top of the staircase from the upper deck. Her tea was gone. Her composure was unaltered. She made her way to the far end of the room, exchanged a brief word with Professor Halverford, and accepted a fresh glass of wine from a passing steward. Throughout, her eyes did not seek Lucian. She did not need to look at him. She knew exactly where he was.
 
-A guard stood at each side of the gate — not soldiers, but academy wardens in formal grey coats with the Ashveil crest on their shoulders. One of them, a broad-shouldered woman with close-cropped hair and the mana presence of a solid Fourth Circle, stepped forward as Lucian approached.
+He watched her reflection in the window.
 
-"State your purpose."
+Eventually, she turned. Their eyes met across the room. She held the look for perhaps two seconds. She did not smile. She did not nod. She lifted her glass a fraction in his direction — a tiny gesture, no more substantial than the adjustment of a cuff — and then she turned back to Halverford and resumed her conversation.
 
-"Lucian Caelmont. I have an appointment. A teaching position."
+Lucian inclined his head a fraction toward the window. He returned to his wine.
 
-The warden's eyebrows rose by approximately one millimetre. It was, Lucian reflected, impressive how much scepticism could be conveyed by one millimetre of eyebrow movement.
+The banquet continued.
 
-She checked a ledger. Her eyes moved from the page to Lucian's face, then back to the page, as though she was having difficulty reconciling the name with the man standing in front of her.
+---
 
-"Caelmont," she repeated. Not a question. More of a statement that was still deciding whether to believe itself.
+The Lyceum reached the Mercantile District quay at twelve minutes past four in the morning. The sky over Westmere was the colour of weak tea. A light rain had begun to fall, the steady fine kind that the city specialised in. Hansoms were waiting at the foot of the gangplank for those guests who had not arranged private carriages. Lucian took a hansom.
 
-"That would be me, yes."
+He saw the observer one more time as he stepped onto the cobbles. The junior researcher was standing near the quay-master's hut on the far side of the gangplank, watching the disembarking guests. He saw Lucian. He did not approach.
 
-Please don't ask me to prove it. I don't know the secret handshake. I don't even know if there IS a secret handshake.
+Lucian climbed into the hansom and gave the driver his address. The hansom pulled away. Through the small rear window, he watched the Lyceum receding behind him, the lights of the ballroom still glowing on the middle deck, the bulk of the great barge slowly fading into the rain.
 
-The warden closed the ledger. "You're expected. The Chancellor's office is in the Alabaster Hall — through the main courtyard, second building on the left. You cannot miss it." She paused, then added, with the careful neutrality of someone who had opinions but was professionally obligated not to voice them: "Welcome to Ashveil Academy, Professor Caelmont."
+The observer was still watching as the hansom turned the corner.
 
-The word "Professor" hung in the air between them like a question neither of them wanted to answer.
+---
 
-"My thanks."
+Lucian's rooms in the Scholars' Quarter were on the second floor of a respectable but unremarkable boarding house run by a Mrs Holloway, and had taken Lucian as a lodger six months ago on the strength of a recommendation from a College administrator. The rooms were small. A sitting room with a writing desk and a single armchair, a bedroom with a single bed and a chest of drawers, a tiny scullery with a gas ring and a kettle.
 
-He walked through the gate.
+He let himself in quietly. Mrs Holloway was a light sleeper.
 
-The courtyard beyond was vast — a sprawling expanse of pale stone dominated by a central fountain that was less a fountain and more a monument. Water arced from the outstretched hands of a carved figure at its peak, and each stream glowed faintly with mana, refracting the dying sunlight into colours that didn't quite exist in nature.
+He hung his coat. He removed his hat and placed it on the stand. He removed his glasses, polished them with a soft cloth from his desk drawer, and replaced them. He filled the kettle and set it on the gas ring.
 
-Students milled about in clusters. A few glanced his way as he passed, their gazes brushing over him and moving on with the casual disinterest of people encountering someone beneath their notice. One group — older students, Third and Fourth Circle by the feel of them — stood near the fountain laughing about something. A young woman in the group had a mana signature bright enough that Lucian could feel it from twenty paces.
+The dawn was beginning to grey the window. He drew the curtains halfway closed.
 
-Fourth Circle. She's what, nineteen? Twenty? And she's already a Circle above what the original Lucian achieved in twenty-six years of trying.
+He sat at the writing desk and took out a fresh sheet of paper, a pen, and his ink. He uncapped the ink. He began to write.
 
-This is going to be fun.
+Equations first. The resonance pattern of the device, reconstructed from his memory of its plates. The phase-tracking inverse he had used to defuse it. The signature of the Marrow-school etching. The estimated workshop characteristics of the maker. The observer's mana signature, with shielding pattern noted.
 
-He crossed the courtyard, following the warden's directions. The Alabaster Hall was, as promised, unmissable — a building of white stone with tall arched windows and a set of double doors that radiated the quiet authority of senior administration everywhere.
+Then notes. Three people on the barge could have, by reputation, defused that device — himself, Lara Allard, and Halverford. Lara had not done it; her soul-sight had been searching from the upper deck while the work was being done below. Halverford had not done it; he had not left the ballroom. That left Lucian. Lara, whose soul-sight was the equal of any in the kingdom, certainly already knew this.
 
-Lucian paused at the foot of the steps.
+She had decided not to say so. Not yet. Not publicly.
 
-Behind those doors was the Chancellor. The person who would decide what he taught, where he lived, and how much rope he'd be given before the academy — or his family's rivals — decided to hang him with it.
+The observer had seen a man on the lower decks. The man had been wearing a top hat. The observer had not seen his face clearly. He had, however, seen Lucian leave the ballroom and return to it shortly after the defusing. Whether the observer connected those things would depend on how thorough he had been.
 
-Save point would be really nice right about now.
+Lucian assumed thoroughness.
 
-He straightened his coat, brushed the road dust from his sleeves, and climbed the steps.
+The kettle began to whistle. He rose, made tea in a small brown pot, and carried it back to the desk. He poured a cup. He drank.
 
-The doors opened with a weight that suggested they were meant to remind visitors of their insignificance.
+He sat for a long while, the pen still in his hand, looking at the equations on the page.
 
-Message received.
+There was a small, unfamiliar quality in his chest. Not quite a feeling. Something less. A faint pressure, perhaps. Like the residue of a thought he had not entirely thought yet.
 
-He stepped inside.
+He had spent the evening being publicly humiliated by a fat little man in a damp collar. He had been laughed at by two hundred of the kingdom's best mages. His career had been ended at a podium in front of half the people who mattered in his profession. And he had not, throughout, felt very much about any of it.
+
+He had defused a soul-bomb that would have killed everyone in the ballroom, including the laughing ones, and he had not felt very much about that either.
+
+But somewhere on the long ride home through the wet streets of Westmere, he had thought — briefly, faintly — that he was glad the woman who had pitied his father in the third row was not dead. That she had laughed at him, and that she had gone home tonight to whatever house she came from, and would tomorrow be alive in it.
+
+He turned the thought over. He examined it carefully.
+
+He thought he might be capable of healing further than he had supposed.
+
+He set the pen down, drank the last of his tea, and watched the rain on the window until the kettle had cooled.
