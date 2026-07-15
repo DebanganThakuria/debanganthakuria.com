@@ -1,0 +1,7 @@
+src/content/posts/tech/accidentally-rediscovering-kafka.md
+  83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T09:33:06.350Z 1-2,4-6
+  83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T10:14:31.388Z 7
+  83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T10:41:11.490Z 62
+  83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T10:36:50.066Z 68
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T09:33:06.350Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 9, "overriden_lines": 0}, "83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T10:14:31.388Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 9, "overriden_lines": 0}, "83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T10:41:11.490Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 9, "overriden_lines": 0}, "83bbd29b-99d7-4ca8-b24f-5490f6c15280:2026-05-06T10:36:50.066Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 9, "overriden_lines": 0}}}
