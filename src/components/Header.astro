@@ -5,6 +5,7 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/posts', label: 'Journal' },
   { href: '/novels', label: 'Books' },
+  { href: '/narad', label: 'Narad' },
 ];
 
 const currentPath = Astro.url.pathname;
@@ -52,7 +53,7 @@ const currentPath = Astro.url.pathname;
 
   .logo-short { display: none; }
 
-  @media (max-width: 600px) {
+  @media (max-width: 760px) {
     .logo-full { display: none; }
     .logo-short { display: inline; }
     .site-header {
@@ -120,7 +121,7 @@ const currentPath = Astro.url.pathname;
     background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 760px) {
     .nav-link { font-size: 0.85rem; letter-spacing: 0.06em; }
   }
 </style>

@@ -121,6 +121,16 @@ const groups = [
       ))}
     </div>
 
+    <!-- Notable deed -->
+    <a href="/narad" class="deed-banner">
+      <span class="deed-diamond" aria-hidden="true"></span>
+      <span class="deed-text">
+        <span class="deed-label">Notable Deed</span>
+        <span class="deed-title">Narad — a message broker proven with 300 million messages</span>
+      </span>
+      <span class="deed-arrow" aria-hidden="true">→</span>
+    </a>
+
     <!-- Bio -->
     <div class="prose mt-6">
       <p>
@@ -374,6 +384,68 @@ const groups = [
 
   @media (max-width: 900px) {
     .skills-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Notable deed banner */
+  .deed-banner {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.2rem;
+    background: var(--color-parchment-deep);
+    border: 1px solid var(--color-border);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--color-parchment) 55%, transparent);
+    text-decoration: none;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+
+  .deed-banner:hover {
+    transform: translateX(5px);
+    border-color: var(--color-coral);
+  }
+
+  .deed-diamond {
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    background: var(--color-gold-bright);
+    border: 1px solid var(--color-gold);
+    flex-shrink: 0;
+  }
+
+  .deed-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.05rem;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .deed-label {
+    font-family: var(--font-family-heading);
+    font-size: 0.68rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+  }
+
+  .deed-title {
+    font-family: var(--font-family-heading);
+    font-size: 1rem;
+    color: var(--color-text);
+    line-height: 1.35;
+  }
+
+  .deed-arrow {
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    transition: transform 0.15s ease, color 0.15s ease;
+  }
+
+  .deed-banner:hover .deed-arrow {
+    color: var(--color-coral);
+    transform: translateX(3px);
   }
 
   /* Bio details/summary */

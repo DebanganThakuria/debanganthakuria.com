@@ -1,0 +1,353 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// The build saga, in reading order — pulled live so titles/dates stay in sync
+const QUEST_CHAIN = [
+  'tech/accidentally-rediscovering-kafka',
+  'tech/notes-from-inside-the-crab',
+  'tech/the-crab-ships',
+];
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const saga = QUEST_CHAIN
+  .map(id => allPosts.find(p => p.id === id))
+  .filter(Boolean)
+  .map(post => {
+    const words = post!.body?.split(/\s+/).length ?? 0;
+    return {
+      id: post!.id,
+      title: post!.data.title,
+      description: post!.data.description,
+      date: post!.data.date,
+      readingTime: Math.max(1, Math.round(words / 200)),
+    };
+  });
+
+const fmt = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric' });
+
+const enchantments = [
+  { name: 'Durable before acknowledged', desc: 'A 202 means the message is fsynced to disk — not buffered, not "probably". Crash a millisecond later; it survives.' },
+  { name: 'Built to say yes', desc: 'Availability first: any live node accepts your produce and routes around dead partition owners. Machines burn; messages land.' },
+  { name: 'No consumer groups', desc: 'No rebalancing storms, no generation IDs. Scale consumers by starting more consumers — that’s the whole runbook.' },
+  { name: 'The whole API fits on a screen', desc: 'Plain HTTP and curl. No client library to vendor, no binary protocol to debug at 3am.' },
+  { name: 'One binary, one Helm chart', desc: 'Raft lives inside the same binary. No ZooKeeper, no keeper of any kind. If you can run a StatefulSet, you can run Narad.' },
+  { name: 'Replication in one API call', desc: 'A fan-out child placed on different nodes than its parent — an async full copy that survives the parent’s disk.' },
+];
+
+const receipts = [
+  { value: '300M+', label: 'messages soaked through a live five-node cluster, reconciled in a ledger' },
+  { value: '0', label: 'messages lost — across soaks, chaos runs, and a free 15-minute VPN outage' },
+  { value: '47.5h', label: 'final soak window: 170.9M messages at 1,000 msg/s, four produce retries' },
+  { value: '50k/s', label: 'sustained full-flow throughput — the load generator gave out first' },
+];
+---
+
+<BaseLayout title="Narad" description="Narad — a message broker that respects your weekend. Plain HTTP in, at-least-once out, one binary, one Helm chart. Proven with 300M+ soaked messages.">
+  <article>
+    <header class="mb-8">
+      <p class="ui-label" style="font-size:0.75rem; margin-bottom:0.5rem;">Notable Deed</p>
+      <h1 class="artifact-title">Narad</h1>
+      <p class="artifact-tagline">Durable messages. Timeless connections.</p>
+      <p class="artifact-lead">
+        A message broker that respects your weekend — plain HTTP in, at-least-once out, and
+        nothing to babysit in between. Built over a year to learn distributed systems properly,
+        then soaked, crashed, and drilled until the evidence caught up with the design.
+        v1.0 shipped in July 2026; the forge is still lit.
+      </p>
+
+      <div class="artifact-actions">
+        <a href="https://github.com/DebanganThakuria/narad" target="_blank" rel="noopener noreferrer" class="artifact-btn">View the code ↗</a>
+        <a href="https://debanganthakuria.github.io/narad/" target="_blank" rel="noopener noreferrer" class="artifact-btn artifact-btn-secondary">Read the docs ↗</a>
+      </div>
+    </header>
+
+    <hr class="rule-diamond" />
+
+    <section class="mt-8">
+      <h2 class="ui-label section-heading">Enchantments</h2>
+      <div class="ench-grid">
+        {enchantments.map(e => (
+          <div class="ench-item">
+            <span class="ench-diamond" aria-hidden="true"></span>
+            <div>
+              <p class="ench-name">{e.name}</p>
+              <p class="ench-desc">{e.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <hr class="rule-diamond" />
+
+    <section class="mt-8">
+      <h2 class="ui-label section-heading">Proven in the Field</h2>
+      <div class="receipt-grid">
+        {receipts.map(r => (
+          <div class="receipt-card">
+            <p class="receipt-value">{r.value}</p>
+            <p class="receipt-label">{r.label}</p>
+          </div>
+        ))}
+      </div>
+      <p class="receipt-note">
+        Plus a chaos matrix of <code>kill -9</code>s and mid-write restarts, backup/restore with a
+        measured recovery point, a mixed-version rolling upgrade, and live scale-out from three
+        nodes to five under traffic — all against a real Kubernetes deployment, not a laptop.
+      </p>
+    </section>
+
+    <section class="fine-print">
+      <h2 class="ui-label section-heading">The Honest Fine Print</h2>
+      <p>
+        A 1.0 is defined by what it refuses to claim: ordering is not guaranteed (carry a sequence
+        in the payload if you need one), replication is opt-in async disaster recovery rather than
+        transparent failover, and partition rebalancing hasn't shipped yet. The docs say all of
+        this in bold, not in a footnote.
+      </p>
+    </section>
+
+    <hr class="rule-diamond" />
+
+    <section class="mt-8">
+      <h2 class="ui-label section-heading">The Quest Chain</h2>
+      <p class="chain-intro">The build was chronicled in three journal entries — design, lessons, and proof:</p>
+      <div class="flex flex-col gap-3">
+        {saga.map((post, i) => (
+          <a href={`/posts/${post.id}`} class="chain-entry">
+            <span class="chain-num">{['I', 'II', 'III'][i]}</span>
+            <span class="chain-body">
+              <span class="chain-title">{post.title}</span>
+              <span class="chain-meta">a {post.readingTime}-candle read · {fmt.format(post.date)}</span>
+            </span>
+            <span class="chain-arrow" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .artifact-title {
+    font-family: var(--font-family-heading);
+    font-size: 3rem;
+    line-height: 1.1;
+    color: var(--color-text);
+    margin-bottom: 0.4rem;
+  }
+
+  .artifact-tagline {
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--color-coral);
+    margin-bottom: 1rem;
+  }
+
+  .artifact-lead {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--color-text);
+    max-width: 62ch;
+    margin-bottom: 1.5rem;
+  }
+
+  .artifact-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .artifact-btn {
+    font-family: var(--font-family-heading);
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.5rem 1.1rem;
+    background: var(--color-coral);
+    color: var(--color-parchment);
+    border: 1px solid var(--color-coral);
+    text-decoration: none;
+    transition: transform 0.12s ease, opacity 0.12s ease;
+  }
+
+  .artifact-btn:hover { transform: translateY(-2px); opacity: 0.92; }
+
+  .artifact-btn-secondary {
+    background: var(--color-parchment-deep);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+  }
+
+  .section-heading {
+    font-size: 0.85rem;
+    margin-bottom: 1.1rem;
+  }
+
+  /* Enchantments */
+  .ench-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.1rem 2rem;
+  }
+
+  .ench-item {
+    display: flex;
+    gap: 0.7rem;
+    align-items: flex-start;
+  }
+
+  .ench-diamond {
+    width: 8px;
+    height: 8px;
+    margin-top: 0.5rem;
+    transform: rotate(45deg);
+    background: var(--color-gold-bright);
+    border: 1px solid var(--color-gold);
+    flex-shrink: 0;
+  }
+
+  .ench-name {
+    font-family: var(--font-family-heading);
+    font-size: 1.05rem;
+    color: var(--color-text);
+    margin-bottom: 0.15rem;
+  }
+
+  .ench-desc {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 700px) {
+    .ench-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Receipts */
+  .receipt-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+  }
+
+  .receipt-card {
+    padding: 1rem 1.1rem;
+    background: var(--color-parchment-deep);
+    border: 1px solid var(--color-border);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--color-parchment) 55%, transparent);
+  }
+
+  .receipt-value {
+    font-family: var(--font-family-heading);
+    font-size: 1.9rem;
+    color: var(--color-coral);
+    line-height: 1.1;
+    margin-bottom: 0.3rem;
+  }
+
+  .receipt-label {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--color-text-muted);
+  }
+
+  .receipt-note {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+  }
+
+  .receipt-note code {
+    font-family: var(--font-family-mono);
+    font-size: 0.8em;
+    background: var(--color-parchment-deep);
+    border: 1px solid var(--color-border);
+    padding: 0.1em 0.35em;
+  }
+
+  @media (max-width: 800px) {
+    .receipt-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Fine print */
+  .fine-print {
+    margin-top: 2rem;
+    padding: 1.1rem 1.3rem;
+    border-left: 4px double var(--color-gold);
+  }
+
+  .fine-print p {
+    font-size: 0.98rem;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+  }
+
+  /* Quest chain */
+  .chain-intro {
+    font-size: 0.98rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .chain-entry {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.9rem 1.2rem;
+    background: var(--color-parchment-deep);
+    border: 1px solid var(--color-border);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--color-parchment) 55%, transparent);
+    text-decoration: none;
+    transition: transform 0.15s ease, border-color 0.15s ease;
+  }
+
+  .chain-entry:hover {
+    transform: translateX(5px);
+    border-color: var(--color-coral);
+  }
+
+  .chain-num {
+    font-family: var(--font-family-heading);
+    font-size: 1.3rem;
+    color: var(--color-gold);
+    width: 2rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .chain-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .chain-title {
+    font-family: var(--font-family-heading);
+    font-size: 1.1rem;
+    color: var(--color-text);
+    line-height: 1.35;
+  }
+
+  .chain-meta {
+    font-size: 0.82rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+
+  .chain-arrow {
+    color: var(--color-text-muted);
+    flex-shrink: 0;
+    transition: transform 0.15s ease, color 0.15s ease;
+  }
+
+  .chain-entry:hover .chain-arrow {
+    color: var(--color-coral);
+    transform: translateX(3px);
+  }
+</style>
