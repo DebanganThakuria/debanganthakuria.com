@@ -87,7 +87,7 @@ html {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-family-body);
-  font-size: 17px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
