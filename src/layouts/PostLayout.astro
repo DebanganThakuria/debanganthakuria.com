@@ -24,18 +24,22 @@ const {
   type = 'post', headings = [], prevPost, nextPost,
 } = Astro.props;
 
-const formattedDate = new Intl.DateTimeFormat('en-GB', {
-  day: 'numeric',
-  month: 'long',
-  year: 'numeric',
-}).format(date);
+// "the 16th of July, 2026" — inscribed the old way
+function ordinal(n: number): string {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] ?? s[v] ?? s[0]);
+}
+const day = date.getDate();
+const monthYear = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric' }).format(date);
+const formattedDate = `the ${ordinal(day)} of ${monthYear.replace(' ', ', ')}`;
 
 const tagStyles: Record<string, { bg: string; text: string }> = {
   Tech:    { bg: 'var(--color-tag-tech-bg)',    text: 'var(--color-tag-tech-text)'    },
   Anime:   { bg: 'var(--color-tag-anime-bg)',   text: 'var(--color-tag-anime-text)'   },
   Writing: { bg: 'var(--color-tag-writing-bg)', text: 'var(--color-tag-writing-text)' },
   Life:    { bg: 'var(--color-tag-life-bg)',     text: 'var(--color-tag-life-text)'    },
-  Travel:  { bg: '#FFE4E4',                      text: 'var(--color-coral)'            },
+  Travel:  { bg: 'var(--color-tag-writing-bg)',  text: 'var(--color-coral)'            },
 };
 ---
 
@@ -43,7 +47,7 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
   <article>
     <!-- Cover image -->
     {coverImage && (
-      <div class="mb-10 rounded-2xl overflow-hidden" style="max-height: 420px;">
+      <div class="cover-frame mb-10">
         <Image
           src={coverImage}
           alt={title}
@@ -56,23 +60,21 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
     )}
 
     <header class="mb-10">
-      <div class="flex items-center gap-3 mb-4 text-sm" style="color: var(--color-text-muted);">
-        <time>{formattedDate}</time>
-        <span aria-hidden="true">&middot;</span>
-        <span>{readingTime} min read</span>
+      <div class="entry-meta">
+        <span>Inscribed {formattedDate}</span>
+        <span class="meta-diamond" aria-hidden="true"></span>
+        <span>a {readingTime}-candle read</span>
         {type === 'photo' && (
           <>
-            <span aria-hidden="true">&middot;</span>
-            <span>📷 photo post</span>
+            <span class="meta-diamond" aria-hidden="true"></span>
+            <span>an illustrated entry</span>
           </>
         )}
       </div>
 
-      <h1 style="font-family: var(--font-family-heading); font-size: 2.25rem; font-weight: 600; line-height: 1.25; color: var(--color-text); margin-bottom: 1rem;">
-        {title}
-      </h1>
+      <h1 class="entry-title">{title}</h1>
 
-      <p class="text-base mb-4 leading-relaxed" style="color: var(--color-text-muted);">{description}</p>
+      <p class="entry-desc">{description}</p>
 
       {tags.length > 0 && (
         <div class="flex flex-wrap gap-2">
@@ -80,8 +82,8 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
             const style = tagStyles[tag] ?? tagStyles['Life'];
             return (
               <span
-                class="text-xs px-2.5 py-0.5 rounded-full font-medium"
-                style={`background-color: ${style.bg}; color: ${style.text};`}
+                class="entry-tag"
+                style={`background-color: ${style.bg}; color: ${style.text}; border-color: color-mix(in srgb, ${style.text} 35%, transparent);`}
               >
                 {tag}
               </span>
@@ -90,7 +92,7 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
         </div>
       )}
 
-      <div class="mt-8 border-t" style="border-color: var(--color-border);"></div>
+      <hr class="rule-diamond" style="margin-bottom: 0;" />
     </header>
 
     <!-- Table of Contents -->
@@ -104,20 +106,20 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
     <div class="post-nav">
       {prevPost ? (
         <a href={`/posts/${prevPost.slug}`} class="post-nav-link">
-          <span class="post-nav-label">&larr; Previous</span>
+          <span class="post-nav-label">&larr; The preceding entry</span>
           <span class="post-nav-title">{prevPost.title}</span>
         </a>
       ) : <div />}
       {nextPost ? (
         <a href={`/posts/${nextPost.slug}`} class="post-nav-link post-nav-next">
-          <span class="post-nav-label">Next &rarr;</span>
+          <span class="post-nav-label">The entry that follows &rarr;</span>
           <span class="post-nav-title">{nextPost.title}</span>
         </a>
       ) : <div />}
     </div>
 
     <div class="mt-6 mb-2">
-      <a href="/posts" class="text-sm" style="color: var(--color-coral);">&larr; all posts</a>
+      <a href="/posts" class="back-link">&larr; return to the journal</a>
     </div>
   </article>
 
@@ -125,6 +127,62 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
 </BaseLayout>
 
 <style>
+  .cover-frame {
+    overflow: hidden;
+    max-height: 420px;
+    border: 1px solid var(--color-gold);
+    outline: 1px solid var(--color-gold);
+    outline-offset: 4px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .entry-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    font-size: 0.92rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+
+  .meta-diamond {
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    background: var(--color-gold);
+    flex-shrink: 0;
+  }
+
+  .entry-title {
+    font-family: var(--font-family-heading);
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+  }
+
+  .entry-desc {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-style: italic;
+    color: var(--color-text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .entry-tag {
+    font-family: var(--font-family-heading);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.13rem 0.55rem;
+    border: 1px solid;
+  }
+
   .post-nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -139,35 +197,44 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
     flex-direction: column;
     gap: 0.25rem;
     padding: 1rem;
-    border-radius: 0.75rem;
-    background: var(--color-surface);
+    background: var(--color-parchment-deep);
+    border: 1px solid var(--color-border);
     text-decoration: none;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition: transform 0.15s ease, border-color 0.15s ease;
   }
 
   .post-nav-link:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    border-color: var(--color-coral);
   }
 
   .post-nav-next { text-align: right; }
 
   .post-nav-label {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
+    font-style: italic;
     color: var(--color-text-muted);
-    font-weight: 500;
   }
 
   .post-nav-title {
     font-family: var(--font-family-heading);
-    font-size: 0.875rem;
-    font-weight: 600;
+    font-size: 1rem;
     color: var(--color-text);
     line-height: 1.4;
   }
 
+  .back-link {
+    font-family: var(--font-family-heading);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    color: var(--color-coral);
+    text-decoration: none;
+  }
+  .back-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+
   @media (max-width: 600px) {
     .post-nav { grid-template-columns: 1fr; }
+    .entry-title { font-size: 1.9rem; }
   }
 </style>
 

@@ -39,7 +39,7 @@ const coverImage =
   <article>
     <!-- Back link -->
     <div class="mb-6">
-      <a href="/novels" class="back-link">← webnovels</a>
+      <a href="/novels" class="back-link">← the bookshelf</a>
     </div>
 
     <!-- Novel header: two-column if cover present, single-column otherwise -->
@@ -103,7 +103,9 @@ const coverImage =
           style="display:none"
         >
           <a id="read-cta" href={`/novels/${novelSlug}/chapter-01`} class="read-cta">
-            <span id="read-cta-icon" aria-hidden="true">📖</span>
+            <span id="read-cta-icon" aria-hidden="true">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </span>
             <span id="read-cta-text">Read First Chapter</span>
             <span aria-hidden="true">→</span>
           </a>
@@ -239,7 +241,7 @@ const coverImage =
   .cover-img {
     width: 200px;
     height: auto;
-    border-radius: 0.75rem;
+    border-radius: 0;
     border: 1px solid var(--color-border);
     display: block;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -309,7 +311,7 @@ const coverImage =
     font-size: 0.7rem;
     font-weight: 500;
     padding: 0.2rem 0.55rem;
-    border-radius: 999px;
+    border-radius: 0;
     background: color-mix(in srgb, var(--color-sage) 15%, transparent);
     color: var(--color-sage);
     border: 1px solid color-mix(in srgb, var(--color-sage) 30%, transparent);
@@ -325,7 +327,7 @@ const coverImage =
     font-size: 0.65rem;
     font-weight: 500;
     padding: 0.15rem 0.5rem;
-    border-radius: 999px;
+    border-radius: 0;
     background: var(--color-surface);
     color: var(--color-text-muted);
     border: 1px solid var(--color-border);
@@ -351,7 +353,7 @@ const coverImage =
     font-size: 0.7rem;
     font-weight: 500;
     padding: 0.2rem 0.55rem;
-    border-radius: 999px;
+    border-radius: 0;
     text-transform: capitalize;
   }
   .status-badge.ongoing { background: color-mix(in srgb,#22c55e 15%,transparent); color: #16a34a; }
@@ -390,7 +392,7 @@ const coverImage =
     color: var(--color-text-muted);
     background: none;
     border: 1px solid var(--color-border);
-    border-radius: 999px;
+    border-radius: 0;
     padding: 0.3rem 0.75rem;
     cursor: pointer;
     transition: color 0.15s ease, border-color 0.15s ease;
@@ -417,7 +419,7 @@ const coverImage =
     align-items: center;
     gap: 0.75rem;
     padding: 0.75rem 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0;
     text-decoration: none;
     transition: background 0.12s ease;
   }
@@ -464,7 +466,7 @@ const coverImage =
     align-items: center;
     gap: 0.5rem;
     padding: 0.6rem 1.25rem;
-    border-radius: 999px;
+    border-radius: 0;
     background: var(--color-coral);
     color: #fff;
     font-size: 0.875rem;

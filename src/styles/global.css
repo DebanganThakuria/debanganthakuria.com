@@ -1,93 +1,144 @@
 @import "tailwindcss";
-@import "@fontsource/lora/400.css";
-@import "@fontsource/lora/600.css";
-@import "@fontsource/inter/400.css";
-@import "@fontsource/inter/500.css";
+@import "@fontsource/eb-garamond/400.css";
+@import "@fontsource/eb-garamond/400-italic.css";
+@import "@fontsource/eb-garamond/600.css";
+
+/* Kingthings Petrock — the actual TES IV: Oblivion menu font (free, Kevin King) */
+@font-face {
+  font-family: "Kingthings Petrock";
+  src: url("/fonts/KingthingsPetrock.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kingthings Petrock";
+  src: url("/fonts/KingthingsPetrockLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
 
 @theme {
-  --color-bg: #FAFAFA;
-  --color-surface: #F3F3F3;
-  --color-text: #1A1A2E;
-  --color-text-muted: #6B7280;
-  --color-border: #E5E7EB;
+  /* Day parchment */
+  --color-bg: #1d150c;              /* smoky backdrop behind the parchment panel */
+  --color-parchment: #eadec0;
+  --color-parchment-deep: #e0d0a6;
+  --color-surface: #e2d3ab;
+  --color-text: #3a2c18;
+  --color-text-muted: #6f5c39;
+  --color-border: #a98d5a;
+  --color-gold: #8a6d3f;
+  --color-gold-bright: #b08d4f;
 
-  /* Palette */
-  --color-coral: #FF6B6B;
-  --color-sky: #4ECDC4;
-  --color-sun: #FFD93D;
-  --color-mint: #6BCB77;
-  --color-purple: #C77DFF;
-  /* Tag chips */
-  --color-tag-tech-bg: #DBEAFE;
-  --color-tag-tech-text: #1D4ED8;
-  --color-tag-anime-bg: #FAE8FF;
-  --color-tag-anime-text: #9333EA;
-  --color-tag-writing-bg: #FEF9C3;
-  --color-tag-writing-text: #A16207;
-  --color-tag-life-bg: #DCFCE7;
-  --color-tag-life-text: #15803D;
+  /* Inks (legacy names kept so existing components inherit the theme) */
+  --color-coral: #7a1f1f;           /* red ink — primary accent */
+  --color-sky: #1f4a7a;             /* blue ink — Tech */
+  --color-purple: #5a3a6e;          /* violet ink — Anime */
+  --color-sun: #8a5a10;             /* amber ink — Writing */
+  --color-mint: #3e5a2a;            /* green ink — Life */
+  --color-sage: #3e5a2a;            /* alias kept for novel pages */
 
-  --font-family-heading: "Lora", Georgia, serif;
-  --font-family-body: "Inter", system-ui, sans-serif;
+  /* Tag chips — inked labels on tinted parchment */
+  --color-tag-tech-bg: #d5d5b8;
+  --color-tag-tech-text: #1f4a7a;
+  --color-tag-anime-bg: #ded0c4;
+  --color-tag-anime-text: #5a3a6e;
+  --color-tag-writing-bg: #e3d4a4;
+  --color-tag-writing-text: #7a4e0c;
+  --color-tag-life-bg: #d6d8b0;
+  --color-tag-life-text: #3e5a2a;
+
+  --font-family-heading: "Kingthings Petrock", "Palatino", serif;
+  --font-family-body: "EB Garamond", Georgia, serif;
   --font-family-mono: "JetBrains Mono", "Fira Code", monospace;
 }
 
+/* Candlelit night */
 html.dark {
-  --color-bg: #0F0F1A;
-  --color-surface: #1A1A2E;
-  --color-text: #F0EFF8;
-  --color-text-muted: #9CA3AF;
-  --color-border: #2D2D44;
+  --color-bg: #0d0904;
+  --color-parchment: #2c2317;
+  --color-parchment-deep: #251d12;
+  --color-surface: #362b1c;
+  --color-text: #e2d4ac;
+  --color-text-muted: #a68f5c;
+  --color-border: #6b5430;
+  --color-gold: #a8874c;
+  --color-gold-bright: #d9b96c;
 
-  /* Bento card backgrounds — dark mode */
-  --bento-anime: #1e1030;
-  --bento-gym: #2e1515;
-  --bento-writing: #112914;
+  --color-coral: #c76a4e;
+  --color-sky: #7fa8d9;
+  --color-purple: #b08fcc;
+  --color-sun: #d9a84e;
+  --color-mint: #8fb86a;
+  --color-sage: #8fb86a;
 
-  --color-tag-tech-bg: #1e3a5f;
-  --color-tag-tech-text: #93C5FD;
-  --color-tag-anime-bg: #3b1f5e;
-  --color-tag-anime-text: #D8B4FE;
-  --color-tag-writing-bg: #3f2f0a;
-  --color-tag-writing-text: #FDE68A;
-  --color-tag-life-bg: #0f2d1a;
-  --color-tag-life-text: #6EE7B7;
+  --color-tag-tech-bg: #2b3040;
+  --color-tag-tech-text: #7fa8d9;
+  --color-tag-anime-bg: #3a2e3f;
+  --color-tag-anime-text: #b08fcc;
+  --color-tag-writing-bg: #40331a;
+  --color-tag-writing-text: #d9a84e;
+  --color-tag-life-bg: #2d3822;
+  --color-tag-life-text: #8fb86a;
 }
 
 html {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-family-body);
+  font-size: 17px;
   scroll-behavior: smooth;
 }
 
-/* Bento card backgrounds — light */
-.bento-tech    { background-color: #DBEAFE; }
-.bento-anime   { background-color: #F3E8FF; }
-.bento-gym     { background-color: #FFE4E4; }
-.bento-writing { background-color: #E4F7E7; }
-
-/* Bento card backgrounds — dark */
-html.dark .bento-tech    { background-color: #1e3a5f; }
-html.dark .bento-anime   { background-color: #1e1030; }
-html.dark .bento-gym     { background-color: #2e1515; }
-html.dark .bento-writing { background-color: #112914; }
-
-/* ── Gradient text ───────────────────────────────────────── */
+/* ── Engraved gold text (replaces the old gradient-text) ──── */
 .gradient-text {
-  background: linear-gradient(135deg, var(--color-coral), var(--color-purple), var(--color-sky));
+  background: linear-gradient(170deg, #c9a961, #8a6d3f 55%, #b08d4f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+html.dark .gradient-text {
+  background: linear-gradient(170deg, #ecd28e, #b08d4f 60%, #d9b96c);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* ── Wiggle animation ────────────────────────────────────── */
+/* ── Oblivion diamond rule: ────◆──── ────────────────────── */
+.rule-diamond {
+  position: relative;
+  border: none;
+  height: 1px;
+  margin: 2rem 0;
+  background: linear-gradient(90deg, transparent, var(--color-gold) 18%, var(--color-gold) 82%, transparent);
+}
+.rule-diamond::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--color-parchment);
+  border: 1px solid var(--color-gold);
+}
+
+/* ── Small-caps UI label (section headers, metadata) ──────── */
+.ui-label {
+  font-family: var(--font-family-heading);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+}
+
+/* ── Wiggle animation (kept for compat) ──────────────────── */
 @keyframes wiggle {
   0%, 100% { transform: rotate(0deg); }
   20%       { transform: rotate(-12deg); }
   60%       { transform: rotate(12deg); }
 }
-
 .wiggle {
   display: inline-block;
   animation: wiggle 2.2s ease-in-out infinite;
@@ -99,73 +150,97 @@ html.dark .bento-writing { background-color: #112914; }
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .card-lift:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(46, 30, 8, 0.25);
 }
 html.dark .card-lift:hover {
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
-/* ── Prose (post body) ───────────────────────────────────── */
+/* ── Prose (post body) — manuscript styling ──────────────── */
 .prose {
   color: var(--color-text);
-  max-width: 76ch;
+  max-width: 72ch;
 }
 
 .prose h1, .prose h2, .prose h3, .prose h4 {
   font-family: var(--font-family-heading);
   color: var(--color-text);
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.3;
 }
 
-.prose h1 { font-size: 2rem; margin-bottom: 1rem; margin-top: 0; }
-.prose h2 { font-size: 1.5rem; margin-bottom: 0.75rem; margin-top: 2rem; }
-.prose h3 { font-size: 1.25rem; margin-bottom: 0.5rem; margin-top: 1.75rem; }
+.prose h1 { font-size: 2.1rem; margin-bottom: 1rem; margin-top: 0; }
+.prose h2 { font-size: 1.6rem; margin-bottom: 0.75rem; margin-top: 2.25rem; color: var(--color-coral); }
+.prose h3 { font-size: 1.3rem; margin-bottom: 0.5rem; margin-top: 1.75rem; }
 
 .prose p {
-  line-height: 1.85;
+  line-height: 1.8;
   margin-bottom: 1.25rem;
+}
+
+/* Illuminated drop cap on the opening paragraph — post/chapter body only */
+#post-content.prose > p:first-of-type::first-letter {
+  font-family: var(--font-family-heading);
+  font-size: 3.4em;
+  line-height: 0.8;
+  float: left;
+  padding: 0.08em 0.12em 0 0;
+  color: var(--color-coral);
 }
 
 .prose a {
   color: var(--color-coral);
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-coral) 45%, transparent);
 }
-
-.prose a:hover { opacity: 0.75; }
+.prose a:hover { text-decoration-color: var(--color-coral); }
 
 .prose ul, .prose ol {
   margin-bottom: 1.25rem;
   padding-left: 1.5rem;
 }
 
-.prose li { line-height: 1.8; margin-bottom: 0.25rem; }
-.prose ul li { list-style-type: disc; }
-.prose ol li { list-style-type: decimal; }
+.prose li { line-height: 1.75; margin-bottom: 0.25rem; }
+.prose ul li { list-style-type: none; position: relative; }
+.prose ul li::before {
+  content: '';
+  position: absolute;
+  left: -1.15rem;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  transform: rotate(45deg);
+  background: var(--color-gold);
+}
+.prose ol li { list-style-type: upper-roman; }
 
 .prose blockquote {
-  border-left: 3px solid var(--color-purple);
+  border-left: 3px double var(--color-gold);
+  border-left-style: double;
+  border-left-width: 4px;
   padding-left: 1rem;
   margin-left: 0;
   color: var(--color-text-muted);
   font-style: italic;
+  font-size: 1.05em;
 }
 
 .prose code {
   font-family: var(--font-family-mono);
-  font-size: 0.875em;
-  background-color: var(--color-surface);
+  font-size: 0.8em;
+  background-color: var(--color-parchment-deep);
   border: 1px solid var(--color-border);
   padding: 0.125em 0.375em;
   border-radius: 0.25rem;
 }
 
 .prose pre {
-  background-color: var(--color-surface);
+  background-color: var(--color-parchment-deep);
   border: 1px solid var(--color-border);
-  border-radius: 0.75rem;
+  border-radius: 2px;
+  box-shadow: inset 0 0 0 1px var(--color-parchment), inset 0 0 24px rgba(58, 44, 24, 0.08);
   padding: 1rem 1.25rem;
   overflow-x: auto;
   margin-bottom: 1.25rem;
@@ -175,13 +250,26 @@ html.dark .card-lift:hover {
   background: none;
   border: none;
   padding: 0;
-  font-size: 0.875rem;
+  font-size: 0.8rem;
 }
 
 .prose hr {
+  position: relative;
   border: none;
-  border-top: 1px solid var(--color-border);
-  margin: 2rem 0;
+  height: 1px;
+  margin: 2.25rem 0;
+  background: linear-gradient(90deg, transparent, var(--color-gold) 18%, var(--color-gold) 82%, transparent);
+}
+.prose hr::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--color-parchment);
+  border: 1px solid var(--color-gold);
 }
 
 .prose strong { font-weight: 600; }
@@ -189,9 +277,9 @@ html.dark .card-lift:hover {
 
 /* ── Focus styles (accessibility) ────────────────────────── */
 :focus-visible {
-  outline: 2px solid var(--color-coral);
+  outline: 2px solid var(--color-gold-bright);
   outline-offset: 2px;
-  border-radius: 4px;
+  border-radius: 0;
 }
 
 /* ── Post card entrance animations ───────────────────────── */
@@ -208,7 +296,11 @@ html.dark .card-lift:hover {
 .prose img {
   cursor: zoom-in;
   transition: transform 0.2s ease;
-  border-radius: 0.5rem;
+  border: 1px solid var(--color-gold);
+  outline: 4px solid transparent;
+  box-shadow: 0 0 0 5px var(--color-parchment-deep), 0 0 0 6px var(--color-gold);
+  border-radius: 0;
+  margin: 0.5rem 0.4rem;
 }
 
 .image-lightbox {
@@ -218,7 +310,7 @@ html.dark .card-lift:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(10, 6, 2, 0.9);
   cursor: zoom-out;
   padding: 2rem;
   animation: fade-in 0.2s ease;
@@ -228,7 +320,7 @@ html.dark .card-lift:hover {
   max-width: 90vw;
   max-height: 90vh;
   object-fit: contain;
-  border-radius: 0.5rem;
+  border: 1px solid var(--color-gold);
 }
 
 @keyframes fade-in {

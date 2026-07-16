@@ -1,53 +1,118 @@
 ---
 const year = new Date().getFullYear();
 const signoffs = [
-  'built with tea and stubbornness',
-  'powered by late nights and good playlists',
-  'handcrafted with questionable CSS',
-  'written in the margins of the internet',
+  'penned by candlelight and stubbornness',
+  'forged with tea and questionable CSS',
+  'scribed in the margins of the internet',
+  'sealed with wax and late nights',
 ];
 const signoff = signoffs[Math.floor(Math.random() * signoffs.length)];
+
+const bars = [
+  { label: 'HEALTH',  value: 78, color: '#8f2f22' },
+  { label: 'MAGICKA', value: 64, color: '#2f4f8f' },
+  { label: 'FATIGUE', value: 86, color: '#3e6b2a' },
+];
 ---
 
 <footer class="site-footer">
-  <span class="footer-left">
-    <span class="footer-signoff">{signoff}</span>
-    <span class="footer-copy"> · &copy; {year}</span>
-  </span>
-  <span class="footer-right">
-    <a href="/rss.xml" class="footer-link" title="RSS Feed">rss</a>
-    <span aria-hidden="true">·</span>
-    <a href="https://github.com/DebanganThakuria/debanganthakuria.com" target="_blank" rel="noopener noreferrer" class="footer-link">
-      github ↗
-    </a>
-  </span>
+  <div class="footer-bars" aria-hidden="true" title="The webmaster's vitals">
+    {bars.map(bar => (
+      <span class="vital">
+        <span class="vital-label">{bar.label}</span>
+        <span class="vital-bar"><span class="vital-fill" style={`width: ${bar.value}%; background: ${bar.color};`}></span></span>
+      </span>
+    ))}
+  </div>
+
+  <div class="footer-row">
+    <span class="footer-left">
+      <span class="footer-signoff">{signoff}</span>
+      <span class="footer-copy"> · &copy; {year}</span>
+    </span>
+    <span class="footer-right">
+      <a href="/rss.xml" class="footer-link" title="RSS Feed">rss</a>
+      <span class="footer-diamond" aria-hidden="true"></span>
+      <a href="https://github.com/DebanganThakuria/debanganthakuria.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+        github ↗
+      </a>
+    </span>
+  </div>
 </footer>
 
 <style>
   .site-footer {
     display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    padding: 0.85rem 1.75rem 1rem;
+    border-top: 1px solid var(--color-gold);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+  }
+
+  .footer-bars {
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  .vital {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+
+  .vital-label {
+    font-family: var(--font-family-heading);
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    color: var(--color-gold);
+  }
+
+  .vital-bar {
+    position: relative;
+    width: 72px;
+    height: 6px;
+    background: color-mix(in srgb, var(--color-gold) 15%, transparent);
+    border: 1px solid var(--color-border);
+  }
+
+  .vital-fill {
+    position: absolute;
+    inset: 1px auto 1px 1px;
+    opacity: 0.85;
+  }
+
+  .footer-row {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.75rem 1.5rem;
-    border-top: 1px solid var(--color-border);
-    font-size: 0.8rem;
-    color: var(--color-text-muted);
     flex-wrap: wrap;
     gap: 0.5rem;
   }
 
   .footer-signoff {
     font-style: italic;
-    opacity: 0.8;
+    opacity: 0.85;
   }
 
   .footer-right {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.55rem;
+  }
+
+  .footer-diamond {
+    width: 4px;
+    height: 4px;
+    transform: rotate(45deg);
+    background: var(--color-gold);
   }
 
   .footer-link {
+    font-family: var(--font-family-heading);
+    letter-spacing: 0.08em;
     color: var(--color-text-muted);
     text-decoration: none;
     transition: color 0.12s ease;

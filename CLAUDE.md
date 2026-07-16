@@ -27,16 +27,29 @@ These differ from older Astro tutorials — use these, not the legacy patterns:
 
 ## Design Tokens
 
-Defined in `src/styles/global.css` under `@theme {}`:
+The site is themed as a **TES IV: Oblivion menu screen** — dark smoky backdrop, a
+gold-framed parchment panel, journal-tab nav, character-sheet homepage, quest-log post
+list, manuscript reading pages with drop caps. Defined in `src/styles/global.css`
+under `@theme {}`:
 
 ```text
-Backgrounds:  #FAF8F4 (light bg), #F2EDE6 (surface), #1C1A18 (dark bg)
-Text:         #2C2825 (light), #E8E0D5 (dark)
-Accent:       #6B8F71 (sage green)
-Dark mode:    triggered by html.dark class (ThemeToggle sets this)
-Fonts:        Lora (headings), Inter (body) — via @fontsource/* npm packages
+Backdrop:     #1d150c (day) / #0d0904 (night) — dark smoke behind the panel, both modes
+Parchment:    #eadec0 panel + #e2d3ab surface (day); #2c2317 + #362b1c (candlelit night)
+Ink text:     #3a2c18 (day), #e2d4ac (night); red-ink accent = --color-coral (#7a1f1f day)
+Gold/brass:   --color-gold #8a6d3f, --color-gold-bright #b08d4f (frames, diamonds, labels)
+Tag inks:     --color-sky (Tech), --color-purple (Anime), --color-sun (Writing), --color-mint (Life)
+Dark mode:    html.dark = "candlelit night" (ThemeToggle sets this; icon is sun/candle)
+Fonts:        Kingthings Petrock (headings/UI — Oblivion's actual menu font, self-hosted
+              TTF in public/fonts/, free license in public/fonts/kingthingsEULA.txt);
+              EB Garamond (body) via @fontsource
 CSS vars:     --font-family-heading, --font-family-body, --font-family-mono
+Motifs:       .rule-diamond (—◆— divider), .ui-label (gold small-caps), squared corners
+              everywhere (no border-radius), diamond bullets, "a N-candle read",
+              "Inscribed the 16th of July, 2026" dates
 ```
+
+Legacy var names (`--color-coral`, `--color-sky`, etc.) were kept and remapped to the
+Oblivion palette so older components inherit the theme — don't rename them.
 
 ## Project Structure
 
@@ -47,21 +60,22 @@ src/
     life/     tech/     anime/     writing/     travel/
   assets/images/             ← post images (referenced via relative paths in markdown)
   layouts/
-    BaseLayout.astro          ← head, fonts, nav, footer, aurora background
-    PostLayout.astro          ← reading layout with prose styles
+    BaseLayout.astro          ← head, fonts, gold-framed parchment panel, smoke backdrop
+    PostLayout.astro          ← manuscript reading layout (drop cap, inscribed dates)
   components/
-    Header.astro              ← nav with hover underlines, mobile-short logo
-    Footer.astro              ← rotating signoffs, GitHub link
-    PostCard.astro            ← card with reading time, tag chips
-    ThemeToggle.astro         ← animated sun/moon toggle (spin on switch)
-    AuroraBackground.astro    ← 5-blob CSS aurora (mix-blend-mode)
-    TableOfContents.astro     ← auto-generated TOC with scroll-spy
+    Header.astro              ← Oblivion journal-tab nav with diamond separators
+    Footer.astro              ← rotating signoffs, HEALTH/MAGICKA/FATIGUE vitals bars
+    PostCard.astro            ← quest-log entry (diamond marker, candle read time)
+    ThemeToggle.astro         ← day parchment / candlelit night toggle (sun / candle)
+    AuroraBackground.astro    ← dark smoke + ember-glow backdrop (name kept from old design)
+    TableOfContents.astro     ← "Contents of this entry" TOC with scroll-spy
     BackToTop.astro           ← floating back-to-top button
   pages/
-    index.astro               ← profile photo + condensed bio + recent posts
-    posts/index.astro         ← timeline grouped by year
+    index.astro               ← character sheet: framed portrait, level/class/birthsign,
+                                 skill bars, faction chips, journal + books previews
+    posts/index.astro         ← "The Journal" quest log grouped by year
     posts/[...slug].astro     ← dynamic post pages with prev/next navigation
-  styles/global.css           ← Tailwind imports + @theme + prose + aurora + focus + lightbox
+  styles/global.css           ← Tailwind + @theme palette + @font-face + prose + motifs
 ```
 
 ## Post Frontmatter Schema

@@ -1,117 +1,82 @@
 ---
+// Oblivion menu backdrop: dark smoke with slow-drifting ember glow.
+// Component keeps its old name so BaseLayout imports stay stable.
 ---
 
-<div class="aurora" aria-hidden="true">
-  <div class="aurora-blob aurora-1"></div>
-  <div class="aurora-blob aurora-2"></div>
-  <div class="aurora-blob aurora-3"></div>
-  <div class="aurora-blob aurora-4"></div>
-  <div class="aurora-blob aurora-5"></div>
+<div class="smoke" aria-hidden="true">
+  <div class="smoke-blob smoke-1"></div>
+  <div class="smoke-blob smoke-2"></div>
+  <div class="smoke-blob smoke-3"></div>
+  <div class="smoke-vignette"></div>
 </div>
 
 <style>
-  .aurora {
+  .smoke {
     position: fixed;
     inset: 0;
-    z-index: 0; /* above html base color, below site-shell (z-index: 1) */
+    z-index: 0; /* above html base color, below the parchment panel (z-index: 1) */
     overflow: hidden;
     pointer-events: none;
+    background:
+      radial-gradient(ellipse at 50% 120%, #2e2010 0%, transparent 60%),
+      var(--color-bg);
   }
 
-  .aurora-blob {
+  .smoke-blob {
     position: absolute;
     border-radius: 50%;
-    filter: blur(120px);
-    opacity: 0.28;
-    mix-blend-mode: multiply;
-    will-change: transform;
+    filter: blur(110px);
+    opacity: 0.5;
   }
 
-  /* Coral — top left */
-  .aurora-1 {
-    width: 600px;
-    height: 600px;
-    background: #FF6B6B;
-    top: -120px;
-    left: -80px;
-    animation: drift-1 20s ease-in-out infinite;
+  .smoke-1 {
+    width: 55vw;
+    height: 55vw;
+    left: -15vw;
+    top: -20vw;
+    background: #3a2c14;
+    animation: drift-1 26s ease-in-out infinite alternate;
   }
 
-  /* Purple — top right */
-  .aurora-2 {
-    width: 520px;
-    height: 520px;
-    background: #C77DFF;
-    top: 80px;
-    right: -100px;
-    animation: drift-2 25s ease-in-out infinite;
+  .smoke-2 {
+    width: 45vw;
+    height: 45vw;
+    right: -12vw;
+    top: 30vh;
+    background: #33210e;
+    animation: drift-2 32s ease-in-out infinite alternate;
   }
 
-  /* Teal — center */
-  .aurora-3 {
-    width: 580px;
-    height: 580px;
-    background: #4ECDC4;
-    top: 40%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    animation: drift-3 18s ease-in-out infinite;
+  .smoke-3 {
+    width: 50vw;
+    height: 35vw;
+    left: 20vw;
+    bottom: -18vw;
+    background: #40260c;
+    opacity: 0.35;
+    animation: drift-3 38s ease-in-out infinite alternate;
   }
 
-  /* Yellow — bottom right */
-  .aurora-4 {
-    width: 440px;
-    height: 440px;
-    background: #FFD93D;
-    bottom: -60px;
-    right: 5%;
-    animation: drift-4 22s ease-in-out infinite;
-  }
-
-  /* Mint — bottom left */
-  .aurora-5 {
-    width: 480px;
-    height: 480px;
-    background: #6BCB77;
-    bottom: 10%;
-    left: -80px;
-    animation: drift-5 28s ease-in-out infinite;
-  }
-
-  /* Dark mode: screen blend + very reduced opacity */
-  :global(html.dark) .aurora-blob {
-    mix-blend-mode: screen;
-    opacity: 0.09;
-    filter: blur(130px);
+  .smoke-vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(0, 0, 0, 0.55) 100%);
   }
 
   @keyframes drift-1 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    25%       { transform: translate(50px, -70px) scale(1.08); }
-    50%       { transform: translate(-30px, 50px) scale(0.94); }
-    75%       { transform: translate(70px, 30px) scale(1.04); }
+    from { transform: translate(0, 0) scale(1); }
+    to   { transform: translate(6vw, 4vh) scale(1.12); }
   }
-
   @keyframes drift-2 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    30%       { transform: translate(-60px, 80px) scale(1.1); }
-    70%       { transform: translate(40px, -50px) scale(0.92); }
+    from { transform: translate(0, 0) scale(1.05); }
+    to   { transform: translate(-5vw, -6vh) scale(0.95); }
   }
-
   @keyframes drift-3 {
-    0%, 100% { transform: translate(-50%, -50%) scale(1); }
-    35%       { transform: translate(calc(-50% + 70px), calc(-50% - 60px)) scale(1.06); }
-    70%       { transform: translate(calc(-50% - 50px), calc(-50% + 70px)) scale(0.96); }
+    from { transform: translate(0, 0); }
+    to   { transform: translate(-8vw, -3vh) scale(1.1); }
   }
 
-  @keyframes drift-4 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    50%       { transform: translate(-70px, -50px) scale(1.09); }
-  }
-
-  @keyframes drift-5 {
-    0%, 100% { transform: translate(0, 0) scale(1); }
-    25%       { transform: translate(50px, -60px) scale(0.93); }
-    60%       { transform: translate(-40px, 80px) scale(1.07); }
+  @media (prefers-reduced-motion: reduce) {
+    .smoke-blob { animation: none; }
   }
 </style>

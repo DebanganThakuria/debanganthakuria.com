@@ -43,7 +43,7 @@ const readingTime = Math.max(1, Math.round(wordCount / 200));
   <article>
     <!-- Breadcrumb -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/novels">webnovels</a>
+      <a href="/novels">the bookshelf</a>
       <span aria-hidden="true">/</span>
       <a href={`/novels/${novelSlug}`} class="novel-crumb">
         {novelSlug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}
@@ -194,7 +194,7 @@ const readingTime = Math.max(1, Math.round(wordCount / 200));
     flex-direction: column;
     gap: 0.25rem;
     padding: 1rem;
-    border-radius: 0.75rem;
+    border-radius: 0;
     background: var(--color-surface);
     text-decoration: none;
     border: 1px solid var(--color-border);
