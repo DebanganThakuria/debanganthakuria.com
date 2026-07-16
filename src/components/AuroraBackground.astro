@@ -1,12 +1,64 @@
 ---
-// Oblivion menu backdrop: dark smoke with slow-drifting ember glow.
-// Component keeps its old name so BaseLayout imports stay stable.
+// Oblivion menu backdrop: an old hand-inked fantasy map under dark smoke
+// with slow-drifting ember glow. Kept its old name so imports stay stable.
 ---
 
 <div class="smoke" aria-hidden="true">
   <div class="smoke-blob smoke-1"></div>
   <div class="smoke-blob smoke-2"></div>
   <div class="smoke-blob smoke-3"></div>
+
+  <svg class="map-layer" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="currentColor" stroke-width="1.5">
+      <!-- western coastline -->
+      <path d="M-20 190 C 90 200, 130 260, 110 330 C 95 385, 160 400, 185 455 C 215 520, 150 560, 190 625 C 225 680, 175 740, 210 810 C 230 850, 215 880, 225 920" />
+      <path d="M-20 230 C 60 240, 95 285, 80 340 C 70 380, 120 400, 140 450" stroke-width="0.8" opacity="0.6" />
+      <!-- eastern landmass -->
+      <path d="M1620 120 C 1500 140, 1450 200, 1470 270 C 1487 330, 1420 355, 1435 425 C 1450 490, 1380 520, 1400 590 C 1420 650, 1370 700, 1395 770 C 1410 815, 1390 860, 1400 920" />
+      <!-- islands -->
+      <path d="M700 700 C 720 685, 755 688, 765 705 C 775 723, 750 740, 723 737 C 700 734, 688 712, 700 700 Z" />
+      <path d="M810 745 C 822 738, 840 741, 845 751 C 850 762, 835 771, 820 768 C 807 765, 802 752, 810 745 Z" stroke-width="1" />
+      <!-- mountain ranges -->
+      <g stroke-width="1.2">
+        <path d="M330 250 l16 -26 l16 26 M368 245 l14 -22 l14 22 M402 252 l12 -19 l12 19" />
+        <path d="M300 292 l14 -22 l14 22 M336 288 l16 -25 l16 25 M376 293 l12 -18 l12 18" />
+        <path d="M1180 460 l16 -26 l16 26 M1218 455 l14 -22 l14 22 M1252 462 l12 -19 l12 19" />
+        <path d="M1210 505 l14 -22 l14 22 M1246 500 l16 -25 l16 25" />
+      </g>
+      <!-- forest blobs -->
+      <g stroke-width="1" opacity="0.8">
+        <circle cx="480" cy="620" r="11" /><circle cx="504" cy="612" r="9" /><circle cx="522" cy="626" r="10" /><circle cx="497" cy="636" r="8" />
+        <circle cx="1090" cy="220" r="10" /><circle cx="1112" cy="212" r="8" /><circle cx="1128" cy="226" r="9" />
+      </g>
+      <!-- rivers -->
+      <path d="M420 265 C 445 330, 400 380, 445 440 C 480 490, 450 545, 480 600" stroke-width="1" opacity="0.7" />
+      <!-- dashed trade route -->
+      <path d="M230 470 C 420 420, 620 560, 745 715 C 800 780, 950 760, 1080 690 C 1200 625, 1300 560, 1420 540" stroke-dasharray="7 9" stroke-width="1.2" opacity="0.8" />
+      <!-- sea hatching -->
+      <g stroke-width="0.7" opacity="0.45">
+        <path d="M600 340 h46 M614 356 h46 M604 372 h38" />
+        <path d="M960 470 h46 M974 486 h46 M964 502 h38" />
+        <path d="M540 130 h40 M552 145 h40" />
+      </g>
+      <!-- sea serpent -->
+      <path d="M820 170 C 845 145, 880 150, 895 175 C 908 197, 890 215, 868 210 M910 190 C 930 172, 958 178, 966 197 M985 200 c 8 -14, 26 -12, 30 2 c 3 12, -10 20, -22 15" stroke-width="1.3" />
+      <path d="M828 163 l-14 -18 l24 4 Z" stroke-width="1" />
+      <!-- compass rose -->
+      <g transform="translate(1330, 190)">
+        <circle r="58" stroke-width="1" />
+        <circle r="46" stroke-width="0.7" />
+        <circle r="6" stroke-width="1" />
+        <path d="M0 -46 L10 -10 L46 0 L10 10 L0 46 L-10 10 L-46 0 L-10 -10 Z" stroke-width="1.2" />
+        <path d="M0 -70 L0 -58 M0 58 L0 70 M-70 0 L-58 0 M58 0 L70 0" stroke-width="1.5" />
+        <path d="M33 -33 L40 -40 M33 33 L40 40 M-33 33 L-40 40 M-33 -33 L-40 -40" stroke-width="0.8" />
+      </g>
+      <!-- rhumb lines radiating from the compass -->
+      <g stroke-width="0.5" opacity="0.4">
+        <path d="M1330 190 L 300 900 M1330 190 L 100 500 M1330 190 L 500 -50 M1330 190 L 1600 700 M1330 190 L 900 900" />
+      </g>
+    </g>
+  </svg>
+
   <div class="smoke-vignette"></div>
 </div>
 
@@ -55,6 +107,19 @@
     background: #40260c;
     opacity: 0.35;
     animation: drift-3 38s ease-in-out infinite alternate;
+  }
+
+  .map-layer {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    color: #96763f;
+    opacity: 0.3;
+  }
+
+  :global(html.dark) .map-layer {
+    opacity: 0.18;
   }
 
   .smoke-vignette {

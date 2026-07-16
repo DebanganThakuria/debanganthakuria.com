@@ -21,6 +21,25 @@ const novels = allNovels.slice(0, 4).map(novel => ({
   chapterCount: allNovelChapters.filter(c => c.data.novel === novel.id).length,
 }));
 
+// Level = years of adventuring since the career began, in half-year steps.
+// Rendered at build time, then refreshed client-side (script below) so it
+// stays current between deploys.
+const CAREER_START = '2021-07-19';
+function levelFrom(startIso: string, now: Date): string {
+  const years = (now.getTime() - new Date(startIso).getTime()) / (365.25 * 24 * 60 * 60 * 1000);
+  const halves = Math.floor(years * 2) / 2;
+  return Number.isInteger(halves) ? `${halves}` : `${Math.floor(halves)}½`;
+}
+const level = levelFrom(CAREER_START, new Date());
+
+// Years-of-experience phrase for the bio, e.g. "five years"
+const NUMBER_WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+const yearsExp = (Date.now() - new Date(CAREER_START).getTime()) / (365.25 * 24 * 60 * 60 * 1000);
+const nearestHalf = Math.round(yearsExp * 2) / 2;
+const yearsPhrase = Number.isInteger(nearestHalf)
+  ? `${NUMBER_WORDS[nearestHalf] ?? nearestHalf} years`
+  : `${NUMBER_WORDS[Math.floor(nearestHalf)] ?? Math.floor(nearestHalf)} and a half years`;
+
 // Character sheet skills — governed by no attribute in particular
 const skills = [
   { name: 'Distributed Systems', level: 82 },
@@ -80,7 +99,7 @@ const groups = [
         <p class="sheet-kicker ui-label">Character</p>
         <h1 class="sheet-name">Debangan Thakuria</h1>
         <p class="sheet-statline">
-          <span>Level 4½</span>
+          <span>Level <span id="char-level" data-career-start={CAREER_START}>{level}</span></span>
           <span class="stat-diamond" aria-hidden="true"></span>
           <span>Class: <em>Backend Engineer</em></span>
           <span class="stat-diamond" aria-hidden="true"></span>
@@ -105,7 +124,7 @@ const groups = [
     <!-- Bio -->
     <div class="prose mt-6">
       <p>
-        I'm a backend software engineer with about four and a half years of experience, mostly in
+        I'm a backend software engineer with about {yearsPhrase} of experience, mostly in
         distributed systems and API design. I like building things that are simple, correct, and
         boring in the best possible way.
       </p>
@@ -335,6 +354,7 @@ const groups = [
   .skill-bar {
     position: relative;
     height: 7px;
+    min-width: 70px;
     background: color-mix(in srgb, var(--color-gold) 18%, transparent);
     border: 1px solid var(--color-border);
   }
@@ -352,7 +372,7 @@ const groups = [
     font-variant-numeric: tabular-nums;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 900px) {
     .skills-grid { grid-template-columns: 1fr; }
   }
 
@@ -517,3 +537,19 @@ const groups = [
     .novels-preview-grid { grid-template-columns: 1fr; }
   }
 </style>
+
+<script>
+  // Keep the character level current even if the site hasn't been redeployed
+  // in a while. Mirrors the build-time levelFrom() in the frontmatter.
+  function refreshLevel() {
+    const el = document.getElementById('char-level');
+    const start = el?.dataset.careerStart;
+    if (!el || !start) return;
+    const years = (Date.now() - new Date(start).getTime()) / (365.25 * 24 * 60 * 60 * 1000);
+    const halves = Math.floor(years * 2) / 2;
+    el.textContent = Number.isInteger(halves) ? `${halves}` : `${Math.floor(halves)}½`;
+  }
+
+  refreshLevel();
+  document.addEventListener('astro:page-load', refreshLevel);
+</script>
