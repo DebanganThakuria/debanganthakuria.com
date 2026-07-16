@@ -1,0 +1,4 @@
+src/styles/global.css
+  6d451353-799d-4978-b43e-7c81dbb08252:2026-07-16T09:18:05.670Z 90
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"6d451353-799d-4978-b43e-7c81dbb08252:2026-07-16T09:18:05.670Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 1, "overriden_lines": 0}}}
