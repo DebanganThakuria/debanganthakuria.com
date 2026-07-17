@@ -16,6 +16,7 @@
     "@astrojs/rss": "^4.0.18",
     "@astrojs/sitemap": "^3.7.1",
     "@fontsource/eb-garamond": "^5.2.7",
+    "@fontsource/medievalsharp": "^5.2.8",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.0.4",
     "tailwindcss": "^4.2.1"
