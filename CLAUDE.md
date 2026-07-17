@@ -27,29 +27,42 @@ These differ from older Astro tutorials — use these, not the legacy patterns:
 
 ## Design Tokens
 
-The site is themed as a **TES IV: Oblivion menu screen** — dark smoky backdrop, a
-gold-framed parchment panel, journal-tab nav, character-sheet homepage, quest-log post
-list, manuscript reading pages with drop caps. Defined in `src/styles/global.css`
-under `@theme {}`:
+The site is themed as a **cozy illustrated storybook** (Side Quests-inspired) — a
+painted watercolor valley crowns every page and fades into parchment, content flows
+on the open page, cards have torn-paper edges, nav is floating pills, and the voice
+is gentle fantasy (journal entries, candle reads, character-sheet homepage). Defined
+in `src/styles/global.css` under `@theme {}`:
 
 ```text
-Backdrop:     #1d150c (day) / #0d0904 (night) — dark smoke behind the panel, both modes
-Parchment:    #eadec0 panel + #e2d3ab surface (day); #2c2317 + #362b1c (candlelit night)
-Ink text:     #3a2c18 (day), #e2d4ac (night); red-ink accent = --color-coral (#7a1f1f day)
-Gold/brass:   --color-gold #8a6d3f, --color-gold-bright #b08d4f (frames, diamonds, labels)
-Tag inks:     --color-sky (Tech), --color-purple (Anime), --color-sun (Writing), --color-mint (Life)
-Dark mode:    html.dark = "candlelit night" (ThemeToggle sets this; icon is sun/candle)
-Fonts:        Kingthings Petrock (headings/UI — Oblivion's actual menu font, self-hosted
-              TTF in public/fonts/, free license in public/fonts/kingthingsEULA.txt);
-              EB Garamond (body) via @fontsource
-CSS vars:     --font-family-heading, --font-family-body, --font-family-mono
-Motifs:       .rule-diamond (—◆— divider), .ui-label (gold small-caps), squared corners
-              everywhere (no border-radius), diamond bullets, "a N-candle read",
+Day:          #f4e9cf parchment page, #ead9b4 cards, #4b3621 ink,
+              #a34e2f dusty-terracotta accent (--color-coral)
+Night:        html.dark = twilight — #272138 indigo page, #332c4c cards,
+              #e6dabc cream ink, #e08a5e ember accent
+Gold:         --color-gold #a0793d / --color-gold-bright #c2913e (labels, diamonds)
+Tag inks:     --color-sky (Tech), --color-purple (Anime), --color-sun (Writing),
+              --color-mint (Life) — single source of truth in src/lib/tags.ts
+Hero art:     src/assets/images/hero-day.png + hero-night.png (AI watercolors,
+              matching composition; bottom third is mist for the page fade).
+              Hero.astro falls back to a hand-coded SVG scene if images are removed.
+Fonts:        Almendra (headings) + EB Garamond (body) via @fontsource;
+              Kingthings Petrock self-hosted fallback (free license in public/fonts/)
+Base size:    20px — the owner prefers large text; all sizes are rem-based
+Motifs:       .torn (torn parchment clip), .rule-diamond (—◆— divider),
+              .ui-label (gold small-caps), pill nav/filters, "a N-candle read",
               "Inscribed the 16th of July, 2026" dates
 ```
 
-Legacy var names (`--color-coral`, `--color-sky`, etc.) were kept and remapped to the
-Oblivion palette so older components inherit the theme — don't rename them.
+Legacy var names (`--color-coral`, `--color-sky`, etc.) are remapped to this palette
+so all components inherit the theme — don't rename them.
+
+## Shared code (src/lib/)
+
+Never duplicate these — import them:
+
+- `lib/tags.ts` — tag palette + `tagChipStyle(tag)` / `primaryInk(tags)`
+- `lib/dates.ts` — `inscribedDate` / `shortDate` / `dayMonth` / `monthYear`
+- `lib/reading.ts` — `readingTimeMins(body)` + `candleRead(mins)`
+- `lib/covers.ts` — `novelCover(slug)` for novel cover images
 
 ## Project Structure
 
@@ -59,21 +72,23 @@ src/
   content/posts/
     life/     tech/     anime/     writing/     travel/
   assets/images/             ← post images (referenced via relative paths in markdown)
+  lib/                        ← shared helpers: tags, dates, reading time, covers
   layouts/
-    BaseLayout.astro          ← head, fonts, gold-framed parchment panel, smoke backdrop
+    BaseLayout.astro          ← head/meta, hero band + header overlay, page shell
     PostLayout.astro          ← manuscript reading layout (drop cap, inscribed dates)
   components/
-    Header.astro              ← Oblivion journal-tab nav with diamond separators
+    Hero.astro                ← painted landscape band (day/night art, SVG fallback)
+    Header.astro              ← pill nav floating over the hero sky
     Footer.astro              ← rotating signoffs, HEALTH/MAGICKA/FATIGUE vitals bars
-    PostCard.astro            ← quest-log entry (diamond marker, candle read time)
-    ThemeToggle.astro         ← day parchment / candlelit night toggle (sun / candle)
-    AuroraBackground.astro    ← dark smoke + ember-glow backdrop (name kept from old design)
+    PostCard.astro            ← journal entry card (torn edges, candle read time)
+    ThemeToggle.astro         ← day / twilight toggle
     TableOfContents.astro     ← "Contents of this entry" TOC with scroll-spy
     BackToTop.astro           ← floating back-to-top button
   pages/
-    index.astro               ← character sheet: framed portrait, level/class/birthsign,
-                                 skill bars, faction chips, journal + books previews
-    posts/index.astro         ← "The Journal" quest log grouped by year
+    index.astro               ← character sheet: portrait, dynamic level (from career
+                                 start 2021-07-19), skill bars, journal + books previews
+    narad.astro               ← "Notable Deed" artifact showcase for the Narad broker
+    posts/index.astro         ← "The Journal" quest-log timeline grouped by year
     posts/[...slug].astro     ← dynamic post pages with prev/next navigation
   styles/global.css           ← Tailwind + @theme palette + @font-face + prose + motifs
 ```
