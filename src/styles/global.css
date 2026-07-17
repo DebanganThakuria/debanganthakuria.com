@@ -2,7 +2,8 @@
 @import "@fontsource/eb-garamond/400.css";
 @import "@fontsource/eb-garamond/400-italic.css";
 @import "@fontsource/eb-garamond/600.css";
-@import "@fontsource/medievalsharp/400.css";
+@import "@fontsource/almendra/400.css";
+@import "@fontsource/almendra/700.css";
 
 /* Kingthings Petrock — the actual TES IV: Oblivion menu font (free, Kevin King) */
 @font-face {
@@ -50,7 +51,7 @@
   --color-tag-life-bg: #dde1c2;
   --color-tag-life-text: #5d7a45;
 
-  --font-family-heading: "MedievalSharp", "Kingthings Petrock", "Palatino", serif;
+  --font-family-heading: "Almendra", "Kingthings Petrock", "Palatino", serif;
   --font-family-body: "EB Garamond", Georgia, serif;
   --font-family-mono: "JetBrains Mono", "Fira Code", monospace;
 }
