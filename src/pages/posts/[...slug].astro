@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import PostLayout from '../../layouts/PostLayout.astro';
+import { readingTimeMins } from '../../lib/reading';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts', ({ data }) => !data.draft);
@@ -18,10 +19,7 @@ export async function getStaticPaths() {
 
 const { post, prevPost, nextPost } = Astro.props;
 const { Content, headings } = await render(post);
-
-// Rough reading time: ~200 words/min
-const words = post.body?.split(/\s+/).length ?? 0;
-const readingTime = Math.max(1, Math.round(words / 200));
+const readingTime = readingTimeMins(post.body);
 ---
 
 <PostLayout

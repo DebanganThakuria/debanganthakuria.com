@@ -1,6 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { readingTimeMins } from '../../lib/reading';
+import { dayMonth } from '../../lib/dates';
+import { tagChipStyle, tagColors, primaryInk } from '../../lib/tags';
 
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const sorted = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
@@ -15,62 +18,22 @@ const byYear = sorted.reduce<Record<number, typeof sorted>>((acc, post) => {
 }, {});
 
 const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
-
-const tagDotColors: Record<string, string> = {
-  Tech:    'var(--color-sky)',
-  Anime:   'var(--color-purple)',
-  Writing: 'var(--color-sun)',
-  Life:    'var(--color-mint)',
-  Travel:  'var(--color-coral)',
-};
-
-const tagTextColors: Record<string, string> = {
-  Tech:    'var(--color-tag-tech-text)',
-  Anime:   'var(--color-tag-anime-text)',
-  Writing: 'var(--color-tag-writing-text)',
-  Life:    'var(--color-tag-life-text)',
-  Travel:  'var(--color-coral)',
-};
-
-const tagBgs: Record<string, string> = {
-  Tech:    'var(--color-tag-tech-bg)',
-  Anime:   'var(--color-tag-anime-bg)',
-  Writing: 'var(--color-tag-writing-bg)',
-  Life:    'var(--color-tag-life-bg)',
-  Travel:  '#FFE4E4',
-};
-
-const tabAccents: Record<string, string> = {
-  All:     'var(--color-coral)',
-  Tech:    'var(--color-sky)',
-  Anime:   'var(--color-purple)',
-  Writing: 'var(--color-sun)',
-  Life:    'var(--color-mint)',
-  Travel:  'var(--color-coral)',
-};
 ---
 
 <BaseLayout title="All Posts" description="Everything Debangan has written — tech, anime, life, writing, and more.">
-  <div style="margin-bottom:2rem;">
-    <p class="ui-label" style="font-size:0.75rem; margin-bottom:0.5rem;">Quest Log</p>
-    <h1 style="font-family:var(--font-family-heading); font-size:2.4rem; font-weight:400; color:var(--color-text); margin-bottom:0.5rem;">
-      The Journal
-    </h1>
-    <p style="font-size:1rem; font-style:italic; color:var(--color-text-muted);">
-      <span id="post-count">{sorted.length}</span> entries — everything, in order
-    </p>
+  <div class="page-header">
+    <p class="ui-label kicker">Quest Log</p>
+    <h1>The Journal</h1>
+    <p class="subtitle"><span id="post-count">{sorted.length}</span> entries — everything, in order</p>
   </div>
 
   <!-- Filter tabs -->
-  <div style="display:flex; flex-wrap:wrap; gap:0.5rem; margin-bottom:2.5rem;">
+  <div class="filter-row">
     {allTags.map((tag, i) => (
       <button
         data-tag={tag}
-        data-accent={tabAccents[tag] ?? 'var(--color-coral)'}
-        style={i === 0
-          ? `color:${tabAccents[tag]};border-color:${tabAccents[tag]};`
-          : undefined
-        }
+        data-accent={tag === 'All' ? 'var(--color-coral)' : tagColors(tag).ink}
+        style={i === 0 ? 'color: var(--color-coral); border-color: var(--color-coral);' : undefined}
         class="filter-tab"
       >
         {tag}
@@ -79,57 +42,39 @@ const tabAccents: Record<string, string> = {
   </div>
 
   <!-- Timeline -->
-  <div style="display:flex; flex-direction:column; gap:3rem;" id="timeline">
+  <div class="timeline" id="timeline">
     {years.map(year => (
-      <div data-year-block style="display:grid; grid-template-columns:72px 1fr; gap:0 1.5rem; align-items:start;">
-        <div style="padding-top:0.2rem; text-align:right;">
-          <span class="gradient-text" style="font-family:var(--font-family-heading); font-size:1.5rem; font-weight:600;">
-            {year}
-          </span>
+      <div data-year-block class="year-block">
+        <div class="year-label">
+          <span class="gradient-text">{year}</span>
         </div>
 
-        <div style="position:relative; display:flex; flex-direction:column; gap:1rem; padding-left:1.5rem; border-left:2px solid var(--color-border);">
-          {byYear[year].map(post => {
-            const primaryTag = post.data.tags[0] ?? 'Life';
-            const dotColor = tagDotColors[primaryTag] ?? 'var(--color-coral)';
-            const month = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'short' }).format(post.data.date);
-            const words = post.body?.split(/\s+/).length ?? 0;
-            const mins = Math.max(1, Math.round(words / 200));
-            return (
-              <div data-tags={post.data.tags.join(',')} data-entry style="position:relative; display:flex; align-items:flex-start;">
-                <div class="timeline-dot" style={`background:${dotColor};`}></div>
-                <a
-                  href={`/posts/${post.id}`}
-                  class="entry-card"
-                >
-                  <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:0.75rem; margin-bottom:0.25rem;">
-                    <h2 style="font-family:var(--font-family-heading); font-size:1.15rem; font-weight:400; line-height:1.4; color:var(--color-text); margin:0;">
-                      {post.data.title}
-                    </h2>
-                    <span style="font-size:0.8rem; font-style:italic; flex-shrink:0; margin-top:0.125rem; color:var(--color-text-muted); display:flex; align-items:center; gap:0.5rem;">
-                      <span>{mins}-candle</span>
-                      <time>{month}</time>
-                    </span>
-                  </div>
+        <div class="year-entries">
+          {byYear[year].map(post => (
+            <div data-tags={post.data.tags.join(',')} data-entry class="timeline-entry">
+              <div class="timeline-dot" style={`background: ${primaryInk(post.data.tags)};`}></div>
+              <a href={`/posts/${post.id}`} class="entry-card torn">
+                <div class="entry-head">
+                  <h2 class="entry-title">{post.data.title}</h2>
+                  <span class="entry-meta">
+                    <span>{readingTimeMins(post.body)}-candle</span>
+                    <time>{dayMonth(post.data.date)}</time>
+                  </span>
+                </div>
 
-                  <p style="font-size:0.9rem; line-height:1.6; margin-bottom:0.75rem; color:var(--color-text-muted);">{post.data.description}</p>
+                <p class="entry-desc">{post.data.description}</p>
 
-                  <div style="display:flex; flex-wrap:wrap; gap:0.375rem;">
-                    {post.data.tags.map(tag => (
-                      <span class="entry-tag" style={`background-color:${tagBgs[tag] ?? 'var(--color-surface)'}; color:${tagTextColors[tag] ?? 'var(--color-text)'}; border-color:color-mix(in srgb, ${tagTextColors[tag] ?? 'var(--color-text)'} 35%, transparent);`}>
-                        {tag}
-                      </span>
-                    ))}
-                    {post.data.type === 'photo' && (
-                      <span class="entry-tag" style="background-color:var(--color-tag-writing-bg); color:var(--color-sun); border-color:color-mix(in srgb, var(--color-sun) 35%, transparent);">
-                        illustrated
-                      </span>
-                    )}
-                  </div>
-                </a>
-              </div>
-            );
-          })}
+                <div class="entry-tags">
+                  {post.data.tags.map(tag => (
+                    <span class="entry-tag" style={tagChipStyle(tag)}>{tag}</span>
+                  ))}
+                  {post.data.type === 'photo' && (
+                    <span class="entry-tag" style={tagChipStyle('Writing')}>illustrated</span>
+                  )}
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     ))}
@@ -137,6 +82,85 @@ const tabAccents: Record<string, string> = {
 </BaseLayout>
 
 <style>
+  .page-header { margin-bottom: 2rem; }
+
+  .kicker {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .page-header h1 {
+    font-family: var(--font-family-heading);
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: var(--color-text);
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+
+  .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .filter-tab {
+    font-family: var(--font-family-heading);
+    font-size: 0.82rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.3rem 0.95rem;
+    background: var(--color-parchment-deep);
+    color: var(--color-text-muted);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: color 0.12s ease, border-color 0.12s ease;
+  }
+
+  .filter-tab:hover { color: var(--color-text); }
+
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .year-block {
+    display: grid;
+    grid-template-columns: 72px 1fr;
+    gap: 0 1.5rem;
+    align-items: start;
+  }
+
+  .year-label {
+    padding-top: 0.2rem;
+    text-align: right;
+    font-family: var(--font-family-heading);
+    font-size: 1.5rem;
+  }
+
+  .year-entries {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1.5rem;
+    border-left: 2px solid var(--color-border);
+  }
+
+  .timeline-entry {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+  }
+
   .timeline-dot {
     position: absolute;
     left: -1.55rem;
@@ -159,23 +183,7 @@ const tabAccents: Record<string, string> = {
     50%      { box-shadow: 0 0 0 3px var(--color-gold); }
   }
 
-  .filter-tab {
-    font-family: var(--font-family-heading);
-    font-size: 0.82rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 0.3rem 0.95rem;
-    background: var(--color-parchment-deep);
-    color: var(--color-text-muted);
-    border: 1px solid var(--color-border);
-    border-radius: 999px;
-    cursor: pointer;
-    transition: color 0.12s ease, border-color 0.12s ease;
-  }
-
-  .filter-tab:hover { color: var(--color-text); }
-
-  :global(.entry-card) {
+  .entry-card {
     display: block;
     width: 100%;
     background-color: var(--color-parchment-deep);
@@ -186,18 +194,64 @@ const tabAccents: Record<string, string> = {
     transition: transform 0.18s ease, border-color 0.18s ease;
   }
 
-  :global(.entry-card:hover) {
+  .entry-card:hover {
     transform: translateX(5px);
     border-color: var(--color-coral);
   }
 
-  :global(.entry-tag) {
+  .entry-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .entry-title {
+    font-family: var(--font-family-heading);
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-text);
+    margin: 0;
+  }
+
+  .entry-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    margin-top: 0.125rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--color-text-muted);
+  }
+
+  .entry-desc {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    color: var(--color-text-muted);
+  }
+
+  .entry-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.375rem;
+  }
+
+  .entry-tag {
     font-family: var(--font-family-heading);
     font-size: 0.72rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     padding: 0.13rem 0.55rem;
     border: 1px solid;
+  }
+
+  @media (max-width: 600px) {
+    .year-block { grid-template-columns: 48px 1fr; gap: 0 1rem; }
+    .year-label { font-size: 1.15rem; }
   }
 </style>
 
@@ -224,14 +278,14 @@ const tabAccents: Record<string, string> = {
     entries.forEach(entry => {
       const tags = (entry.dataset.tags ?? '').split(',');
       const show = tag === 'All' || tags.includes(tag);
-      (entry as HTMLElement).style.display = show ? 'flex' : 'none';
+      entry.style.display = show ? 'flex' : 'none';
       if (show) visible++;
     });
 
     yearBlocks.forEach(block => {
       const anyVisible = [...block.querySelectorAll<HTMLElement>('[data-entry]')]
         .some(e => e.style.display !== 'none');
-      (block as HTMLElement).style.display = anyVisible ? 'grid' : 'none';
+      block.style.display = anyVisible ? 'grid' : 'none';
     });
 
     if (countEl) countEl.textContent = String(visible);

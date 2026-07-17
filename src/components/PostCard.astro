@@ -1,4 +1,8 @@
 ---
+import { candleRead } from '../lib/reading';
+import { shortDate } from '../lib/dates';
+import { tagChipStyle, primaryInk } from '../lib/tags';
+
 interface Props {
   title: string;
   description: string;
@@ -10,38 +14,18 @@ interface Props {
 
 const { title, description, date, slug, tags, readingTime } = Astro.props;
 
-const formattedDate = new Intl.DateTimeFormat('en-GB', {
-  day: 'numeric',
-  month: 'short',
-  year: 'numeric',
-}).format(date);
-
-const tagStyles: Record<string, { bg: string; text: string }> = {
-  Tech:    { bg: 'var(--color-tag-tech-bg)',    text: 'var(--color-tag-tech-text)'    },
-  Anime:   { bg: 'var(--color-tag-anime-bg)',   text: 'var(--color-tag-anime-text)'   },
-  Writing: { bg: 'var(--color-tag-writing-bg)', text: 'var(--color-tag-writing-text)' },
-  Life:    { bg: 'var(--color-tag-life-bg)',     text: 'var(--color-tag-life-text)'    },
-};
-
-const inkColors: Record<string, string> = {
-  Tech:    'var(--color-sky)',
-  Anime:   'var(--color-purple)',
-  Writing: 'var(--color-sun)',
-  Life:    'var(--color-mint)',
-};
-
-const primaryTag = tags[0] ?? 'Life';
-const inkColor = inkColors[primaryTag] ?? 'var(--color-coral)';
+const formattedDate = shortDate(date);
+const inkColor = primaryInk(tags);
 ---
 
 <article class="card-lift quest-entry">
-  <a href={`/posts/${slug}`} class="quest-link" style={`--ink: ${inkColor};`}>
+  <a href={`/posts/${slug}`} class="quest-link torn" style={`--ink: ${inkColor};`}>
     <span class="quest-diamond" aria-hidden="true"></span>
     <div class="quest-body">
       <div class="quest-head">
         <h2 class="quest-title">{title}</h2>
         <div class="quest-meta">
-          {readingTime && <span>a {readingTime}-candle read</span>}
+          {readingTime && <span>{candleRead(readingTime)}</span>}
           <time>{formattedDate}</time>
         </div>
       </div>
@@ -49,17 +33,9 @@ const inkColor = inkColors[primaryTag] ?? 'var(--color-coral)';
       <p class="quest-desc">{description}</p>
 
       <div class="quest-tags">
-        {tags.map(tag => {
-          const style = tagStyles[tag] ?? tagStyles['Life'];
-          return (
-            <span
-              class="quest-tag"
-              style={`background-color: ${style.bg}; color: ${style.text}; border-color: color-mix(in srgb, ${style.text} 35%, transparent);`}
-            >
-              {tag}
-            </span>
-          );
-        })}
+        {tags.map(tag => (
+          <span class="quest-tag" style={tagChipStyle(tag)}>{tag}</span>
+        ))}
       </div>
     </div>
   </a>

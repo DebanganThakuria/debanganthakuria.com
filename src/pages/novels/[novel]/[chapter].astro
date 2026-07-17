@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import BackToTop from '../../../components/BackToTop.astro';
+import { readingTimeMins, candleRead } from '../../../lib/reading';
 
 export async function getStaticPaths() {
   const allChapters = await getCollection('chapters');
@@ -33,10 +34,7 @@ function chapterUrl(c: typeof chapter) {
 }
 
 const { Content } = await render(chapter);
-
-// Word count for reading time
-const wordCount = chapter.body?.split(/\s+/).length ?? 0;
-const readingTime = Math.max(1, Math.round(wordCount / 200));
+const readingTime = readingTimeMins(chapter.body);
 ---
 
 <BaseLayout title={`${chapter.data.title} — ${novelSlug.replace(/-/g, ' ')}`} description={`Read ${chapter.data.title}`}>
@@ -57,7 +55,7 @@ const readingTime = Math.max(1, Math.round(wordCount / 200));
       <div class="chapter-meta">
         <span class="chapter-num-label">Chapter {chapter.data.chapterNumber}</span>
         <span class="meta-sep" aria-hidden="true">·</span>
-        <span class="reading-time">{readingTime} min read</span>
+        <span class="reading-time">{candleRead(readingTime)}</span>
       </div>
       {chapter.data.chapterTitle && (
         <h1 class="chapter-title">{chapter.data.chapterTitle}</h1>

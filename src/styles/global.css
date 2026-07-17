@@ -119,8 +119,7 @@ html.dark .gradient-text {
   );
 }
 
-.quest-link, .entry-card, .chain-entry, .deed-banner, .receipt-card,
-.novel-preview-card, .novel-card, .post-nav-link, .toc {
+.torn {
   clip-path: var(--torn-clip);
 }
 
@@ -150,18 +149,6 @@ html.dark .gradient-text {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-gold);
-}
-
-/* ── Wiggle animation (kept for compat) ──────────────────── */
-@keyframes wiggle {
-  0%, 100% { transform: rotate(0deg); }
-  20%       { transform: rotate(-12deg); }
-  60%       { transform: rotate(12deg); }
-}
-.wiggle {
-  display: inline-block;
-  animation: wiggle 2.2s ease-in-out infinite;
-  transform-origin: 70% 80%;
 }
 
 /* ── Card lift ───────────────────────────────────────────── */

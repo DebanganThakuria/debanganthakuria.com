@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { readingTimeMins, candleRead } from '../lib/reading';
+import { monthYear } from '../lib/dates';
 
 // The build saga, in reading order — pulled live so titles/dates stay in sync
 const QUEST_CHAIN = [
@@ -11,19 +13,14 @@ const QUEST_CHAIN = [
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const saga = QUEST_CHAIN
   .map(id => allPosts.find(p => p.id === id))
-  .filter(Boolean)
-  .map(post => {
-    const words = post!.body?.split(/\s+/).length ?? 0;
-    return {
-      id: post!.id,
-      title: post!.data.title,
-      description: post!.data.description,
-      date: post!.data.date,
-      readingTime: Math.max(1, Math.round(words / 200)),
-    };
-  });
-
-const fmt = new Intl.DateTimeFormat('en-GB', { month: 'short', year: 'numeric' });
+  .filter(post => post !== undefined)
+  .map(post => ({
+    id: post.id,
+    title: post.data.title,
+    description: post.data.description,
+    date: post.data.date,
+    readingTime: readingTimeMins(post.body),
+  }));
 
 const enchantments = [
   { name: 'Durable before acknowledged', desc: 'A 202 means the message is fsynced to disk — not buffered, not "probably". Crash a millisecond later; it survives.' },
@@ -84,7 +81,7 @@ const receipts = [
       <h2 class="ui-label section-heading">Proven in the Field</h2>
       <div class="receipt-grid">
         {receipts.map(r => (
-          <div class="receipt-card">
+          <div class="receipt-card torn">
             <p class="receipt-value">{r.value}</p>
             <p class="receipt-label">{r.label}</p>
           </div>
@@ -114,11 +111,11 @@ const receipts = [
       <p class="chain-intro">The build was chronicled in three journal entries — design, lessons, and proof:</p>
       <div class="flex flex-col gap-3">
         {saga.map((post, i) => (
-          <a href={`/posts/${post.id}`} class="chain-entry">
+          <a href={`/posts/${post.id}`} class="chain-entry torn">
             <span class="chain-num">{['I', 'II', 'III'][i]}</span>
             <span class="chain-body">
               <span class="chain-title">{post.title}</span>
-              <span class="chain-meta">a {post.readingTime}-candle read · {fmt.format(post.date)}</span>
+              <span class="chain-meta">{candleRead(post.readingTime)} · {monthYear(post.date)}</span>
             </span>
             <span class="chain-arrow" aria-hidden="true">→</span>
           </a>

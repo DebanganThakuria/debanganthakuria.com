@@ -5,6 +5,9 @@ import TableOfContents from '../components/TableOfContents.astro';
 import BackToTop from '../components/BackToTop.astro';
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
+import { candleRead } from '../lib/reading';
+import { inscribedDate } from '../lib/dates';
+import { tagChipStyle } from '../lib/tags';
 
 interface Props {
   title: string;
@@ -24,23 +27,7 @@ const {
   type = 'post', headings = [], prevPost, nextPost,
 } = Astro.props;
 
-// "the 16th of July, 2026" — inscribed the old way
-function ordinal(n: number): string {
-  const s = ['th', 'st', 'nd', 'rd'];
-  const v = n % 100;
-  return n + (s[(v - 20) % 10] ?? s[v] ?? s[0]);
-}
-const day = date.getDate();
-const monthYear = new Intl.DateTimeFormat('en-GB', { month: 'long', year: 'numeric' }).format(date);
-const formattedDate = `the ${ordinal(day)} of ${monthYear.replace(' ', ', ')}`;
-
-const tagStyles: Record<string, { bg: string; text: string }> = {
-  Tech:    { bg: 'var(--color-tag-tech-bg)',    text: 'var(--color-tag-tech-text)'    },
-  Anime:   { bg: 'var(--color-tag-anime-bg)',   text: 'var(--color-tag-anime-text)'   },
-  Writing: { bg: 'var(--color-tag-writing-bg)', text: 'var(--color-tag-writing-text)' },
-  Life:    { bg: 'var(--color-tag-life-bg)',     text: 'var(--color-tag-life-text)'    },
-  Travel:  { bg: 'var(--color-tag-writing-bg)',  text: 'var(--color-coral)'            },
-};
+const formattedDate = inscribedDate(date);
 ---
 
 <BaseLayout title={title} description={description}>
@@ -63,7 +50,7 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
       <div class="entry-meta">
         <span>Inscribed {formattedDate}</span>
         <span class="meta-diamond" aria-hidden="true"></span>
-        <span>a {readingTime}-candle read</span>
+        <span>{candleRead(readingTime)}</span>
         {type === 'photo' && (
           <>
             <span class="meta-diamond" aria-hidden="true"></span>
@@ -78,17 +65,9 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
 
       {tags.length > 0 && (
         <div class="flex flex-wrap gap-2">
-          {tags.map(tag => {
-            const style = tagStyles[tag] ?? tagStyles['Life'];
-            return (
-              <span
-                class="entry-tag"
-                style={`background-color: ${style.bg}; color: ${style.text}; border-color: color-mix(in srgb, ${style.text} 35%, transparent);`}
-              >
-                {tag}
-              </span>
-            );
-          })}
+          {tags.map(tag => (
+            <span class="entry-tag" style={tagChipStyle(tag)}>{tag}</span>
+          ))}
         </div>
       )}
 
@@ -105,13 +84,13 @@ const tagStyles: Record<string, { bg: string; text: string }> = {
     <!-- Post navigation -->
     <div class="post-nav">
       {prevPost ? (
-        <a href={`/posts/${prevPost.slug}`} class="post-nav-link">
+        <a href={`/posts/${prevPost.slug}`} class="post-nav-link torn">
           <span class="post-nav-label">&larr; The preceding entry</span>
           <span class="post-nav-title">{prevPost.title}</span>
         </a>
       ) : <div />}
       {nextPost ? (
-        <a href={`/posts/${nextPost.slug}`} class="post-nav-link post-nav-next">
+        <a href={`/posts/${nextPost.slug}`} class="post-nav-link post-nav-next torn">
           <span class="post-nav-label">The entry that follows &rarr;</span>
           <span class="post-nav-title">{nextPost.title}</span>
         </a>
