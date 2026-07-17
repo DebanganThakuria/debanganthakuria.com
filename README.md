@@ -18,7 +18,7 @@ Built with **Astro v6** + **Tailwind CSS v4**. Deployed on Vercel.
 | --- | --- |
 | Framework | Astro v6 (static output) |
 | Styling | Tailwind CSS v4 (CSS-based config, no `tailwind.config.js`) |
-| Fonts | Almendra (headings) + EB Garamond (body) via `@fontsource`; Kingthings Petrock self-hosted as fallback |
+| Fonts | Almendra (headings) + EB Garamond (body) via `@fontsource` |
 | Hero art | AI-generated watercolor paintings (`src/assets/images/hero-{day,night}.png`), with a hand-coded SVG landscape as fallback |
 | Hosting | Vercel |
 
@@ -127,7 +127,5 @@ npm run preview  # preview the build locally
 
 ## Fonts & licensing
 
-Kingthings Petrock (fallback heading font) is freeware by Kevin King; its license
-ships alongside the font files in `public/fonts/kingthingsEULA.txt`. Almendra and
-EB Garamond are OFL, bundled via `@fontsource`. Site content (posts, novels,
-images) is not licensed for reuse.
+Almendra and EB Garamond are OFL, bundled via `@fontsource`. Site content
+(posts, novels, images) is not licensed for reuse.

@@ -44,8 +44,7 @@ Tag inks:     --color-sky (Tech), --color-purple (Anime), --color-sun (Writing),
 Hero art:     src/assets/images/hero-day.png + hero-night.png (AI watercolors,
               matching composition; bottom third is mist for the page fade).
               Hero.astro falls back to a hand-coded SVG scene if images are removed.
-Fonts:        Almendra (headings) + EB Garamond (body) via @fontsource;
-              Kingthings Petrock self-hosted fallback (free license in public/fonts/)
+Fonts:        Almendra (headings) + EB Garamond (body) via @fontsource
 Base size:    20px — the owner prefers large text; all sizes are rem-based
 Motifs:       .torn (torn parchment clip), .rule-diamond (—◆— divider),
               .ui-label (gold small-caps), pill nav/filters, "a N-candle read",

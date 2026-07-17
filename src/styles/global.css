@@ -5,22 +5,6 @@
 @import "@fontsource/almendra/400.css";
 @import "@fontsource/almendra/700.css";
 
-/* Kingthings Petrock — the actual TES IV: Oblivion menu font (free, Kevin King) */
-@font-face {
-  font-family: "Kingthings Petrock";
-  src: url("/fonts/KingthingsPetrock.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Kingthings Petrock";
-  src: url("/fonts/KingthingsPetrockLight.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
 @theme {
   /* Storybook day — soft painted parchment */
   --color-bg: #f4e9cf;              /* page parchment */
@@ -51,7 +35,7 @@
   --color-tag-life-bg: #dde1c2;
   --color-tag-life-text: #5d7a45;
 
-  --font-family-heading: "Almendra", "Kingthings Petrock", "Palatino", serif;
+  --font-family-heading: "Almendra", "Palatino", serif;
   --font-family-body: "EB Garamond", Georgia, serif;
   --font-family-mono: "JetBrains Mono", "Fira Code", monospace;
 }
