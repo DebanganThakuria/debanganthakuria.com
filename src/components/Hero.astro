@@ -20,8 +20,8 @@ const nightArt = Object.entries(heroGlob).find(([k]) => k.includes('hero-night')
 <div class:list={['hero', size]} aria-hidden="true">
   {dayArt ? (
     <>
-      <Image src={dayArt} alt="" class="hero-art hero-art-day" widths={[900, 1600, 2400]} sizes="100vw" format="webp" quality={80} />
-      {nightArt && <Image src={nightArt} alt="" class="hero-art hero-art-night" widths={[900, 1600, 2400]} sizes="100vw" format="webp" quality={80} />}
+      <Image src={dayArt} alt="" class="hero-art hero-art-day" widths={[900, 1600, 2400]} sizes="100vw" format="webp" quality={80} loading="eager" fetchpriority="high" />
+      {nightArt && <Image src={nightArt} alt="" class="hero-art hero-art-night" widths={[900, 1600, 2400]} sizes="100vw" format="webp" quality={80} loading="eager" fetchpriority="high" />}
     </>
   ) : (
     <svg class="hero-scene" viewBox="0 0 1600 500" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
@@ -101,6 +101,12 @@ const nightArt = Object.entries(heroGlob).find(([k]) => k.includes('hero-night')
     height: 100%;
     object-fit: cover;
     object-position: center bottom;
+  }
+
+  /* The paintings' bottom third is mist (by design, for the page fade) —
+     on the short band, aim the crop at the cottage instead */
+  .hero.short .hero-art {
+    object-position: center 68%;
   }
 
   /* Painted art swap: day image by default, night image when dark */
