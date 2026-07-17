@@ -26,6 +26,8 @@
     "@fontsource/almendra": "^5.2.8",
     "@fontsource/eb-garamond": "^5.2.7",
     "@tailwindcss/vite": "^4.2.1",
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
     "astro": "^6.0.4",
     "tailwindcss": "^4.2.1"
   },
