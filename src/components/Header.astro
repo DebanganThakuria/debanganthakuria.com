@@ -12,21 +12,18 @@ const currentPath = Astro.url.pathname;
 ---
 
 <header class="site-header">
-  <a href="/" class="site-logo gradient-text">
+  <a href="/" class="site-logo">
     <span class="logo-full">Debangan Thakuria</span>
     <span class="logo-short">Debangan</span>
   </a>
 
   <nav class="site-nav">
-    {navLinks.map((link, i) => {
+    {navLinks.map(link => {
       const active = currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href));
       return (
-        <>
-          {i > 0 && <span class="nav-diamond" aria-hidden="true"></span>}
-          <a href={link.href} class:list={['nav-link', { active }]}>
-            {link.label}
-          </a>
-        </>
+        <a href={link.href} class:list={['nav-pill', { active }]}>
+          {link.label}
+        </a>
       );
     })}
     <ThemeToggle />
@@ -38,90 +35,66 @@ const currentPath = Astro.url.pathname;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.1rem 1.75rem 1rem;
-    border-bottom: 1px solid var(--color-gold);
-    box-shadow: 0 1px 0 color-mix(in srgb, var(--color-gold) 35%, transparent);
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 1.1rem 1.75rem 0;
   }
 
   .site-logo {
     font-family: var(--font-family-heading);
     font-size: 1.35rem;
-    font-weight: 400;
     letter-spacing: 0.04em;
     text-decoration: none;
+    color: var(--color-text);
+    text-shadow: 0 1px 0 color-mix(in srgb, var(--color-parchment) 60%, transparent);
   }
 
   .logo-short { display: none; }
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .nav-pill {
+    font-family: var(--font-family-heading);
+    font-size: 0.92rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--color-text);
+    background: color-mix(in srgb, var(--color-parchment) 82%, transparent);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    padding: 0.3rem 0.95rem;
+    backdrop-filter: blur(2px);
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+  }
+
+  .nav-pill:hover {
+    transform: translateY(-1px);
+    border-color: var(--color-coral);
+  }
+
+  .nav-pill.active {
+    background: var(--color-coral);
+    border-color: var(--color-coral);
+    color: var(--color-parchment);
+  }
 
   @media (max-width: 760px) {
     .logo-full { display: none; }
     .logo-short { display: inline; }
     .site-header {
-      padding: 0.85rem 1rem 0.75rem;
+      padding: 0.85rem 1rem 0;
       flex-wrap: wrap;
       column-gap: 1rem;
-      row-gap: 0.4rem;
+      row-gap: 0.45rem;
       justify-content: center;
     }
     .site-logo { font-size: 1.15rem; }
-    .site-nav { gap: 0.6rem; }
-  }
-
-  .site-nav {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .nav-diamond {
-    width: 5px;
-    height: 5px;
-    transform: rotate(45deg);
-    background: var(--color-gold);
-    flex-shrink: 0;
-  }
-
-  .nav-link {
-    position: relative;
-    font-family: var(--font-family-heading);
-    font-size: 1rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--color-text-muted);
-    transition: color 0.15s ease, text-shadow 0.15s ease;
-    padding-bottom: 2px;
-  }
-
-  .nav-link:hover {
-    color: var(--color-text);
-  }
-
-  .nav-link.active {
-    color: var(--color-coral);
-  }
-
-  .nav-link.active::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--color-coral), transparent);
-  }
-
-  .nav-link:not(.active):hover::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
-  }
-
-  @media (max-width: 760px) {
-    .nav-link { font-size: 0.85rem; letter-spacing: 0.06em; }
+    .site-nav { gap: 0.35rem; }
+    .nav-pill { font-size: 0.8rem; padding: 0.25rem 0.7rem; }
   }
 </style>

@@ -1,0 +1,183 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  size?: 'tall' | 'short';
+}
+const { size = 'short' } = Astro.props;
+
+// Drop AI-generated art at src/assets/images/hero-day.{png,jpg,webp} and
+// hero-night.{png,jpg,webp} — they replace the built-in vector scene.
+const heroGlob = import.meta.glob<{ default: ImageMetadata }>(
+  '../assets/images/hero-{day,night}.{png,jpg,jpeg,webp}',
+  { eager: true }
+);
+const dayArt = Object.entries(heroGlob).find(([k]) => k.includes('hero-day'))?.[1].default;
+const nightArt = Object.entries(heroGlob).find(([k]) => k.includes('hero-night'))?.[1].default;
+---
+
+<div class:list={['hero', size]} aria-hidden="true">
+  {dayArt ? (
+    <>
+      <Image src={dayArt} alt="" class="hero-art hero-art-day" widths={[900, 1600, 2400]} sizes="100vw" format="webp" quality={80} />
+      {nightArt && <Image src={nightArt} alt="" class="hero-art hero-art-night" widths={[900, 1600, 2400]} sizes="100vw" format="webp" quality={80} />}
+    </>
+  ) : (
+    <svg class="hero-scene" viewBox="0 0 1600 500" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" style="stop-color: var(--sky-top);" />
+          <stop offset="1" style="stop-color: var(--sky-low);" />
+        </linearGradient>
+      </defs>
+
+      <rect width="1600" height="500" fill="url(#sky)" />
+
+      <!-- sun / moon -->
+      <circle class="hero-sun" cx="1240" cy="110" r="46" />
+      <path class="hero-moon" d="M1262 76 a46 46 0 1 0 22 86 a36 36 0 1 1 -22 -86 Z" />
+
+      <!-- stars (night only) -->
+      <g class="hero-stars">
+        <circle cx="180" cy="70" r="2" /><circle cx="330" cy="130" r="1.5" /><circle cx="520" cy="60" r="2" />
+        <circle cx="700" cy="110" r="1.5" /><circle cx="880" cy="50" r="2" /><circle cx="1050" cy="140" r="1.5" />
+        <circle cx="1420" cy="80" r="2" /><circle cx="1530" cy="160" r="1.5" /><circle cx="90" cy="180" r="1.5" />
+        <circle cx="620" cy="180" r="1.2" /><circle cx="960" cy="200" r="1.4" /><circle cx="1340" cy="210" r="1.3" />
+      </g>
+
+      <!-- far ridge -->
+      <path class="m-far" d="M0 300 L140 190 L260 280 L420 150 L560 270 L700 180 L840 290 L1000 160 L1160 280 L1310 190 L1450 270 L1600 200 L1600 500 L0 500 Z" />
+      <!-- mid ridge -->
+      <path class="m-mid" d="M0 350 L180 240 L330 330 L520 210 L680 330 L860 240 L1040 340 L1230 230 L1420 330 L1600 260 L1600 500 L0 500 Z" />
+      <!-- near ridge -->
+      <path class="m-near" d="M0 400 L220 300 L400 380 L620 290 L820 390 L1050 300 L1260 390 L1460 320 L1600 380 L1600 500 L0 500 Z" />
+
+      <!-- meadow -->
+      <path class="meadow" d="M0 430 C 300 400, 600 445, 900 425 C 1150 410, 1400 440, 1600 420 L1600 500 L0 500 Z" />
+      <path class="meadow-near" d="M0 470 C 350 445, 700 480, 1050 462 C 1300 450, 1480 472, 1600 460 L1600 500 L0 500 Z" />
+
+      <!-- winding path -->
+      <path class="path" d="M690 500 C 700 470, 760 460, 820 452 C 900 442, 960 430, 1010 418 L1030 418 C 980 434, 920 448, 845 458 C 780 466, 730 478, 725 500 Z" />
+
+      <!-- trees -->
+      <g class="trees">
+        <circle cx="300" cy="430" r="22" /><circle cx="330" cy="422" r="16" /><rect x="296" y="430" width="7" height="22" class="trunk" />
+        <circle cx="1380" cy="440" r="24" /><circle cx="1414" cy="430" r="17" /><rect x="1376" y="442" width="7" height="24" class="trunk" />
+        <circle cx="150" cy="455" r="17" /><rect x="147" y="458" width="6" height="18" class="trunk" />
+      </g>
+
+      <!-- cottage on the hill -->
+      <g class="cottage">
+        <path class="smoke" d="M1096 330 c -8 -12, 6 -18, -2 -30 c -7 -11, 6 -16, 0 -28 c -5 -10, 5 -14, 2 -24" />
+        <rect class="chimney" x="1088" y="332" width="14" height="26" />
+        <path class="roof" d="M1030 366 L1078 322 L1126 366 Z" />
+        <rect class="wall" x="1040" y="366" width="76" height="48" />
+        <rect class="door" x="1052" y="384" width="16" height="30" rx="7" />
+        <rect class="window" x="1082" y="380" width="16" height="14" />
+        <rect class="window" x="1082" y="399" width="16" height="14" />
+      </g>
+    </svg>
+  )}
+  <div class="hero-fade"></div>
+</div>
+
+<style>
+  .hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: var(--sky-low);
+  }
+
+  .hero.tall { height: clamp(300px, 44vw, 460px); }
+  .hero.short { height: clamp(160px, 24vw, 240px); }
+
+  .hero-scene,
+  .hero-art {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+  }
+
+  /* Painted art swap: day image by default, night image when dark */
+  .hero-art-night { display: none; }
+  :global(html.dark) .hero-art-night { display: block; }
+  :global(html.dark) .hero:has(.hero-art-night) .hero-art-day { display: none; }
+
+  /* Fade the scene into the parchment page */
+  .hero-fade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 34%;
+    background: linear-gradient(180deg, transparent, var(--color-parchment));
+    pointer-events: none;
+  }
+
+  /* ── Vector scene palette — day ─────────────────────────── */
+  .hero {
+    --sky-top: #b8d4dd;
+    --sky-low: #f0dfc0;
+  }
+
+  .hero-sun { fill: #f5d488; }
+  .hero-moon { display: none; fill: #e8e0c8; }
+  .hero-stars { display: none; fill: #e8e0c8; }
+
+  .m-far { fill: #dcbcab; }
+  .m-mid { fill: #cfa28c; }
+  .m-near { fill: #bf8f78; }
+
+  .meadow { fill: #a9b878; }
+  .meadow-near { fill: #93a763; }
+  .path { fill: #e5cfa4; }
+
+  .trees circle { fill: #7d9455; }
+  .trees .trunk { fill: #8a6547; }
+
+  .cottage .roof { fill: #8a5f4a; }
+  .cottage .wall { fill: #d9bd93; }
+  .cottage .chimney { fill: #9c7258; }
+  .cottage .door { fill: #7d5a40; }
+  .cottage .window { fill: #f5cf7e; }
+  .cottage .smoke {
+    fill: none;
+    stroke: #ffffff;
+    stroke-opacity: 0.55;
+    stroke-width: 6;
+    stroke-linecap: round;
+  }
+
+  /* ── Vector scene palette — twilight ────────────────────── */
+  :global(html.dark) .hero {
+    --sky-top: #221d3a;
+    --sky-low: #463659;
+  }
+
+  :global(html.dark) .hero-sun { display: none; }
+  :global(html.dark) .hero-moon { display: block; }
+  :global(html.dark) .hero-stars { display: block; }
+
+  :global(html.dark) .m-far { fill: #4c3d5e; }
+  :global(html.dark) .m-mid { fill: #413350; }
+  :global(html.dark) .m-near { fill: #362a44; }
+
+  :global(html.dark) .meadow { fill: #3b4531; }
+  :global(html.dark) .meadow-near { fill: #313a28; }
+  :global(html.dark) .path { fill: #574a6b; }
+
+  :global(html.dark) .trees circle { fill: #33402b; }
+  :global(html.dark) .trees .trunk { fill: #453527; }
+
+  :global(html.dark) .cottage .roof { fill: #3f3049; }
+  :global(html.dark) .cottage .wall { fill: #55465f; }
+  :global(html.dark) .cottage .chimney { fill: #453750; }
+  :global(html.dark) .cottage .door { fill: #392c42; }
+  :global(html.dark) .cottage .window { fill: #ffd786; }
+  :global(html.dark) .cottage .smoke { stroke-opacity: 0.3; }
+</style>

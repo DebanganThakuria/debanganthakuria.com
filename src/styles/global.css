@@ -20,67 +20,67 @@
 }
 
 @theme {
-  /* Day parchment */
-  --color-bg: #1d150c;              /* smoky backdrop behind the parchment panel */
-  --color-parchment: #eadec0;
-  --color-parchment-deep: #e0d0a6;
-  --color-surface: #e2d3ab;
-  --color-text: #3a2c18;
-  --color-text-muted: #6f5c39;
-  --color-border: #a98d5a;
-  --color-gold: #8a6d3f;
-  --color-gold-bright: #b08d4f;
+  /* Storybook day — soft painted parchment */
+  --color-bg: #f4e9cf;              /* page parchment */
+  --color-parchment: #f4e9cf;
+  --color-parchment-deep: #ead9b4;  /* cards */
+  --color-surface: #ead9b4;
+  --color-text: #4b3621;
+  --color-text-muted: #86704a;
+  --color-border: #c5a476;
+  --color-gold: #a0793d;
+  --color-gold-bright: #c2913e;
 
   /* Inks (legacy names kept so existing components inherit the theme) */
-  --color-coral: #7a1f1f;           /* red ink — primary accent */
-  --color-sky: #1f4a7a;             /* blue ink — Tech */
-  --color-purple: #5a3a6e;          /* violet ink — Anime */
-  --color-sun: #8a5a10;             /* amber ink — Writing */
-  --color-mint: #3e5a2a;            /* green ink — Life */
-  --color-sage: #3e5a2a;            /* alias kept for novel pages */
+  --color-coral: #a34e2f;           /* dusty terracotta — primary accent */
+  --color-sky: #46708f;             /* blue ink — Tech */
+  --color-purple: #7c5f93;          /* violet ink — Anime */
+  --color-sun: #96650f;             /* amber ink — Writing */
+  --color-mint: #5d7a45;            /* green ink — Life */
+  --color-sage: #5d7a45;            /* alias kept for novel pages */
 
-  /* Tag chips — inked labels on tinted parchment */
-  --color-tag-tech-bg: #d5d5b8;
-  --color-tag-tech-text: #1f4a7a;
-  --color-tag-anime-bg: #ded0c4;
-  --color-tag-anime-text: #5a3a6e;
-  --color-tag-writing-bg: #e3d4a4;
-  --color-tag-writing-text: #7a4e0c;
-  --color-tag-life-bg: #d6d8b0;
-  --color-tag-life-text: #3e5a2a;
+  /* Tag chips — soft pastel tints */
+  --color-tag-tech-bg: #dbe0cd;
+  --color-tag-tech-text: #46708f;
+  --color-tag-anime-bg: #e6d8d3;
+  --color-tag-anime-text: #7c5f93;
+  --color-tag-writing-bg: #edddb0;
+  --color-tag-writing-text: #8a5c0e;
+  --color-tag-life-bg: #dde1c2;
+  --color-tag-life-text: #5d7a45;
 
   --font-family-heading: "Kingthings Petrock", "Palatino", serif;
   --font-family-body: "EB Garamond", Georgia, serif;
   --font-family-mono: "JetBrains Mono", "Fira Code", monospace;
 }
 
-/* Candlelit night */
+/* Storybook night — twilight over the meadow */
 html.dark {
-  --color-bg: #0d0904;
-  --color-parchment: #2c2317;
-  --color-parchment-deep: #251d12;
-  --color-surface: #362b1c;
-  --color-text: #e2d4ac;
-  --color-text-muted: #a68f5c;
-  --color-border: #6b5430;
-  --color-gold: #a8874c;
-  --color-gold-bright: #d9b96c;
+  --color-bg: #272138;
+  --color-parchment: #272138;
+  --color-parchment-deep: #332c4c;
+  --color-surface: #332c4c;
+  --color-text: #e6dabc;
+  --color-text-muted: #a3947e;
+  --color-border: #5a4b6e;
+  --color-gold: #bb8f50;
+  --color-gold-bright: #e0af63;
 
-  --color-coral: #c76a4e;
-  --color-sky: #7fa8d9;
-  --color-purple: #b08fcc;
-  --color-sun: #d9a84e;
-  --color-mint: #8fb86a;
-  --color-sage: #8fb86a;
+  --color-coral: #e08a5e;
+  --color-sky: #8fb3d9;
+  --color-purple: #b79fd9;
+  --color-sun: #dfa74e;
+  --color-mint: #93b877;
+  --color-sage: #93b877;
 
-  --color-tag-tech-bg: #2b3040;
-  --color-tag-tech-text: #7fa8d9;
-  --color-tag-anime-bg: #3a2e3f;
-  --color-tag-anime-text: #b08fcc;
-  --color-tag-writing-bg: #40331a;
-  --color-tag-writing-text: #d9a84e;
-  --color-tag-life-bg: #2d3822;
-  --color-tag-life-text: #8fb86a;
+  --color-tag-tech-bg: #2e3450;
+  --color-tag-tech-text: #8fb3d9;
+  --color-tag-anime-bg: #3d3355;
+  --color-tag-anime-text: #b79fd9;
+  --color-tag-writing-bg: #443723;
+  --color-tag-writing-text: #dfa74e;
+  --color-tag-life-bg: #32402a;
+  --color-tag-life-text: #93b877;
 }
 
 html {
@@ -105,7 +105,24 @@ html.dark .gradient-text {
   background-clip: text;
 }
 
-/* ── Oblivion diamond rule: ────◆──── ────────────────────── */
+/* ── Torn parchment edges for cards ──────────────────────── */
+:root {
+  --torn-clip: polygon(
+    0% 3%, 5% 0.8%, 12% 2.6%, 20% 0.6%, 28% 2.8%, 36% 0.9%, 45% 2.4%, 53% 0.5%,
+    62% 2.6%, 70% 0.8%, 78% 2.7%, 86% 0.6%, 93% 2.3%, 100% 1.2%,
+    99.5% 13%, 100% 26%, 99.3% 39%, 100% 53%, 99.4% 67%, 100% 81%, 99.5% 93%, 100% 97.5%,
+    94% 99.2%, 86% 97.6%, 78% 99.4%, 69% 97.8%, 60% 99.3%, 51% 97.7%, 42% 99.4%,
+    33% 97.9%, 25% 99.3%, 17% 97.8%, 9% 99.4%, 4% 98%, 0% 98.8%,
+    0.6% 87%, 0% 74%, 0.7% 60%, 0% 46%, 0.6% 32%, 0% 19%, 0.5% 8%
+  );
+}
+
+.quest-link, .entry-card, .chain-entry, .deed-banner, .receipt-card,
+.novel-preview-card, .novel-card, .post-nav-link, .toc {
+  clip-path: var(--torn-clip);
+}
+
+/* ── Diamond rule: ────◆──── (kept from the menu era) ─────── */
 .rule-diamond {
   position: relative;
   border: none;
@@ -279,7 +296,7 @@ html.dark .card-lift:hover {
 :focus-visible {
   outline: 2px solid var(--color-gold-bright);
   outline-offset: 2px;
-  border-radius: 0;
+  border-radius: 6px;
 }
 
 /* ── Post card entrance animations ───────────────────────── */
@@ -296,11 +313,10 @@ html.dark .card-lift:hover {
 .prose img {
   cursor: zoom-in;
   transition: transform 0.2s ease;
-  border: 1px solid var(--color-gold);
-  outline: 4px solid transparent;
-  box-shadow: 0 0 0 5px var(--color-parchment-deep), 0 0 0 6px var(--color-gold);
-  border-radius: 0;
-  margin: 0.5rem 0.4rem;
+  border: 4px solid var(--color-parchment-deep);
+  box-shadow: 0 0 0 1px var(--color-border), 0 4px 14px rgba(75, 54, 33, 0.18);
+  border-radius: 8px;
+  margin: 0.5rem 0;
 }
 
 .image-lightbox {

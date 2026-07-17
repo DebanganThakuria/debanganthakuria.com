@@ -2,19 +2,21 @@
 import { ClientRouter } from 'astro:transitions';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import AuroraBackground from '../components/AuroraBackground.astro';
+import Hero from '../components/Hero.astro';
 import '../styles/global.css';
 
 interface Props {
   title: string;
   description?: string;
   ogImage?: string;
+  heroSize?: 'tall' | 'short';
 }
 
 const {
   title,
   description = 'Personal site of Debangan Thakuria — backend engineer, anime nerd, and web novel writer.',
   ogImage = '/og-default.png',
+  heroSize = 'short',
 } = Astro.props;
 
 const siteUrl = 'https://debanganthakuria.vercel.app';
@@ -83,17 +85,19 @@ const personSchema = {
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to content</a>
-    <AuroraBackground />
 
-    <!-- Aurora visible all around this floating card -->
-    <div class="page-wrap">
-      <div class="float-card">
+    <div class="hero-band">
+      <Hero size={heroSize} />
+      <div class="header-overlay">
         <Header />
-        <main id="main-content" class="card-main">
-          <slot />
-        </main>
-        <Footer />
       </div>
+    </div>
+
+    <div class="page-wrap">
+      <main id="main-content" class="page-main">
+        <slot />
+      </main>
+      <Footer />
     </div>
   </body>
 </html>
@@ -101,84 +105,43 @@ const personSchema = {
 <style>
   body {
     min-height: 100vh;
-    background: transparent;
+    background: var(--color-parchment);
     color: var(--color-text);
     font-family: var(--font-family-body);
   }
 
-  /* Full-page wrapper — padding lets the smoke show around the panel */
-  .page-wrap {
-    min-height: 100vh;
-    padding: 2.25rem 1.5rem;
+  /* Illustrated band at the top, header floating over the sky */
+  .hero-band {
     position: relative;
-    z-index: 1;
-    box-sizing: border-box;
   }
 
-  /* The parchment panel — an Oblivion menu plate with a brass frame */
-  .float-card {
-    position: relative;
+  .header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  /* Open storybook page — content flows on the parchment itself */
+  .page-wrap {
     width: 100%;
     max-width: 980px;
     margin: 0 auto;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    background:
-      radial-gradient(ellipse at 20% 8%, rgba(140, 110, 60, 0.10), transparent 55%),
-      radial-gradient(ellipse at 85% 90%, rgba(120, 90, 45, 0.12), transparent 50%),
-      radial-gradient(ellipse at 50% 50%, transparent 60%, rgba(105, 80, 40, 0.14) 100%),
-      var(--color-parchment);
-    border: 1px solid var(--color-gold);
-    border-radius: 2px;
-    /* layered brass frame: hairline, gap, heavy band */
-    box-shadow:
-      0 0 0 3px var(--color-parchment),
-      0 0 0 4px var(--color-gold),
-      0 0 0 8px rgba(0, 0, 0, 0.0),
-      0 18px 60px rgba(0, 0, 0, 0.65);
   }
 
-  /* Corner diamonds on the frame */
-  .float-card::before,
-  .float-card::after,
-  .card-main::before,
-  .card-main::after {
-    content: '';
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    transform: rotate(45deg);
-    background: var(--color-gold-bright);
-    border: 1px solid var(--color-parchment);
-    box-shadow: 0 0 0 1px var(--color-gold);
-    z-index: 2;
-    pointer-events: none;
-  }
-  .float-card::before { top: -9px; left: -9px; }
-  .float-card::after  { top: -9px; right: -9px; }
-  .card-main::before  { bottom: -9px; left: -9px; }
-  .card-main::after   { bottom: -9px; right: -9px; }
-
-  :global(html.dark) .float-card {
-    background:
-      radial-gradient(ellipse at 20% 8%, rgba(220, 180, 100, 0.05), transparent 55%),
-      radial-gradient(ellipse at 85% 90%, rgba(200, 160, 80, 0.05), transparent 50%),
-      radial-gradient(ellipse at 50% 50%, transparent 60%, rgba(0, 0, 0, 0.3) 100%),
-      var(--color-parchment);
-    box-shadow:
-      0 0 0 3px var(--color-parchment),
-      0 0 0 4px var(--color-gold),
-      0 18px 60px rgba(0, 0, 0, 0.85);
-  }
-
-  .card-main {
+  .page-main {
     flex: 1;
-    padding: 2.5rem 3rem;
+    padding: 1.5rem 1.5rem 3rem;
   }
 
   @media (max-width: 600px) {
-    .page-wrap { padding: 1rem 0.75rem; }
-    .card-main { padding: 2rem 1.5rem; }
+    .page-wrap { padding: 0 0.75rem; }
+    .page-main { padding: 1rem 0.5rem 2.5rem; }
   }
 
   /* Skip to content link */
