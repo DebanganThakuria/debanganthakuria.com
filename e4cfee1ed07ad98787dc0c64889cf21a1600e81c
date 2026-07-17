@@ -1,0 +1,8 @@
+CLAUDE.md
+  6d451353-799d-4978-b43e-7c81dbb08252:2026-07-17T08:57:54.046Z 47
+README.md
+  6d451353-799d-4978-b43e-7c81dbb08252:2026-07-17T08:57:19.866Z 21,130-131
+src/styles/global.css
+  6d451353-799d-4978-b43e-7c81dbb08252:2026-07-17T08:57:19.866Z 38
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"6d451353-799d-4978-b43e-7c81dbb08252:2026-07-17T08:57:54.046Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 1, "overriden_lines": 0}, "6d451353-799d-4978-b43e-7c81dbb08252:2026-07-17T08:57:19.866Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 3, "overriden_lines": 0}}}
