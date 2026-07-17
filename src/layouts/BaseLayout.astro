@@ -15,12 +15,13 @@ interface Props {
 const {
   title,
   description = 'Personal site of Debangan Thakuria — backend engineer, anime nerd, and web novel writer.',
-  ogImage = '/og-default.png',
+  ogImage = '/og-default.jpg',
   heroSize = 'short',
 } = Astro.props;
 
 const siteUrl = 'https://debanganthakuria.vercel.app';
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
+const ogImageUrl = new URL(ogImage, siteUrl).href;
 const pageTitle = title === 'Home' ? 'Debangan Thakuria' : `${title} — Debangan Thakuria`;
 
 const personSchema = {
@@ -61,12 +62,14 @@ const personSchema = {
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:site_name" content="Debangan Thakuria" />
+    <meta property="og:image" content={ogImageUrl} />
 
     <!-- Twitter -->
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@DebanganDaemon" />
     <meta name="twitter:title" content={pageTitle} />
     <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
 
     <!-- JSON-LD Person schema -->
     <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />

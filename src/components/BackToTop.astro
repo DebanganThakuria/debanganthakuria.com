@@ -51,9 +51,9 @@
     const btn = document.getElementById('back-to-top');
     if (!btn) return;
 
-    function toggle() {
+    const toggle = () => {
       btn.classList.toggle('visible', window.scrollY > window.innerHeight);
-    }
+    };
 
     window.addEventListener('scroll', toggle, { passive: true });
     btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
