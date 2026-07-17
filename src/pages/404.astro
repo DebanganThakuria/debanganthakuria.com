@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Page not found" description="This page has wandered off the map.">
+  <section class="lost">
+    <p class="ui-label kicker">Uncharted Territory</p>
+    <h1>You've wandered off the map</h1>
+    <p class="lost-desc">
+      Whatever was inscribed here has faded from the parchment — or perhaps it was
+      never written at all. The cottage is back the way you came.
+    </p>
+    <div class="lost-actions">
+      <a href="/" class="lost-btn">Return home</a>
+      <a href="/posts" class="lost-btn lost-btn-secondary">Browse the journal</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .lost {
+    max-width: 34rem;
+    margin: 3rem auto 4rem;
+    text-align: center;
+  }
+
+  .kicker {
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .lost h1 {
+    font-family: var(--font-family-heading);
+    font-size: 2.4rem;
+    line-height: 1.2;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+  }
+
+  .lost-desc {
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+  }
+
+  .lost-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .lost-btn {
+    font-family: var(--font-family-heading);
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.5rem 1.1rem;
+    background: var(--color-coral);
+    color: var(--color-parchment);
+    border: 1px solid var(--color-coral);
+    border-radius: 999px;
+    text-decoration: none;
+    transition: transform 0.12s ease, opacity 0.12s ease;
+  }
+
+  .lost-btn:hover { transform: translateY(-2px); opacity: 0.92; }
+
+  .lost-btn-secondary {
+    background: var(--color-parchment-deep);
+    color: var(--color-text);
+    border-color: var(--color-border);
+  }
+</style>
