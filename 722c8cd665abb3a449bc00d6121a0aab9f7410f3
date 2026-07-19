@@ -1,0 +1,4 @@
+src/content/posts/life/five-years-at-razorpay.md
+  a9522c3a-6e67-4fc2-84ae-c5fc42e20a58:2026-07-19T15:00:51.191Z 1-7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,69,71
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"a9522c3a-6e67-4fc2-84ae-c5fc42e20a58:2026-07-19T15:00:51.191Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 39, "overriden_lines": 0}}}
