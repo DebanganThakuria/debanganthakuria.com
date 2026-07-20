@@ -8,7 +8,7 @@ parchment, cards have torn-paper edges, and the whole thing speaks in gentle fan
 posts are journal entries, reading time is measured in candles, and the homepage is a
 character sheet.
 
-Built with **Astro v6** + **Tailwind CSS v4**. Deployed on Vercel.
+Built with **Astro v7** + **Tailwind CSS v4**. Deployed on Vercel.
 
 ---
 
@@ -16,7 +16,7 @@ Built with **Astro v6** + **Tailwind CSS v4**. Deployed on Vercel.
 
 | Thing | Choice |
 | --- | --- |
-| Framework | Astro v6 (static output) |
+| Framework | Astro v7 (static output) |
 | Styling | Tailwind CSS v4 (CSS-based config, no `tailwind.config.js`) |
 | Fonts | Almendra (headings) + EB Garamond (body) via `@fontsource` |
 | Hero art | AI-generated watercolor paintings (`src/assets/images/hero-{day,night}.png`), with a hand-coded SVG landscape as fallback |

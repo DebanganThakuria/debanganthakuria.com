@@ -1,14 +1,14 @@
 # debanganthakuria.com — Claude Code Context
 
-Personal blog and portfolio built with Astro v6 + Tailwind CSS v4. Static output, deployed on Vercel.
+Personal blog and portfolio built with Astro v7 + Tailwind CSS v4. Static output, deployed on Vercel.
 
 ## Stack
 
-- **Astro v6** (static output, `output: 'static'`)
+- **Astro v7** (static output, `output: 'static'`)
 - **Tailwind CSS v4** via `@tailwindcss/vite` plugin — no `tailwind.config.js`
 - **Node / npm** (not bun)
 
-## Critical: Astro v6 API differences
+## Critical: Astro v7 API differences
 
 These differ from older Astro tutorials — use these, not the legacy patterns:
 
@@ -67,7 +67,7 @@ Never duplicate these — import them:
 
 ```text
 src/
-  content.config.ts          ← collection schema (Astro v6 glob loader)
+  content.config.ts          ← collection schema (Astro v7 glob loader)
   content/posts/
     life/     tech/     anime/     writing/     travel/
   assets/images/             ← post images (referenced via relative paths in markdown)
