@@ -4,7 +4,7 @@ description: "A wandering frog wizard, a young priestess, a false hero, and a fa
 genre: ["Fantasy", "Adventure", "Slice of Life", "Mystery", "Drama"]
 tags: ["Calm Protagonist", "Wandering Protagonist", "Non-human Protagonist", "Animal Companion", "Magic", "Multiple POVs", "Slow Burn", "Bittersweet", "Lantern World"]
 order: 4
-status: "ongoing"
+status: "dropped"
 ---
 
 The stars are beginning to disappear.

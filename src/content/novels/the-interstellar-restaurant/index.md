@@ -4,7 +4,7 @@ description: "A space-faring chef crash-lands on a fantasy planet and opens a re
 genre: ["Action", "Adventure", "Comedy", "Drama", "Fantasy", "Isekai", "LitRPG", "Sci-fi", "Slice of Life"]
 tags: ["Artificial Intelligence", "Calm Protagonist", "Cooking", "Farming", "Guilds", "Magic", "Magic Beasts", "Male Protagonist", "Misunderstandings", "Overpowered Protagonist", "Sword And Magic"]
 order: 2
-status: "ongoing"
+status: "dropped"
 ---
 
 Roan has been cooking for three centuries. In a civilization where biological immortality is standard, that's not as unusual as it sounds — but three hundred years of perfecting his craft across space stations, planets, and galaxies has made him one of the finest chefs in known space.

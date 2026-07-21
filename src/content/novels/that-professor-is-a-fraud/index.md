@@ -1,8 +1,8 @@
 ---
 title: "That Professor Is A Fraud"
-description: "A publicly humiliated professor at the Royal College may be the only person who can see the threats gathering beneath Westmere."
-genre: ["Progression Fantasy", "Academy", "OP MC", "Hidden Power", "Magic System", "Mystery", "Slow-Burn Romance"]
-order: 3
+description: "A publicly humiliated professor at the Royal College of Westmere tutors hopeless students, consults on impossible crimes, and plays the fraud everyone believes he is."
+genre: ["Progression Fantasy", "Academy", "Steampunk", "Detective", "Mystery", "OP MC", "Hidden Power", "Slow-Burn Romance"]
+order: 2
 status: "ongoing"
 ---
 
@@ -14,9 +14,13 @@ From the diary of Miss Penelope Holloway, student, Royal College of Westmere.
 
 ---
 
-18th April. Clara cast a proper second-stage spell today. After three years of tutors. Three weeks of Professor Caelmont.
+18th April. Clara etched her fourth spell today. It took cleanly, no pain, first attempt. Three years of the finest tutors in Westmere swore she would never manage a fourth. Three weeks of Professor Caelmont.
 
 Her mother fainted when she heard. Not the elegant kind of fainting. The thumping kind.
+
+9th May. The Watch sent for the Professor again this morning. A dead man in a locked room in the Mercantile District, and eleven inspectors who couldn't say how. The Professor looked at the floor, the window, and the dead man's boots, in that order, and said four words to Inspector Hollis, and the Watch arrested a chimney sweep by supper.
+
+I brought the biscuits. Sergeant Bell says the desk considers me essential personnel.
 
 22nd May. Professor Theodore tried to bait Professor Caelmont in a corridor today. Professor Theodore is a Circle 5 combat mage and the best-looking man at the College and engaged to Lady Sera. Honestly, it's not even fair.
 

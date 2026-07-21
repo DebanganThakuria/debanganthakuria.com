@@ -5,230 +5,210 @@ chapterTitle: "The Lyceum"
 novel: "that-professor-is-a-fraud"
 ---
 
-The hall went quiet as Lucian Caelmont climbed the steps to the podium, and not in the way that suggested respect.
+From the Daily Crier, 14th of October — "Peculiar Intelligences":
 
-It was the quiet of a room that had agreed, without saying so, to enjoy what was about to happen. Two hundred faces in banked seating, candle-light catching their pearls and their shirt studs, their hands folded in their laps. Behind them, through the long stained-glass windows, the river slid past in the dark. The Lyceum had been underway for forty minutes. By the time the symposium concluded, the barge would have left the Crown Borough far behind and would be making its slow way through the heart of Westmere, a floating ballroom hung with mana-lamps and the murmur of the very best people in the kingdom.
-
-He set his notes on the lectern. He did not need them. He had everything etched in three separate threads of his mind, indexed and ready, with another two threads observing the audience. But the notes were a useful prop. A man with notes looked like a man who needed them, and a man who needed them was a man who could be dismissed.
-
-He adjusted his glasses.
-
-A small movement near the front of the hall caught one of his threads — Professor Halverford, the host, settling into his chair with the careful slowness of a man three hundred years old. Two seats to his right, Lara Allard, headmistress of the Royal College, sat very still and watched. She had not yet activated her soul-sight. He could tell. He had been on the other end of that gaze before. He suspected she would activate it the moment he began to speak.
-
-Further back, in the second row, Professor Theodore Marchwell sat with Sera Ashbourne on his arm. She was looking at the podium. He was looking at her looking at the podium and finding it mildly amusing.
-
-In the gallery at the side, near a column where she could see the speaker without being entirely visible to him, Eva Maren stood with a glass of something pale in her hand. Lucian had not met her. He had read three of her papers. He noted her now and let his attention rest there a moment longer than it needed to.
-
-He cleared his throat. The hall waited.
-
-"Good evening," he said. "I am most grateful to Professor Halverford for the privilege of addressing this gathering. I shall try not to abuse it."
-
-A polite ripple. A few people smiled — not warmly. The polite ripple of an audience preparing to be entertained at his expense.
-
-"The subject of my remarks tonight is the restoration of damaged souls."
-
-He waited a moment. Let it settle. He could feel the threads in his own mind keeping watch — five working, two observing, one resting. The eighth had gone quiet again. He noted it without troubling over it.
-
-"It is, I am aware, an unfashionable subject. The consensus of the last two centuries is that lattice damage to the soul is permanent. Stabilisable, perhaps. Manageable. But permanent. I should like to put it to you that the consensus is wrong."
-
-The polite ripple stopped. The hall did not laugh yet. They were waiting to see if he would say something sufficiently absurd to laugh at.
-
-"I shall begin with the geometry."
-
-He raised his right hand and traced a slow line in the air. A glowing mark followed his fingertip — a thin filament of light that held position for a few seconds before beginning to fade. He drew a second line beneath it. Then a third, intersecting. A small lattice diagram, hanging in the air above the lectern, lit faintly blue.
-
-"This is the standard model of a healthy soul lattice. You will recognise it from Whitsun's textbook." He marked one of the intersections. "Each node represents a regional concentration of soul-pattern. The lines are the resonance pathways between them. The lattice is what we mean by quality when we speak of soul cultivation. A regular lattice processes mana efficiently. An irregular one does not."
-
-A few people had taken out notebooks. Most had not. Cornelius Vance, in the third row centre — round-faced, slightly damp at the collar, with the satisfied air of a man waiting for a long-delayed appointment — adjusted his pince-nez and smiled at the man beside him.
-
-Lucian continued.
-
-"Damage to the soul, when it occurs, takes a specific structural form."
-
-He drew another lattice in the air, this one with a clear gap in the middle. Several intersections missing. The surrounding pathways frayed.
-
-"A region of the lattice is disrupted. The pathways that pass through it are severed. Stabilising magic can prevent the disruption from spreading, but the damaged region remains. The pattern that was lost is — in the conventional view — unrecoverable."
-
-He let that sit.
-
-"I should like to propose that the pattern is not unrecoverable. Only that we have been looking for it in the wrong place."
-
-He drew a third diagram beside the second. A clean lattice, hovering in the air, but with the same gap as the damaged version next to it. Then he traced a small dotted outline around the missing region.
-
-"If the pattern cannot be regrown from the surrounding lattice, it must be introduced from elsewhere. The mass of pattern material required is calculable." He wrote a brief equation in the air beside the diagrams. Five terms, balanced. "If the geometry of the introduced material matches the geometry of the damaged region, the lattice will, given time, resonate with the new material and integrate it."
-
-He paused. He had reached the part where the audience would either follow him or stop.
-
-"The introduced material must come from somewhere. I propose that compatible foreign sources — refined through alchemical processes I have begun to model — may serve."
-
-The first laugh came from the front row.
-
-It was a short laugh — almost swallowed — from an elderly researcher Lucian did not recognise. The man covered his mouth politely. A second laugh followed from further back. Then a polite ripple. This one was not the welcoming kind.
-
-A voice from the second row, clear enough to carry: "Foreign sources, he says. I daresay the boy has been reading the wrong sort of pamphlets."
-
-A second voice, behind it: "Reading them, or writing them?"
-
-A low murmur of amusement. Cornelius Vance, three rows back centre, allowed himself a small chuckle and did not bother to hide it.
-
-Lucian waited for the noise to subside. He did not appear to notice it. One of his threads catalogued who had laughed and where they were sitting; another adjusted the brightness of his projected diagrams; the others continued with the presentation.
-
-When the hall had quieted again, he spoke as if the interruption had not occurred.
-
-"The mathematical relationship between damage volume and required graft mass takes the following form."
-
-He wrote a longer equation in the air. Three nested terms, a resonance coefficient he had named after a paper he and the original Lucian had both read, a final integration factor. The lines hung in the air, glowing softly.
-
-"I shall not dwell on the derivation. Those of you who wish to see the workings may consult my paper, which is available in the College library." He turned a fraction toward Halverford. "I should also like to acknowledge that the theoretical underpinning draws heavily on Professor Halverford's lattice-symmetry work of 1864. Without that foundation, none of this would have been possible."
-
-Halverford did not move. He did not nod. But Lucian, with one thread of attention on the old man, saw his hand tighten very slightly on the arm of his chair.
-
-Lucian continued.
-
-He spoke for another fourteen minutes. He worked through the geometry. He wrote three more equations. He projected diagrams of stitch patterns, integration timescales, resonance compatibility models. He addressed, briefly, the obvious objections — that compatible foreign material was difficult to obtain, that the procedure would require alchemical refinement of a kind not currently practised, that the ethical questions were considerable. He did not pretend these were small problems. He said only that they were engineering problems, not theoretical ones.
-
-A voice from the back of the hall, just loud enough: "Engineering. Listen to the Caelmont boy. Engineering."
-
-Someone closer to the front, drily: "Two years of his sponsor's money and he's discovered engineering."
-
-A short, scattered laugh. A woman in the third row leaned to her neighbour and said, behind a gloved hand, "Whose son is he, again? Dorian's? Oh, the poor man."
-
-Lucian did not pause. He continued. One of his threads logged the third row, second seat from the aisle. Another noted that the woman had laughed at her own remark before her neighbour did.
-
-By the time he reached his closing remarks, perhaps a quarter of the audience was listening with genuine attention. The other three quarters were waiting for him to finish so they could go back to talking about the wine.
-
-"In summary." He gathered the projected diagrams together with a small gesture and let them fade. "I do not claim to have performed the procedure. I claim only that the framework is sound. If correct, it suggests that a great deal of suffering currently considered inevitable is, in fact, addressable. I shall be most grateful for any criticism the audience cares to offer."
-
-He inclined his head.
-
-The applause was thin. Halverford clapped twice, then stopped, his face unreadable. Lara Allard clapped politely. Eva Maren, in the gallery, set her glass down without applauding at all. Sera Ashbourne clapped once, glanced at Theodore, and then stopped because he had not joined her.
-
-Lucian gathered his notes. He did not look up. He had been about to step down from the podium when Professor Halverford raised one hand from his armrest — a small gesture, almost an apology — and addressed the hall.
-
-"Professor Vance, I believe you wished to make a brief announcement."
-
-Lucian did not stop. He continued his descent. Behind him, on the podium he had just vacated, Cornelius Vance was rising from his seat.
-
-The man took the steps slowly, dabbed at his forehead with a folded handkerchief, and arranged himself at the lectern as if settling in for a longer speech than the one he intended to give. He looked, Lucian thought from his seat now in the third row, like a man who had been planning this evening's pleasure for some considerable time.
-
-A whisper, from the row behind Lucian: "Oh, here we go."
-
-Someone closer to the front: "About time, frankly."
-
-"My lords, ladies, distinguished colleagues." Cornelius Vance allowed himself a small smile. "I shall be brief. House Vance has, for the past two years, had the honour of sponsoring the research of our young colleague Professor Caelmont. We have watched his progress with — I think the word is patience."
-
-A small, knowing laugh from one of the front rows. Then another. The word patience hung in the air long enough for several people to enjoy it.
-
-"It is with regret — yes, regret — that I must announce, on behalf of the house, that House Vance's sponsorship of Professor Caelmont's research is concluded as of this evening. Our family wishes him every success in his future endeavours and — should any future endeavours emerge — we shall, of course, follow his progress with interest."
-
-A quiet murmur. Someone exhaled in satisfaction. The woman in the third row, the one who had pitied poor Dorian Caelmont, leaned to her neighbour again. The neighbour did not lean back to her; she had already heard enough.
-
-"We thank Professor Halverford for his hospitality and the Royal College for its forbearance." Vance dabbed at his forehead again. He could not entirely suppress his smile. "Thank you."
-
-He stepped down.
-
-Nobody applauded. A voice somewhere in the middle of the hall, not loud, but loud enough: "Two years. Two years, on Vance's money, for that."
-
-Another, kinder, but only a fraction kinder: "Poor boy. He really did try."
-
-The polite ripple this time was a ripple of recognition — of two hundred well-mannered people receiving the news that a man's career had just ended and adjusting themselves accordingly. A few eyes turned toward Lucian. He did not return them. He was looking, with all the calm of a man examining a passing carriage, at the projected diagram of a damaged soul-lattice still faintly visible in the air above the empty podium, slowly fading.
-
-Halverford rose. He looked smaller than he had a moment ago. He cleared his throat.
-
-"We shall break for the banquet. Refreshments will be served on the middle deck. Thank you, ladies and gentlemen."
-
-The hall began to empty.
-
-Lucian remained in his seat for a moment longer. He had told one of his threads to manage his face. The face was managing itself well. His shoulders were relaxed. His hands rested lightly on his thighs. To anyone watching, he might have been waiting for the orchestra to begin.
-
-Three rows ahead, Sera Ashbourne turned in her seat to say something to Theodore Marchwell. She did not glance at Lucian. Theodore glanced at Lucian. He looked, for a moment, very faintly puzzled — as if registering, for the first time, that the man whose sponsorship had just been ended in public was still sitting calmly in his seat and apparently planning to attend the banquet.
-
-Theodore turned back to Sera.
-
-Lucian stood, smoothed his coat, and walked toward the staircase that led down to the middle deck.
+...The Northern Line has now mislaid its third courier since summer. As before, the gentleman boarded at Dunmoor carrying a sealed consignment listed on no manifest, and as before, neither gentleman nor consignment reached Westmere Central. The Line maintains that nothing whatever is wrong with its trains. Passengers on Tuesday's late service report only that the fog between Harrow Fen and the city was slow to let the train through — which is not, strictly speaking, a thing fog does.
 
 ---
 
-The middle deck of the Lyceum was a ballroom.
+Twenty minutes before he was due to be laughed at by the scholars of eleven nations, Lucian Caelmont stood backstage at the Grand Meridian, reading the newspaper.
 
-There was no dancing tonight — the orchestra would not begin until later — but the room had been laid out for a banquet, with long tables under the windows and a wide central area where the guests could move and mix and avoid one another with maximum efficiency. The chandeliers above were not crystal but spun glass shot through with mana-lines, casting a warm yellow light that flattered everyone in the room. Servants in white gloves circulated with trays of small things on toast.
+He was dressed in charcoal wool, three pieces, cut close, with a watch chain across the waistcoat. Round wire spectacles. Grey kid gloves, folded once and put away. Dark hair tied short at the neck. Everything pressed, everything exact.
 
-Lucian collected a glass of wine he did not intend to drink and positioned himself by a window. He watched the river slide past. From the middle deck, the view was lower. He could see the lights of Westmere on the far bank — gas-lamps and mana-lamps along the embankment, the distant glow of the manufacturing ring further south, the dim outline of the Scholars' Quarter behind it.
+He had it folded to the Peculiar Intelligences column — the only part of any newspaper worth the ink. Three couriers gone now. Same route, same kind of cargo: sealed, unlisted, bound for the capital. One disappearance was bad luck. Three was a pattern. The Crier had noticed nothing, and had filed the story between a weeping statue and a dog that could allegedly count.
 
-The room behind him organised itself into small groups. People he knew by sight gathered, exchanged the necessary observations, broke apart, gathered again with different members. The conversation, for the first twenty minutes, was almost certainly about him. He could feel it in the way certain heads turned and then did not.
+His mind ran on eight parallel threads, all working at once, none needing his attention to keep running.
 
-He did not turn around.
+One thread read the column. Two held tonight's lecture, complete and indexed. One listened through the wall to the grand hall filling — four hundred seats under the glass dome, and beneath the murmur of the guests, the deeper sound of the hotel itself: boilers, pipework, steam pushing through a building the size of a small town. The rest of the threads rested. The eighth had been quiet all evening.
 
-Eva Maren, he noticed by reflection in the window, did not approach. She had taken a position near a different window across the room and was speaking to no one. She had not laughed during his presentation. She had not applauded either. He took note of her, again.
+Through the window at the end of the service corridor, steam cars came hissing up the carriage sweep out of the fog, lamps first, wheels loud on the granite setts. Footmen ran out under umbrellas to hand down guests in furs and silk hats. The fog was thick tonight, even for October. It pressed flat against the glass and stayed there.
 
-After perhaps half an hour, the constellations began to drift apart. People wandered off to the smaller chambers along the side of the ballroom to gossip more privately. Cornelius Vance, having made his rounds and accepted his congratulations, took his leave early and disembarked at the next quay. Lucian watched him go down the gangplank in the rain and felt nothing.
+The Lyceum — Professor Halverford's symposium, the oldest and most exclusive academic gathering in the kingdom — had been held at the Grand Meridian every autumn for forty years. Delegations came from the southern empires and the eastern federations. The cloak room tonight held top hats in the styles of four continents, and the hotel's deposit vault held whatever their owners had not trusted to the cloak room. For one night a year, this building was the centre of the learned world.
 
-It was about then that someone stopped beside him at the window.
+And this year, for reasons half the guest list found hilarious, the opening address would be given by the Caelmont boy.
 
-She was tall. Taller than he had remembered her being on the few occasions he had seen her in the College. Dressed in deep blue evening attire, with her dark hair pinned up severely and her hands folded loosely in front of her. She did not look at him at first. She looked at the river.
+A steward appeared at the corridor's end. "Mr. Caelmont? Professor Halverford will make the introduction directly, sir."
 
-"That was a most interesting presentation, Professor Caelmont."
+Lucian folded the newspaper and left it on the sill. He checked his cuffs, picked up his notes, and touched the wand holstered under his coat — walnut, service pattern, completely ordinary.
 
-Her voice was quiet. Conversational. It carried only as far as he was.
+He needed neither the notes nor the wand. But that was the point of them. A man with notes looked like a man who needed them. A man with a wand looked like a man who needed one. And a man who needed things was a man nobody looked at twice.
 
-"I am grateful you thought so, Headmistress."
+If they were going to watch him fail tonight, they would at least watch something immaculate. He adjusted his glasses and walked toward the light.
 
-"I am also given to understand that you no longer have a sponsor."
+---
 
-"That appears to be the case."
+The hall went quiet as he climbed to the podium.
 
-She allowed herself a small, dry smile. It did not reach her eyes, which were still on the river. He suspected she rarely allowed smiles to reach her eyes. He suspected this was a choice.
+It was not a respectful quiet. It was the quiet of four hundred people who had agreed, without saying so, to enjoy what was about to happen.
 
-"How regrettable," she said. "How very regrettable. One supposes the house feels its money has been wasted."
+The grand hall rose two storeys to a glass dome, four hundred seats in tiered horseshoes of dark walnut. Candlelight and amber mana-lamps caught pearls, shirt studs, the gold braid of foreign uniforms. Professor Halverford settled into the front row with the careful slowness of a man three hundred years old — a black frock coat forty years out of fashion, an ivory-headed stick laid across his knees. Two seats along sat Lara Allard, headmistress of the Royal College, in grey silk with a single garnet at her throat, very still, watching. One of Lucian's threads waited for the faint pressure of her soul-sight against his mind — and felt it arrive the moment he set down his notes. In the second row, Professor Theodore Marchwell — tall, bronze-haired, tailored to the season — sat with Sera Ashbourne on his arm and looked entertained by the whole affair. She wore pearls and pale grey, and she was watching the podium. Third row centre, Cornelius Vance polished his pince-nez, dabbed his forehead with a handkerchief, and smiled at nothing in particular. His appointment, two years delayed, had finally arrived.
 
-"One supposes."
+"Good evening," Lucian said. "I am most grateful to Professor Halverford for the privilege of addressing this gathering. I shall try not to abuse it."
 
-She turned her head, finally, and looked at him.
+A polite ripple. Not a warm one.
 
-She did not activate her soul-sight. He was certain of that — she had done so during his presentation, and the sensation had been distinct, a faint pressure against the edge of his mind that he had practised noticing in the past two months. She was not using it now. She was simply looking at him with her ordinary brown eyes, which were, he found, not at all ordinary.
+"The subject of my remarks tonight is the restoration of damaged souls."
 
-"I should very much like to continue your research, Professor Caelmont."
+He let that settle.
 
-He inclined his head a fraction. "I am, of course, entirely at the College's service."
+"It is, I am aware, an unfashionable subject. The consensus of two centuries is that lattice damage to the soul is permanent. Stabilisable. Manageable. But permanent. I should like to put it to you that the consensus is wrong."
 
-"The College does not have a budget line for what I have in mind." She paused. "The headmistress, however, has a discretionary research fund. I should like to extend its sponsorship to your work for a probationary period. Six months. A modest stipend. Continued use of College facilities. In exchange, you shall assist me with my teaching duties and you shall report your progress to me personally, in private, weekly."
+Nobody laughed yet. They were waiting for something absurd enough to deserve it.
 
-He took a moment before responding. He had been preparing for this conversation since the moment House Vance's announcement had been made. He had run, by now, several thousand parallel calculations on the implications.
+He raised his hand and drew in the air. A thin line of light followed his fingertip. Then a second line, then a third crossing both, until a lattice diagram hung glowing above the lectern. He walked the audience through it: the nodes, the pathways between them, the geometry of a healthy soul. Then he drew a second lattice with a gap torn through its middle.
 
-He did not want to seem too eager. He did not want to seem reluctant. He wanted to seem grateful and considered — a man whose career had just been ended in public and who was now being offered a way through it.
+"A damaged region cannot be regrown from the surrounding lattice. Two hundred years of failed attempts stand behind that statement. I propose that we have been looking in the wrong place. If the pattern cannot be regrown, it must be introduced — from elsewhere." He wrote a short equation beside the diagrams. Five terms, balanced. "If the geometry of the introduced material matches the geometry of the wound, the lattice will resonate with it, and in time, integrate it."
 
-He could perform all of this. He could not entirely feel it. The damage in his soul filtered the urgency out before it reached him. But the performance was good.
+He paused. This was the point where they would either follow him or stop.
 
-"Headmistress. I am most grateful for your interest. May I accept?"
+"The material must come from somewhere. I propose that compatible foreign sources — refined through alchemical processes I have begun to model — may serve."
 
-"You may."
+The first laugh came from the front rows. Short, almost swallowed. A second followed. Then the ripple again, and this time it was not polite.
 
-"Then I accept."
+"Foreign sources, he says." A voice from the second row, pitched to carry. "I daresay the boy has been reading the wrong sort of pamphlets."
 
-She inclined her head. The conversation had lasted, he calculated, slightly under ninety seconds.
+"Reading them, or writing them?"
 
-"I shall expect you in the Senior Common Room at eight tomorrow morning. We have a great deal to discuss." She paused. "And Professor Caelmont — I should perhaps mention that I found certain aspects of your presentation tonight rather more interesting than the audience appeared to. We shall come back to that, I think, in time."
+Somewhere among the foreign tables, a phrase in a southern language ran along a row of delegates. The laughter that followed needed no translation.
 
-She did not wait for a response. She moved away across the ballroom and within a minute she was speaking with Halverford himself, the two of them standing together by the far wall and exchanging a few quiet words that Lucian could not hear.
+Lucian waited it out and did not appear to notice. One thread recorded who had laughed and from which seat. Another adjusted the brightness of the diagrams. The rest carried the lecture on.
 
-He turned back to the window.
+He acknowledged, with a slight turn toward the front row, that the theory was built on Professor Halverford's lattice-symmetry work of 1864. The old man did not move, did not nod — but the thread Lucian kept on him saw his hand tighten slightly on the arm of his chair.
 
-The barge was moving more slowly now. He could see, on the embankment opposite, the bright pale frontage of the Royal College itself — they had reached the Scholars' Quarter. From here, the Lyceum would continue downriver for another two hours before mooring at the Mercantile District quay. He had perhaps an hour and a half before he could disembark and go home.
+He spoke for eleven more minutes. He answered the obvious objections before anyone could raise them: where the material would come from, how it would be refined, what the ethics were. He did not pretend these were small problems. He said only that they were engineering problems, not theoretical ones.
 
-He stood by the window for some time. Eight threads ran in parallel: one tracking the room, one composing the report he would deliver to Lara Allard tomorrow morning, one reviewing the financial implications of his new stipend, one designing the cultivation routine he would resume tonight if he wasn't too tired, one observing his own emotional state for any flicker of relief or anxiety that might warrant attention, and three working on a problem of soul-lattice geometry that had been bothering him for days.
+"Engineering," said someone at the back, just loudly enough. "Listen to the Caelmont boy. Engineering."
 
-The eighth thread, which had been quiet for most of the evening, suddenly came alert.
+"Two years of his sponsor's money, and he has discovered engineering."
 
-He did not move. He held the wine glass in his right hand and the window frame in his left and he listened, with the diffused soul-sense that nobody else in the room possessed.
+A woman in the third row leaned behind her gloved hand. "Whose son is he, again? Dorian's? Oh, the poor man."
 
-There was something below.
+By the closing remarks, perhaps a quarter of the hall was still listening. He gathered the diagrams with a small gesture and let them fade.
 
-Something in the lower decks. He couldn't place it precisely — somewhere toward the stern, perhaps in the wine cellars, perhaps in the storage rooms beneath the kitchen. A resonance. A note in the soul-field of the vessel that did not belong, faint but clear, sustained against the steady ambient hum of the barge itself.
+"I do not claim to have performed the procedure. I claim the framework is sound. If it is, then a great deal of suffering we currently call inevitable is, in fact, addressable. I shall be most grateful for whatever criticism the audience cares to offer."
 
-It had not been there earlier. He was certain of that. One of his threads had been doing ambient monitoring of the vessel's soul-field since the moment he stepped aboard. The note had not been there during his presentation. It had not been there during the first portion of the banquet.
+The applause was thin. Halverford clapped twice and stopped. Lara Allard clapped politely, and her eyes never left Lucian.
 
-It had begun, he thought, perhaps ten minutes ago. And it was, very slowly, getting stronger.
+He was gathering his notes when Halverford raised one hand from his armrest.
 
-He set his wine glass down on the windowsill. Carefully. Without looking at anyone. The ballroom behind him continued — laughter, the clink of cutlery, a woman somewhere telling someone else what she had heard about the Caelmont boy. The river slid past the window.
+"Professor Vance. I believe you wished to make a brief announcement."
 
-He stepped away from the window and began, unhurriedly, to walk toward the door that led down to the lower decks.
+Lucian walked down the steps without pausing. Behind him, Cornelius Vance arranged himself at the lectern, dabbed his forehead, and smiled at four hundred people.
+
+"My lords, ladies, distinguished colleagues and honoured guests. I shall be brief. House Vance has, for two years, had the honour of sponsoring the research of our young colleague Mr. Caelmont. We have watched his progress with — I think the word is patience."
+
+The word hung in the air long enough for several people to enjoy it.
+
+"It is with regret — yes, regret — that I must announce that House Vance's sponsorship of Mr. Caelmont's research is concluded as of this evening. Our family wishes him every success in his future endeavours, and — should any future endeavours emerge — we shall follow his progress with great interest."
+
+Nobody applauded. Nobody needed to. A voice in the middle of the hall said, not loudly, "Two years. Two years, for that." A kinder voice answered, "Poor boy. He really did try."
+
+Four hundred well-mannered people absorbed the end of a man's career and adjusted their evening accordingly.
+
+Lucian took a seat in the third row and watched, calmly, as the last of his lattice diagrams faded over the empty podium.
+
+Halverford rose. He looked smaller than he had an hour ago.
+
+"We shall adjourn to the banquet, ladies and gentlemen. The Meridian has outdone itself, I am told."
+
+---
+
+The Meridian's ballroom was two storeys of gilt and glass under a painted ceiling. Long tables ran beneath the windows. Chandeliers of spun glass, threaded with mana-lines, lit everything in warm gold, and the waxed parquet threw the light back up. Footmen in claret livery and white gloves moved between the delegations with trays. Beyond the tall windows there was nothing to see: the fog stood flat against the panes, glowing faintly with the light of the city it had swallowed.
+
+Lucian collected a glass of wine he did not intend to drink and took a position by a window.
+
+The room organised itself behind him. Delegations formed, dissolved, reformed. Heads turned toward him and then quickly away. For the first twenty minutes, the conversation of the room was almost certainly about him. He did not turn around.
+
+His threads worked.
+
+One kept a count of the service staff. It had counted thirty-eight when the banquet opened. It now counted forty-one — and the three additions had come up the cellar stairs carrying empty trays that stayed empty.
+
+One tracked the deposit-room footman, who had spent several minutes in polite difficulty with a delegate from the Veldran embassy: a small man with a case, who had refused, twice, to hand it over to the vault.
+
+One noted a waiter by the east service door. His boots carried a military polish, and when he stood at rest, his heels came together. The door behind him had been propped open with a folded napkin — against every rule a hotel of this standing kept.
+
+Odd details, all three. Lucian filed them: without hurry, and without letting go.
+
+Cornelius Vance made an early departure, trailing congratulations, and was handed up into his steam car at the carriage sweep. Lucian watched him vanish into the fog and felt nothing in particular. Across the room, Lara Allard passed in conversation with Halverford. Her gaze crossed Lucian's window, held for half a second longer than courtesy required, and moved on. Whatever she wanted with him tonight, she was in no hurry about it.
+
+Then somebody small came through the crowd toward him at a purposeful trot.
+
+"I beg your pardon," she said. "You're the fraud, aren't you?"
+
+She was perhaps nineteen, round-faced and freckled, brown curls coming loose around the ribbons. Her dress was good and one season old. She carried a plate of three lemon ices with visible pride, and she looked up at him with open delight — brown eyes, very bright.
+
+"Everyone has been saying so all evening," she went on, "and you're the only person here I actually wanted to meet. Penelope Holloway. Penny. My father says I'm not to bother anyone important, but you stopped being important about an hour ago, so that's quite all right."
+
+"That is the most rigorous use of a rule I have heard tonight," Lucian said.
+
+"Thank you. I find rules are much more useful once you read them properly." She dispatched an ice with practised efficiency. "Your lecture was the only one where anything happened. I've been to two others tonight. A man talked about sediment."
+
+"You have my sympathies. What happened in mine?"
+
+"Well, there was the hole." She waved her spoon, sketching a lattice in the air that only she could see. "You drew a picture with a hole in it, and everyone laughed at the hole. But you'd put the hole there on purpose. Laughing at it is like arriving at a play in the interval and laughing at the scenery."
+
+Lucian set down his glass.
+
+Four hundred people had watched him draw that diagram. Perhaps a dozen had followed the mathematics. Exactly one person in the building had noticed the only thing that mattered about it: that it was deliberate.
+
+"And the rest?" he said. "The part they found so entertaining?"
+
+"The part where the new piece has to come from somewhere." She frowned at her second ice. "Everyone laughed at where it comes from. But nobody asked whose it would be. That's the only interesting question, isn't it? If you patch a soul with a piece of another one — whose is the patch, afterward? Yours or theirs?"
+
+Three of Lucian's threads stopped what they were doing.
+
+That was the question the hall should have asked. It was the question his entire ethics framework was built around. It had taken him a week to phrase it that cleanly — with every advantage he had. This girl had produced it between mouthfuls, sideways, and had already moved on to her next ice.
+
+"Miss Holloway. What do you study?"
+
+"Second year. Circle 2." She said it cheerfully, with no embarrassment at all. "My tutors say I lack application. I think I apply myself splendidly — only never to the thing they're pointing at."
+
+"The thing they are pointing at is rarely the interesting thing."
+
+"That's what I say!" She beamed. "Nobody has ever agreed with me before. This is a very good party."
+
+He was aware, distantly, that he was enjoying the conversation. The awareness was faint, arriving at half its proper volume: the shape of the feeling without its weight. He noted it, set it aside, and asked what precisely she had failed to apply herself to. For the next ten minutes, at the edge of a banquet that had buried him an hour ago, Penny Holloway told him about the wrong kind of yellow in her tutor's warding diagrams, and he rearranged dessert spoons into lattice nodes to show her why the hole in his own diagram had the shape it had.
+
+She followed the argument in one hearing. More than that — she followed it sideways, arriving at the third step before the second, by a route he could not reconstruct.
+
+He was reaching for the cream jug when his eighth thread came alert.
+
+He did not move. The jug completed its journey.
+
+Somewhere below his feet — below the ballroom, below the kitchens, down where the Meridian kept its wine and its boilers and its vault — there was a note in the building's soul-field that did not belong. Faint. Steady. His thread checked its ambient record: the note was perhaps ten minutes old. And it was growing, very slowly, stronger.
+
+His other threads laid their findings side by side, and the row of odd details became a single shape.
+
+Three extra staff, up from the cellars, with trays that stayed empty. Military boots at a propped service door. A delegate's case, twice refused to the vault. And now a resonance below, building toward something.
+
+"You've stopped listening," Penny said, without offence. "You've got the look Father gets when he's added up the bill before the waiter has."
+
+"Miss Holloway," Lucian said pleasantly, "would you care to show me the gallery? I'm told the proper ices are kept in the gallery pantry — the ones with candied peel — and that the waiters only bring out the boring ones."
+
+She stared at him with something close to reverence. "How did you know that?"
+
+"You have had five lemon ices. The used plates are stacked by the gallery stair, and there is a smudge of candied peel on your glove. You raided the pantry an hour ago."
+
+"Professor," Penny said, taking his arm, "I think we are going to be great friends."
+
+"I am not a professor, Miss Holloway. The College is most particular on the point."
+
+"Not yet," she said, unbothered. "I like to be early."
+
+They crossed toward the gallery stair — away from the ballroom floor, from the four hundred people, from the cellar stairs and the east door and the delegate with his case. Behind them the banquet glittered and murmured. Below them, the note in the building's bones kept climbing, quarter-tone by quarter-tone, toward whatever pitch it had been built to reach.
+
+They were three steps up the gallery stair when the note changed.
+
+Not louder. Cleaner. The note had come into tune. His eighth thread compared readings: ten minutes to build from nothing to this. A shape settling toward an appointed pitch. And underneath it now, small and regular, the movements of men working to a schedule.
+
+Above them, through the gallery arch, the banquet went on. Eleven nations. Chandeliers. Four hundred of the wisest people in the world, congratulating one another on an evening none of them was actually attending — because whatever tonight was really for, it was not for them to see. It was happening underneath their applause. In the dark. On time.
+
+"Miss Holloway," Lucian said. "How do you feel about sneaking?"
+
+Penny set down her plate, suddenly solemn. "Sneaking is the thing I apply myself to."
+
+"Then I wonder if you would help me find the wine cellars."
+
+They went down.
+
+Below them, in the dark, the hotel had begun to hum.
