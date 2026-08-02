@@ -1,0 +1,5 @@
+src/content/posts/tech/the-crab-molts.md
+  ef990921-2f1f-4094-beef-9d438401187c:2026-08-02T16:02:55.945Z 1-5,39-41,50-51,60-62,69-74
+  ef990921-2f1f-4094-beef-9d438401187c:2026-08-02T16:04:24.224Z 6
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"ef990921-2f1f-4094-beef-9d438401187c:2026-08-02T16:02:55.945Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 20, "overriden_lines": 0}, "ef990921-2f1f-4094-beef-9d438401187c:2026-08-02T16:04:24.224Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 20, "overriden_lines": 0}}}
