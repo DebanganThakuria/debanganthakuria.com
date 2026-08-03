@@ -63,6 +63,4 @@ What it did was remind me that I love this. That some of the happiest hours of m
 
 Maybe that's what these healing shows are actually for. Not escape — retrieval.
 
-One of these days I'm going to go back to the village, find my cousin when he's home on leave, and get us both out to the water again. Someone has to check the traps.
-
 Go watch it. Preferably somewhere near water — but a memory of water will do.
