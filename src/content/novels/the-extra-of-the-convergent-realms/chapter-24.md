@@ -7,13 +7,13 @@ novel: "the-extra-of-the-convergent-realms"
 
 Terminal C drifted through the valley's northern edge, a translucent wisp no larger than a sparrow, invisible to mundane sight. The Iris spirit construct moved with methodical precision, scanning terrain features with the cold efficiency of a machine.
 
-A shallow ditch caught its attention—not for what was visible, but for what should have been there and wasn't.
+A shallow ditch caught its attention, not for what was visible, but for what should have been there and wasn't.
 
 The spirit descended, vision analyzers cataloging every detail: disturbed soil patterns inconsistent with natural erosion, stone fragments bearing tool marks too regular for weather, vegetation stripped away and replanted poorly.
 
 Conclusion: artificial construction. Concealment attempted. Success rate: minimal.
 
-Iris's analytical processes constructed a three-dimensional model of the disturbance, overlaying it against the natural geography. The alterations formed a clear pattern—a cave entrance, partially collapsed, then deliberately obscured.
+Iris's analytical processes constructed a three-dimensional model of the disturbance, overlaying it against the natural geography. The alterations formed a clear pattern: a cave entrance, partially collapsed, then deliberately obscured.
 
 She extended her mana-sensing radius. Nothing. No extraordinary signatures. No active wards. Either abandoned, or protected by methods sophisticated enough to evade the basic detection of the constructs.
 
@@ -29,7 +29,7 @@ Through Iris's perception, he studied the concealed entrance. The crude attempt 
 
 "Proceed," Valen said quietly. "Maintain continuous feed. Withdraw at first sign of danger."
 
-The spirit construct dove through the narrow gap between stones, passing through earth and rock as easily as air. One of the few advantages spirits possessed—solid matter posed little obstacle, unless heavily warded or saturated with opposing mana.
+The spirit construct dove through the narrow gap between stones, passing through earth and rock as easily as air. One of the few advantages spirits possessed: solid matter posed little obstacle, unless heavily warded or saturated with opposing mana.
 
 Water, however, was different. Water disrupted spiritual cohesion, which was why rivers and lakes often served as natural barriers against certain supernatural threats.
 
@@ -51,13 +51,13 @@ Amber's hand drifted toward her saber. "Trouble?"
 
 "Potentially. Or opportunity." He adjusted course, angling toward the concealed cave. "There is something worth investigating in that direction."
 
-Terminal C pressed deeper. The passage widened into a chamber, and here the air changed—colder, stale, carrying the faint mineral tang of undisturbed stone.
+Terminal C pressed deeper. The passage widened into a chamber, and here the air changed: colder, stale, carrying the faint mineral tang of undisturbed stone.
 
 And something else.
 
 Detecting residual mana signatures, Iris reported, her analytical tone sharpening with interest. Necromantic imprint. Classification... analyzing... Draugr-type constructs and free-roaming specters. Estimated count: twelve to fifteen entities. Ranks: ranging from 1 to 3.
 
-Valen's pulse quickened slightly—not from fear, but anticipation.
+Valen’s pulse quickened slightly, not from fear, but anticipation.
 
 Ghosts. Free-roaming specters meant unbound souls, perfect for capture and later consumption by Iris. Each ghost absorbed expanded her capabilities.
 
@@ -79,7 +79,7 @@ Amber's hand settled on her saber hilt. "That is a deeply unpleasant question."
 
 "The unpleasant ones are usually the relevant ones."
 
-Movement caught their attention—five figures emerging from the tree line, young adventurers by their gear and bearing. Three men, two women, all in their late teens or early twenties. Leather armor, practical weapons, the kind of equipment that spoke of guild affiliation rather than Academy training.
+Movement caught their attention: five figures emerging from the tree line, young adventurers by their gear and bearing. Three men, two women, all in their late teens or early twenties. Leather armor, practical weapons, the kind of equipment that spoke of guild affiliation rather than Academy training.
 
 The one in front, a tall young man with a sword strapped across his back, froze when he spotted Valen and Amber.
 
@@ -89,7 +89,7 @@ His eyes immediately locked onto Amber's Academy gray cloak, then Valen's, and h
 
 Amber straightened, adopting the posture of someone accustomed to being addressed respectfully. "We are. State your business."
 
-The young man hurried forward, his companions following. Up close, Valen noted the signs of exhaustion—dark circles under eyes, dirt-streaked faces, gear that hadn't been properly maintained in days.
+The young man hurried forward, his companions following. Up close, Valen noted the signs of exhaustion: dark circles under eyes, dirt-streaked faces, gear that hadn't been properly maintained in days.
 
 Desperate, then. Not merely determined.
 
@@ -97,15 +97,15 @@ Desperate, then. Not merely determined.
 
 "Slow down," Amber said, voice firm but not unkind. "Tracking what?"
 
-Torren swallowed hard. "Our senior guild member. His name is Henrik—Rank 3 warrior, been with Ironvale for eight years. Three days ago, he went missing during a contract near here. We thought maybe a monster got him, but then we found unusual traces... And this."
+Torren swallowed hard. "Our senior guild member. His name is Henrik, Rank 3 warrior, been with Ironvale for eight years. Three days ago, he went missing during a contract near here. We thought maybe a monster got him, but then we found unusual traces... And this."
 
-He pulled a small object from his belt pouch—a bronze compass, but instead of pointing north, the needle swung wildly before settling in the direction of the cave entrance behind Valen.
+He pulled a small object from his belt pouch: a bronze compass, but instead of pointing north, the needle swung wildly before settling in the direction of the cave entrance behind Valen.
 
 "Spirit tracker," Valen murmured, recognition clicking. "You bound part of his spiritual signature before the mission."
 
 Torren nodded quickly. "Standard guild protocol for dangerous regions. The tracker has been leading us here, to this cave. But we have been sitting outside for an hour trying to decide if we should go in. None of us are above Rank 1 except our mage, and she is only early Rank 2."
 
-One of the women—shorter, with burn scars along her forearms that marked her as someone who worked with fire magic—stepped forward. "The mana coming from that cave feels wrong. Decrepit. If Henrik is down there, he is either dead or being held by something we cannot fight."
+One of the women (shorter, with burn scars along her forearms that marked her as someone who worked with fire magic) stepped forward. "The mana coming from that cave feels wrong. Decrepit. If Henrik is down there, he is either dead or being held by something we cannot fight."
 
 Actually, Valen thought, he is likely both.
 
@@ -119,7 +119,7 @@ But their desperation was real. The spirit tracker did not lie. And if there was
 
 He did not argue. The decision was tactically sound, even if her motivation was more compassionate than his.
 
-Torren's relief was visible. "Thank you. We have some supplies—healing potions, antidotes, basic wards—"
+Torren's relief was visible. "Thank you. We have some supplies: healing potions, antidotes, basic wards—"
 
 "Save them," Valen interrupted. "You will need those resources for yourselves. We have sufficient preparation."
 
@@ -161,7 +161,7 @@ Blinding light hammered into the advancing Draugr. The nearest three staggered a
 
 The adventurers froze mid-formation, staring.
 
-For them, Rank 1 Draugr were grinding, attrition-based enemies—slow, relentless, difficult to put down without careful teamwork and strictly managed mana. Watching one young mage erase half the group with a single spell broke something in their expectations.
+For them, Rank 1 Draugr were grinding, attrition-based enemies: slow, relentless, difficult to put down without careful teamwork and strictly managed mana. Watching one young mage erase half the group with a single spell broke something in their expectations.
 
 Amber did not stop.
 
@@ -213,7 +213,7 @@ Valen raised his hand.
 
 A faint, translucent circle of runes blossomed in the air before him, etched in pale blue light. Lines interlocked, forming a pattern that Iris had refined to the edge of efficiency through countless simulations.
 
-He plucked something from within his cloak—smooth glass spheres no bigger than marbles, each one etched with a smaller version of the same runic pattern.
+He plucked something from within his cloak: smooth glass spheres no bigger than marbles, each one etched with a smaller version of the same runic pattern.
 
 Under normal circumstances, these would have been considered expensive specialty tools. For Valen, they were simply another use of his idle time and endless mana.
 
@@ -225,7 +225,7 @@ The marble flared once, runes spinning, then dimmed as a faint, bluish mist was 
 
 One spirit contained.
 
-The second marble flew to a point above a broken sarcophagus. The third drifted toward a shadowed corner. Each time, the same pattern—momentary resistance, a half-formed cry, then containment.
+The second marble flew to a point above a broken sarcophagus. The third drifted toward a shadowed corner. Each time, the same pattern: momentary resistance, a half-formed cry, then containment.
 
 To the adventurers, it looked like some esoteric Academy technique that plucked ghosts out of empty air. They could not see the spectral shapes that Iris highlighted in Valen's perception.
 
@@ -255,7 +255,7 @@ A stairway carved directly into the stone descended into deeper darkness. The st
 
 "Your tracker?" he asked Torren.
 
-The young man checked the bronze device. The needle, which had been pointing generally downwards since they entered, now angled more sharply—toward the stairs.
+The young man checked the bronze device. The needle, which had been pointing generally downwards since they entered, now angled more sharply: toward the stairs.
 
 "Deeper," Torren confirmed, jaw tightening. "He is still below."
 

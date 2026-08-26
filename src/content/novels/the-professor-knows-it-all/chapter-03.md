@@ -7,7 +7,7 @@ novel: "the-professor-knows-it-all"
 
 "You must be Lucian Grey."
 
-The voice was tired, pulling Lucian from his thoughts. He lowered the newspaper. An old man stood before him, dressed in a traditional grey Mage robe. His head was a crown of silver, as was his beard. In fact, he looked much like Lucian had before his own breakthrough—all but for the tremendous mana pressure radiating from him.
+The voice was tired, pulling Lucian from his thoughts. He lowered the newspaper. An old man stood before him, dressed in a traditional grey Mage robe. His head was a crown of silver, as was his beard. In fact, he looked much like Lucian had before his own breakthrough, all but for the tremendous mana pressure radiating from him.
 
 So all old mages have a dislike for rules, Lucian mused, having noticed the Grand Mage the moment he appeared in the lounge.
 
@@ -65,9 +65,9 @@ The first and second levels of the tower contained books of the Formal Mage and 
 
 Of course, the Grand Mage and Arch Mage levels are not publicly available. You have to join the Mages Guild and make sufficient contributions to access that knowledge.
 
-In fact, for the larger part of history, mages have kept their knowledge to themselves. Noble families, guilds, secret organizations—everybody wanted to keep an edge over others by hoarding knowledge and spells. It was only imparted down from masters to their disciples.
+In fact, for the larger part of history, mages have kept their knowledge to themselves. Noble families, guilds, secret organizations: everybody wanted to keep an edge over others by hoarding knowledge and spells. It was only imparted down from masters to their disciples.
 
-It all changed with the last continental war. After the war, world leaders signed several pacts and decided to establish academies to find talented young mage candidates and train more magical prodigies—more heroes like Magnus.
+It all changed with the last continental war. After the war, world leaders signed several pacts and decided to establish academies to find talented young mage candidates and train more magical prodigies, more heroes like Magnus.
 
 The first academy was established here in Highspire, where these pacts were signed. Hence, it was called Magnus Academy.
 
@@ -95,10 +95,10 @@ Minutes later, the attendant returned, a large stack of books floating behind hi
 
 "I will keep you in mind," Lucian said, dismissing him.
 
-Lucian had never studied magic formally. His journey began with a single lecture from Magnus to a group of war orphans—a desperate attempt to give them a means to protect themselves. He had survived on scraps of game knowledge, building a practical, battle-hardened trove of magic over decades of wandering.
+Lucian had never studied magic formally. His journey began with a single lecture from Magnus to a group of war orphans, a desperate attempt to give them a means to protect themselves. He had survived on scraps of game knowledge, building a practical, battle-hardened trove of magic over decades of wandering.
 
 But in the century since, that practical, chaotic knowledge had been systematized. Raw experience had been distilled into formulas and equations. To pass the Academy's written exam, he couldn't just know magic; he had to speak its new, academic language.
 
-He glanced at the towering stack of books—thirty volumes on the fundamentals of modern magic theory. He picked one from the top, its crisp pages a stark contrast to the blood-and-dirt grimoire of his memory.
+He glanced at the towering stack of books: thirty volumes on the fundamentals of modern magic theory. He picked one from the top, its crisp pages a stark contrast to the blood-and-dirt grimoire of his memory.
 
 He had one day.

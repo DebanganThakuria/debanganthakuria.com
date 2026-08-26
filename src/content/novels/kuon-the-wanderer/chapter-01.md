@@ -11,11 +11,11 @@ Nobody remembered the god it was built for. The stone had the soft, eaten look o
 
 Kuon reached it just as the rain turned mean.
 
-He shook the water from his hood — a quick, full-body shake, the way his kind shed rain — and stepped under the roof, and the rain followed him in as far as the third pillar before giving up. He set his pack down. He sat. He listened to the world hiss.
+He shook the water from his hood with a quick, full-body shake, the way his kind shed rain, and stepped under the roof, and the rain followed him in as far as the third pillar before giving up. He set his pack down. He sat. He listened to the world hiss.
 
 He was not the first to take shelter.
 
-A merchant was already there, two of his mules tied at the far pillar and the third — older, lame in one foot — lying down on the dry stone like a dog. The merchant was a thin man with a thin coat and the kind of mustache that had been ambitious in his youth and was now embarrassed. He nodded at Kuon — at the dark green of him, the wide soft mouth, the wet cloak that did not quite hide what was under it — and after a small considering pause he nodded again, and that was that. In the Lantern World there were stranger things on the road than a marsh man in a hood.
+A merchant was already there, two of his mules tied at the far pillar and the third (older, lame in one foot) lying down on the dry stone like a dog. The merchant was a thin man with a thin coat and the kind of mustache that had been ambitious in his youth and was now embarrassed. He nodded at Kuon: at the dark green of him, the wide soft mouth, the wet cloak that did not quite hide what was under it. After a small considering pause he nodded again, and that was that. In the Lantern World there were stranger things on the road than a marsh man in a hood.
 
 Kuon nodded back.
 
@@ -39,7 +39,7 @@ Kuon poured.
 
 Some miles to the west, in a place where the rain was heavier and the trees older, Quinn was killing something.
 
-She did not have a name for it. She had a name for the kind of thing it was — she had several names, in several languages most of which were no longer spoken — but the thing itself was new tonight. It had been born this evening. It would not see morning.
+She did not have a name for it. She had a name for the kind of thing it was. She had several names, in several languages most of which were no longer spoken. But the thing itself was new tonight. It had been born this evening. It would not see morning.
 
 It was tall. It moved like water moves when something has died upstream. It had been walking east, toward the road, toward the shrine, toward the small bright human lights it could feel from a great distance, the way a hungry man feels bread. Quinn had stepped out of the dark in front of it and said something quiet. The thing had stopped. Then it had decided not to stop, and that had been its mistake.
 
@@ -53,7 +53,7 @@ Something is wrong, she thought. Something is wrong tonight.
 
 She had felt it crack open while she was fighting. Far away. Very far. A sound under the world, the way an old beam in a house gives a single quiet groan in the middle of the night and tells you, without telling you, that the house will not stand another winter.
 
-She stretched her wings — one of them was torn now, at the edge, and would need attention — and she launched herself into the rain, and flew.
+She stretched her wings (one of them was torn now, at the edge, and would need attention), and she launched herself into the rain, and flew.
 
 ---
 
@@ -61,7 +61,7 @@ She stretched her wings — one of them was torn now, at the edge, and would nee
 
 He had not meant to say it. The tea had loosened something in him. He looked into his cup and went on as if it had asked him a question.
 
-"He writes when he can. He cannot write often. The last letter said they were moving south to the line at Erien. That was — " he counted on his fingers, lost count, started again — "that was a season ago. Two seasons. I am not sure."
+"He writes when he can. He cannot write often. The last letter said they were moving south to the line at Erien. That was..." He counted on his fingers, lost count, started again. "That was a season ago. Two seasons. I am not sure."
 
 "Erien held," the soldier said, without opening his eyes.
 
@@ -101,7 +101,7 @@ The merchant did not. The mother did not. The soldier himself certainly did not;
 
 Kuon looked into his tea.
 
-He had not told a story in a long time. On Earth he had told a great many, and nobody had wanted them, and at some point he had decided that the wanting was the part that hurt, and had stopped. He had been in the Lantern World for — he did not, in fact, know how long. Long enough that the number had stopped mattering. Long enough that the man who had wanted to be read was a small soft thing he carried in a pocket and rarely took out.
+He had not told a story in a long time. On Earth he had told a great many, and nobody had wanted them, and at some point he had decided that the wanting was the part that hurt, and had stopped. He had been in the Lantern World for some time. He did not, in fact, know how long. Long enough that the number had stopped mattering. Long enough that the man who had wanted to be read was a small soft thing he carried in a pocket and rarely took out.
 
 He took it out now.
 
@@ -159,7 +159,7 @@ Kuon sat alone for a while.
 
 The shrine was very quiet. The ring of pillars held the dawn the way a cup holds water. He did not move. He was thinking, in the loose drifting way that comes after rain, about the frog and the pond and the hundred years, and about the man who had taught him that story, who had been his father, who had been dead now for what was, by any honest count, a very long time.
 
-Something small and wet and irritable landed on his shoulder — a bat, no bigger than a sparrow, with one torn wing and the affronted expression of a creature who had recently been a queen.
+Something small and wet and irritable landed on his shoulder: a bat, no bigger than a sparrow, with one torn wing and the affronted expression of a creature who had recently been a queen.
 
 "You made the woman cry," Quinn said.
 

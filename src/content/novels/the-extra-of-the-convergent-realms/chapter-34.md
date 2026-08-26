@@ -23,7 +23,7 @@ She had expected some unease in the aftermath.
 
 Yet as the hours passed, the sensation did not fade. It grew.
 
-Little things began to strike at her nerves—Raylan's easy smile, Elara's bright questions, Marcus's watchful gaze. Their voices blurred together, words losing meaning. The cadence remained, but the content slipped through her fingers like water.
+Little things began to strike at her nerves: Raylan's easy smile, Elara's bright questions, Marcus's watchful gaze. Their voices blurred together, words losing meaning. The cadence remained, but the content slipped through her fingers like water.
 
 When monsters lunged from the undergrowth, she watched Valen cut them down almost absently. The motions were familiar. Efficient. Controlled.
 
@@ -33,13 +33,13 @@ She did not want to draw it.
 
 She did not want to see more blood.
 
-By the time they crossed the Stinky River, a faint pressure had settled at the back of her skull. Not quite pain—more like a hand resting there, pressing lightly, demanding attention without yet squeezing.
+By the time they crossed the Stinky River, a faint pressure had settled at the back of her skull. Not quite pain, more like a hand resting there, pressing lightly, demanding attention without yet squeezing.
 
 It will pass.
 
 It did not.
 
-The world's colours seemed too bright. The green of the leaves, the brown of the trunks, the silver glints of mana along Valen's barriers—everything was slightly oversaturated, as if the world had drunk too much light.
+The world's colours seemed too bright. The green of the leaves, the brown of the trunks, the silver glints of mana along Valen's barriers: everything was slightly oversaturated, as if the world had drunk too much light.
 
 Her patience thinned.
 
@@ -55,7 +55,7 @@ A shape, at the edge of her vision.
 
 A shadow between trees that vanished when she turned to look.
 
-The faint impression of a hand resting on her shoulder—but when she turned, no one was there. Valen walked slightly ahead, the trio behind, all at their usual distances. No one had touched her.
+The faint impression of a hand resting on her shoulder. But when she turned, no one was there. Valen walked slightly ahead, the trio behind, all at their usual distances. No one had touched her.
 
 She told herself it was nerves.
 
@@ -65,7 +65,7 @@ The explanation was reasonable.
 
 Reality did not agree.
 
-As the morning fog thickened around them, her thoughts began to slide in strange directions. Voices overlapped—all blurring into one continuous stream, like a river of sound that no longer separated into clear words.
+As the morning fog thickened around them, her thoughts began to slide in strange directions. Voices overlapped, all blurring into one continuous stream, like a river of sound that no longer separated into clear words.
 
 Her hand went to the hilt of her saber more often.
 
@@ -81,7 +81,7 @@ Her heart pounded in her ears, drowning out all other sound. The ghost's hollow 
 
 Mana exploded out of her without thought.
 
-Her saber cleared its sheath in a single motion, and she rushed the ghost with a wordless sound—half snarl, half scream. Her blade sliced through the ephemeral form again and again, steel passing through mist.
+Her saber cleared its sheath in a single motion, and she rushed the ghost with a wordless sound: half snarl, half scream. Her blade sliced through the ephemeral form again and again, steel passing through mist.
 
 She knew, somewhere in the back of her mind, that physical attacks were useless.
 
@@ -101,7 +101,7 @@ Nothing felt secure.
 
 Not the ground beneath her feet. Not the blade in her hand. Not even her own body, which felt too tight, like armor one size too small.
 
-Hands caught her. A voice—Valen's, low and calm—said something she could not distinguish.
+Hands caught her. A voice (Valen's, low and calm) said something she could not distinguish.
 
 The world tilted.
 
@@ -155,7 +155,7 @@ Footsteps approached from behind.
 
 She turned.
 
-Her mother stood there, dressed in formal robes—deep crimson embroidered with silver. Her hair was arranged in the intricate style she wore for court. Her smile was gentle, the way it had always been when she found Amber playing alone.
+Her mother stood there, dressed in formal robes, deep crimson embroidered with silver. Her hair was arranged in the intricate style she wore for court. Her smile was gentle, the way it had always been when she found Amber playing alone.
 
 "Amber," she said. "Come. It is time."
 
@@ -197,9 +197,9 @@ Amber ran.
 
 The scene broke like glass.
 
-She stumbled forward—
+She stumbled forward.
 
-—and the garden fell away beneath her feet.
+And the garden fell away beneath her feet.
 
 She hit soft earth in the outer training grounds now. Older. Not quite a child, not yet the youth who had entered the Academy.
 
@@ -209,7 +209,7 @@ She could not see their faces clearly.
 
 When she looked again, their faces were smeared, like wet paint dragged across canvas.
 
-Voices rose and fell in the distance—cheers, corrections, the crack of wood against wood.
+Voices rose and fell in the distance: cheers, corrections, the crack of wood against wood.
 
 Her hands were empty.
 
@@ -217,7 +217,7 @@ She did not remember dropping the wooden sword.
 
 The students stopped sparring.
 
-One by one, their heads turned toward her, movements jerky and too precise. Their bodies did not follow—only their heads, rotating, necks twisting further than they should have been able to.
+One by one, their heads turned toward her, movements jerky and too precise. Their bodies did not follow; only their heads, rotating, necks twisting further than they should have been able to.
 
 Their blurred faces had no eyes.
 
@@ -233,7 +233,7 @@ Amber stepped back.
 
 Her heel hit something soft.
 
-Black water lapped at the edge of the training ground, silent and still. Reflections shifted within it—faces she knew, places she had visited, all contorted and wrong.
+Black water lapped at the edge of the training ground, silent and still. Reflections shifted within it: faces she knew, places she had visited, all contorted and wrong.
 
 The faceless students stepped toward her.
 
@@ -247,11 +247,11 @@ No one stopped.
 
 A hand grabbed her wrist.
 
-She jerked around—
+She jerked around.
 
 Her mother stood there.
 
-Her face was perfect now, exactly as Amber remembered—high cheekbones, kind eyes, the faint smile lines at the corners of her mouth.
+Her face was perfect now, exactly as Amber remembered: high cheekbones, kind eyes, the faint smile lines at the corners of her mouth.
 
 "Amber," she said. "You must run."
 
@@ -259,7 +259,7 @@ Relief flooded through Amber.
 
 Then her skin cracked.
 
-Thin lines split across her cheekbones, her forehead, her jaw—hairline fractures that glowed faintly with sickly light. Her pupils elongated, stretching into vertical slits.
+Thin lines split across her cheekbones, her forehead, her jaw, hairline fractures that glowed faintly with sickly light. Her pupils elongated, stretching into vertical slits.
 
 "Amber," she repeated.
 
@@ -277,7 +277,7 @@ Hallway.
 
 Garden.
 
-The scenes blurred together—familiar corridors stretching too long, doors melting into walls, sky tilting at unnatural angles.
+The scenes blurred together: familiar corridors stretching too long, doors melting into walls, sky tilting at unnatural angles.
 
 Everywhere, the same pattern repeated.
 
@@ -311,7 +311,7 @@ Too metallic.
 
 Her stomach twisted.
 
-The seats were filled with family—uncles, aunts, cousins, retainers. They all sat perfectly still, backs straight, hands folded.
+The seats were filled with family: uncles, aunts, cousins, retainers. They all sat perfectly still, backs straight, hands folded.
 
 Every head turned toward her at once.
 
@@ -403,7 +403,7 @@ She looked up.
 
 Valen stood at the far end of the hall.
 
-He looked exactly as she remembered—cloak, expression, sharp analytical focus. Only his eyes glowed faintly now, traced with molten gold.
+He looked exactly as she remembered: cloak, expression, sharp analytical focus. Only his eyes glowed faintly now, traced with molten gold.
 
 Relief surged through her.
 
@@ -479,7 +479,7 @@ Not a warrior's shout.
 
 A raw, frightened sound that tore from somewhere deep in her chest.
 
-"Valen—!"
+"Valen!"
 
 The world shattered.
 
@@ -487,13 +487,13 @@ Amber jerked in the bed, breath ripping in and out of her lungs.
 
 Heat roared through her veins. Golden light flared behind her eyelids.
 
-Hands—real ones this time—held her down gently but firmly.
+Hands (real ones this time) held her down gently but firmly.
 
 A cool touch pressed against her arm.
 
 Something sharp pricked her skin.
 
-The nightmare began to dissolve—the great hall, the monsters, the girl, even Valen's cracked face fading into formless shadow.
+The nightmare began to dissolve: the great hall, the monsters, the girl, even Valen's cracked face fading into formless shadow.
 
 Only the echo of her own scream remained.
 

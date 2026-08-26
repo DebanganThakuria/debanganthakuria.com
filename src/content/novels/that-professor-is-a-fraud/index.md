@@ -30,7 +30,7 @@ Lady Sera was watching. She did not look at Professor Theodore the same way for 
 
 30th June. Three men attacked Professor Caelmont outside the College gates tonight. Three. All Circle 4. One of them was reaching for a knife. I saw it.
 
-Professor Caelmont did not move. The three men did move — backwards, very fast — and then they were on the ground and they were not getting up.
+Professor Caelmont did not move. The three men did move. Backwards, very fast. And then they were on the ground and they were not getting up.
 
 I asked him afterwards if he was all right. He said he had not spilled his tea, which was the chief concern.
 

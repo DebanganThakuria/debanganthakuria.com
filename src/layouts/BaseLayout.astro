@@ -16,7 +16,7 @@ interface Props {
 
 const {
   title,
-  description = 'Personal site of Debangan Thakuria — backend engineer, anime nerd, and web novel writer.',
+  description = 'Personal site of Debangan Thakuria: backend engineer, anime nerd, and web novel writer.',
   ogImage = '/og-default.jpg',
   heroSize = 'short',
 } = Astro.props;
@@ -24,7 +24,7 @@ const {
 const siteUrl = 'https://debanganthakuria.vercel.app';
 const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
 const ogImageUrl = new URL(ogImage, siteUrl).href;
-const pageTitle = title === 'Home' ? 'Debangan Thakuria' : `${title} — Debangan Thakuria`;
+const pageTitle = title === 'Home' ? 'Debangan Thakuria' : `${title} · Debangan Thakuria`;
 
 const personSchema = {
   '@context': 'https://schema.org',
@@ -130,7 +130,7 @@ const personSchema = {
     z-index: 2;
   }
 
-  /* Open storybook page — content flows on the parchment itself */
+  /* Open storybook page: content flows on the parchment itself */
   .page-wrap {
     width: 100%;
     max-width: 980px;

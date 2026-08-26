@@ -9,11 +9,11 @@ Alfred was also observing Eva now that she was standing in front of him.
 
 Her luxurious sky-blue hair, which almost looked white from certain angles, was tied up in a single long braid that reached her waist. Her pale white skin appeared almost sickly. Her oval face with an angular jawline gave her a mature yet youthful charm.
 
-She was dressed in a loose-fitting white Mage robe which covered most of her body. On her left breast was a crest of a five-leaf clover sewn in platinum — the crest of New Hope City. The overall garment indicated that she was a member of the White Tower and based in New Hope City.
+She was dressed in a loose-fitting white Mage robe which covered most of her body. On her left breast was a crest of a five-leaf clover sewn in platinum: the crest of New Hope City. The overall garment indicated that she was a member of the White Tower and based in New Hope City.
 
 Alfred looked at her eyes, which were covered by large round-rimmed glasses, giving her a scholarly air. Looking deeper, her dark eyes glimmered in red under the sunlight.
 
-Alfred was mesmerized by her beauty. But what shocked him the most was the sheer presence she radiated. She was a Rank 5 Mage, but her mana capacity appeared to be more than double the amount of her peers. She was almost invincible in her rank and maybe even among newly advanced Rank 6s. Even Alfred, who could generate limitless mana through Vita Fons, felt a slight threat — raw capacity meant nothing if the person wielding it was this refined.
+Alfred was mesmerized by her beauty. But what shocked him the most was the sheer presence she radiated. She was a Rank 5 Mage, but her mana capacity appeared to be more than double the amount of her peers. She was almost invincible in her rank and maybe even among newly advanced Rank 6s. Even Alfred, who could generate limitless mana through Vita Fons, felt a slight threat; raw capacity meant nothing if the person wielding it was this refined.
 
 But that was not all. Alfred felt something else from her. It was a form of mental pressure specific to a certain race. He had experienced it before when he attended the series of high-level conferences at the end of the Hundred Years War.
 
@@ -49,7 +49,7 @@ Alfred stood there for some time looking in her direction. He remembered what Mi
 
 He didn't have dinner and locked himself inside his room. Fishing in his storage bag, he pulled out an old diary and started going through it.
 
-Milo, who was sleeping lazily on the bed, opened an eye and thought out loud, "Look at him — picking up Body Tempering again after almost a hundred years. A good competition does help."
+Milo, who was sleeping lazily on the bed, opened an eye and thought out loud, "Look at him, picking up Body Tempering again after almost a hundred years. A good competition does help."
 
 ---
 
@@ -87,7 +87,7 @@ The ground floor was unpartitioned and looked like a large hallway with bookshel
 
 At the end of the hallway, there were the counter and the stairs, and behind were the bathrooms.
 
-Alfred put a bookshelf in the center laterally and divided the hall into two rooms — the customer receiving room and his potions lab. He brought the counter to the receiving room and put stools in front.
+Alfred put a bookshelf in the center laterally and divided the hall into two rooms: the customer receiving room and his potions lab. He brought the counter to the receiving room and put stools in front.
 
 After that, he sorted out some books related to Potioneering from Old Ren's collection. Together with some glass jars full of common dried herbs from his own collection, he decorated the shelves.
 

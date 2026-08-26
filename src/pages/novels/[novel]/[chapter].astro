@@ -37,7 +37,7 @@ const { Content } = await render(chapter);
 const readingTime = readingTimeMins(chapter.body);
 ---
 
-<BaseLayout title={`${chapter.data.title} — ${novelSlug.replace(/-/g, ' ')}`} description={`Read ${chapter.data.title}`}>
+<BaseLayout title={`${chapter.data.title} · ${novelSlug.replace(/-/g, ' ')}`} description={`Read ${chapter.data.title}`}>
   <article>
     <!-- Breadcrumb -->
     <nav class="breadcrumb" aria-label="Breadcrumb">

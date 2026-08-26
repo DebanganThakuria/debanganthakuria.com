@@ -7,22 +7,22 @@ novel: "the-professor-knows-it-all"
 
 A man in a long black cloak and an oversized dark top hat knelt beside the corpse of the assassin shopkeeper. With a practiced motion, he uncorked a small vial and drew blood from the dead man’s arm.
 
-Then, using telekinesis, he began drawing intricate circles around the body—layer after layer of ritual symbols etched into the floor in arcs of crimson.
+Then, using telekinesis, he began drawing intricate circles around the body: layer after layer of ritual symbols etched into the floor in arcs of crimson.
 
-When the array was complete, he detached a spherical crystal—about the size of a golf ball—from the top of his cane and placed it at a specific intersection within the bloody diagram.
+When the array was complete, he detached a spherical crystal (about the size of a golf ball) from the top of his cane and placed it at a specific intersection within the bloody diagram.
 
 Stepping back, he struck the ground sharply with the butt of his cane. The magic array blazed to life, pulsing with an eerie green glow.
 
-As the light intensified, the concentric rings began to spiral inward toward the crystal. When they touched it, the orb lit up in a stark white glow. Echoes of roars and howls—inhuman and tormented—poured from it like the voices of the damned.
+As the light intensified, the concentric rings began to spiral inward toward the crystal. When they touched it, the orb lit up in a stark white glow. Echoes of roars and howls, inhuman and tormented, poured from it like the voices of the damned.
 
-The mage didn’t flinch. He channeled more mana, his aura flaring. A rhythmic chant spilled from his lips—unintelligible, maddening, ancient.
+The mage didn’t flinch. He channeled more mana, his aura flaring. A rhythmic chant spilled from his lips: unintelligible, maddening, ancient.
 
 Then, with deliberate finality, he spoke aloud in a calm, resonant voice:
-"I wish to have brief words with this man’s soul—in exchange for the soul of this beast."
+"I wish to have brief words with this man’s soul, in exchange for the soul of this beast."
 
 The howls ceased.
 
-And from within the orb, a pale, translucent face emerged—the lifeless visage of the dead shopkeeper.
+And from within the orb, a pale, translucent face emerged: the lifeless visage of the dead shopkeeper.
 
 The mage’s eyes narrowed. He began at once.
 
@@ -56,7 +56,7 @@ A short distance behind him, a woman stood with a rapier at her side. She wore l
 Lucian inclined his head slightly.
 "Very well. I’ll leave the rest to you, Knight Helen."
 
-He turned to go, but paused. She was still looking at him—her expression unreadable, her lips parting slightly, as though words were trapped there.
+He turned to go, but paused. She was still looking at him, her expression unreadable, her lips parting slightly, as though words were trapped there.
 
 "Is there something else?" he asked, without turning.
 
@@ -80,9 +80,9 @@ He closed his eyes briefly, thoughtful.
 
 In this world, knights trained their bodies as mages trained their souls.
 
-To surpass mortal limits, knights required Life Potions—concoctions distilled from the life essence of magical beasts. 
+To surpass mortal limits, knights required Life Potions: concoctions distilled from the life essence of magical beasts. 
 
-The path of the knight was the oldest way of acquiring power for humans, dating back to before written history. In those times, warriors drank the raw blood of beasts. Crude, violent—and dangerous.
+The path of the knight was the oldest way of acquiring power for humans, dating back to before written history. In those times, warriors drank the raw blood of beasts. Crude, violent, and dangerous.
 
 When mages appeared in the annals of history, they refined this practice. They learned how to extract pure life essence and created stable potions.
 

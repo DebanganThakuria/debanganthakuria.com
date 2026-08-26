@@ -13,11 +13,11 @@ Ten minutes later, he opened his eyes again and reached for the next book.
 
 In those short ten minutes, Lucian had analyzed the contents of the book from every possible angle and memorized it entirely.
 
-This was far beyond the capabilities of ordinary people. It was only possible thanks to his enhanced spell—[Parallel Thoughts].
+This was far beyond the capabilities of ordinary people. It was only possible thanks to his enhanced spell, [Parallel Thoughts].
 
 [Parallel Thoughts] was an ancient spell that allowed mages to divide a portion of their soul, enabling it to think independently yet in perfect coordination with the main consciousness.
 
-Lucian had taken this spell to its extreme by combining it with his original spell—[Atomic Soul].
+Lucian had taken this spell to its extreme by combining it with his original spell, [Atomic Soul].
 
 He continued his study, moving from volume to volume, and by the end of three hours, he had completed fifteen thick tomes.
 
@@ -25,11 +25,11 @@ He continued his study, moving from volume to volume, and by the end of three ho
 
 It had taken him a hundred years of study and relentless experimentation to create that spell.
 
-[Atomic Soul] was based on a much simpler and older spell known as [Soul Binding]. In ancient times, mages devised this spell to keep their valuables close—both in distance and spirit.
+[Atomic Soul] was based on a much simpler and older spell known as [Soul Binding]. In ancient times, mages devised this spell to keep their valuables close, both in distance and spirit.
 
 To cast [Soul Binding], a mage would tear off a tiny piece of their own soul and bind it to an object. Once linked, the object became an extension of the mage’s soul. They could sense its location at all times and even control it mentally, much like moving a limb.
 
-But its most powerful feature was this: once the object was imbued with a soul fragment, it gained access to the Spirit World—a realm only accessible to soul-bound entities.
+But its most powerful feature was this: once the object was imbued with a soul fragment, it gained access to the Spirit World, a realm only accessible to soul-bound entities.
 
 Ordinary creatures could enter the Spirit World as well, but only their souls would travel. Their physical bodies would be left behind, becoming empty husks. In contrast, inanimate objects bound with soul fragments didn’t face this limitation.
 
@@ -37,7 +37,7 @@ However, the spell had a devastating downside. If the bound object was destroyed
 
 So why would Lucian base his greatest invention on such a fragile spell?
 
-Because he had discovered something miraculous—and a way to circumvent the fatal flaw.
+Because he had discovered something miraculous, and with it a way to circumvent the fatal flaw.
 
 Lucian had been born with abysmal magical talent. To call it “poor” was an understatement.
 
@@ -53,7 +53,7 @@ This made sense when observed in nature. Large magical beasts required vast amou
 
 That was the key.
 
-He didn’t need to become a colossal beast to gain faster regeneration. He needed to increase the surface area of his soul—without increasing its volume.
+He didn’t need to become a colossal beast to gain faster regeneration. He needed to increase the surface area of his soul without increasing its volume.
 
 The answer lay in a simple concept: grains of sand have far greater surface area relative to their volume. So, Lucian theorized that if he could fragment his soul into countless tiny pieces and bind each to a grain of sand, he could amplify his soul’s surface area exponentially.
 
@@ -61,7 +61,7 @@ This was his original concept. He named it [Sands of Soul].
 
 But there was a fatal flaw: he had to sever significant chunks of his soul to bind to each grain. If anyone destroyed this pile of sand, he'd lose those soul fragments forever.
 
-The solution was obvious—he needed something virtually indestructible.
+The solution was obvious: he needed something virtually indestructible.
 
 Atoms.
 

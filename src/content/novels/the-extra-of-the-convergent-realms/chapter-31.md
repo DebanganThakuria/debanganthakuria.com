@@ -25,11 +25,11 @@ For a heartbeat, everything froze.
 
 Then the wave hit.
 
-Power burst outward from the arrival point—pure, concentrated force that did not carry the taste of Chaos or Death, but something warmer, and far more ordered. It rolled across the battlefield like an invisible blast front.
+Power burst outward from the arrival point: pure, concentrated force that did not carry the taste of Chaos or Death, but something warmer, and far more ordered. It rolled across the battlefield like an invisible blast front.
 
 Valen's instincts screamed.
 
-He threw his hands out and layered barriers in front of and above himself and Amber in rapid succession—solid-state domes tuned to deflect blunt force rather than elemental impact. One dome. Two. Three.
+He threw his hands out and layered barriers in front of and above himself and Amber in rapid succession: solid-state domes tuned to deflect blunt force rather than elemental impact. One dome. Two. Three.
 
 "Brace," he said.
 
@@ -41,7 +41,7 @@ Dust, leaves, broken weapons, and bodies skidded across the ground outside their
 
 When the wave passed, silence fell for a heartbeat.
 
-Then sound returned—groans, the crackle of lingering spells, the distant roars of creatures still capable of moving.
+Then sound returned: groans, the crackle of lingering spells, the distant roars of creatures still capable of moving.
 
 Valen dismissed the damaged dome.
 
@@ -67,7 +67,7 @@ Valen believed it.
 
 He could feel the difference in their life levels.
 
-The Rank 7's aura had been like a bonfire—loud, aggressive, wild at the edges. The woman's presence was something else entirely. Not a fire. A furnace. Contained, directed heat that could melt anything placed within it.
+The Rank 7’s aura had been like a bonfire: loud, aggressive, wild at the edges. The woman's presence was something else entirely. Not a fire. A furnace. Contained, directed heat that could melt anything placed within it.
 
 Her gaze swept across the battlefield, taking in torn earth, shattered forest spirits, scattered demons, flickering portals, and the half-extracted soul still struggling in the grip of skeletal hands.
 
@@ -81,7 +81,7 @@ Her hand rose.
 
 Pale blue fire sprang to life around her fingertips, coiling up her arm. It did not waver or drip. It burned with a steady, consuming intensity that seemed to drink in surrounding light.
 
-She pointed toward the nearest open gate—a ragged tear in the air from which lesser demons were still crawling.
+She pointed toward the nearest open gate, a ragged tear in the air from which lesser demons were still crawling.
 
 The flame leapt.
 
@@ -113,7 +113,7 @@ The golden iris tightened, plates shifting rapidly. The pupil deepened, the void
 
 Soul-light began to rise from the battlefield.
 
-Every demon that had harvested souls and spirits, every shred of Chaos Energy that had leaked into the air—threads of that essence were drawn upward now, pulled toward the staring abyss. Even scraps of the destroyed Rank 4 and lesser invaders joined the stream.
+Every demon that had harvested souls and spirits, every shred of Chaos Energy that had leaked into the air: threads of that essence were drawn upward now, pulled toward the staring abyss. Even scraps of the destroyed Rank 4 and lesser invaders joined the stream.
 
 The Ashen Witch's gaze flicked up.
 
@@ -125,7 +125,7 @@ But the eye was not passive.
 
 It increased its pull.
 
-The air trembled with the strain as two forces tugged at the same resource—one seeking to erase, the other to salvage. In the end, the eye managed to draw a portion of the gathered souls and Chaos remnants into its pupil before the last gate snapped shut.
+The air trembled with the strain as two forces tugged at the same resource: one seeking to erase, the other to salvage. In the end, the eye managed to draw a portion of the gathered souls and Chaos remnants into its pupil before the last gate snapped shut.
 
 The cracks in the sky shuddered.
 
@@ -141,11 +141,11 @@ The death aura pouring from the cracks below him thickened.
 
 The Witch's lips thinned.
 
-She raised her staff—or something that had not been there a heartbeat earlier but now rested in her hand as if it had always belonged there. The rod was a dull, ashen grey, unadorned, more like a walking stick than a mage's ceremonial focus.
+She raised her staff, or something that had not been there a heartbeat earlier but now rested in her hand as if it had always belonged there. The rod was a dull, ashen grey, unadorned, more like a walking stick than a mage's ceremonial focus.
 
 She traced a pattern in the air.
 
-A formation bloomed across the forest—vast, intricate circles and sigils flaring to life above and below the ground, lines of pale light intersecting in complex geometry. For a moment, a portion of Dawn Forest's true structure was revealed: anchor points, sealed nodes, buried arrays.
+A formation bloomed across the forest: vast, intricate circles and sigils flaring to life above and below the ground, lines of pale light intersecting in complex geometry. For a moment, a portion of Dawn Forest's true structure was revealed: anchor points, sealed nodes, buried arrays.
 
 "You old lich," she said, voice cool. "You will stay in your cage."
 
@@ -183,7 +183,7 @@ For a moment, it seemed as if the world existed only in the space between her in
 
 She turned.
 
-The pale fire in her eyes dimmed by a fraction as she regarded the distant, half-faded eye in the sky. Whatever silent contest had just played out, it appeared finished—for now.
+The pale fire in her eyes dimmed by a fraction as she regarded the distant, half-faded eye in the sky. Whatever silent contest had just played out, it appeared finished, for now.
 
 Without a word, the Ashen Witch's form blurred.
 
@@ -203,7 +203,7 @@ A ragged cheer rose from scattered pockets of survivors, spreading outward as re
 
 The battle was not entirely done.
 
-Here and there, Blights and stubborn lesser demons still twitched or struggled to rise. The remaining Rank 4 and above fighters moved almost automatically, finishing them off with efficient strikes, spells, or summoned roots and blades. No flourishes, no displays—just clean, practiced kills from people who had no energy left for anything else.
+Here and there, Blights and stubborn lesser demons still twitched or struggled to rise. The remaining Rank 4 and above fighters moved almost automatically, finishing them off with efficient strikes, spells, or summoned roots and blades. No flourishes, no displays: just clean, practiced kills from people who had no energy left for anything else.
 
 Within a dozen breaths, the last of the monsters fell.
 

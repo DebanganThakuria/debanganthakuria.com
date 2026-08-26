@@ -11,7 +11,7 @@ Valen sat cross-legged on his bed, the narrow room's single mana lamp casting a 
 
 On the table before him, Hilde's cube waited.
 
-Two inches of dark metal. Bronze alloy — or bell metal, if the faint resonance when he tapped it was any indication. The unfinished formation carved into its surface caught the lamplight in thin lines. Force Rune. Compression modifier. Then nothing.
+Two inches of dark metal. Bronze alloy, or bell metal, if the faint resonance when he tapped it was any indication. The unfinished formation carved into its surface caught the lamplight in thin lines. Force Rune. Compression modifier. Then nothing.
 
 He had spent the previous evening studying it through Iris's analysis, mapping the existing formations.
 
@@ -29,7 +29,7 @@ Valen lifted his hands, palms facing each other, and suspended the cube between 
 
 He closed his eyes.
 
-Mana gathered in his palms — not the sharp, directed kind he used for combat, but something slower, more deliberate. A current rather than a strike. He fed it into the cube's structure, feeling for the grain of the metal, the boundaries between alloys, the crystalline lattice that gave the material its rigidity.
+Mana gathered in his palms, not the sharp, directed kind he used for combat, but something slower, more deliberate. A current rather than a strike. He fed it into the cube's structure, feeling for the grain of the metal, the boundaries between alloys, the crystalline lattice that gave the material its rigidity.
 
 Then he activated the transmutation spell.
 
@@ -37,17 +37,17 @@ The effect was not immediate. For several seconds, nothing visible changed. The 
 
 Then the edges softened.
 
-It happened at the corners first — the sharp right angles rounding, losing definition, the metal beginning to behave less like a solid and more like something remembering that it had once been liquid. The carved formation lines blurred as the surface lost its rigidity.
+It happened at the corners first: the sharp right angles rounding, losing definition, the metal beginning to behave less like a solid and more like something remembering that it had once been liquid. The carved formation lines blurred as the surface lost its rigidity.
 
 The cube began to come undone.
 
-Not violently. Not dramatically. It simply... released. The internal structure that held its shape surrendered to the transmutation field, and the metal flowed apart like honey sliding from a tilted spoon. What had been a precise geometric form dissolved into a floating mass of molten bronze — except it was not hot. The metal moved at room temperature, held in suspension by Valen's mana, glowing faintly with the amber light of active transmutation.
+Not violently. Not dramatically. It simply... released. The internal structure that held its shape surrendered to the transmutation field, and the metal flowed apart like honey sliding from a tilted spoon. What had been a precise geometric form dissolved into a floating mass of molten bronze, except it was not hot. The metal moved at room temperature, held in suspension by Valen's mana, glowing faintly with the amber light of active transmutation.
 
 "Master, this is..." Iris watched from his shoulder, her chibi form leaning so far forward she was practically horizontal.
 
 "Magic," Valen said.
 
-The blob of suspended metal hung between his palms like a living thing. It caught the lamplight and threw it back in shifting patterns — bronze and copper tones flowing through each other like oil on water. The mana that saturated it pulsed in slow rhythms, responding to his thoughts the way a held breath responds to the body that holds it.
+The blob of suspended metal hung between his palms like a living thing. It caught the lamplight and threw it back in shifting patterns: bronze and copper tones flowing through each other like oil on water. The mana that saturated it pulsed in slow rhythms, responding to his thoughts the way a held breath responds to the body that holds it.
 
 It was, in the most literal sense, an extension of his will.
 
@@ -55,9 +55,9 @@ He thought of a sphere, and the blob contracted, surface tension drawing it inwa
 
 He thought of a disc, and it flattened, edges thinning to a razor line before he pulled them back.
 
-He thought of the formation that Hilde had carved, and the runes appeared on the blob's surface — not carved but grown, the metal reshaping itself to reproduce the pattern from memory. Force Rune. Compression modifier. The unfinished sequence, rendered in flowing bronze.
+He thought of the formation that Hilde had carved, and the runes appeared on the blob's surface, not carved but grown, the metal reshaping itself to reproduce the pattern from memory. Force Rune. Compression modifier. The unfinished sequence, rendered in flowing bronze.
 
-Ancient Praxian Runes crisscrossed through his mind — not as symbols on a page but as concepts, forces, intentions. The blob responded to each one, reshaping itself as the ideas flowed through it.
+Ancient Praxian Runes crisscrossed through his mind, not as symbols on a page but as concepts, forces, intentions. The blob responded to each one, reshaping itself as the ideas flowed through it.
 
 "Master, what are you thinking of making?"
 
@@ -65,13 +65,13 @@ Ancient Praxian Runes crisscrossed through his mind — not as symbols on a page
 
 Valen let the thought unspool.
 
-The blob elongated, drew inward, and became — a small carriage. Four wheels, a cabin, an axle connecting them. The detail was rough but recognisable, the proportions correct, the moving parts actually moving. He added a rotation rune to the rear axle and fed it a thread of mana through a telekinetic channel.
+The blob elongated, drew inward, and became a small carriage. Four wheels, a cabin, an axle connecting them. The detail was rough but recognisable, the proportions correct, the moving parts actually moving. He added a rotation rune to the rear axle and fed it a thread of mana through a telekinetic channel.
 
 The carriage rolled forward across the table.
 
-It moved with a faint metallic whisper, wheels turning, the body rocking slightly on its suspension — because Valen had given it suspension, instinctively, the engineering knowledge from his past life flowing through his fingers as naturally as the mana.
+It moved with a faint metallic whisper, wheels turning, the body rocking slightly on its suspension, because Valen had given it suspension, instinctively, the engineering knowledge from his past life flowing through his fingers as naturally as the mana.
 
-The carriage reached the table's edge, and instead of falling, it launched itself upward. The metal flowed mid-leap, the carriage dissolving and reforming in the space of a heartbeat into a miniature horse — four legs, a mane of fine bronze threads, a tail that streamed behind it as it galloped across the tabletop.
+The carriage reached the table's edge, and instead of falling, it launched itself upward. The metal flowed mid-leap, the carriage dissolving and reforming in the space of a heartbeat into a miniature horse: four legs, a mane of fine bronze threads, a tail that streamed behind it as it galloped across the tabletop.
 
 Its hooves made tiny ringing sounds on the wood.
 
@@ -79,11 +79,11 @@ Its hooves made tiny ringing sounds on the wood.
 
 Valen smiled.
 
-The horse reached the table's far edge and leapt — a graceful arc that carried it over the gap between table and bed. It landed, galloped two strides across the blanket, then sprang into the air and dove toward Valen's outstretched palm.
+The horse reached the table's far edge and leapt, a graceful arc that carried it over the gap between table and bed. It landed, galloped two strides across the blanket, then sprang into the air and dove toward Valen's outstretched palm.
 
 In midair, it dissolved.
 
-The blob settled into his hand, warm and heavy and faintly humming. For a moment, it simply rested there — a formless mass of possibility.
+The blob settled into his hand, warm and heavy and faintly humming. For a moment, it simply rested there, a formless mass of possibility.
 
 Then it contracted, edges sharpening, faces flattening, corners resolving. The formation lines reappeared on its surface, sharper now, more confident.
 
@@ -93,21 +93,21 @@ Except it was not.
 
 The unfinished formation remained, but Valen had felt the metal from the inside. He understood its grain now, its strengths, its tolerances. He knew how it wanted to move and where it resisted.
 
-"A compression rune, a force rune. We can add a control rune and rotation rune and..." He turned the cube slowly, seeing not just the surface but the interior — the channels where mana would flow, the nodes where forces would concentrate, the geometry that would determine what the finished object could become.
+"A compression rune, a force rune. We can add a control rune and rotation rune and..." He turned the cube slowly, seeing not just the surface but the interior: the channels where mana would flow, the nodes where forces would concentrate, the geometry that would determine what the finished object could become.
 
-The internals shifted. Not the exterior — the formation lines on the surface remained as Hilde had carved them. But inside, where only Valen and Iris could perceive, the metal reorganised. Channels widened. Junctions smoothed. The internal architecture aligned itself with the completion he had chosen.
+The internals shifted. Not the exterior: the formation lines on the surface remained as Hilde had carved them. But inside, where only Valen and Iris could perceive, the metal reorganised. Channels widened. Junctions smoothed. The internal architecture aligned itself with the completion he had chosen.
 
 He held the cube in his palm and fed mana into it one more time.
 
 The cube lifted from his hand.
 
-With a sound like a blade leaving its sheath — slick metal on slick metal — the cube unfolded. Faces separated, edges extended, the compact form opening outward into a spinning disc. The Force Rune blazed along the rim. The compression modifier tightened the disc's profile until it was barely thicker than a coin.
+With a sound like a blade leaving its sheath (slick metal on slick metal), the cube unfolded. Faces separated, edges extended, the compact form opening outward into a spinning disc. The Force Rune blazed along the rim. The compression modifier tightened the disc's profile until it was barely thicker than a coin.
 
 A chakra. Spinning at high speed, the air around it humming with contained force.
 
 Valen flicked it lightly with a telekinetic nudge.
 
-The chakra shot across the room in a flat arc, trailing a faint amber glow. It struck the candle on the far shelf — not the flame, the wax itself — and passed through it so cleanly that the two halves stood for a moment before the upper section slid sideways and toppled.
+The chakra shot across the room in a flat arc, trailing a faint amber glow. It struck the candle on the far shelf (not the flame, the wax itself) and passed through it so cleanly that the two halves stood for a moment before the upper section slid sideways and toppled.
 
 The chakra curved, decelerating through a smooth arc, and returned to his hand. The metal folded inward, edges retracting, faces compressing, until the cube sat in his palm once more. Warm. Humming. Complete.
 
@@ -119,19 +119,19 @@ The chakra curved, decelerating through a smooth arc, and returned to his hand. 
 
 "But Master," Iris said, her tone shifting from excited to practical, "since we changed the entire internal structure using transmutation, the crystalline lattice is unstable. The formation channels will degrade within weeks. Perhaps days, given how extensively we reshaped it."
 
-Valen nodded. He had felt it — the same instability the stall owner in the market had described. Transmuted metal remembered its old shape. Without thermal stabilisation, it would drift back, and the precisely aligned channels inside the cube would blur and fail.
+Valen nodded. He had felt it: the same instability the stall owner in the market had described. Transmuted metal remembered its old shape. Without thermal stabilisation, it would drift back, and the precisely aligned channels inside the cube would blur and fail.
 
 "We need to forge it."
 
 He held the cube between his palms again, steadying it with the telekinetic field. Then he drew on fire.
 
-Not the explosive combat flame he used in battle. A controlled, penetrating heat that began at the cube's core and radiated outward. The metal glowed — first a dull red at the centre, then brighter, spreading, the surface darkening from bronze to cherry to a fierce orange-white that cast sharp shadows across the room's stone walls.
+Not the explosive combat flame he used in battle. A controlled, penetrating heat that began at the cube's core and radiated outward. The metal glowed: first a dull red at the centre, then brighter, spreading, the surface darkening from bronze to cherry to a fierce orange-white that cast sharp shadows across the room's stone walls.
 
-The cube hung in the air between his palms, incandescent, its formation channels now visible as bright lines against the glowing metal — like veins of light running through a translucent body.
+The cube hung in the air between his palms, incandescent, its formation channels now visible as bright lines against the glowing metal, like veins of light running through a translucent body.
 
 For a moment, Valen simply looked at it.
 
-The heat was substantial — his barrier automatically thinned to allow radiant warmth through while blocking convective damage, a technique he had refined during months of practice. The cube pulsed with its own light, and the formation inside it pulsed with it, the runes brightening and dimming in rhythm, as if the metal were breathing.
+The heat was substantial; his barrier automatically thinned to allow radiant warmth through while blocking convective damage, a technique he had refined during months of practice. The cube pulsed with its own light, and the formation inside it pulsed with it, the runes brightening and dimming in rhythm, as if the metal were breathing.
 
 It was beautiful.
 
@@ -139,17 +139,17 @@ Iris was quiet beside him. Not analysing. Just watching.
 
 Then Valen brought the ice.
 
-The temperature drop was instantaneous and extreme. Frost crystallised on the cube's surface in a sharp lattice, steam erupting in a dense white cloud as residual heat met the ice spell. The metal screamed — a thin, high note that cut through the room and faded as the thermal shock propagated through the alloy.
+The temperature drop was instantaneous and extreme. Frost crystallised on the cube's surface in a sharp lattice, steam erupting in a dense white cloud as residual heat met the ice spell. The metal screamed, a thin, high note that cut through the room and faded as the thermal shock propagated through the alloy.
 
 Inside the cube, the crystalline lattice that transmutation had disrupted was forced into a new configuration by the rapid cooling. Molecules that had been drifting toward their old positions were locked in place, frozen mid-transition. The formation channels, still glowing faintly, hardened around them.
 
 The steam cleared.
 
-The cube sat in his palm — dark, dense, and utterly still.
+The cube sat in his palm: dark, dense, and utterly still.
 
 Valen turned it once.
 
-The formation lines on its surface were sharper than before. The metal felt different under his fingers — denser, with a quality that resisted casual pressure in a way the original had not.
+The formation lines on its surface were sharper than before. The metal felt different under his fingers: denser, with a quality that resisted casual pressure in a way the original had not.
 
 "Master, the forging worked. The transmuted structure is locked."
 
@@ -167,7 +167,7 @@ He set the cube on the table beside the severed candle and the still-sealed stor
 
 The knock came at mid-morning.
 
-Valen opened his door to find Amber leaning against the corridor wall, arms crossed, hair braided back, saber at her hip. She wore the same practical clothes as yesterday — reinforced leather, high boots — but she had added a light grey cloak against the rain, its hood pushed back.
+Valen opened his door to find Amber leaning against the corridor wall, arms crossed, hair braided back, saber at her hip. She wore the same practical clothes as yesterday (reinforced leather, high boots), but she had added a light grey cloak against the rain, its hood pushed back.
 
 "You missed sparring," she said.
 
@@ -195,7 +195,7 @@ Amber pushed off the wall and walked past him into the room without waiting for 
 
 "Just today morning, actually."
 
-She turned the cube again, slower this time. Her fingers found the formation lines — the original ones Hilde had carved, and the new ones Valen had added. She could not sense the internal structure the way he could, but she had spent enough time around enchanted weapons to recognise quality craftsmanship by touch.
+She turned the cube again, slower this time. Her fingers found the formation lines: the original ones Hilde had carved, and the new ones Valen had added. She could not sense the internal structure the way he could, but she had spent enough time around enchanted weapons to recognise quality craftsmanship by touch.
 
 "It feels different from yesterday," she said. "Heavier. Warmer."
 
@@ -215,9 +215,9 @@ Valen raised an eyebrow.
 
 He picked up the cube and fed mana into it.
 
-The transformation was smooth this time — practiced. The cube unfolded into the spinning chakra with a single fluid motion, the amber glow steady along its rim.
+The transformation was smooth this time, practiced. The cube unfolded into the spinning chakra with a single fluid motion, the amber glow steady along its rim.
 
-Amber's eyes widened. Not with fear — with the particular brightness of someone who understood weapons and had just seen something new.
+Amber's eyes widened. Not with fear, but with the particular brightness of someone who understood weapons and had just seen something new.
 
 "Throw it," she said.
 
@@ -227,7 +227,7 @@ Amber's eyes widened. Not with fear — with the particular brightness of someon
 
 Valen flicked the chakra toward the far wall. It crossed the room in a flat arc, struck the stone with a sharp crack that sent dust cascading from the impact point, then curved smoothly and returned to his hand. The cube reformed.
 
-Amber stared at the wall. A thin line had been scored into the granite — not deep, but visible. A groove cut into stone that had stood for centuries.
+Amber stared at the wall. A thin line had been scored into the granite, not deep, but visible. A groove cut into stone that had stood for centuries.
 
 "That is a formation-powered weapon that fits in your pocket," she said. "And you made it in a morning. From a test piece."
 
@@ -245,7 +245,7 @@ Valen looked at her. She looked back, chin slightly raised, amber eyes steady.
 
 "I can make you something better," he said. "Something designed for your fighting style."
 
-The corner of her mouth curved. Not a full smile — the beginning of one, held in reserve. "I will hold you to that."
+The corner of her mouth curved. Not a full smile, the beginning of one, held in reserve. "I will hold you to that."
 
 She turned toward the door, then paused at the threshold.
 

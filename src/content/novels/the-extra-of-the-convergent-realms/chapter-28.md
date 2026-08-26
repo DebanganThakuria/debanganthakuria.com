@@ -31,7 +31,7 @@ But it could not last.
 
 The pressure changed.
 
-A new presence rose from within the demonic ranks—a heavy weight of mana that did not belong to this world. The air around it twisted, not like Chaos mana’s wild turbulence, but with the focused malice of a predator sighting prey.
+A new presence rose from within the demonic ranks: a heavy weight of mana that did not belong to this world. The air around it twisted, not like Chaos mana’s wild turbulence, but with the focused malice of a predator sighting prey.
 
 The creatures near that presence shifted unconsciously, creating a clearing around it.
 
@@ -63,7 +63,7 @@ The demon’s fist crashed into the greatsword in a flare of dark and pale light
 
 For a moment, both combatants held.
 
-Then they vanished into motion—two meteors colliding and separating, their battle forcing open a gap in the demonic line as lesser creatures scrambled to avoid being crushed between them.
+Then they vanished into motion: two meteors colliding and separating, their battle forcing open a gap in the demonic line as lesser creatures scrambled to avoid being crushed between them.
 
 The problem was immediate.
 
@@ -105,11 +105,11 @@ Her shoulders shook once with a quiet, brief laugh.
 
 Then the first wave reached their portion of the line.
 
-They had been placed slightly behind the true front—near enough to support, far enough to avoid being trampled by the heaviest impacts. It still meant that, within moments, creatures that should not exist were within killing distance.
+They had been placed slightly behind the true front: near enough to support, far enough to avoid being trampled by the heaviest impacts. It still meant that, within moments, creatures that should not exist were within killing distance.
 
 The first Blight that came for them had once been a deer.
 
-Its twisted form still carried hints of that origin—long legs, a narrow head—but the resemblance ended there. Bone jutted through patches of skin, forming jagged armor. Extra joints bent the limbs in wrong directions. Its antlers had become a crown of branching, stone-like spikes dripping with faint, corrosive mist.
+Its twisted form still carried hints of that origin (long legs, a narrow head) but the resemblance ended there. Bone jutted through patches of skin, forming jagged armor. Extra joints bent the limbs in wrong directions. Its antlers had become a crown of branching, stone-like spikes dripping with faint, corrosive mist.
 
 It bounded over the shattered remains of a semi-Blight, landing with a crack of hooves. Its head dipped, antlers angling toward Valen and Amber.
 
@@ -121,7 +121,7 @@ The beast lunged.
 
 She did not meet the charge head-on. Instead, Amber pivoted, letting the creature’s bulk thunder past, and slashed along its side. The saber cut through corrupted hide with a scream of air, a line of compressed wind riding the steel.
 
-The Blight staggered mid-stride as flesh and bone parted. Blood—too dark, thick with mana—sprayed across the trampled grass.
+The Blight staggered mid-stride as flesh and bone parted. Blood, too dark, thick with mana, sprayed across the trampled grass.
 
 Before it could recover, Valen lifted his hand.
 
@@ -133,7 +133,7 @@ Amber’s saber flashed once more, and the head separated from the ruined neck.
 
 They stepped aside together, leaving the corpse to be trampled by the next wave.
 
-Another creature—a semi-Blight boar with plates of rock fused into its back—charged directly toward a group of younger Academy students whose formation was already wavering.
+Another creature, a semi-Blight boar with plates of rock fused into its back, charged directly toward a group of younger Academy students whose formation was already wavering.
 
 Valen shifted his focus.
 
@@ -167,7 +167,7 @@ She strode toward it, golden mana gathering along her saber. The demon’s head 
 
 Amber’s first step took her out of the direct path of the strike. Her saber intercepted one limb, wind-enhanced edge biting into demonic flesh. Black ichor sprayed, smoking where it hit the ground.
 
-The demon shrieked and twisted, swinging another limb toward her back. A ripple ran along its arm—runes brightening as it accelerated beyond its previous speed.
+The demon shrieked and twisted, swinging another limb toward her back. A ripple ran along its arm, runes brightening as it accelerated beyond its previous speed.
 
 Valen raised his hand.
 
@@ -191,7 +191,7 @@ The defenders held, but barely.
 
 Then something shifted behind them.
 
-Mana gathered—not in a chaotic storm, but in a deliberate, ritual pattern. Valen felt the formation settle into the earth like roots, drawing on more than just the caster’s personal reserves.
+Mana gathered, not in a chaotic storm, but in a deliberate, ritual pattern. Valen felt the formation settle into the earth like roots, drawing on more than just the caster’s personal reserves.
 
 At the center of the Academy contingent, Instructor Aelindra planted her staff into the ground.
 
@@ -201,7 +201,7 @@ The crystal at its tip flared green.
 
 She spread her free hand.
 
-Lines of pale emerald light raced out from the base of her staff, etching themselves into the soil in a spreading circle. Symbols bloomed in their wake—ancient runes of growth and binding, interlocking with a complexity that spoke of long refinement.
+Lines of pale emerald light raced out from the base of her staff, etching themselves into the soil in a spreading circle. Symbols bloomed in their wake: ancient runes of growth and binding, interlocking with a complexity that spoke of long refinement.
 
 The ground responded.
 
@@ -241,7 +241,7 @@ Yet the tide did not lessen.
 
 He felt it before he understood it.
 
-Mana—tainted, raw, brushed against his skin in a way that stung and yet seemed to fit into some empty space within his core.
+Mana, tainted, raw, brushed against his skin in a way that stung and yet seemed to fit into some empty space within his core.
 
 Chaos Energy.
 
@@ -251,7 +251,7 @@ Raylan did not flinch.
 
 By reflex, he reached for it.
 
-The Chaos Energy did not behave like mana. It was thicker, heavier, filled with jagged edges that should have shredded his channels. But as it flowed into his core, it twisted—and then settled.
+The Chaos Energy did not behave like mana. It was thicker, heavier, filled with jagged edges that should have shredded his channels. But as it flowed into his core, it twisted, and then settled.
 
 It did not overwrite his mana. It wrapped around it.
 
@@ -277,7 +277,7 @@ But not everyone misread it.
 
 Hidden among the Academy students near the rear of the line, a figure watched with unblinking attention.
 
-He wore the same grey cloak as the others, hood up, stance modest. In a crowd, he looked unremarkable. But his movements were a fraction too smooth, his weight too evenly distributed—like he was holding back.
+He wore the same grey cloak as the others, hood up, stance modest. In a crowd, he looked unremarkable. But his movements were a fraction too smooth, his weight too evenly distributed, like he was holding back.
 
 The wooden doppelganger’s false eyes tracked Raylan’s every motion.
 
@@ -289,7 +289,7 @@ A little farther away, on a small rise of torn earth, another gaze fixed on Rayl
 
 This one belonged to a demon.
 
-The Rank 4 invader stood tall and upright, body encased in a carapace of blackened metal-like plates engraved with faintly burning markings. Its eyes were narrow slits of simmering orange. It carried no visible weapon—its arms and the bone-like ridges along its forearms were enough.
+The Rank 4 invader stood tall and upright, body encased in a carapace of blackened metal-like plates engraved with faintly burning markings. Its eyes were narrow slits of simmering orange. It carried no visible weapon; its arms and the bone-like ridges along its forearms were enough.
 
 It watched Raylan’s enhanced strikes with clear interest.
 
@@ -321,7 +321,7 @@ Without hesitation, it followed, leaping into the collapsing section with unnatu
 
 Above, Aelindra’s head snapped toward the sudden sinkhole.
 
-She felt Raylan’s mana signature vanish from the surface layer in an instant—snuffed from her battlefield sense as if swallowed.
+She felt Raylan’s mana signature vanish from the surface layer in an instant, snuffed from her battlefield sense as if swallowed.
 
 "Raylan," she hissed.
 
@@ -335,7 +335,7 @@ Her back muscles tensed. For a heartbeat, she looked ready to ignore the order.
 
 Then she forced herself to stillness, jaw clenched.
 
-From where Valen stood, the entire sequence was visible in glimpses between bodies and forest spirits—a collapsing patch of ground, a flash of Raylan’s cloak vanishing, Aelindra’s aborted step.
+From where Valen stood, the entire sequence was visible in glimpses between bodies and forest spirits: a collapsing patch of ground, a flash of Raylan’s cloak vanishing, Aelindra’s aborted step.
 
 He watched her, then glanced at Amber.
 

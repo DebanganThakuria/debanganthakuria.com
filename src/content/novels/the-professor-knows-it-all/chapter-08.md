@@ -13,7 +13,7 @@ Cassian couldn’t help but let out a snicker from his seat, the mockery in his 
 
 Lucian said nothing. He placed his paper gently on the desk and asked, “I’ve completed the paper. When can I expect the results?”
 
-There was a moment of stunned silence. Beltharion blinked, clearly not expecting someone to finish so early, and Cassian chuckled again, louder this time. Around the room, other candidates looked at Lucian—some in awe, others in confusion.
+There was a moment of stunned silence. Beltharion blinked, clearly not expecting someone to finish so early, and Cassian chuckled again, louder this time. Around the room, other candidates looked at Lucian, some in awe, others in confusion.
 
 “You’re certain?” Beltharion asked again. “These papers go directly to the Grand Chancellor, you know. She’ll be grading them herself.”
 
@@ -31,15 +31,15 @@ In one corner, he noticed a small group gathered. At the center stood a figure w
 
 That’s a little excessive for daylight… though perhaps it's enchanted. Some mages do enjoy the flair, Lucian thought to himself.
 
-The rest of the group consisted of women dressed in knightly attire, armed with blades—swords, rapiers, and daggers. It was a wholly female escort.
+The rest of the group consisted of women dressed in knightly attire, armed with blades: swords, rapiers, and daggers. It was a wholly female escort.
 
 Suddenly, the cloaked mage turned toward him. Perhaps she’d noticed the sound of his leather shoes against the marble floor, or maybe it was his gaze. Either way, her reaction was immediate.
 
-“Ah! Good morning, Master Lucian!” she chirped. “I was hoping to find you. I’m delighted to see you here. Are you—are you a professor at the Academy?”
+“Ah! Good morning, Master Lucian!” she chirped. “I was hoping to find you. I’m delighted to see you here. Are you… are you a professor at the Academy?”
 
-Lucian immediately recognized the voice. Airy, excited, unmistakably familiar—it was the airheaded mage he’d saved the day before.
+Lucian immediately recognized the voice. Airy, excited, unmistakably familiar: it was the airheaded mage he’d saved the day before.
 
-“Miss Audrey. I’m glad to see you’re well. As for your question—I’ve applied for the position, yes.”
+“Miss Audrey. I’m glad to see you’re well. As for your question, I’ve applied for the position, yes.”
 
 “Really? That’s fantastic!” she said, her smile blooming like a flower in spring.
 
@@ -67,7 +67,7 @@ The secretary-like woman, dressed in a long skirt and fitted blouse, smiled poli
 
 “Master Lucian, please follow me.”
 
-Lucian gave Audrey a nod and followed the woman back up the staircase and through a long corridor. The administrative building, newly constructed, exuded modernity and sophistication—marble floors, arched ceilings, gilded trims. It was clearly designed to impress.
+Lucian gave Audrey a nod and followed the woman back up the staircase and through a long corridor. The administrative building, newly constructed, exuded modernity and sophistication: marble floors, arched ceilings, gilded trims. It was clearly designed to impress.
 
 After a few minutes, they reached the end of the corridor. The woman stopped in front of a modest wooden door.
 
@@ -83,7 +83,7 @@ The room was vast, resembling an elegant study. A large desk stood beside tall g
 
 She raised her head. “Lucian Grey, the Spell Copier.”
 
-Lucian took a moment to observe her. She looked barely twenty—platinum blonde hair tied into an intricate bun, emerald green eyes, sapphire earrings, and a soft, round face that somehow managed to look both delicate and commanding.
+Lucian took a moment to observe her. She looked barely twenty: platinum blonde hair tied into an intricate bun, emerald green eyes, sapphire earrings, and a soft, round face that somehow managed to look both delicate and commanding.
 
 Despite her youthful appearance, Lucian knew better. Archmages lived for centuries. And this Archmage hadn’t even crossed a hundred yet. Biologically, she was still in her teens.
 
@@ -97,7 +97,7 @@ Below, Grand Mage Cassian, who had also finished the written exam at some point,
 
 Lucian remained silent, his eyes still fixed on the porch.
 
-A moment later, a young man—common-looking, perhaps a poor student—walked out of the examination hall. Audrey excused herself from Cassian and ran up to him with surprising enthusiasm and began asking questions animatedly.
+A moment later, a young man, common-looking, perhaps a poor student, walked out of the examination hall. Audrey excused herself from Cassian and ran up to him with surprising enthusiasm and began asking questions animatedly.
 
 “I heard you saved the only daughter of the Duke of Westmoor,” the Chancellor continued. “From the reports, you instantly shattered the hostile spell.”
 
@@ -111,4 +111,4 @@ Lucian raised an eyebrow. “That’s quite the lofty new title, Pale Witch.”
 
 “Not at all,” she said, still smiling.
 
-And for a brief moment, the weight of titles, ranks, and expectations melted into quiet understanding between two mages who had long walked their separate paths—only to meet again.
+And for a brief moment, the weight of titles, ranks, and expectations melted into quiet understanding between two mages who had long walked their separate paths, only to meet again.

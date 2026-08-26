@@ -6,7 +6,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import PostCard from '../components/PostCard.astro';
 import { readingTimeMins } from '../lib/reading';
 
-// Profile image — drop your photo at src/assets/images/me.png
+// Profile image: drop your photo at src/assets/images/me.png
 const profileGlob = import.meta.glob<{ default: ImageMetadata }>('../assets/images/me.{png,jpg,jpeg,webp}', { eager: true });
 const profileImage = Object.values(profileGlob)[0]?.default;
 
@@ -41,7 +41,7 @@ const yearsPhrase = Number.isInteger(nearestHalf)
   ? `${NUMBER_WORDS[nearestHalf] ?? nearestHalf} years`
   : `${NUMBER_WORDS[Math.floor(nearestHalf)] ?? Math.floor(nearestHalf)} and a half years`;
 
-// Character sheet skills — governed by no attribute in particular
+// Character sheet skills: governed by no attribute in particular
 const skills = [
   { name: 'Distributed Systems', level: 82 },
   { name: 'API Design', level: 78 },
@@ -84,7 +84,7 @@ const groups = [
 ];
 ---
 
-<BaseLayout title="Home" description="Personal site of Debangan Thakuria — backend engineer, reader, writer." heroSize="tall">
+<BaseLayout title="Home" description="Personal site of Debangan Thakuria: backend engineer, reader, writer." heroSize="tall">
 
   <!-- Character sheet -->
   <section class="mb-10">
@@ -127,7 +127,7 @@ const groups = [
       <span class="deed-diamond" aria-hidden="true"></span>
       <span class="deed-text">
         <span class="deed-label">Notable Deed</span>
-        <span class="deed-title">Narad — a message broker proven with 300 million messages</span>
+        <span class="deed-title">Narad: a message broker proven with 300 million messages</span>
       </span>
       <span class="deed-arrow" aria-hidden="true">→</span>
     </a>
@@ -146,7 +146,7 @@ const groups = [
       </p>
       <p>
         This site is a place to put down things I'd otherwise lose to scattered notes. No theme,
-        no niche — just whatever's on my mind.
+        no niche, just whatever's on my mind.
       </p>
     </div>
 
@@ -156,15 +156,15 @@ const groups = [
       <div class="prose mt-3">
         <p>
           I'm also a reader. I grew up on Hardy Boys, Nancy Drew, Famous Five, Agatha Christie,
-          Goosebumps — the usual suspects. Somewhere along the way that expanded into manga and light
+          Goosebumps, the usual suspects. Somewhere along the way that expanded into manga and light
           novels, then web novels and the occasional fantasy or sci-fi epic. The stories I gravitate
           towards tend to feature capable protagonists who try to do the right thing, even when it's
-          hard. You might know the term <em>competency porn</em> — that's exactly it. Characters who
+          hard. You might know the term <em>competency porn</em>; that's exactly it. Characters who
           are genuinely good at what they do, and watching them grow and navigate the world is the
           whole point.
         </p>
         <p>
-          I've recently started writing my own web novel. Slowly, which is fine — it's as much about
+          I've recently started writing my own web novel. Slowly, which is fine; it's as much about
           learning to write and tell stories as it is about finishing anything.
         </p>
       </div>
@@ -200,12 +200,12 @@ const groups = [
   <!-- Recent journal entries -->
   <section class="mt-10">
     <div class="flex items-center justify-between mb-6">
-      <h2 class="ui-label section-heading">Journal — Recent Entries</h2>
+      <h2 class="ui-label section-heading">Journal · Recent Entries</h2>
       <a href="/posts" class="section-more">the full journal →</a>
     </div>
 
     {recentPosts.length === 0 ? (
-      <p style="color: var(--color-text-muted);">The journal lies empty — return anon.</p>
+      <p style="color: var(--color-text-muted);">The journal lies empty; return anon.</p>
     ) : (
       <div class="flex flex-col gap-3">
         {recentPosts.map((post, i) => (

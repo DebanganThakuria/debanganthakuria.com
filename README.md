@@ -1,10 +1,10 @@
 # debanganthakuria.com
 
-Personal site of Debangan Thakuria — backend engineer, anime nerd, web novel writer.
+Personal site of Debangan Thakuria: backend engineer, anime nerd, web novel writer.
 
 The site is themed as a **cozy illustrated storybook**: a painted valley with a cottage
 crowns every page (day scene by daylight, twilight scene at night), content sits on
-parchment, cards have torn-paper edges, and the whole thing speaks in gentle fantasy —
+parchment, cards have torn-paper edges, and the whole thing speaks in gentle fantasy:
 posts are journal entries, reading time is measured in candles, and the homepage is a
 character sheet.
 
@@ -63,8 +63,8 @@ src/
 
 Defined in `src/styles/global.css` under `@theme {}`. Two modes:
 
-- **Day** — warm cream parchment, dusty terracotta accent, pastel tag tints
-- **Night (twilight)** — indigo parchment, ember accents; the hero painting swaps
+- **Day**: warm cream parchment, dusty terracotta accent, pastel tag tints
+- **Night (twilight)**: indigo parchment, ember accents; the hero painting swaps
   to the night scene
 
 Everything colors through CSS variables (`--color-*`), so components adapt to both
@@ -114,16 +114,16 @@ npm run preview  # preview the build locally
 
 ## UX features
 
-- **Day/night hero** — matching painted scenes swap with the theme toggle
-- **View Transitions** — smooth cross-fade between pages via Astro `ClientRouter`
-- **Table of Contents** — auto-generated from headings with scroll-spy highlighting
-- **Prev/next navigation** — at the bottom of each post
-- **Reading progress** — novel chapters remember where you left off (`localStorage`)
-- **Image lightbox** — click any image in a post to zoom
-- **Back-to-top button** — appears after scrolling past the first viewport
-- **Reading time** — "a 6-candle read", on cards and post headers
-- **Skip to content** — accessible skip link for keyboard navigation
-- **Focus-visible** — visible focus rings on all interactive elements
+- **Day/night hero**: matching painted scenes swap with the theme toggle
+- **View Transitions**: smooth cross-fade between pages via Astro `ClientRouter`
+- **Table of Contents**: auto-generated from headings with scroll-spy highlighting
+- **Prev/next navigation**: at the bottom of each post
+- **Reading progress**: novel chapters remember where you left off (`localStorage`)
+- **Image lightbox**: click any image in a post to zoom
+- **Back-to-top button**: appears after scrolling past the first viewport
+- **Reading time**: "a 6-candle read", on cards and post headers
+- **Skip to content**: accessible skip link for keyboard navigation
+- **Focus-visible**: visible focus rings on all interactive elements
 
 ## Fonts & licensing
 

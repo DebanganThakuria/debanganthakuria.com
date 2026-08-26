@@ -125,15 +125,15 @@ Moreover, his unique constitution was the most suitable for this line of work.
 
 Alfred didn't receive any almighty system or a super grandpa-in-a-ring when he reincarnated in this world. In fact, he was even born without the ability to practice Spirit Tempering and become a Spell Mage.
 
-But God was not so heartless as it seemed, for Alfred was born with a single, extraordinary gift — an inexhaustible life force.
+But God was not so heartless as it seemed, for Alfred was born with a single, extraordinary gift: an inexhaustible life force.
 
 His body simply could not be depleted. Wounds closed before they could bleed. Fatigue melted away as fast as it settled. Poisons that should have killed him were broken down and expelled within moments. On the battlefield, fellow soldiers watched in disbelief as Alfred walked out of carnage that left everyone else dead or dying. They called him cursed; he called himself lucky.
 
-Over the decades, Alfred came to understand the true nature of his gift. His vitality was not merely robust — it was, for all practical purposes, infinite. His body regenerated life energy the way a spring feeds a river: endlessly, effortlessly, without any source he could identify. Whether it was called HP, life force, or vitality — Alfred had a bottomless well of it.
+Over the decades, Alfred came to understand the true nature of his gift. His vitality was not merely robust; it was, for all practical purposes, infinite. His body regenerated life energy the way a spring feeds a river: endlessly, effortlessly, without any source he could identify. Whether it was called HP, life force, or vitality, Alfred had a bottomless well of it.
 
 That alone would have made him remarkable. What made him dangerous was what he discovered during the Hundred Years War.
 
-In the chaos of a siege, trapped behind enemy lines without supplies, Alfred had stumbled upon a half-burned tome in the ruins of a Mage's tower. Most of the pages were ash, but the few that survived described a forbidden spell — Vita Fons, the Life Spring. It was a technique that converted the caster's life force directly into Mana.
+In the chaos of a siege, trapped behind enemy lines without supplies, Alfred had stumbled upon a half-burned tome in the ruins of a Mage's tower. Most of the pages were ash, but the few that survived described a forbidden spell: Vita Fons, the Life Spring. It was a technique that converted the caster's life force directly into Mana.
 
 The spell was classified as forbidden for an obvious reason: it killed whoever used it. A Mage who converted their HP into MP was burning their own lifespan, their own flesh and blood, to fuel their magic. Use it once, and you age a decade. Use it twice, and your organs fail. The tome itself bore a warning scrawled in the margin by its previous owner: "One casting. That is all any mortal body can bear."
 
@@ -149,16 +149,16 @@ So Alfred played the role of a moderately talented field medic who happened to b
 
 It was only after retreating to the wilderness that Alfred allowed himself to truly explore what he could do.
 
-With infinite Mana at his disposal, Potioneering became an entirely different craft. The most advanced potions required the brewer to infuse enormous quantities of Mana into the ingredients during preparation — a bottleneck that limited even the most talented Potioneers. Alfred had no such limitation. He could attempt recipes that others could only theorize about, sustain reactions that would drain a Master Mage dry, and grow rare magical herbs to maturity in days by channeling raw life energy into the soil.
+With infinite Mana at his disposal, Potioneering became an entirely different craft. The most advanced potions required the brewer to infuse enormous quantities of Mana into the ingredients during preparation, a bottleneck that limited even the most talented Potioneers. Alfred had no such limitation. He could attempt recipes that others could only theorize about, sustain reactions that would drain a Master Mage dry, and grow rare magical herbs to maturity in days by channeling raw life energy into the soil.
 
 His ability also proved uniquely suited to cultivating ingredients. By directing his overflowing vitality into seeds and saplings, Alfred could accelerate growth to an absurd degree. A century-old Moonveil Orchid? He could grow one from a cutting in a week. Where other Potioneers begged, bartered, or killed for rare ingredients, Alfred simply grew them in his cave garden.
 
 Between the limitless Mana for brewing and the limitless vitality for cultivation, Alfred's Potions Lab became something that would make a Royal Alchemist weep with envy.
 
-But this power was not without its own kind of cost. Using Vita Fons extensively still produced a deep mental exhaustion — as if the mind needed time to catch up with what the body was doing. After prolonged conversion, Alfred's thoughts would grow sluggish and his concentration would fray, even as his body remained perfectly vital. The flesh was willing, endlessly so, but the mind had its own limits.
+But this power was not without its own kind of cost. Using Vita Fons extensively still produced a deep mental exhaustion, as if the mind needed time to catch up with what the body was doing. After prolonged conversion, Alfred's thoughts would grow sluggish and his concentration would fray, even as his body remained perfectly vital. The flesh was willing, endlessly so, but the mind had its own limits.
 
 It was already morning by the time Alfred had finished disassembling and packing his whole Potions Lab.
 
-His inexhaustible vitality had kept his body fresh through the night's labor — not a sore muscle, not a stiff joint. But his mind was a different story. The hours of careful work, cataloguing and wrapping each jar, had left a familiar fog behind his eyes. So he laid down for an hour to let his thoughts settle.
+His inexhaustible vitality had kept his body fresh through the night's labor: not a sore muscle, not a stiff joint. But his mind was a different story. The hours of careful work, cataloguing and wrapping each jar, had left a familiar fog behind his eyes. So he laid down for an hour to let his thoughts settle.
 
 By the time the sun came out, which is pretty late up this in the north, Alfred and Milo were ready to start their journey to Elysion.

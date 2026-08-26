@@ -9,7 +9,7 @@ novel: "the-extra-of-the-convergent-realms"
 
 The summer sun beat down from a cloudless sky, heat pressing against cloak and leather. Humidity from the nearby marsh hung in the air, thick and faintly sour. In the distance, insects droned in as a continuous, needling chorus.
 
-Amber had a rare, relaxed smile on her face as she watched the trio ahead of them—Raylan, Elara, and Marcus—engaged with a cloud of large, buzzing shapes. Giant insects, each the length of a forearm, wheeled and dipped above the grass, their wings a blur.
+Amber had a rare, relaxed smile on her face as she watched the trio ahead of them (Raylan, Elara, and Marcus) engaged with a cloud of large, buzzing shapes. Giant insects, each the length of a forearm, wheeled and dipped above the grass, their wings a blur.
 
 "I did," she answered, turning to glance at Valen. The uncertainty that had lingered in her eyes since the swamp incident had subsided, leaving only a faint edge. "But it seems you have lost yours. Do you dislike the idea of adventuring with those three so much?"
 
@@ -19,7 +19,7 @@ If the full truth were shared, you would not want to walk beside them either.
 
 A shrill shout split the air.
 
-"Kya—do not look!"
+"Kya! Do not look!"
 
 Elara's voice cracked. One of the insects had spat an acidic glob from above. The sizzling liquid had struck her blouse, fabric hissing and dissolving in a jagged oval that exposed far more skin than she would ever tolerate on purpose. She clamped an arm across her chest, cheeks reddening.
 
@@ -27,11 +27,11 @@ So this is what protagonists must deal with. Perils at every angle, including wa
 
 "I am coming!" Amber broke into a run, irritation forgotten as she raced toward Elara.
 
-"Wait—do not rush off. I meant stay close to me, not close with them," Valen muttered, but he was already moving after her, boots splashing through a shallow patch of muddy water.
+"Wait, do not rush off. I meant stay close to me, not close with them," Valen muttered, but he was already moving after her, boots splashing through a shallow patch of muddy water.
 
 By the time he reached them, the last of the giant insects lay scattered across the grass, bodies twisted, wings still twitching. Acid had pitted the ground wherever it landed, burning black scars into the soil.
 
-They continued east after regrouping, the terrain gently rising and falling beneath their feet. The lowlands gradually gave way to small hills packed with tall trees—broad trunks and dense canopies that filtered the sunlight into shifting bands of green and gold.
+They continued east after regrouping, the terrain gently rising and falling beneath their feet. The lowlands gradually gave way to small hills packed with tall trees: broad trunks and dense canopies that filtered the sunlight into shifting bands of green and gold.
 
 Amber pulled out a small, pocket-sized notebook, pages already filled with neat writing and simple maps. "There are some abandoned camps around these hilltops," she said, flipping to a marked page. "Someone reported seeing Blight traces in their vicinity."
 
@@ -45,7 +45,7 @@ They sat on logs around a freshly kindled fire. Valen handled the cooking with c
 
 Oil hissed as fat dripped into the flames. The savory smell of roasting meat slowly smothered the swamp stink clinging to their cloaks.
 
-He had packed enough condiments to feed a small squad for days—salt, dried herbs, a jar of coarse pepper, a small packet of ground spice that stung the nose pleasantly.
+He had packed enough condiments to feed a small squad for days: salt, dried herbs, a jar of coarse pepper, a small packet of ground spice that stung the nose pleasantly.
 
 If Iris's constructs could have helped, Valen reflected. Unfortunately, the risk of exposing them was not worth it.
 
@@ -53,11 +53,11 @@ In the lands surrounding the Worm Outpost, no truly powerful monsters remained. 
 
 But predictably, whenever Raylan's trio walked, trouble sprouted like mushrooms after rain.
 
-They had already fought twice before the campfire—first the giant insects, then a pack of lean, horned beasts that had tried to ambush them from the undergrowth. Nothing too threatening at this level, but persistent.
+They had already fought twice before the campfire: first the giant insects, then a pack of lean, horned beasts that had tried to ambush them from the undergrowth. Nothing too threatening at this level, but persistent.
 
 They had also gathered a respectable pouch of Core Crystals along the way.
 
-Amber and Valen had simply watched and offered support from the edges—occasional barriers, a precise spell or two, and quiet observation.
+Amber and Valen had simply watched and offered support from the edges: occasional barriers, a precise spell or two, and quiet observation.
 
 By the time lunch finished cooking, the meat was crisp at the edges and tender within. They all gathered around the fire, bowls and wooden plates in hand.
 
@@ -79,7 +79,7 @@ Good. When the main protagonist advances, nobody around him is left behind.
 
 "Very well," Amber said, her mind already dividing the map. "You three go toward the southern camps. We will investigate the northern ones. Let us meet back here before dark." She tore a page from her notebook, and handed it to Raylan. "These are the locations we confirmed earlier. We will set up our own camp here as a base."
 
-After lunch, they gathered their belongings and checked their equipment—belts fastened, pouches secured, blades sheathed, staves ready. The sun had passed its peak, shadows beginning to stretch longer from trees and rocks.
+After lunch, they gathered their belongings and checked their equipment: belts fastened, pouches secured, blades sheathed, staves ready. The sun had passed its peak, shadows beginning to stretch longer from trees and rocks.
 
 "Be safe," Amber said as they prepared to part.
 
@@ -125,7 +125,7 @@ Deep underground, far from sunlight, the air in a narrow cave tasted of stone du
 
 The gaunt Rank 4 mage from the Dark Guild knelt on both knees upon the cold rock. Before him stood another mage, cloaked from head to toe in black, a featureless mask concealing any hint of face or age.
 
-"You let your mage die," the masked man said. His voice was hoarse and distorted, scraped raw—or deliberately altered. "Was my order unclear? You were told not to wander during this time."
+"You let your mage die," the masked man said. His voice was hoarse and distorted, scraped raw, or deliberately altered. "Was my order unclear? You were told not to wander during this time."
 
 The kneeling man started to bow more deeply, beginning a rushed explanation.
 
@@ -175,7 +175,7 @@ Marcus patted his back**. "How noble! I just want to become the strongest and ta
 
 After the "light evening snack," as Marcus insisted on calling it, they checked their gear and moved on. Their muscles felt oddly springy, as if fine threads had been woven through flesh and bone.
 
-They emerged from the tunnel into another valley—not one carved by rivers, but a wide, bowl-shaped depression in the forest. The trees thinned here, leaving open space under the evening sky.
+They emerged from the tunnel into another valley, not one carved by rivers, but a wide, bowl-shaped depression in the forest. The trees thinned here, leaving open space under the evening sky.
 
 They froze.
 
@@ -183,7 +183,7 @@ The valley was filled with people.
 
 Dozens of campfires burned in scattered clusters, sending smoke up into the darkening air. Tents of different colors and makeshift pavilions had been raised in uneven rings. Cloaked figures moved between them, checking weapons, adjusting armor, sorting packs.
 
-Here and there, banners marked guild symbols—beasts, blades, stylized glyphs. Armored mercenaries, robed mages, lightly equipped scouts—every type of adventurer.
+Here and there, banners marked guild symbols: beasts, blades, stylized glyphs. Armored mercenaries, robed mages, lightly equipped scouts; every type of adventurer.
 
 The mood was tense. Conversations were clipped. Eyes constantly scanned the edges of the valley and the cave mouths dotting the surrounding slopes.
 
@@ -201,7 +201,7 @@ The air pulsed faintly, like a heartbeat beneath reality. A prickling pressure b
 
 A cave mouth yawned at the valley's far side, dark and wet with condensed moisture. From within, an invisible wave of distortion rolled outward in slow pulses. The space around the entrance shimmered subtly, as if the world itself were ailing.
 
-Apparently, a convergence had begun in an underground chamber nearby. The major guilds had sensed it quickly, and every party in the vicinity had been drawn here—some for duty, many for profit.
+Apparently, a convergence had begun in an underground chamber nearby. The major guilds had sensed it quickly, and every party in the vicinity had been drawn here: some for duty, many for profit.
 
 Convergence meant monsters. It meant rare materials torn loose from other realities, fragments of items that did not belong in this world. It meant Chaos Energy thick enough to suffocate the unprepared.
 
@@ -221,13 +221,13 @@ But they fought, again and again, without protective nets.
 
 Most of them had more real combat experience in their first month than a sheltered Academy student accumulated in three. Their eyes were sharper. Their movements were leaner.
 
-All of that stood here now—thick with tension and hungry anticipation.
+All of that stood here now, thick with tension and hungry anticipation.
 
 As Raylan's group stepped a little further into the valley, keeping to the edges, Marcus suddenly tensed.
 
 Elara caught his glance and followed it.
 
-Near one of the camp clusters, a small party lounged around a fire—dark cloaks, mismatched armor, the faint air of coiled threat. One of them rose to stretch, his face turning just enough to catch the light.
+Near one of the camp clusters, a small party lounged around a fire: dark cloaks, mismatched armor, the faint air of coiled threat. One of them rose to stretch, his face turning just enough to catch the light.
 
 Raylan's jaw clenched.
 

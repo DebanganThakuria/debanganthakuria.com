@@ -19,29 +19,29 @@ She responded with an audible huff, turning her attention deliberately toward th
 
 Still angry, Valen noted.
 
-The instructor launched into the fundamentals—solvents, organic materials, inorganic materials, common herbs, and the various runes and spells one needed to master the craft. His methodology was systematic, almost ritualistic, each category building on the last.
+The instructor launched into the fundamentals: solvents, organic materials, inorganic materials, common herbs, and the various runes and spells one needed to master the craft. His methodology was systematic, almost ritualistic, each category building on the last.
 
 Potions are essentially chemistry with magic, Valen reflected as the lecture continued. The unfortunate part is they haven't developed a periodic table yet. Valen was looking forward to a magical periodic table. Various elements possess inherent magical properties in this world that don't map to conventional understanding.
 
-The instructor pulled materials from his chest one by one—dried herbs releasing pungent aromas, crystallized minerals catching the light, vials of mysterious liquids in colors that shouldn't exist. He asked questions as he worked, testing the students' foundational knowledge.
+The instructor pulled materials from his chest one by one: dried herbs releasing pungent aromas, crystallized minerals catching the light, vials of mysterious liquids in colors that shouldn't exist. He asked questions as he worked, testing the students' foundational knowledge.
 
 Raylan answered every single one correctly.
 
 Of course he does, Valen thought without malice. Protagonist trait: unnaturally broad knowledge base acquired through unusual circumstances.
 
-Around the amphitheater, expressions shifted—admiration in some faces, envy in others, calculation in a few. This will cause problems for him, Valen observed. The tall poppy gets cut down. But that's the protagonist's burden to bear, not mine.
+Around the amphitheater, expressions shifted: admiration in some faces, envy in others, calculation in a few. This will cause problems for him, Valen observed. The tall poppy gets cut down. But that's the protagonist's burden to bear, not mine.
 
 The moment the instructor departed, Amber pivoted in her seat, fixing Valen with an intense stare.
 
 "I genuinely had business at the Tower," Valen said before she could speak. "I was attacked in my dormitory last night."
 
-Amber's expression transformed instantly—anger evaporating, replaced by shock and concern. "Attacked? By whom? You live alone in that mansion."
+Amber's expression transformed instantly: anger evaporating, replaced by shock and concern. "Attacked? By whom? You live alone in that mansion."
 
 "The Tower clerk already posted an urgent security quest to the Mission Board." Valen kept his voice level, factual. "We'll learn more once investigators complete their work."
 
 "Tell me everything."
 
-Valen recounted the incident methodically—the roots breaking through the basement, the targeted assault, his defensive response, and the uneasy night. As he spoke, Amber's expression cycled through concern, anger, and finally something that might have been determination tinged with pink.
+Valen recounted the incident methodically: the roots breaking through the basement, the targeted assault, his defensive response, and the uneasy night. As he spoke, Amber's expression cycled through concern, anger, and finally something that might have been determination tinged with pink.
 
 "No," she said firmly when he mentioned the relocation options. "You cannot move here to Mansion 11."
 
@@ -57,29 +57,29 @@ She turned back, meeting his eyes. "It has guards day and night. Move all your b
 
 The next instructor entered before Valen could respond, and the lecture began.
 
-With Amber's referral, the transition proceeded smoothly. By evening, Valen occupied a suite comprising living room, bedroom, and private kitchen—far more spacious than his attic at Mansion 701.
+With Amber's referral, the transition proceeded smoothly. By evening, Valen occupied a suite comprising living room, bedroom, and private kitchen, far more spacious than his attic at Mansion 701.
 
 The automaton couldn't be moved, of course. But with Iris's manifested constructs, delicious meals remained guaranteed.
 
 Days passed without further incident.
 
-The security quest remained uncompleted. Valen kept his outdoor exposure minimal—lectures, Tower Library, return before dark. A simple circuit repeated daily.
+The security quest remained uncompleted. Valen kept his outdoor exposure minimal: lectures, Tower Library, return before dark. A simple circuit repeated daily.
 
 Originally, Valen reflected one evening, Amber was too occupied proving herself. She got entangled in fights and events, building reputation through confrontation.
 
-But something had shifted. Inspired by his disciplined routine—or perhaps simply recognizing its efficiency—Amber began following the same pattern. Lecture to dormitory to books. The other royals in Mansion 11, observing her dedication, gradually adopted similar habits.
+But something had shifted. Inspired by his disciplined routine (or perhaps simply recognizing its efficiency), Amber began following the same pattern. Lecture to dormitory to books. The other royals in Mansion 11, observing her dedication, gradually adopted similar habits.
 
-Without intending to, I've changed the story again, Valen realized. But I wouldn't know for certain—the timeline has moved beyond the hundred chapters I read. From here forward, everything is uncharted territory.
+Without intending to, I've changed the story again, Valen realized. But I wouldn't know for certain; the timeline has moved beyond the hundred chapters I read. From here forward, everything is uncharted territory.
 
 Thirty days after the attack, Valen sat in his personal alcove in the Tower Library, examining the object in his palm.
 
-The Chaos Crystal caught the fading light through the narrow window, refracting it into colors that seemed wrong somehow—too vivid, too hungry. Outside, fog had returned to the Academy grounds, transforming familiar paths into suggestions, the entire campus wrapped once more in an atmosphere of hidden secrets and lurking mysteries.
+The Chaos Crystal caught the fading light through the narrow window, refracting it into colors that seemed wrong somehow: too vivid, too hungry. Outside, fog had returned to the Academy grounds, transforming familiar paths into suggestions, the entire campus wrapped once more in an atmosphere of hidden secrets and lurking mysteries.
 
-It's simply a Soul Crystal from a Chaos Energy-corrupted monster, Valen thought, turning it slowly. When convergence occurs, Chaos Energy forms at reality seams—highly corrosive to living beings. Instant, aggressive cellular mutation. Organisms that don't die immediately evolve into nightmarish creatures. These are called Blight.
+It's simply a Soul Crystal from a Chaos Energy-corrupted monster, Valen thought, turning it slowly. When convergence occurs, Chaos Energy forms at reality seams, highly corrosive to living beings. Instant, aggressive cellular mutation. Organisms that don't die immediately evolve into nightmarish creatures. These are called Blight.
 
 "The only practical defense during a Convergence is carrying a Chaos Crystal," Valen murmured to himself. "There are advanced protective spells, but few mages know them. Cities and villages employ grid networks of artifacts made from Chaos Crystals, extending their protective range. This prevents convergence events within populated areas. The Academy maintains the same system."
 
-That's why common people prefer living inside cities and villages—safety from the Blight. Out in the wilderness, convergence events create hunting grounds for monsters.
+That's why common people prefer living inside cities and villages: safety from the Blight. Out in the wilderness, convergence events create hunting grounds for monsters.
 
 "But since it's a Soul Crystal," Valen said quietly, "Iris, can we—"
 
@@ -93,7 +93,7 @@ Amber stood there, hair slightly disheveled, bags under her eyes, amber eyes bla
 
 "You insufferable Ashford!"
 
-Her voice rose enough that several nearby students glanced over disapprovingly. A soft chime echoed through the library—the automated warning system.
+Her voice rose enough that several nearby students glanced over disapprovingly. A soft chime echoed through the library: the automated warning system.
 
 Amber immediately lowered her voice, though her expression remained thunderous.
 
@@ -115,7 +115,7 @@ Outside, Amber released him and began walking with determined stomps, each footf
 
 "We could at least browse the available missions," Valen conceded.
 
-They walked in silence toward another large mansion several hundred meters from the Tower. Unlike the Tower's administrative elegance, this building radiated a more practical atmosphere—functional architecture designed for high traffic and rough usage.
+They walked in silence toward another large mansion several hundred meters from the Tower. Unlike the Tower's administrative elegance, this building radiated a more practical atmosphere: functional architecture designed for high traffic and rough usage.
 
 "How do you expect to become a competent mage without practice and field experience?" Amber asked suddenly, her tone sharp.
 
@@ -125,13 +125,13 @@ At least she's talking again, Valen noted. He didn't answer immediately.
 
 "I know the requirements."
 
-The Mission Board Hall occupied the building's entire ground floor—a vast space filled with long tables where various students and even a few faculty sat drinking, eating, and discussing recent exploits. Some bore visible wounds hastily bandaged, others looked merely exhausted. The atmosphere carried equal parts tavern and military briefing room.
+The Mission Board Hall occupied the building's entire ground floor: a vast space filled with long tables where various students and even a few faculty sat drinking, eating, and discussing recent exploits. Some bore visible wounds hastily bandaged, others looked merely exhausted. The atmosphere carried equal parts tavern and military briefing room.
 
-At the registration counter, a bored-looking clerk pushed forms across the worn wood surface. Valen and Amber filled out the declaration paperwork, listing their instant-cast spells and signing liability waivers. The Academy didn't verify claims—it simply filed the forms and held students accountable for their own competence assessments.
+At the registration counter, a bored-looking clerk pushed forms across the worn wood surface. Valen and Amber filled out the declaration paperwork, listing their instant-cast spells and signing liability waivers. The Academy didn't verify claims; it simply filed the forms and held students accountable for their own competence assessments.
 
 Honor system with teeth, Valen thought. Lie about your capabilities, die in the field, and the Academy marks it as natural selection.
 
-They moved to the notice boards—large wooden frames covered in parchment sheets, each describing available missions. Rewards were listed in Core Crystals, ranging from single digits for simple tasks to double digits for serious dangers.
+They moved to the notice boards: large wooden frames covered in parchment sheets, each describing available missions. Rewards were listed in Core Crystals, ranging from single digits for simple tasks to double digits for serious dangers.
 
 Valen filtered through them systematically. Most involved assisting instructors with research, participating in supervised combat exercises, or gathering specific materials from relatively safe locations.
 
@@ -153,7 +153,7 @@ Recent sightings of Blight-touched beasts have been reported in Dawn Forest. The
 
 Participants are authorized to hunt and eliminate all Blight creatures encountered. Academy will exchange one (1) standard Core Crystal for each corrupted Core Crystal submitted as proof of elimination.
 
-Warning: Blight creatures range from Rank 1 to Rank 3. Exercise extreme caution. Corruption can be contagious—avoid usage of corrupted Core Crystals. Finally, carry sufficient protective artifacts.
+Warning: Blight creatures range from Rank 1 to Rank 3. Exercise extreme caution. Corruption can be contagious; avoid usage of corrupted Core Crystals. Finally, carry sufficient protective artifacts.
 
 Reward: Variable, based on submission count
 
@@ -171,7 +171,7 @@ She's not wrong, Valen admitted. And she's clearly made up her mind.
 
 "Which is precisely why most students avoid this mission." Amber's smile carried equal parts confidence and recklessness. "And if we succeed, we prove ourselves against genuine threats rather than training dummies."
 
-Valen studied her expression—the set of her jaw, the gleam in her eyes, the way her hands had unconsciously formed fists. She needs this, he realized. Thirty days of pure theory has her ready to combust. Better she channels that energy productively than rashly.
+Valen studied her expression: the set of her jaw, the gleam in her eyes, the way her hands had unconsciously formed fists. She needs this, he realized. Thirty days of pure theory has her ready to combust. Better she channels that energy productively than rashly.
 
 "We'll need to prepare properly," Valen said. "If we're hunting Blight, half-measures will get us killed."
 

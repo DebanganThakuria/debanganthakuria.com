@@ -7,7 +7,7 @@ novel: "a-discourse-on-life"
 
 Sweetwater Kingdom, South Border Town.
 
-On the city's outskirts, one could see the remnants of fortifications from the Hundred Years War everywhere. The gouged-out ground, massive craters, war cemeteries, burnt-down forts and houses — all posed as a glaring reminder of the violent battles of the past.
+On the city's outskirts, one could see the remnants of fortifications from the Hundred Years War everywhere. The gouged-out ground, massive craters, war cemeteries, burnt-down forts and houses all posed as a glaring reminder of the violent battles of the past.
 
 Although the sweet peace had made the residents less weary, the soldiers still manned the borders dutifully.
 
@@ -55,7 +55,7 @@ Since they had already invited him, Alfred sat down at the table and gave an ack
 
 At the same time, he observed the young elves.
 
-The girl had beautiful blond hair tied up in a bun. Her green eyes sparkled like gems in the gentle rays of the sun coming from the window. Her fair skin had a rosy tint which hinted at her noble upbringing. Her round face had the cuteness and charm of a curious teenager. She was wearing a long white mage robe decorated with a crest of ivy sewn in gold threads — the crest of the Goldenwind Kingdom, Alfred's birthplace.
+The girl had beautiful blond hair tied up in a bun. Her green eyes sparkled like gems in the gentle rays of the sun coming from the window. Her fair skin had a rosy tint which hinted at her noble upbringing. Her round face had the cuteness and charm of a curious teenager. She was wearing a long white mage robe decorated with a crest of ivy sewn in gold threads: the crest of the Goldenwind Kingdom, Alfred's birthplace.
 
 Coupled with her looks, which resembled his mother's, Alfred speculated that she might be a member of the royal family, and hence his relative.
 
@@ -63,15 +63,15 @@ The North is the home of the Elves. There are five large kingdoms ruling it, all
 
 The young brother had a similar appearance. The only difference was that he was wearing a fur jacket and leather pants instead of a Mage robe. In this world, only Rank 1 and above Mages can don a Mage robe or mantle.
 
-Alfred couldn't sense mana the way trained Spell Mages could — he had never undergone Spirit Tempering, after all. But three hundred years of living among Mages had given him a sharp intuition for gauging strength. The faint pressure radiating from the boy marked him as a Rank 0 Stage 4 Apprentice Mage, while the girl carried the unmistakable bearing of a Rank 1 Stage 9 Mage. Both were very commendable achievements for their age.
+Alfred couldn't sense mana the way trained Spell Mages could; he had never undergone Spirit Tempering, after all. But three hundred years of living among Mages had given him a sharp intuition for gauging strength. The faint pressure radiating from the boy marked him as a Rank 0 Stage 4 Apprentice Mage, while the girl carried the unmistakable bearing of a Rank 1 Stage 9 Mage. Both were very commendable achievements for their age.
 
-Finally, the Knight, a Rank 4 Stage 1 Grandmaster Battle Mage, was wearing armor made from the bark of the Tree of Life — a standard uniform of a Knights Templar from the Church of Life, the main religion of the elves.
+Finally, the Knight, a Rank 4 Stage 1 Grandmaster Battle Mage, was wearing armor made from the bark of the Tree of Life, a standard uniform of a Knights Templar from the Church of Life, the main religion of the elves.
 
 Alfred concluded that the party of three was of no ordinary strength or background.
 
 As he was surveying the elves, they were also studying him.
 
-The young miss who had invited him thought, "Now that I look at him from up close, he really does look like an elf — in fact, a royal elf. Those bright green eyes look similar to ours."
+The young miss who had invited him thought, "Now that I look at him from up close, he really does look like an elf. In fact, a royal elf. Those bright green eyes look similar to ours."
 
 The human Mage who looked no older than twenty-five had his bright golden hair tied up in a small ponytail. His angular jawline and sculpture-like face radiated a majestic and confident aura. His slightly limpid green eyes had a hypnotizing stillness to them, as if she could stare at them forever.
 
@@ -81,7 +81,7 @@ Curbing her excitement a little, her eyes drifted to his attire. "His leather pa
 
 The Knight had similar thoughts as well. But she was confused by another discovery. "I can't detect any mana on him. Is he really a Mage? Or is he using some artifact to hide it?"
 
-Indeed, Alfred carried no mana of his own. He had never undergone Spirit Tempering and possessed no internal mana reserves. The power he wielded came from converting his life force on demand through Vita Fons — and when he wasn't actively using it, there was simply nothing for another Mage to detect. To any magical sense, he appeared as ordinary as a common farmer.
+Indeed, Alfred carried no mana of his own. He had never undergone Spirit Tempering and possessed no internal mana reserves. The power he wielded came from converting his life force on demand through Vita Fons, and when he wasn't actively using it, there was simply nothing for another Mage to detect. To any magical sense, he appeared as ordinary as a common farmer.
 
 Regardless, the Knight introduced themselves first. "I am Knight Tisha. This is Mage Elisa Goldenwind and her brother Eliot Goldenwind."
 
@@ -121,7 +121,7 @@ Alfred left his cozy window seat to get some fresh air. At present, they were su
 
 Alfred pulled out his pipe and lit it. Smoking quietly, he recalled a few memories from his time in the war.
 
-After some time, he noticed the elves coming out from the ladies' carriage. Alfred appreciated the gender division of the carriages — it greatly reduced unnecessary conflicts. He smiled at them from a distance, refraining from developing any more familiarity.
+After some time, he noticed the elves coming out from the ladies' carriage. Alfred appreciated the gender division of the carriages; it greatly reduced unnecessary conflicts. He smiled at them from a distance, refraining from developing any more familiarity.
 
 ---
 

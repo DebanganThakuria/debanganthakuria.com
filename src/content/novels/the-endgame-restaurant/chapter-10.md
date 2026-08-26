@@ -13,7 +13,7 @@ Devan handed her a wooden box at the door. It was warm, and heavy, and tied with
 
 "He means it for your aunt," said Lydia, "so eat only half."
 
-Quinn held the box and looked at the two of them — the cook in his apron, the innkeeper with her folded hands — and found her throat too tight for anything useful. So she bowed, guest to house, the way Lydia had taught her was proper here, and turned to the front door of the restaurant.
+Quinn held the box and looked at the two of them (the cook in his apron, the innkeeper with her folded hands) and found her throat too tight for anything useful. So she bowed, guest to house, the way Lydia had taught her was proper here, and turned to the front door of the restaurant.
 
 Say the place, and walk.
 
@@ -23,7 +23,7 @@ She opened the door onto darkness and cold, and stepped out of the world's warme
 
 ---
 
-The hall was as big as she remembered. Everything else was smaller — she had been nine — but not the hall. Stone pillars going up into dark. Banners overhead, too dim to read. The great hearth stood banked for the night, coals breathing under ash, and the cold came off the flagstones through her boots.
+The hall was as big as she remembered. Everything else was smaller (she had been nine) but not the hall. Stone pillars going up into dark. Banners overhead, too dim to read. The great hearth stood banked for the night, coals breathing under ash, and the cold came off the flagstones through her boots.
 
 Behind her, the door she had come through was already gone. Bare stone.
 
@@ -31,7 +31,7 @@ Quinn stood alone in the heart of her aunt's fortress, five hundred miles from t
 
 She built up the fire.
 
-That was where the sentry found her, ten minutes later — a stranger in a worn cloak, kneeling at the great hearth of Marchhold, feeding it splits of birch. He was young. His sword came out fast, and the point of it wavered.
+That was where the sentry found her, ten minutes later: a stranger in a worn cloak, kneeling at the great hearth of Marchhold, feeding it splits of birch. He was young. His sword came out fast, and the point of it wavered.
 
 "How—" His voice cracked. He tried again. "The gates are shut. How did you get in?"
 
@@ -69,7 +69,7 @@ Hedda looked at her a moment longer. Then she turned to her men.
 
 "Build up the fire," she said. "Bring wine and meat. And wake no one else. My niece was never here."
 
-"I brought food," said Quinn, and held out the box, because the box was warm in her hands, and something in her wanted this over with before the telling. "A gift. From — friends on the road."
+"I brought food," said Quinn, and held out the box, because the box was warm in her hands, and something in her wanted this over with before the telling. "A gift. From... friends on the road."
 
 Hedda opened it there at the hearth: roast duck, dark bread, a small covered dish that smelled of honey. She frowned at it. She tore off a piece of the duck, and ate it, and stood entirely still.
 
@@ -81,7 +81,7 @@ Hedda opened it there at the hearth: roast duck, dark bread, a small covered dis
 
 The telling took an hour.
 
-They sat at the hearth end of the long table, and Quinn laid it out in columns, the same way she had at the counter — the illness, the accounts, the appointments, the rotations, the seal. The plums. Merta.
+They sat at the hearth end of the long table, and Quinn laid it out in columns, the same way she had at the counter: the illness, the accounts, the appointments, the rotations, the seal. The plums. Merta.
 
 She said Merta's name without her voice catching, this time. She had a use for the grief now, and grief with a use will hold its line.
 
@@ -103,13 +103,13 @@ Hedda listened without moving. She asked four questions, all of them about dates
 
 And there it was.
 
-Quinn had thought hard about this moment, on the third bend of a dead road and every night since. Lies were tools; her tutors had been thorough. But the March was old country. The old customs still had teeth here — bread and salt, hearth-right, the guest bound to the house and the house to the guest. If there was one soul in the kingdom raised to understand her arrangement, it was the woman across this table.
+Quinn had thought hard about this moment, on the third bend of a dead road and every night since. Lies were tools; her tutors had been thorough. But the March was old country. The old customs still had teeth here: bread and salt, hearth-right, the guest bound to the house and the house to the guest. If there was one soul in the kingdom raised to understand her arrangement, it was the woman across this table.
 
 "I was taken in," she said, "when I was dying on the mountain. An inn that is not on the surveys, kept by a keeper the surveys would not believe. There is a door there that opens onto other places, for guests in good standing." She put her hand flat on the table. "I ate at a stranger's table, aunt. I gave my word as a guest, and the rules of that house hold me. Do not ask me for more than that, because I will not give it."
 
 The hall was quiet. The new fire cracked and settled.
 
-Hedda of the March, who had buried a sister and hanged reavers and held a frozen border for thirty years, looked at her niece with an expression Quinn had never seen on her — and it took a moment to recognize it, because it did not belong on that face.
+Hedda of the March, who had buried a sister and hanged reavers and held a frozen border for thirty years, looked at her niece with an expression Quinn had never seen on her, and it took a moment to recognize it, because it did not belong on that face.
 
 Care. Old, cold, superstitious care, the kind that lives in border country and never quite dies out of it.
 
@@ -117,13 +117,13 @@ Care. Old, cold, superstitious care, the kind that lives in border country and n
 
 "I know the rules," said Quinn. "There are two. Pay your bill. The house is not a weapon."
 
-"Not a weapon." Hedda sat back, and Quinn watched the soldier in her aunt run the sums anyway — watched her see it, the whole campaign of it: doors into any hall, any bedchamber, any gate-tower, a whole war carried through in single file. Watched her want it.
+"Not a weapon." Hedda sat back, and Quinn watched the soldier in her aunt run the sums anyway. Watched her see it, the whole campaign of it: doors into any hall, any bedchamber, any gate-tower, a whole war carried through in single file. Watched her want it.
 
 Watched her put it down.
 
 "So we march the old way," said Hedda. "Slow, in the spring, on our own feet. And you walk your road, and I never ask you to carry so much as a knife-man through that door." She said the whole sentence in one breath, and it had the weight of an oath. "Agreed. What do you need from me?"
 
-"Three things. A letter in your hand, under your seal, naming what I've told you — held here, opened if I go silent. A name: whoever you still trust inside the capital. And ten days from now, a man you'd stake the March on, waiting at the Owl Gate at midnight."
+"Three things. A letter in your hand, under your seal, naming what I've told you, held here, opened if I go silent. A name: whoever you still trust inside the capital. And ten days from now, a man you'd stake the March on, waiting at the Owl Gate at midnight."
 
 "For what?"
 
@@ -133,13 +133,13 @@ Watched her put it down.
 
 She left before the hall woke.
 
-Hedda walked her to the hearth — Quinn had asked for the hearth, a place she could stand with her back to warm stone — and the two of them stood a moment in the small hours, the lady in her furs, the princess in her mended boots.
+Hedda walked her to the hearth (Quinn had asked for the hearth, a place she could stand with her back to warm stone) and the two of them stood a moment in the small hours, the lady in her furs, the princess in her mended boots.
 
 "Your mother," said Hedda, "would have hidden behind my walls, and been right to. You are more like our mother. That is not entirely a compliment."
 
 "I'll take it," said Quinn.
 
-"Eat before you do anything foolish. You're still thin." A pause. "And tell your keeper — the one the surveys would not believe—" Hedda stopped, and did something with her face that on anyone else would have been called uncertainty. "Tell them the March remembers the old courtesies. If a light is ever needed in the north, we will put one in every window we own."
+"Eat before you do anything foolish. You're still thin." A pause. "And tell your keeper, the one the surveys would not believe—" Hedda stopped, and did something with her face that on anyone else would have been called uncertainty. "Tell them the March remembers the old courtesies. If a light is ever needed in the north, we will put one in every window we own."
 
 "I'll tell them," said Quinn.
 
@@ -161,4 +161,4 @@ The fire burned on, ordinary and gold.
 
 Five hundred miles south, in a kitchen under a mountain, an innkeeper paused a moment over her washing-up, and smiled at nothing, and did not say why.
 
-*— end of chapter 10 —*
+*end of chapter 10*

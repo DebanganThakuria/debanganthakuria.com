@@ -183,7 +183,7 @@ const coverImage = novelCover(novelSlug);
 
     if (saved) {
       cta.href = `/novels/${novelSlug}/${saved.chapterFile}`;
-      ctaText.textContent = `Continue — ${saved.title}`;
+      ctaText.textContent = `Continue: ${saved.title}`;
 
       // Mark last-read chapter in the list
       const row = list?.querySelector<HTMLElement>(`li[data-chapter-file="${saved.chapterFile}"]`);

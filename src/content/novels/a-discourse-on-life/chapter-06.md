@@ -19,7 +19,7 @@ Alfred walked up to the counter to his right and rang the bell. A tall and muscu
 
 "Greetings, Mr. Oguk. I am Alfred Steelheart. I have very recently moved into what was before Lenny's Bookstore and opened a potions shop called Milo's Potions." Giving him one of the gift boxes he had prepared beforehand, Alfred introduced himself.
 
-At the same time, Alfred observed Oguk carefully. On the surface, the Orc was a Rank 1 Battle Mage. But three hundred years of reading people — on battlefields, in royal courts, in back-alley negotiations — had sharpened Alfred's instincts beyond what any detection spell could match. The way Oguk moved, the controlled ease in his shoulders, the deliberate restraint in his grip — it all pointed to a Rank 5 Battle Mage, same as Alfred. The plain-looking locket he wore above his shirt was likely an artifact hiding his actual strength.
+At the same time, Alfred observed Oguk carefully. On the surface, the Orc was a Rank 1 Battle Mage. But three hundred years of reading people (on battlefields, in royal courts, in back-alley negotiations) had sharpened Alfred's instincts beyond what any detection spell could match. The way Oguk moved, the controlled ease in his shoulders, the deliberate restraint in his grip: it all pointed to a Rank 5 Battle Mage, same as Alfred. The plain-looking locket he wore above his shirt was likely an artifact hiding his actual strength.
 
 "A person with a story," Alfred concluded.
 
@@ -59,7 +59,7 @@ After another round of small talk, Alfred left, this time empty-handed. "Dwarves
 
 The final place he had to visit was the shop on his immediate left.
 
-The building was large and old — at least older than the rest of the neighborhood.
+The building was large and old, at least older than the rest of the neighborhood.
 
 After entering, Alfred saw rows of pews like that of a church on the ground floor. On the other end was a simple but unadorned stage.
 
@@ -83,7 +83,7 @@ The string of runes shone bright and formed a hemispherical screen around her. I
 
 However, seeing no change in the appearance of Alfred, the old woman was stumped. She took a shaky step back. The old man supported her from behind and whispered, "Calm down, Miriel. There is a reason why he was called the Undying Healer."
 
-Alfred also observed the eccentric old couple. "People still remember me?" The years had not been kind to them, but their bearing was unmistakable — the way they moved together, covering each other's blind spots without thinking. Both were Rank 4 Stage 9 Mages, about three hundred and fifty years old. He had crossed paths with them during the Warring Age.
+Alfred also observed the eccentric old couple. "People still remember me?" The years had not been kind to them, but their bearing was unmistakable: the way they moved together, covering each other's blind spots without thinking. Both were Rank 4 Stage 9 Mages, about three hundred and fifty years old. He had crossed paths with them during the Warring Age.
 
 "The Foolish Thieves? Didn't expect to meet you old bones again." Alfred greeted them with a smile. "Pardon me for my rudeness. Couldn't recognize you folks with all the marks of time."
 
@@ -123,13 +123,13 @@ Miriel snatched the vial from Isaac's hand and examined it herself. "This is not
 
 The old couple exchanged a glance. Miriel carefully placed the vial back in the box and closed the lid. "Well then, neighbor. I believe we will be your most frequent customers."
 
-"I would be honored. Though I should warn you — I haven't set my prices yet. And I don't offer discounts to thieves, foolish or otherwise."
+"I would be honored. Though I should warn you: I haven't set my prices yet. And I don't offer discounts to thieves, foolish or otherwise."
 
 Isaac let out a hearty laugh. "Fair enough. But you should know that we have some connections in the auction circuit. Rare ingredients pass through our hands from time to time. If you ever need something hard to find..."
 
 "I'll keep that in mind," Alfred said with genuine interest. A reliable source of rare ingredients in Elysion would be invaluable.
 
-Miriel walked him to the door. At the threshold, she lowered her voice. "Alfred. A word of caution." Her playful demeanor had vanished entirely. "Old Ren — the Demon who sold you his shop. He left in quite a hurry. We don't know the details, but something spooked him. That presence of death you probably felt in the shop... it wasn't always there."
+Miriel walked him to the door. At the threshold, she lowered her voice. "Alfred. A word of caution." Her playful demeanor had vanished entirely. "Old Ren, the Demon who sold you his shop. He left in quite a hurry. We don't know the details, but something spooked him. That presence of death you probably felt in the shop... it wasn't always there."
 
 Alfred's expression didn't change, but he filed the information away carefully. "I appreciate the warning."
 
@@ -137,7 +137,7 @@ Alfred's expression didn't change, but he filed the information away carefully. 
 
 ---
 
-Alfred walked back across the cobbled street of Oak Lane as the last light of the evening faded behind the rooftops. The gas lamps along the lane flickered to life one by one — not gas at all, he realized, but small mana crystals embedded in the lamp housings. A quaint touch.
+Alfred walked back across the cobbled street of Oak Lane as the last light of the evening faded behind the rooftops. The gas lamps along the lane flickered to life one by one: not gas at all, he realized, but small mana crystals embedded in the lamp housings. A quaint touch.
 
 He paused in front of his shop and looked up at the freshly painted sign. Milo's Potions. The gold lettering caught the warm light of the nearest lamp.
 
@@ -151,9 +151,9 @@ Alfred looked left at the old auction house. Then right at Alloy Crafts. Then ac
 
 Alfred didn't argue. He unlocked the door and stepped inside.
 
-The shop was quiet and dark. He lit the mana lamps with a small pulse of energy — a whisper of Vita Fons, so faint it would go unnoticed by anyone — and the warm glow filled the receiving room.
+The shop was quiet and dark. He lit the mana lamps with a small pulse of energy (a whisper of Vita Fons, so faint it would go unnoticed by anyone) and the warm glow filled the receiving room.
 
-He made himself a cup of coffee using Oguk's gift beans. The aroma was rich and complex — far better than he had expected from an Orc-run cafe. He sat behind the counter on a stool, sipping his coffee, and reviewed his mental checklist.
+He made himself a cup of coffee using Oguk's gift beans. The aroma was rich and complex, far better than he had expected from an Orc-run cafe. He sat behind the counter on a stool, sipping his coffee, and reviewed his mental checklist.
 
 Shop acquired. License obtained. Lab set up. Neighbors greeted. Ingredients needed restocking, but that could wait. The immediate priority was brewing his first batch of potions for sale.
 

@@ -7,7 +7,7 @@ novel: "the-endgame-restaurant"
 
 The new helmets had one feature nobody talked about much, because it had stopped being interesting years ago: you could sleep in them.
 
-Certified, medically reviewed, better-than-mattress sleep. The dive handled the body — breathing, heart rate, all the quiet maintenance — and the brain got its full night whether you spent it in a rendered meadow or a rendered rainstorm or one of the premium "sleep worlds" people paid subscriptions for.
+Certified, medically reviewed, better-than-mattress sleep. The dive handled the body (breathing, heart rate, all the quiet maintenance) and the brain got its full night whether you spent it in a rendered meadow or a rendered rainstorm or one of the premium "sleep worlds" people paid subscriptions for.
 
 Most people picked the meadow.
 
@@ -19,13 +19,13 @@ Sunday morning, 8:40. His phone buzzed on the nightstand.
 
 It was the bank.
 
-**[Deposit received — 2:04 a.m.]**
+**[Deposit received, 2:04 a.m.]**
 **[WORLDROOT INTERACTIVE KK]**
 **[Memo: Thank you for playing.]**
 
 Devan sat up slowly and read it four times.
 
-The amount was wrong. Not wrong as in an error — wrong as in *shape*. It was more than his week's pay. For three copper coins, rung into a wooden till, by a woman who might not exist.
+The amount was wrong. Not wrong as in an error; wrong as in *shape*. It was more than his week's pay. For three copper coins, rung into a wooden till, by a woman who might not exist.
 
 He got up, made coffee, and did the sensible checks in order.
 
@@ -51,7 +51,7 @@ He had said *sure* to stranger things this week.
 
 Lydia came back that evening.
 
-She knocked — she always knocked, he would learn, though the door was hers — and took the middle stool, and ate a bowl of river-boar stew and half a loaf of bread with the focused gratitude of a woman making up for lost time. Two hundred years of it, in a manner of speaking.
+She knocked (she always knocked, he would learn, though the door was hers) and took the middle stool, and ate a bowl of river-boar stew and half a loaf of bread with the focused gratitude of a woman making up for lost time. Two hundred years of it, in a manner of speaking.
 
 Afterward she counted out four coppers, straightening each one on the counter with a fingertip.
 
@@ -63,7 +63,7 @@ She said it kindly, and there was no arguing with it, because it was simply true
 
 Content, he thought, watching her butter the last of the bread. Premium content, with opinions about his pricing.
 
-At 2:04 that night — he checked, later, and it was exactly 2:04 again — the second transfer cleared.
+At 2:04 that night (he checked, later, and it was exactly 2:04 again) the second transfer cleared.
 
 ---
 
@@ -75,7 +75,7 @@ There were two helmets on his shelf now. His own, black, the good one, still fai
 
 He put on the gray one, and commuted.
 
-The office assembled around him. Thirty-first floor, carpet with a pattern if you looked, the unfinished city out the windows. Standup was at 9:15. Seven people said "no blockers" in a row, which meant everyone had blockers, and then the dashboard came up — the big one, the quarterly one, all its numbers the color of weather.
+The office assembled around him. Thirty-first floor, carpet with a pattern if you looked, the unfinished city out the windows. Standup was at 9:15. Seven people said "no blockers" in a row, which meant everyone had blockers, and then the dashboard came up: the big one, the quarterly one, all its numbers the color of weather.
 
 "Lateral," said the section head again, gently, the way you'd say a relative was resting.
 
@@ -85,13 +85,13 @@ Around eleven, an email arrived from Workplace Wellness. Subject: *Healthy Dive 
 
 Devan, who had spent the night butchering a three-hundred-weight boar in his sleep and had woken more rested than the illustration looked, read the whole thing solemnly and clicked *Mark as read*.
 
-At the one-on-one after lunch, his boss — a decent man, tired in a way no meadow was fixing — looked over Devan's numbers and nodded.
+At the one-on-one after lunch, his boss, a decent man, tired in a way no meadow was fixing, looked over Devan's numbers and nodded.
 
 "Solid quarter. Keep doing what you're doing."
 
 "I will," said Devan, honestly.
 
-For one second, then, he almost said something else. The sentence assembled itself somewhere behind his teeth — *actually, I've been thinking* — and he looked at it, and it looked at him, and he swallowed it whole. Fourteen years of loyalty to things was the shape of him. You did not resign from a decent boss over one strange weekend.
+For one second, then, he almost said something else. The sentence assembled itself somewhere behind his teeth (*actually, I've been thinking*) and he looked at it, and it looked at him, and he swallowed it whole. Fourteen years of loyalty to things was the shape of him. You did not resign from a decent boss over one strange weekend.
 
 Under the table, his phone showed the bank app, still open from the elevator.
 
@@ -109,13 +109,13 @@ Devan stopped.
 
 He stood there with the helmet half-raised, reading it again.
 
-*A world to return to.* That was the slogan. It had always been the slogan. It was on the old box art, in the old trailers — *return to*, he was nearly sure. Nearly. He had read that screen ten thousand times, and stopped seeing it ten thousand launches ago, the fate of every login screen.
+*A world to return to.* That was the slogan. It had always been the slogan. It was on the old box art, in the old trailers: *return to*, he was nearly sure. Nearly. He had read that screen ten thousand times, and stopped seeing it ten thousand launches ago, the fate of every login screen.
 
 He went looking. His oldest screenshots were on a drive that had died two apartments back. The wiki's page on the login screen had an image, but the wiki's images had been hosted somewhere that no longer resolved, and all that remained was a gray rectangle and a caption: *The login screen, unchanged since launch.*
 
 Unchanged since launch.
 
-There were no updates. There was no studio to make updates. There was, according to the corporate registry of his own country, no company — only a live routing number and a memo line that said thank you.
+There were no updates. There was no studio to make updates. There was, according to the corporate registry of his own country, no company: only a live routing number and a memo line that said thank you.
 
 He put the helmet on anyway.
 
@@ -129,7 +129,7 @@ The door stood in the back wall, plain and wooden, warm light under it, steady. 
 
 He tied his apron and pulled the stockpot, and the kitchen filled with the smell of the long work of bones.
 
-Rent, the stock did not care about. Quarters, lateral or otherwise, the stock did not care about. Companies that were dissolved and solvent at the same time, login screens that edited themselves in an empty house — the stock did not care. The stock wanted skimming every twenty minutes, and this was the great mercy of kitchens, and he availed himself of it until well past two.
+Rent, the stock did not care about. Quarters, lateral or otherwise, the stock did not care about. Companies that were dissolved and solvent at the same time, login screens that edited themselves in an empty house, the stock did not care. The stock wanted skimming every twenty minutes, and this was the great mercy of kitchens, and he availed himself of it until well past two.
 
 His phone, on the nightstand in another world, lit up at 2:04 exactly.
 
@@ -145,4 +145,4 @@ It seemed rude, in the end, never to answer.
 
 Then he went back to the bones.
 
-*— end of chapter 3 —*
+*end of chapter 3*

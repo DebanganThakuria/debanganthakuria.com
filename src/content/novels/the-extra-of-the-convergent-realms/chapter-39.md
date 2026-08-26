@@ -7,15 +7,15 @@ novel: "the-extra-of-the-convergent-realms"
 
 The path from the gate platform descended through a canopy of ancient trees before opening into a wide stone square.
 
-Valen counted the students emerging behind them — perhaps forty in total, most carrying the slightly disoriented expression of people whose bodies had arrived before their awareness caught up. The gate platform itself was elevated, built from rough-hewn granite blocks worn smooth by centuries of foot traffic, with no visible mechanism on this side. Just stone and fading runic residue.
+Valen counted the students emerging behind them, perhaps forty in total, most carrying the slightly disoriented expression of people whose bodies had arrived before their awareness caught up. The gate platform itself was elevated, built from rough-hewn granite blocks worn smooth by centuries of foot traffic, with no visible mechanism on this side. Just stone and fading runic residue.
 
 One-way gates. He filed the observation. No return mechanism detectable from the arrival side. Iris?
 
 Nothing, Master. The formation signature dissipated too quickly for meaningful analysis. Whatever powers these gates operates on principles I have not yet encountered.
 
-The square below was larger than he had expected — easily the size of the Ashford estate's main courtyard, paved in dark stone that glistened faintly from recent rain. A broad canal cut through its centre, fed by a stream that emerged from beneath the treeline to the north and disappeared under an arched culvert to the south. The water ran fast and clear, carrying the mineral scent of mountain runoff.
+The square below was larger than he had expected: easily the size of the Ashford estate's main courtyard, paved in dark stone that glistened faintly from recent rain. A broad canal cut through its centre, fed by a stream that emerged from beneath the treeline to the north and disappeared under an arched culvert to the south. The water ran fast and clear, carrying the mineral scent of mountain runoff.
 
-Small stone bridges crossed the canal at regular intervals, their railings carved with repeating motifs — wolves and storms, the Ashford heraldry rendered in granite rather than silk. A large fountain occupied the square's centre, its basin catching overflow from the canal. The water rose in a single unbroken column before dispersing into mist at its peak, and Valen could feel the faint hum of a formation sustaining it.
+Small stone bridges crossed the canal at regular intervals, their railings carved with repeating motifs: wolves and storms, the Ashford heraldry rendered in granite rather than silk. A large fountain occupied the square's centre, its basin catching overflow from the canal. The water rose in a single unbroken column before dispersing into mist at its peak, and Valen could feel the faint hum of a formation sustaining it.
 
 Students milled around the fountain and along the canal bridges, some clearly returning upperclassmen who navigated the space without looking, others new arrivals like themselves who stood in loose clusters and tried not to appear lost.
 
@@ -23,19 +23,19 @@ Valen turned his attention to the campus itself.
 
 The buildings surrounding the square were constructed from black granite and blue-veined marble. Colonnades ran along the square's perimeter, their pillars thick enough to suggest they bore more than decorative weight. The architecture carried a severity that the headquarters campus had lacked. Where HQ had felt like a forest reclaiming a forgotten city, Stormhold felt deliberate. Built to endure.
 
-To the east, beyond the campus boundary, Greyspire stretched toward the horizon. Rows of tightly packed houses lined narrow streets, their slate rooftops darkened by the perpetual moisture in the air. Tall spires of black granite rose above the residential districts at irregular intervals — watchtowers, or perhaps signal relays. The city had the dense, vertical quality of a place that had grown upward because it could not easily grow outward, hemmed in by forest on three sides and whatever lay to the west.
+To the east, beyond the campus boundary, Greyspire stretched toward the horizon. Rows of tightly packed houses lined narrow streets, their slate rooftops darkened by the perpetual moisture in the air. Tall spires of black granite rose above the residential districts at irregular intervals: watchtowers, or perhaps signal relays. The city had the dense, vertical quality of a place that had grown upward because it could not easily grow outward, hemmed in by forest on three sides and whatever lay to the west.
 
 The largest city in the Ashford Dukedom, Iris supplied. Population estimates vary, but the figures I found in the Academy archives suggested somewhere between sixty and eighty thousand.
 
-A low rumble of thunder moved through the clouds overhead. The storm that had been building since their arrival was close now — the air tasted of iron, and the light had taken on that flat, grey-green quality that preceded heavy rain.
+A low rumble of thunder moved through the clouds overhead. The storm that had been building since their arrival was close now: the air tasted of iron, and the light had taken on that flat, grey-green quality that preceded heavy rain.
 
 "We should register before it breaks," Amber said, already moving toward the largest building on the square's northern edge.
 
-The building bore the words Administrative Hall carved into its lintel in formal Praxian script. Inside, the space was functional rather than grand — stone floors, high ceilings, rows of wooden counters staffed by clerks who processed forms with the mechanical efficiency of people who had done precisely this task every term for years.
+The building bore the words Administrative Hall carved into its lintel in formal Praxian script. Inside, the space was functional rather than grand: stone floors, high ceilings, rows of wooden counters staffed by clerks who processed forms with the mechanical efficiency of people who had done precisely this task every term for years.
 
 The queue was long. Perhaps thirty students ahead of them, with more filing in behind.
 
-Valen settled into the wait. Amber stood beside him with the patient stillness she had developed over months of similar queues at headquarters — not restless, simply present.
+Valen settled into the wait. Amber stood beside him with the patient stillness she had developed over months of similar queues at headquarters, not restless, simply present.
 
 Iris, invisible to everyone but Valen, did not wait.
 
@@ -51,7 +51,7 @@ The Stormhold Campus operates less like an academy and more like a guild. Studen
 
 However, the departments you registered with will assign tasks and hold yearly performance reviews. Your access to resources, funding, and advanced instruction scales directly with your reviewed performance. Poor results mean reduced support. Strong results open doors.
 
-Housing and meals are provided by the campus at no cost. Everything else — materials, equipment, ingredients, texts — must be acquired with your own funds. The currency here is Core Crystals, same as headquarters.
+Housing and meals are provided by the campus at no cost. Everything else (materials, equipment, ingredients, texts) must be acquired with your own funds. The currency here is Core Crystals, same as headquarters.
 
 There is a mission board, significantly larger than the one at HQ. Most missions carry department requirements, but a subset are open to any registered student.
 
@@ -65,13 +65,13 @@ Wonder if Amber would be interested in joining one.
 
 The line moved forward in increments. When they finally reached the counter, a clerk with ink-stained fingers and the expression of someone who had already processed too many forms today took their Academy tokens, verified their identities against a ledger, and stamped their registration documents with practised efficiency.
 
-"Welcome gift," the clerk said, sliding two small leather pouches across the counter. "One hundred Core Crystals each. Dormitory assignments are on the second page. Meals are served in the commons hall — breakfast at dawn, dinner at dusk. Department orientations begin in three days. Do not lose your tokens."
+"Welcome gift," the clerk said, sliding two small leather pouches across the counter. "One hundred Core Crystals each. Dormitory assignments are on the second page. Meals are served in the commons hall: breakfast at dawn, dinner at dusk. Department orientations begin in three days. Do not lose your tokens."
 
 The clerk's attention had already moved to the next student before they stepped away.
 
 Valen checked his assignment. Fifth floor, eastern dormitory block.
 
-Amber's was in a separate building — the western block, third floor.
+Amber's was in a separate building: the western block, third floor.
 
 "I will find you at dinner," Amber said, tucking her documents into her travel pack. She glanced at the windows, where the first heavy drops of rain had begun striking the glass. "Try not to get lost."
 
@@ -85,13 +85,13 @@ They separated at the administrative hall's entrance. Amber turned west, moving 
 
 ---
 
-The eastern dormitory was a rectangular building of granite and dark timber, five stories tall, its windows shuttered against the incoming storm. Functional architecture — no ornamentation, no blue marble accents. This was housing, not a statement.
+The eastern dormitory was a rectangular building of granite and dark timber, five stories tall, its windows shuttered against the incoming storm. Functional architecture: no ornamentation, no blue marble accents. This was housing, not a statement.
 
-Inside, a long central hallway ran the building's length on each floor, with small personal rooms branching off either side. Communal bathrooms occupied the ends of each corridor. The warden — a heavyset woman with the demeanour of someone who had long since stopped being impressed by students — handed him a set of clean sheets and pointed upward without comment.
+Inside, a long central hallway ran the building's length on each floor, with small personal rooms branching off either side. Communal bathrooms occupied the ends of each corridor. The warden (a heavyset woman with the demeanour of someone who had long since stopped being impressed by students) handed him a set of clean sheets and pointed upward without comment.
 
 Valen climbed to the fifth floor.
 
-The hallway here was quieter than the floors below. Most rooms stood empty, their doors ajar, beds stripped. He chose the last room on the left — corner position, two windows instead of one, slightly more floor space where the building's geometry created an alcove.
+The hallway here was quieter than the floors below. Most rooms stood empty, their doors ajar, beds stripped. He chose the last room on the left: corner position, two windows instead of one, slightly more floor space where the building's geometry created an alcove.
 
 The room contained a single bed frame with a thin mattress, a wooden chest, a table, and a chair. The walls were bare stone. The floor was swept but not recently.
 
@@ -101,11 +101,11 @@ Functional, Valen corrected. He changed the sheets, stowed his pack in the chest
 
 Outside, the storm broke.
 
-Rain struck the windows with sudden violence, sheeting down the glass in continuous waves. Thunder rolled across the sky — not the distant, polite variety he had grown accustomed to at headquarters, but close and percussive, the kind that vibrated through stone walls and settled in the chest. Lightning split the clouds in branching white lines, illuminating the campus in strobing flashes.
+Rain struck the windows with sudden violence, sheeting down the glass in continuous waves. Thunder rolled across the sky, not the distant, polite variety he had grown accustomed to at headquarters, but close and percussive, the kind that vibrated through stone walls and settled in the chest. Lightning split the clouds in branching white lines, illuminating the campus in strobing flashes.
 
-The storms here are different, Iris observed. The ambient mana concentration in the atmosphere is nearly twice what headquarters measured. The weather systems interact with it — or perhaps feed on it.
+The storms here are different, Iris observed. The ambient mana concentration in the atmosphere is nearly twice what headquarters measured. The weather systems interact with it, or perhaps feed on it.
 
-Valen lay back on the narrow bed and listened to the rain hammer the roof above him. The sound was dense and layered — water on stone, water on timber, water on water where it pooled on the walkways below.
+Valen lay back on the narrow bed and listened to the rain hammer the roof above him. The sound was dense and layered: water on stone, water on timber, water on water where it pooled on the walkways below.
 
 He closed his eyes.
 
@@ -117,15 +117,15 @@ The storm raged for two hours before it began to ease. By the time the rain thin
 
 The commons hall occupied a long, low building adjacent to the dormitories, its interior lit by mana lamps set into iron brackets along the walls. The ceiling was high enough to prevent the space from feeling cramped, but the acoustics ensured that every conversation layered over every other, creating a wall of ambient noise that Valen felt in his teeth before he was fully through the door.
 
-Students filled long wooden tables in no discernible order — clusters of friends, solo diners hunched over plates, small groups engaged in arguments conducted at volumes that suggested they had been going for some time. Somewhere near the far wall, someone laughed loud enough to cut through the general din. The clatter of utensils on ceramic provided a continuous percussive undertone.
+Students filled long wooden tables in no discernible order: clusters of friends, solo diners hunched over plates, small groups engaged in arguments conducted at volumes that suggested they had been going for some time. Somewhere near the far wall, someone laughed loud enough to cut through the general din. The clatter of utensils on ceramic provided a continuous percussive undertone.
 
-The food was served from a counter along the hall's western side — roasted grain porridge, stewed root vegetables, slices of smoked meat, and sweetened milk for dessert.
+The food was served from a counter along the hall's western side: roasted grain porridge, stewed root vegetables, slices of smoked meat, and sweetened milk for dessert.
 
 Valen collected his tray and scanned the hall.
 
 He found Amber at a table midway down the room, already eating. Across from her, three familiar figures occupied the bench.
 
-Raylan sat with his usual composed stillness, eating methodically. Elara was beside him, gesturing with her spoon as she spoke to Amber about something that required emphatic hand movements. Marcus occupied the far end, leaning back with his arms crossed, watching the room with the particular quality of attention he brought to unfamiliar environments — not anxious, just thorough.
+Raylan sat with his usual composed stillness, eating methodically. Elara was beside him, gesturing with her spoon as she spoke to Amber about something that required emphatic hand movements. Marcus occupied the far end, leaning back with his arms crossed, watching the room with the particular quality of attention he brought to unfamiliar environments, not anxious, just thorough.
 
 They arrived before us, Valen noted. Of course. Raylan's home territory. He would have come directly after the exam results.
 
@@ -149,7 +149,7 @@ Raylan looked up from his plate. "You both registered today?"
 
 "The orientation sessions are worth attending," Raylan said. "The department heads here are different from headquarters. More direct. Less interested in potential, more interested in output."
 
-He has already been here long enough to assess the faculty. Valen filed that. Raylan moved efficiently when he had purpose — and whatever had drawn him to Stormhold, he had wasted no time settling in.
+He has already been here long enough to assess the faculty. Valen filed that. Raylan moved efficiently when he had purpose. And whatever had drawn him to Stormhold, he had wasted no time settling in.
 
 "How long have you been here?" Amber asked.
 
@@ -163,13 +163,13 @@ Five days of head start. Raylan would have already mapped the campus, identified
 
 Around them, the hall's noise swelled and receded in waves. A group of older students at a nearby table erupted into a heated debate about something involving ward configurations and territory boundaries. At another, someone was recounting a hunt with escalating dramatic gestures while their companions alternated between scepticism and reluctant entertainment.
 
-The atmosphere was rougher than headquarters. Less formal. Students here carried themselves like people who spent time outside walls — tanned skin, practical clothing, the kind of casual physicality that came from regular fieldwork rather than courtyard sparring.
+The atmosphere was rougher than headquarters. Less formal. Students here carried themselves like people who spent time outside walls: tanned skin, practical clothing, the kind of casual physicality that came from regular fieldwork rather than courtyard sparring.
 
 Elara turned to Valen with the expression she wore when she had been holding a question and had decided this was the appropriate moment. "Which departments did you register for here? The same three?"
 
 "Potioncraft, Formation Studies, and Artificer," Valen confirmed.
 
-"The Formations department here is supposed to be exceptional," she said. "The Stormhold branch has a reputation. Something about the local materials — the granite and the storm-charged minerals in the mountains. They produce formation components that other campuses cannot replicate."
+"The Formations department here is supposed to be exceptional," she said. "The Stormhold branch has a reputation. Something about the local materials: the granite and the storm-charged minerals in the mountains. They produce formation components that other campuses cannot replicate."
 
 "I heard the same," Raylan said. He did not elaborate, but the fact that he had noticed was information in itself.
 
@@ -187,7 +187,7 @@ Marcus looked between them with an expression that was carefully neutral but not
 
 "Of course it is," Amber said. "This is Stormhold."
 
-Thunder rumbled in the distance — the retreating storm reminding them it had not gone far.
+Thunder rumbled in the distance, the retreating storm reminding them it had not gone far.
 
 "The storms come back," Raylan said quietly. Not to anyone in particular. His gaze had gone briefly distant, focused on something past the walls of the commons hall. "In this region, they always come back."
 
@@ -203,7 +203,7 @@ Then Elara reached across and took a piece of smoked meat from Marcus's plate. H
 
 "It is how efficiency works. You taught me that."
 
-Amber made the sound that was almost a laugh — the unguarded kind. Raylan returned his attention to his plate with the faintest trace of a smile.
+Amber made the sound that was almost a laugh, the unguarded kind. Raylan returned his attention to his plate with the faintest trace of a smile.
 
 Valen ate his meal and let the noise of the hall wash over him.
 
@@ -217,29 +217,29 @@ The next morning, Valen rose before dawn.
 
 The storm had passed entirely overnight, leaving the campus scrubbed clean and glistening under a pale grey sky. Puddles gathered in the low points between flagstones, reflecting the early light. The air was cool and heavy with moisture, carrying the rich smell of wet earth and stone.
 
-He found Amber waiting at the fountain in the main square, arms crossed, hair braided back for the day. She wore practical clothes — reinforced leather at the forearms, saber at her hip, boots laced tight. Ready for anything, even a workshop tour.
+He found Amber waiting at the fountain in the main square, arms crossed, hair braided back for the day. She wore practical clothes: reinforced leather at the forearms, saber at her hip, boots laced tight. Ready for anything, even a workshop tour.
 
 "You are early," Valen said.
 
 "You are later than I expected."
 
-They crossed the square together, following the signs carved into granite waymarkers at each intersection. The campus layout was more ordered than headquarters — a grid pattern rather than a forest labyrinth, the buildings numbered and labelled, the paths wide enough for carts. Practical infrastructure for a campus that served as a working hub rather than a cloistered academy.
+They crossed the square together, following the signs carved into granite waymarkers at each intersection. The campus layout was more ordered than headquarters: a grid pattern rather than a forest labyrinth, the buildings numbered and labelled, the paths wide enough for carts. Practical infrastructure for a campus that served as a working hub rather than a cloistered academy.
 
 The Artificer department occupied a cluster of buildings on the campus's northern edge, set apart from the other facilities by a wide margin of open ground. As they approached, Valen understood why.
 
 The sound reached them first.
 
-A deep, rhythmic hammering — not the sharp ring of a blacksmith's anvil, but something heavier, more resonant, as if the strikes were landing on something that rang back. Beneath the hammering, a continuous low hum vibrated through the ground itself, felt in the soles of his boots before it registered as sound.
+A deep, rhythmic hammering, not the sharp ring of a blacksmith's anvil, but something heavier, more resonant, as if the strikes were landing on something that rang back. Beneath the hammering, a continuous low hum vibrated through the ground itself, felt in the soles of his boots before it registered as sound.
 
 Then the heat.
 
 The air temperature climbed steadily as they drew closer, the moisture in the atmosphere thinning as the ambient warmth intensified. By the time they reached the department's outer courtyard, the cool morning had been replaced by something that felt like midsummer.
 
-The main workshop was a vast open-sided structure — more forge than building, its roof supported by stone pillars thick as old trees, its walls absent on three sides to allow ventilation. Inside, the space was divided into stations by waist-high stone partitions, each one containing a different configuration of tools, formations, and materials.
+The main workshop was a vast open-sided structure, more forge than building, its roof supported by stone pillars thick as old trees, its walls absent on three sides to allow ventilation. Inside, the space was divided into stations by waist-high stone partitions, each one containing a different configuration of tools, formations, and materials.
 
 Valen stopped.
 
-An automaton stood at the nearest station — humanoid in basic shape, but taller and more refined than Rock's cooking model at headquarters. Its chassis was dark iron rather than brass, the joints sealed with precision-fitted plates rather than exposed gears. Runic engravings covered every surface in dense, overlapping patterns that pulsed with a slow amber light, and where Rock's automaton had vented steam, this one radiated a faint heat shimmer that distorted the air around its joints.
+An automaton stood at the nearest station, humanoid in basic shape, but taller and more refined than Rock's cooking model at headquarters. Its chassis was dark iron rather than brass, the joints sealed with precision-fitted plates rather than exposed gears. Runic engravings covered every surface in dense, overlapping patterns that pulsed with a slow amber light, and where Rock's automaton had vented steam, this one radiated a faint heat shimmer that distorted the air around its joints.
 
 Third generation design, Iris breathed, her tone carrying genuine reverence. Master, look at the formation density on the thorax plating. That is at least four times the complexity of Rock's model.
 
@@ -263,13 +263,13 @@ The woman approaching them appeared thirty, wiry and sun-darkened, with close-cr
 
 "Valentine Ashford."
 
-Something moved behind her eyes at the name. Not surprise — recognition. The particular quality of someone who had been expecting something and had just had it confirmed.
+Something moved behind her eyes at the name. Not surprise. Recognition. The particular quality of someone who had been expecting something and had just had it confirmed.
 
 "Ashford," she repeated. Then, to Amber: "And you?"
 
 "Amber Lumis. Combat Magic and Warrior Arts."
 
-"Then the forges are not your concern." The woman's attention returned to Valen. "You. Follow me. Your companion can wait or wander — the courtyard is open to all students."
+"Then the forges are not your concern." The woman's attention returned to Valen. "You. Follow me. Your companion can wait or wander; the courtyard is open to all students."
 
 She turned and walked toward the main workshop without checking whether he followed.
 
@@ -281,9 +281,9 @@ Amber raised an eyebrow at him.
 
 Valen followed the woman into the workshop.
 
-Inside, the heat was a physical presence — dry and constant, radiating from formation-heated forges built into the stone floor. The smell was complex: hot metal, mineral dust.
+Inside, the heat was a physical presence, dry and constant, radiating from formation-heated forges built into the stone floor. The smell was complex: hot metal, mineral dust.
 
-The woman led him past stations where students and senior artificers worked in focused silence. He caught glimpses of projects in various stages — a gauntlet with formation channels carved into its inner surface, a set of crystalline lenses being ground to precise curvatures, a length of dark wood being inscribed with runic sequences so fine they were barely visible.
+The woman led him past stations where students and senior artificers worked in focused silence. He caught glimpses of projects in various stages: a gauntlet with formation channels carved into its inner surface, a set of crystalline lenses being ground to precise curvatures, a length of dark wood being inscribed with runic sequences so fine they were barely visible.
 
 She stopped at a quieter section in the workshop's rear, where a wide table held stacks of technical drawings and material samples.
 
@@ -299,13 +299,13 @@ She stopped at a quieter section in the workshop's rear, where a wide table held
 
 "That seems reasonable."
 
-"It is." She picked up a small object from the table — a cube of dark stone, perhaps two inches across, its surface carved with a single formation sequence. She held it out.
+"It is." She picked up a small object from the table, a cube of dark stone, perhaps two inches across, its surface carved with a single formation sequence. She held it out.
 
 Valen took it. The stone was warm, heavier than its size suggested, and the formation carved into its surface was... incomplete. Not damaged. Deliberately unfinished. The sequence began with a standard Force Rune configuration, progressed through what looked like a compression modifier, and then simply stopped, the final element left blank.
 
 "Finish it," Hilde said. "Not now. Before orientation. Bring it back in three days and show me what you did."
 
-Valen turned the cube in his hand, examining the unfinished sequence from every angle. The formation's intent was clear enough — a compressed force-release mechanism, like a miniature version of his staff technique. But the missing element could be completed in several different ways, each producing a different output.
+Valen turned the cube in his hand, examining the unfinished sequence from every angle. The formation's intent was clear enough: a compressed force-release mechanism, like a miniature version of his staff technique. But the missing element could be completed in several different ways, each producing a different output.
 
 She is testing methodology, not knowledge, Iris noted. The answer you choose reveals how you think.
 
@@ -317,19 +317,19 @@ She walked away, already calling instructions to a student at a nearby forge who
 
 Valen pocketed the cube and made his way back through the workshop, cataloguing everything he passed. The level of work here was notably advanced compared to what the headquarters curriculum contained. Either the Stormhold branch attracted stronger artificers, or the proximity to raw materials and field-testing opportunities pushed the quality higher.
 
-Probably both, Iris said. Master, I am already analysing the formation on the cube. I have three possible completion approaches. Shall I—
+Probably both, Iris said. Master, I am already analysing the formation on the cube. I have three possible completion approaches. Shall I...
 
 Not yet. Let me think about it first. Then we compare.
 
 Understood.
 
-He emerged from the workshop into the courtyard, where the morning had brightened to a diffuse grey-white — not quite sunny, but the clouds had thinned enough to suggest the sky remembered what blue looked like.
+He emerged from the workshop into the courtyard, where the morning had brightened to a diffuse grey-white, not quite sunny, but the clouds had thinned enough to suggest the sky remembered what blue looked like.
 
 A figure was waiting near the courtyard entrance.
 
 Not Amber. Not a student.
 
-The man stood with the particular stillness of someone trained to wait without fidgeting. Middle-aged, dressed in travelling clothes of quality fabric — not noble finery, but the practical garments of a senior retainer accustomed to long journeys. The Ashford crest was stitched discreetly into his collar. A leather satchel hung at his side.
+The man stood with the particular stillness of someone trained to wait without fidgeting. Middle-aged, dressed in travelling clothes of quality fabric, not noble finery, but the practical garments of a senior retainer accustomed to long journeys. The Ashford crest was stitched discreetly into his collar. A leather satchel hung at his side.
 
 He straightened when Valen appeared.
 
@@ -337,13 +337,13 @@ He straightened when Valen appeared.
 
 Valen stopped. "You are?"
 
-"Steward Bron, Young Master. I serve at your lord father's household." He bowed — not deeply, but with the precision of long practice. "I was instructed to present myself upon your arrival at the Stormhold Campus."
+"Steward Bron, Young Master. I serve at your lord father's household." He bowed, not deeply, but with the precision of long practice. "I was instructed to present myself upon your arrival at the Stormhold Campus."
 
 Ashford household staff, Iris confirmed. The name appears in your father's correspondence. Senior steward, responsible for managing his father's affairs in Greyspire when the family is at the frontier.
 
 "My father sent you," Valen said. Not a question.
 
-"His Grace anticipated you would arrive with the autumn intake." Bron produced a sealed letter from the satchel — heavy parchment, dark blue wax bearing the Ashford wolf. "He asked that I deliver this personally and remain available for any needs you might have during your time in Greyspire."
+"His Grace anticipated you would arrive with the autumn intake." Bron produced a sealed letter from the satchel: heavy parchment, dark blue wax bearing the Ashford wolf. "He asked that I deliver this personally and remain available for any needs you might have during your time in Greyspire."
 
 Valen accepted the letter but did not open it. He studied the steward instead.
 
@@ -351,7 +351,7 @@ Bron bore the scrutiny without discomfort. His posture was correct, his expressi
 
 "The coming-of-age ceremony," Valen said.
 
-"Arrangements are underway, Young Master. The date has not been finalised, but your lord father's letter contains the current details." A pause — careful, deliberate. "Representatives from other families have already been invited. Of course, this will be a common ceremony for all the children from this generation."
+"Arrangements are underway, Young Master. The date has not been finalised, but your lord father's letter contains the current details." A pause: careful, deliberate. "Representatives from other families have already been invited. Of course, this will be a common ceremony for all the children from this generation."
 
 The words settled with the weight they deserved.
 
@@ -361,7 +361,7 @@ So it is real. The marriage arrangement. The political dimensions. The family ex
 
 "Only that your lord father wishes you to visit the family estate in Greyspire at your earliest convenience. It is in the eastern quarter of the city, near the central spire. The household staff have been informed of your arrival and are prepared to receive you."
 
-A family estate in the city. Valen had not known that existed — or rather, the original Valentine's memories contained vague references to properties the Duke maintained outside the capital, but nothing specific about Greyspire.
+A family estate in the city. Valen had not known that existed, or rather, the original Valentine's memories contained vague references to properties the Duke maintained outside the capital, but nothing specific about Greyspire.
 
 "Thank you, Steward Bron. I will visit when my schedule permits."
 
@@ -389,7 +389,7 @@ Not yet, Valen agreed.
 
 He tucked the letter into his coat and walked south toward the Warrior Arts grounds, where Amber was almost certainly already making someone regret inviting her to spar.
 
-The clouds overhead shifted. A break appeared — narrow, brief — and for a moment, pale sunlight fell across the campus, catching the blue-veined marble of the administrative hall and the dark granite of the dormitories and the distant spires of Greyspire in a single wash of light.
+The clouds overhead shifted. A break appeared (narrow, brief) and for a moment, pale sunlight fell across the campus, catching the blue-veined marble of the administrative hall and the dark granite of the dormitories and the distant spires of Greyspire in a single wash of light.
 
 Then the clouds closed again, and the grey returned.
 

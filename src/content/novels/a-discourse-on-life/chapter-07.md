@@ -11,7 +11,7 @@ The second-floor bedroom was cold. He could see his breath in the dim light. Ely
 
 He washed up, dressed, and went downstairs to the potions lab.
 
-The lab occupied the back half of the ground floor, separated from the customer receiving room by the large bookshelf he had placed laterally. The central island-table held his brewing equipment — a set of crystal cauldrons of varying sizes, a mana burner, precision scales, a mortar and pestle carved from Moonstone, and rows of glass stirring rods. The shelves along the walls were lined with jars of dried herbs, mineral powders, and preserved organs of various magic beasts.
+The lab occupied the back half of the ground floor, separated from the customer receiving room by the large bookshelf he had placed laterally. The central island-table held his brewing equipment: a set of crystal cauldrons of varying sizes, a mana burner, precision scales, a mortar and pestle carved from Moonstone, and rows of glass stirring rods. The shelves along the walls were lined with jars of dried herbs, mineral powders, and preserved organs of various magic beasts.
 
 Alfred tied back his golden hair and rolled up his sleeves.
 
@@ -27,19 +27,19 @@ Milo didn't argue. She curled up on the counter in the receiving room and went b
 
 ---
 
-Alfred began with the basics — Rank 2 Vitality Potions.
+Alfred began with the basics: Rank 2 Vitality Potions.
 
 He selected dried Bloodroot, powdered Iron Moss, and a vial of distilled Silverspring Water. Common ingredients, available in any market. The difference was in the brewing.
 
-He placed the crystal cauldron on the mana burner and ignited it. Most Potioneers would fuel the burner with their own mana or with crystal coins. Alfred simply let a thread of Vita Fons convert a sliver of his life force into mana. The flame that emerged was steady and precise — neither too hot nor too cold. Controlling the temperature was the most fundamental skill in Potioneering, and Alfred had a hundred and fifty years of practice.
+He placed the crystal cauldron on the mana burner and ignited it. Most Potioneers would fuel the burner with their own mana or with crystal coins. Alfred simply let a thread of Vita Fons convert a sliver of his life force into mana. The flame that emerged was steady and precise, neither too hot nor too cold. Controlling the temperature was the most fundamental skill in Potioneering, and Alfred had a hundred and fifty years of practice.
 
-He added the Silverspring Water and brought it to a gentle simmer. Next, he crushed the Bloodroot in his mortar, grinding it into a fine paste. The key was consistency — any coarse fragments would cause the potion to separate during the infusion stage.
+He added the Silverspring Water and brought it to a gentle simmer. Next, he crushed the Bloodroot in his mortar, grinding it into a fine paste. The key was consistency: any coarse fragments would cause the potion to separate during the infusion stage.
 
 As the water reached the right temperature, he added the Bloodroot paste and stirred clockwise seven times. The liquid turned a deep crimson.
 
 Now came the part that set Alfred apart from every other Potioneer in the world.
 
-He placed both hands on the rim of the cauldron and channeled his vitality directly into the mixture. Raw life force — not mana, but the essence of his inexhaustible HP — flowed into the potion like sunlight into soil. The crimson liquid brightened, then glowed. Under his hands, the Bloodroot's medicinal properties were amplified far beyond their natural potency.
+He placed both hands on the rim of the cauldron and channeled his vitality directly into the mixture. Raw life force, not mana but the essence of his inexhaustible HP, flowed into the potion like sunlight into soil. The crimson liquid brightened, then glowed. Under his hands, the Bloodroot's medicinal properties were amplified far beyond their natural potency.
 
 A normal Potioneer would infuse mana at this stage, and the amount they could spare determined the final quality. Alfred had no such limitation. He poured vitality into the brew until the ingredients themselves could hold no more.
 
@@ -53,9 +53,9 @@ Alfred ladled it into six glass vials and corked them. He held one up to the lig
 
 "Perfect for a first day," he murmured. "Good enough to impress, not good enough to raise questions."
 
-He brewed three more batches over the next two hours — Rank 2 Mana Potions, Rank 2 Antidotes, and Rank 1 Healing Salves. By the time sunlight crept through the stained glass windows, the shelves in the receiving room were lined with neat rows of vials and jars, each labeled in Alfred's precise handwriting.
+He brewed three more batches over the next two hours: Rank 2 Mana Potions, Rank 2 Antidotes, and Rank 1 Healing Salves. By the time sunlight crept through the stained glass windows, the shelves in the receiving room were lined with neat rows of vials and jars, each labeled in Alfred's precise handwriting.
 
-He stepped back and admired his work. The warm light filtering through the colored glass cast shifting patterns across the wooden shelves. The jars of dried herbs, the old books from Old Ren's collection, the antique furniture — combined with the fresh potions, the shop had the feel of a place that had existed for decades rather than days.
+He stepped back and admired his work. The warm light filtering through the colored glass cast shifting patterns across the wooden shelves. The jars of dried herbs, the old books from Old Ren's collection, the antique furniture. Combined with the fresh potions, the shop had the feel of a place that had existed for decades rather than days.
 
 Alfred unlocked the front door and flipped the sign from "Closed" to "Open."
 
@@ -65,7 +65,7 @@ Milo's Potions was in business.
 
 The morning was quiet.
 
-Oak Lane was not Silver Street. There was no foot traffic to speak of. A few residents walked past the shop, glanced at the new sign, and continued on their way. Alfred sat behind the counter reading one of Old Ren's books — a history of Elysion's founding — and sipped his coffee brewed from Oguk's beans.
+Oak Lane was not Silver Street. There was no foot traffic to speak of. A few residents walked past the shop, glanced at the new sign, and continued on their way. Alfred sat behind the counter reading one of Old Ren's books, a history of Elysion's founding, and sipped his coffee brewed from Oguk's beans.
 
 Milo had claimed the sunniest spot on the counter and was curled up in a tight ball. "Booming business," she said without opening her eyes.
 
@@ -81,7 +81,7 @@ Around mid-morning, the door chimed. Alfred looked up to find a middle-aged huma
 
 "You came to the right place." Alfred reached for a jar of Healing Salve. "May I?"
 
-She nodded. Alfred unwrapped the bandage gently. The boy had a deep gash on his forearm — not dangerous, but painful. The wound had been cleaned with water but nothing else.
+She nodded. Alfred unwrapped the bandage gently. The boy had a deep gash on his forearm, not dangerous, but painful. The wound had been cleaned with water but nothing else.
 
 Alfred applied the salve with practiced hands. The boy winced at first, then relaxed as the cool sensation of the medicine took effect. The wound began to close visibly, the skin knitting together under a faint glow.
 
@@ -91,7 +91,7 @@ The woman watched with wide eyes. "That fast?"
 
 "How much do I owe you, Sir?"
 
-Alfred thought for a moment. "Two silver coins for the salve. The consultation is free for today — opening day."
+Alfred thought for a moment. "Two silver coins for the salve. The consultation is free for today; it's opening day."
 
 She paid gratefully and left with the boy, who was already flexing his bandaged arm with fascination.
 
@@ -121,9 +121,9 @@ Alfred noticed the choice of words but said nothing.
 
 "Monopoly pricing," Oguk said with a knowing look. "Elysion is prosperous, but not everybody can afford Ravenrose. You might find your niche faster than you think."
 
-They talked for a while longer about the neighborhood — which streets were busy on which days, where to find the best ingredients at the morning market, which officials from the Blue Tower were agreeable and which were not. Oguk was well-informed for a coffee shop owner. Alfred filed that observation alongside everything else he knew about the Orc.
+They talked for a while longer about the neighborhood: which streets were busy on which days, where to find the best ingredients at the morning market, which officials from the Blue Tower were agreeable and which were not. Oguk was well-informed for a coffee shop owner. Alfred filed that observation alongside everything else he knew about the Orc.
 
-After Oguk left, the afternoon brought two more customers — a Goblin merchant with chronic joint pain and an elderly elven woman seeking a Mana Potion for her grandson's studies. Alfred served them both with the same unhurried care.
+After Oguk left, the afternoon brought two more customers: a Goblin merchant with chronic joint pain and an elderly elven woman seeking a Mana Potion for her grandson's studies. Alfred served them both with the same unhurried care.
 
 ---
 
@@ -145,7 +145,7 @@ Her smile dimmed slightly. "A third-year transfer student from the Ravenrose Gui
 
 Elisa's eyes were already wandering across the shelves. She drifted towards the potions, examining each vial with the careful attention of a student who takes her craft seriously.
 
-She picked up a Vitality Potion and held it to the light. Her brow furrowed. She uncorked it and gave it a careful sniff. Then she looked at Alfred with an expression he recognized — the look of someone who has just realized they are standing in front of a mountain they had mistaken for a hill.
+She picked up a Vitality Potion and held it to the light. Her brow furrowed. She uncorked it and gave it a careful sniff. Then she looked at Alfred with an expression he recognized: the look of someone who has just realized they are standing in front of a mountain they had mistaken for a hill.
 
 "Sir Alfred... this is a Rank 2 potion?"
 
@@ -155,19 +155,19 @@ She picked up a Vitality Potion and held it to the light. Her brow furrowed. She
 
 "Practice," Alfred said simply.
 
-Elisa stared at him. For a moment, Alfred worried he had said too much. But she was sixteen and had the attention span of her age — her awe quickly transformed into excitement.
+Elisa stared at him. For a moment, Alfred worried he had said too much. But she was sixteen and had the attention span of her age; her awe quickly transformed into excitement.
 
-"Can you teach me? Not formally — I know you are busy with the shop. But if I visit sometimes and ask questions, would that be alright?"
+"Can you teach me? Not formally. I know you are busy with the shop. But if I visit sometimes and ask questions, would that be alright?"
 
 "You are always welcome here, Miss Elisa."
 
-She smiled wide enough to show her teeth. Then, as if remembering something, she rummaged in her bag. "Oh — Sir Alfred, I wanted to ask a favor. There is a classmate of mine. He was injured during a sparring match yesterday and the university healer patched him up, but his shoulder still bothers him. Would you have something for that?"
+She smiled wide enough to show her teeth. Then, as if remembering something, she rummaged in her bag. "Oh, Sir Alfred, I wanted to ask a favor. There is a classmate of mine. He was injured during a sparring match yesterday and the university healer patched him up, but his shoulder still bothers him. Would you have something for that?"
 
 "A sparring injury? Is this the swordsman from the entrance exams?"
 
 Elisa blinked. "You saw his matches?"
 
-"I happened to be watching. He has an interesting technique." Alfred selected a jar of Healing Salve — a slightly stronger formulation than what he had used on the boy this morning. "Apply this to the shoulder before sleep. By morning, the pain should be gone entirely."
+"I happened to be watching. He has an interesting technique." Alfred selected a jar of Healing Salve, a slightly stronger formulation than what he had used on the boy this morning. "Apply this to the shoulder before sleep. By morning, the pain should be gone entirely."
 
 "How much?"
 
@@ -193,7 +193,7 @@ Alfred didn't answer. He began cleaning up the counter for the evening.
 
 By sundown, Alfred had served a total of five customers and earned eleven silver coins and two gold coins. A modest start. He flipped the sign to "Closed" and locked the front door.
 
-He made a simple dinner upstairs — grilled fish with roasted root vegetables and herb butter. Milo had her own portion. They ate in comfortable silence.
+He made a simple dinner upstairs: grilled fish with roasted root vegetables and herb butter. Milo had her own portion. They ate in comfortable silence.
 
 After cleaning up, Alfred came back downstairs to organize the lab for tomorrow's brewing. The shop was dark except for the warm glow of the mana lamps.
 
@@ -207,11 +207,11 @@ Alfred stopped what he was doing. "What is it?"
 
 "Something cold. In the corner behind the last shelf."
 
-Alfred turned slowly. The far corner of the shop — the same spot where he had felt the presence of death when he first visited with Old Ren. He walked towards it, his footsteps silent on the wooden floor.
+Alfred turned slowly. The far corner of the shop: the same spot where he had felt the presence of death when he first visited with Old Ren. He walked towards it, his footsteps silent on the wooden floor.
 
-The air was noticeably cooler here. Not the cold of Elysion's weather — this was a different kind of chill. It felt like standing next to something that was quietly pulling warmth out of the world.
+The air was noticeably cooler here. Not the cold of Elysion's weather. This was a different kind of chill. It felt like standing next to something that was quietly pulling warmth out of the world.
 
-Alfred crouched and examined the floorboards. They looked the same as the rest of the shop. But when he ran his fingers across them, he felt it — a faint vibration, almost imperceptible, like a heartbeat beneath the wood.
+Alfred crouched and examined the floorboards. They looked the same as the rest of the shop. But when he ran his fingers across them, he felt it: a faint vibration, almost imperceptible, like a heartbeat beneath the wood.
 
 He pressed harder. One of the boards shifted slightly. It was loose.
 
@@ -219,7 +219,7 @@ Alfred pried it up carefully. Beneath it, wedged into a gap between the floor jo
 
 He lifted it out and held it under the mana lamp.
 
-The cover bore no title. But etched into the leather, barely visible, was a symbol — a circle consuming itself, an open mouth devouring its own edge.
+The cover bore no title. But etched into the leather, barely visible, was a symbol: a circle consuming itself, an open mouth devouring its own edge.
 
 Alfred had seen that symbol before. In the burned ruins of a battlefield library, a lifetime ago.
 

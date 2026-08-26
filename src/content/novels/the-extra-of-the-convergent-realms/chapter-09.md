@@ -11,7 +11,7 @@ The testing hall doors had been sealed a few minutes ago. Instructor Seth stood 
 
 Valen observed the crowd below.
 
-The smart ones—or perhaps just the cautious—had finished their written exams early. They clustered around their tents now, sharing lunch and conversation. Their body language was relaxed, confident. One group even laughed loud enough for the sound to drift up to his window.
+The smart ones (or perhaps just the cautious) had finished their written exams early. They clustered around their tents now, sharing lunch and conversation. Their body language was relaxed, confident. One group even laughed loud enough for the sound to drift up to his window.
 
 On the other hand, the cold-blooded killers who were caught were led towards the depths of the Academy.
 
@@ -21,13 +21,13 @@ The announcement sent visible ripples through the writing groups. Some straighte
 
 Valen's attention drifted back to the forest edge.
 
-The main character trio—Raylan, Elara, and Marcus—had returned an hour ago, exhausted and bloodied. Three Rank 2 monster corpses dragged behind them, along with treasures that looked similar to the ones Grand Warrior Theodore had gifted his own group.
+The main character trio (Raylan, Elara, and Marcus) had returned an hour ago, exhausted and bloodied. Three Rank 2 monster corpses dragged behind them, along with treasures that looked similar to the ones Grand Warrior Theodore had gifted his own group.
 
 Of course they'd find treasures. That's how these stories work.
 
 But the pattern Valen noticed wasn't the treasures themselves. It was the injuries.
 
-Fresh bandages wrapped around Raylan's sword arm. Elara limped slightly on her left side. Marcus had a nasty bruise darkening his jaw. The Academy healers had treated them immediately—green healing light still lingered around their wounds—but the damage told a story.
+Fresh bandages wrapped around Raylan's sword arm. Elara limped slightly on her left side. Marcus had a nasty bruise darkening his jaw. The Academy healers had treated them immediately (green healing light still lingered around their wounds), but the damage told a story.
 
 Ambushed. Multiple times. Valen had been watching them through Iris. 
 
@@ -59,7 +59,7 @@ At least I won't have imposter syndrome at the Academy.
 
 "Nothing, Master. Just pleased that you're confident."
 
-The results wouldn't be declared until the following morning. Standard procedure—give the instructors time to grade, deliberate, and prepare the announcements properly.
+The results wouldn't be declared until the following morning. Standard procedure: give the instructors time to grade, deliberate, and prepare the announcements properly.
 
 Valen spent the evening practicing his mana breathing exercises, feeling the steady rhythm of energy flowing through his channels. The Soul Crystal rested against his chest, warm and endless mana inside its golden shell.
 
@@ -81,7 +81,7 @@ The emotional reactions painted a clear picture. Celebration clusters formed aro
 
 Valen finally moved closer to the boards, scanning for familiar names.
 
-Raylan, Elara, Marcus—all within the top twenty. Respectable showing for the protagonist group.
+Raylan, Elara, Marcus: all within the top twenty. Respectable showing for the protagonist group.
 
 But they weren't first, second, and third.
 
@@ -99,7 +99,7 @@ Cassian Lumis - Twelfth Prince. Rank 4.
 
 "Wow. So heroic." Valen's replied with a flat tone.
 
-"Master, I have been saying this repeatedly—you should have participated in the practical examinations."
+"Master, I have been saying this repeatedly: you should have participated in the practical examinations."
 
 Valen shook his head slightly, a gesture small enough that nearby applicants wouldn't notice. "The actual reason, Iris? I'm scared to deviate from the original novel plot while I'm still weak."
 
@@ -119,7 +119,7 @@ Valen adjusted his new gray robe as he entered, the fabric settling comfortably 
 
 Function over fashion. Though I should probably invest in better boots before classes start.
 
-The hall was already occupied. Valen estimated around two hundred students present—the top one hundred from the exam results, plus approximately one hundred more from noble family reserved seats.
+The hall was already occupied. Valen estimated around two hundred students present: the top one hundred from the exam results, plus approximately one hundred more from noble family reserved seats.
 
 The social divide was immediately visible.
 
@@ -129,7 +129,7 @@ The reserved seating group gathered on the right, their clothing noticeably fine
 
 Valen found a position near Lydia and sat down.
 
-The murmur of conversation filled the space—speculation about the final test, comparisons of combat stories, subtle status negotiations through careful word choice and body language.
+The murmur of conversation filled the space: speculation about the final test, comparisons of combat stories, subtle status negotiations through careful word choice and body language.
 
 Instructor Aldric and Seth entered through the far doors, walking with purposeful strides toward a raised platform that hadn't been there yesterday. The platform held several tables and at least a dozen brown-cloaked mages standing in formal arrangement.
 
@@ -141,7 +141,7 @@ Silence fell immediately.
 
 "The final examination will assess the quality of your mana cores." Aldric's voice carried authority earned through decades of instruction. "Students with low-quality cores possess limited future potential and will not be accepted into Radiant Academy. Core quality depends primarily on bloodline heritage. However, the Origin Core Potion you consumed during awakening can also elevate your baseline quality significantly."
 
-Seth stepped forward, gesturing toward a large glass container being unveiled on the main table. The liquid inside glowed with soft, pale luminescence—like captured moonlight given physical form.
+Seth stepped forward, gesturing toward a large glass container being unveiled on the main table. The liquid inside glowed with soft, pale luminescence, like captured moonlight given physical form.
 
 "The Academy employs Luminescence Mana Potion for quality assessment," Seth explained. "To eliminate bias and ensure fairness, all potion vials have been mixed from this single batch."
 
@@ -165,9 +165,9 @@ Valen drank in one smooth motion. The liquid was cool, slightly sweet, with an a
 
 Within seconds, his skin began to glow.
 
-Ah. So that's their detection method. Valen glanced down at his hands, watching faint bioluminescence spread across his skin like he'd been touched by phosphorescent algae. Around him, every other student exhibited the same phenomenon—some brighter, some dimmer, but all visibly marked.
+Ah. So that's their detection method. Valen glanced down at his hands, watching faint bioluminescence spread across his skin like he'd been touched by phosphorescent algae. Around him, every other student exhibited the same phenomenon: some brighter, some dimmer, but all visibly marked.
 
-"Master," Iris's voice cut through his observations. "We need to disable the Mana Boost temporarily. The elevated regeneration will actually slow your absorption rate—your core won't accept external mana as readily when it's already near capacity."
+"Master," Iris's voice cut through his observations. "We need to disable the Mana Boost temporarily. The elevated regeneration will actually slow your absorption rate; your core won't accept external mana as readily when it's already near capacity."
 
 That makes sense. A full reservoir has no room for more water.
 
@@ -183,7 +183,7 @@ His mana levels began dropping as Mana Sharing continued its work, draining ener
 
 The Luminescence Mana from the potion responded immediately.
 
-Valen felt the foreign mana flowing toward his core, drawn by the vacuum his technique had created. The sensation was strange—not unpleasant, but distinctly different from his own mana signature. This energy felt ancient, refined, deliberately crafted for analysis rather than combat.
+Valen felt the foreign mana flowing toward his core, drawn by the vacuum his technique had created. The sensation was strange, not unpleasant but distinctly different from his own mana signature. This energy felt ancient, refined, deliberately crafted for analysis rather than combat.
 
 "Now, Master, I need you to relax completely," Iris instructed, her tone shifting to something almost gentle. "The absorption process works best when your mental state is calm and receptive. Think of peaceful moments. Let your mind drift to memories that bring genuine contentment."
 
@@ -203,7 +203,7 @@ His skin's glow intensified briefly, then began to fade.
 
 The absorption was accelerating.
 
-Around him, other students sat in various stages of meditation. Some showed visible strain—furrowed brows, clenched jaws, trembling hands. Their glows flickered inconsistently, fighting against absorption rather than facilitating it.
+Around him, other students sat in various stages of meditation. Some showed visible strain: furrowed brows, clenched jaws, trembling hands. Their glows flickered inconsistently, fighting against absorption rather than facilitating it.
 
 A few appeared serene, their glows steady and gradually diminishing as the special mana found its new home.
 
@@ -211,4 +211,4 @@ Valen kept his breathing measured, his mind balanced between awareness and relax
 
 Just like Iris said. 
 
-His core quality—whatever it might be—would reveal itself soon enough.
+His core quality, whatever it might be, would reveal itself soon enough.

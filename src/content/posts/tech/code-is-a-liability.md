@@ -12,7 +12,7 @@ That probably sounds obvious, but I mean it in a very specific way. I thought th
 
 I do not think that anymore.
 
-After a few years of working on backend systems — especially in payments — I have become much more cautious about code itself.
+After a few years of working on backend systems, especially in payments, I have become much more cautious about code itself.
 
 Not because code is bad. Obviously, code is the thing we use to solve problems. But I no longer see it as value by default.
 
@@ -85,7 +85,7 @@ A mature system often looks worse than it is, because part of its shape comes fr
 
 A rewrite, on the other hand, often looks better than it is, because it has not met reality yet.
 
-That does not mean “never rewrite.” It just means rewrites are not automatically the brave or correct choice. A lot of the time, the less exciting path — improving something piece by piece — is the safer and smarter one.
+That does not mean “never rewrite.” It just means rewrites are not automatically the brave or correct choice. A lot of the time, the less exciting path, improving something piece by piece, is the safer and smarter one.
 
 ## AI made this lesson sharper for me
 
@@ -129,6 +129,6 @@ But because every new piece of code becomes something we now have to carry.
 
 And the older I get, the more I think the job is not to write as much software as possible.
 
-It is to solve the problem with as little software as we can get away with — while still being correct, clear, and reliable.
+It is to solve the problem with as little software as we can get away with, while still being correct, clear, and reliable.
 
 That, to me, feels closer to real engineering than anything I believed when I started.

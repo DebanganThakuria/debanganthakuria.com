@@ -20,11 +20,11 @@ const byYear = sorted.reduce<Record<number, typeof sorted>>((acc, post) => {
 const years = Object.keys(byYear).map(Number).sort((a, b) => b - a);
 ---
 
-<BaseLayout title="All Posts" description="Everything Debangan has written — tech, anime, life, writing, and more.">
+<BaseLayout title="All Posts" description="Everything Debangan has written: tech, anime, life, writing, and more.">
   <div class="page-header">
     <p class="ui-label kicker">Quest Log</p>
     <h1>The Journal</h1>
-    <p class="subtitle"><span id="post-count">{sorted.length}</span> entries — everything, in order</p>
+    <p class="subtitle"><span id="post-count">{sorted.length}</span> entries: everything, in order</p>
   </div>
 
   <!-- Filter tabs -->

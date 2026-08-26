@@ -9,7 +9,7 @@ The Academy’s Watchers were a peculiar sort of legend.
 
 They were retired instructors who no longer taught classes, yet never truly left the Academy. Some took on the role of guardians for remote campuses and frontier bases, watching over students and territory alike. Others simply wandered between outposts, appearing wherever trouble brewed.
 
-Most had not broken through to the high realms of Rank 7 and above, but they lingered at the brink—just-behind peak Rank 6. That narrow border was still enough to make them some of the most dangerous people under the Academy’s banner. They were the Radiant Academy’s core pillars; the kind of people who could flatten small armies, yet complained about back pain.
+Most had not broken through to the high realms of Rank 7 and above, but they lingered at the brink, just-behind peak Rank 6. That narrow border was still enough to make them some of the most dangerous people under the Academy’s banner. They were the Radiant Academy’s core pillars; the kind of people who could flatten small armies, yet complained about back pain.
 
 The one sitting at the end of the table in the lodge’s dining hall fit the image perfectly.
 
@@ -39,7 +39,7 @@ Her etiquette teacher earned that salary, Valen thought.
 
 Amber and Valen took seats opposite Raylan, Marcus, and Elara. The three looked cleaned up but worn, their bandages fresh, their movements cautious.
 
-The table held only simple food: wooden bowls of rock crab stew and thick slices of coarse bread. Only Mage Thorne had a large platter to himself—a roasted swamp toad leg drenched in sauce, the meat glistening with fat.
+The table held only simple food: wooden bowls of rock crab stew and thick slices of coarse bread. Only Mage Thorne had a large platter to himself: a roasted swamp toad leg drenched in sauce, the meat glistening with fat.
 
 "These Dark Guilds…" Thorne shook his head and tore off a huge piece of toad meat. "Every year, we post missions to scour them out of the Dawn Forest. Every year, they scuttle back into some other hole. Like ticks in an old mattress. The forest is large, and vermin love deep folds."
 
@@ -51,7 +51,7 @@ Valen caught the eye of the middle-aged serving woman and raised two fingers sli
 
 The meal was plain but hot. Valen ate in calm, unhurried motions, watching the others as much as he watched his bowl.
 
-Elara’s eyes kept drifting toward the door as if expecting more danger to walk in. Marcus held his spoon with white-knuckled fingers; his shoulders were stiff with the effort of pretending he was fine. Raylan sat between them, gaze steady, jaw set—trying to be their anchor.
+Elara’s eyes kept drifting toward the door as if expecting more danger to walk in. Marcus held his spoon with white-knuckled fingers; his shoulders were stiff with the effort of pretending he was fine. Raylan sat between them, gaze steady, jaw set, trying to be their anchor.
 
 Elara finally spoke, voice low. "Should we go back?"
 
@@ -81,9 +81,9 @@ Thorne leaned back on his bench, the wood protesting under his weight.
 
 His eyes swept the table, as if checking whether anyone intended to rush headfirst below.
 
-"Entry into the fourth and fifth levels is forbidden for those below Rank 4. Even then, large parties of Rank 4 and above rarely venture down. Only when the filth accumulates too much do the Empire’s forces send high-rankers—Rank 7 and above—to cleanse the depths. Efficient work, in and out."
+"Entry into the fourth and fifth levels is forbidden for those below Rank 4. Even then, large parties of Rank 4 and above rarely venture down. Only when the filth accumulates too much do the Empire’s forces send high-rankers, Rank 7 and above, to cleanse the depths. Efficient work, in and out."
 
-"The first three levels are enough trouble," he continued. "Undead. Worms. Ants large as wolves. A scattering of Blight, and all manner of other creatures in small numbers. The newly uncovered area lies on the second level—far enough that children like you have no business there."
+"The first three levels are enough trouble," he continued. "Undead. Worms. Ants large as wolves. A scattering of Blight, and all manner of other creatures in small numbers. The newly uncovered area lies on the second level, far enough that children like you have no business there."
 
 Elara, who had been listening with tightened lips, cleared her throat.
 
@@ -99,7 +99,7 @@ He chuckled. "That is fine. Let an old man talk, then."
 
 He set down his bone and folded his hands on the table.
 
-"Wherever there is Blight, there is a chance—small, but real—that a corrupted monster will pass down the Chaos Heir bloodline," he said. "Unlike ordinary bloodlines like your Lumis Eye, girl, or the Ashford lightning veins, which awakens rarely, the Chaos Heir bloodline does not follow neat family trees."
+"Wherever there is Blight, there is a chance (small, but real) that a corrupted monster will pass down the Chaos Heir bloodline," he said. "Unlike ordinary bloodlines like your Lumis Eye, girl, or the Ashford lightning veins, which awakens rarely, the Chaos Heir bloodline does not follow neat family trees."
 
 He glanced at Amber and Valen in turn.
 
@@ -111,13 +111,13 @@ They shook their heads, almost in unison.
 
 Raylan frowned. "If it is simple, why are there so few true bloodline families?"
 
-"Because the world is crueler than theory," Thorne replied with a bark of laughter. "Once you climb high enough—Rank 7 and beyond—the world rejects the notion of you passing down your bloodline. It becomes very difficult to have children. So, if you aspire to leave your mark, have a few before then."
+"Because the world is crueler than theory," Thorne replied with a bark of laughter. "Once you climb high enough, Rank 7 and beyond, the world rejects the notion of you passing down your bloodline. It becomes very difficult to have children. So, if you aspire to leave your mark, have a few before then."
 
 The trio all looked mildly embarrassed. Amber’s ears turned slightly pink. Even Marcus, still pale from blood loss, coughed into his stew.
 
 Thorne cackled, clearly pleased with their reactions.
 
-"Now, by the same logic, powerful Blights—those above Rank 7—should be able to pass down the Chaos Heir bloodline," he went on. "But there are layers to Chaos just as there are realms of cultivation. Even lesser Blights, if they manage to reproduce, have a small chance to pass on a basic version of that bloodline," he paused for dramatics. "And the best part is you can also gain this bloodline unlike others."
+"Now, by the same logic, powerful Blights, those above Rank 7, should be able to pass down the Chaos Heir bloodline," he went on. "But there are layers to Chaos just as there are realms of cultivation. Even lesser Blights, if they manage to reproduce, have a small chance to pass on a basic version of that bloodline," he paused for dramatics. "And the best part is you can also gain this bloodline unlike others."
 
 He tapped his temple. "This lesser inheritance will make you immune to Chaos Energy. It lets you store Chaos in your core and mix it with your spells. You become like an ordinary Blight in function… but you keep your mind."
 
@@ -185,7 +185,7 @@ For Valen, the night was just beginning.
 
 He closed the door, engaged the simple latch, and sat cross-legged on his narrow bed. His backpack lay open beside him, a small pile of crystals catching the lamplight.
 
-He picked up the newly acquired Soul Crystal—the one recovered from the skeleton.
+He picked up the newly acquired Soul Crystal, the one recovered from the skeleton.
 
 He had already told Amber he would keep this one. She could have the bulk of ordinary Mana Crystals they harvested; this, however, was more useful as another set of eyes and hands.
 
@@ -195,13 +195,13 @@ Following the same procedure as before, Valen relaxed his mental barriers in a c
 
 The Soul Crystal pulsed with faint inner light.
 
-An echo of a dead warrior’s will stirred within—but it never had a chance to rise.
+An echo of a dead warrior’s will stirred within, but it never had a chance to rise.
 
 Iris’s metallic constructs manifested in the mindscape like a familiar tide, countless glassy tentacles seizing the intruding consciousness. The invading soul struggled briefly before being reduced to orderly fragments and absorbed.
 
 "I have taken control," Iris reported. "Mana Core liberated. New ghost extension forming."
 
-A translucent, bluish figure slowly took shape in Valen’s inner perception—a new soul controlled by Iris.
+A translucent, bluish figure slowly took shape in Valen’s inner perception: a new soul controlled by Iris.
 
 "The soul contained the Ice Breath spell and several physical strengthening patterns," Iris summarized. "None exceed your current repertoire in efficiency or power."
 
@@ -257,11 +257,11 @@ Elara’s brow furrowed. "The… what?"
 
 They were still trading small jabs when the mood in the room shifted.
 
-The door swung open with more force than necessary, banging lightly against the wall. A small group of students stepped in, cloaks still damp with morning mist, boots clean—which meant they had not yet gone anywhere dangerous today.
+The door swung open with more force than necessary, banging lightly against the wall. A small group of students stepped in, cloaks still damp with morning mist, boots clean, which meant they had not yet gone anywhere dangerous today.
 
 They carried themselves with the easy arrogance of those unused to being refused.
 
-At their head walked a young man around their age, tall and broad-shouldered, with dark brown hair tied back in a warrior’s tail. His cloak bore an embroidered mountain peak in silver thread—a sigil that tugged at Valen’s memory.
+At their head walked a young man around their age, tall and broad-shouldered, with dark brown hair tied back in a warrior’s tail. His cloak bore an embroidered mountain peak in silver thread, a sigil that tugged at Valen’s memory.
 
 Mountain peak… that is the crest of House Karst, he recalled. Dukes of the northwest mountains. Old blood, iron mines, and stone fortresses.
 
@@ -269,7 +269,7 @@ The young man’s gaze swept the room once and locked onto Elara.
 
 He smiled.
 
-He crossed the floor as if he were entering a hall in his own estate. His party fanned out behind him: two robed mages in muted colors, three armored warriors, and a slender swordswoman with her hair in a tight braid. Their gear was new, but not fresh—used enough to suggest at least some real combat.
+He crossed the floor as if he were entering a hall in his own estate. His party fanned out behind him: two robed mages in muted colors, three armored warriors, and a slender swordswoman with her hair in a tight braid. Their gear was new, but not fresh: used enough to suggest at least some real combat.
 
 "Elara Montclair," the young man said, stopping at the table. "So it is true. You came to the Dawn Forest after all."
 
@@ -287,7 +287,7 @@ His eyes flicked briefly to Amber, then to Valen, weighing and discarding faster
 
 Kale blinked once, then laughed. "Lumis wit. I have always wanted to see it up close. Thankfully there are more than one in the Academy."
 
-He bowed—not deeply, but enough to be technically proper. "Kale Karst, of the Northern March. It is an honour, Princess."
+He bowed: not deeply, but enough to be technically proper. "Kale Karst, of the Northern March. It is an honour, Princess."
 
 Amber gave him a cool nod and said nothing more.
 
@@ -363,7 +363,7 @@ He stepped back, flicking his cloak over one shoulder.
 
 "When you change your mind," he added, "we will be below you. Try not to die before you reach us."
 
-Kale turned and strode away. His followers cast mixed glances back—curiosity, disdain, faint pity—before trailing after him. The door swung shut behind them.
+Kale turned and strode away. His followers cast mixed glances back (curiosity, disdain, faint pity) before trailing after him. The door swung shut behind them.
 
 The tension at the table loosened like a drawn bow finally released.
 

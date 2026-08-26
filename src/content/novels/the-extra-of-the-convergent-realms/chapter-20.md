@@ -9,9 +9,9 @@ Valen stood in knee‑deep, foul water.
 
 "So this is the river?" he muttered. "Feels more like a swamp."
 
-Murky water hid everything beneath its surface. Anything could be lurking there—from scaled river crocodiles and venomous snakes to the oversized catfish beasts mentioned in the Academy bestiary. Each slow step stirred up dark silt that curled around his boots like grasping fingers.
+Murky water hid everything beneath its surface. Anything could be lurking there, from scaled river crocodiles and venomous snakes to the oversized catfish beasts mentioned in the Academy bestiary. Each slow step stirred up dark silt that curled around his boots like grasping fingers.
 
-Half‑dead trees jutted from the water at twisted angles, their bark blackened and peeling. Moss and pale fungi clung to their trunks like infections. The air was thick, warm, and wet; every breath dragged the stench of rot and stagnant mud into his lungs. It smelled like a graveyard left to ferment—sour, damp, and faintly metallic.
+Half‑dead trees jutted from the water at twisted angles, their bark blackened and peeling. Moss and pale fungi clung to their trunks like infections. The air was thick, warm, and wet; every breath dragged the stench of rot and stagnant mud into his lungs. It smelled like a graveyard left to ferment: sour, damp, and faintly metallic.
 
 Amber studied her pocket‑sized map as they slogged forward. "Be grateful I managed to secure this from my seniors," she said. She glanced up, gauging distance through the grey mist. "Without it, crossing this marsh would have taken an entire day."
 
@@ -33,7 +33,7 @@ A sudden shift of movement tugged at Valen's attention.
 
 A large swamp python launched itself from beneath a rotting tree stump, jaws gaping wide.
 
-Amber’s saber flashed. One clean arc—and the head separated from the body, splashing into the water. The decapitated serpent thrashed in reflex before going still.
+Amber’s saber flashed. One clean arc, and the head separated from the body, splashing into the water. The decapitated serpent thrashed in reflex before going still.
 
 Valen waited for the corpse to settle, then extended his hand. A translucent grasp of mana plunged into the water, prying loose the faintly glowing Core Crystal from within the python's chest.
 
@@ -45,9 +45,9 @@ They moved now by faith in Amber's map and compass more than sight.
 
 Something surged from the mud and clamped around Amber’s ankle.
 
-She reacted on instinct—kicking hard, twisting, and leaping back. Mud sucked at her boot as she tore free.
+She reacted on instinct: kicking hard, twisting, and leaping back. Mud sucked at her boot as she tore free.
 
-A skeletal hand, caked in black muck, groped blindly where her leg had been. With a wet sucking sound, an armored figure hauled itself upright from the marsh—a skeleton knight, its bones stained dark, rust‑eaten armor fused to its frame. A cracked helm covered its skull; two pinpricks of corpse‑light burned where eyes should be.
+A skeletal hand, caked in black muck, groped blindly where her leg had been. With a wet sucking sound, an armored figure hauled itself upright from the marsh: a skeleton knight, its bones stained dark, rust‑eaten armor fused to its frame. A cracked helm covered its skull; two pinpricks of corpse‑light burned where eyes should be.
 
 The knight swung a heavy axe straight at Valen.
 
@@ -55,9 +55,9 @@ A wedge‑shaped barrier materialized between them, angled like a shield turned 
 
 Impact redirection works as intended, Valen observed.
 
-The undead recovered with unsettling fluidity for a creature without flesh. It shifted weight, stabilizing itself like a veteran fighter, then raised its free hand. Frost gathered around its fingers—the pattern of an Ice Breath spell forming.
+The undead recovered with unsettling fluidity for a creature without flesh. It shifted weight, stabilizing itself like a veteran fighter, then raised its free hand. Frost gathered around its fingers: the pattern of an Ice Breath spell forming.
 
-Before it could release the spell, a second barrier snapped into existence—this one enclosing its casting arm in a tight translucent dome. Frost burst against the inside of the barrier, harmlessly contained.
+Before it could release the spell, a second barrier snapped into existence, this one enclosing its casting arm in a tight translucent dome. Frost burst against the inside of the barrier, harmlessly contained.
 
 "As one draws close to a mage," Valen said calmly, "it is easy to believe distance favors the warrior. In truth, the mage’s control over his domain only grows stronger."
 
@@ -77,9 +77,9 @@ Not far from where Valen and Amber trekked through the swamp, another drama unfo
 
 Raylan, Marcus, and Elara stood in a rough triangle, backs nearly touching, facing off against five figures wearing mismatched armor and dark cloaks. Metal glinted beneath ragged cloth. Symbols sewn inside their collars, visible up close, marked them as members of a Dark Guild.
 
-Dark Guilds were not simply mercenary groups. They were structured bands of criminals who ignored laws, hunting people as readily as monsters. Some among them used Core Crystals harvested from humans and other protected races—devouring compressed essence meant to be returned to the Cycle, forcing rapid growth in spirit power at the cost of corruption and sanity.
+Dark Guilds were not simply mercenary groups. They were structured bands of criminals who ignored laws, hunting people as readily as monsters. Some among them used Core Crystals harvested from humans and other protected races, devouring compressed essence meant to be returned to the Cycle, forcing rapid growth in spirit power at the cost of corruption and sanity.
 
-One of the Dark Guild’s Rank 2 warriors—a large man with corded muscles and a nose that had been broken more than once—punched Marcus hard in the gut.
+One of the Dark Guild’s Rank 2 warriors (a large man with corded muscles and a nose that had been broken more than once) punched Marcus hard in the gut.
 
 Marcus flew backward, armor scraping bark as he collided with a tree.
 
@@ -91,13 +91,13 @@ He coughed, swallowed, and struggled back to one knee.
 
 Minutes earlier, these men had worn friendly smiles.
 
-They had stepped out of the fog in formation, claiming to be a registered guild party that had lost its bearings on the way to Worm Outpost. Their leader—a gaunt middle‑aged man with sharp eyes—had spoken smoothly, proposing they travel together for safety.
+They had stepped out of the fog in formation, claiming to be a registered guild party that had lost its bearings on the way to Worm Outpost. Their leader (a gaunt middle‑aged man with sharp eyes) had spoken smoothly, proposing they travel together for safety.
 
 Raylan had hesitated, but the offer seemed reasonable. Their aura signatures aligned with Rank 2 and 3, nothing overwhelming, and the leader had kept his mana tightly restrained.
 
 So the trio had agreed.
 
-The betrayal came at a natural choke point—a narrow corridor where thick trees pressed close and twisted roots formed unstable footing. The path ahead bottlenecked between two fallen logs, forcing them into single file.
+The betrayal came at a natural choke point: a narrow corridor where thick trees pressed close and twisted roots formed unstable footing. The path ahead bottlenecked between two fallen logs, forcing them into single file.
 
 Raylan had stepped forward to scout the passage when killing intent erupted from behind.
 
@@ -107,13 +107,13 @@ Now, that same ghost’s voice grumbled in his mind. Told you they smelled wrong
 
 You said that after we joined them, Raylan thought back bitterly.
 
-The Rank 4 leader stood further back on slightly elevated ground—watchful, arms folded, staff planted by his side like a banner. He did not bother to involve himself yet. The Rank 3 mage beside him provided long‑range support, casting binding and disruption spells when openings appeared. The three Rank 2 fighters engaged the trio directly, toying with them like cats with trapped birds.
+The Rank 4 leader stood further back on slightly elevated ground: watchful, arms folded, staff planted by his side like a banner. He did not bother to involve himself yet. The Rank 3 mage beside him provided long‑range support, casting binding and disruption spells when openings appeared. The three Rank 2 fighters engaged the trio directly, toying with them like cats with trapped birds.
 
 Raylan’s chest burned from a near‑miss fire spell. Elara’s shoulder bled where a blade had grazed past her guard. Marcus’s breathing was ragged.
 
 At this rate, we will be ground into paste, the ghost said. Its tone had lost its usual mockery. There is one way out, but it will demand much.
 
-Raylan’s grip tightened around the Ghost Catcher in his hand—the dream catcher‑shaped artifact humming with contained power. "Tell me."
+Raylan’s grip tightened around the Ghost Catcher in his hand, the dream catcher‑shaped artifact humming with contained power. "Tell me."
 
 I take over, the ghost said. Just for a short while. I burn what remains of my essence to force an opening. You and your friends run. But in return, you will fulfill my last wishes.
 
@@ -121,7 +121,7 @@ I take over, the ghost said. Just for a short while. I burn what remains of my e
 
 It has already waited years, the ghost replied. I want my bones properly buried. My family protected. And revenge upon my killer. 
 
-Raylan hissed as a blade clipped his arm. "Fine. Just—do not let them die."
+Raylan hissed as a blade clipped his arm. "Fine. Just... do not let them die."
 
 Agreed.
 
@@ -131,7 +131,7 @@ Back on his vantage point, the Rank 4 leader scanned the foggy expanse of swamp 
 
 "Anything?" he asked the mage at his side.
 
-The Rank 3 mage-with hollow cheeks and cold eyes—raised an enchanted monocle to his face. The glass glowed faintly as he invoked the long‑distance sight spell
+The Rank 3 mage (with hollow cheeks and cold eyes) raised an enchanted monocle to his face. The glass glowed faintly as he invoked the long‑distance sight spell
 
 "Two signatures," the mage said after a moment. "Northeast. Moving slowly. Rank 1 each, but…" His brow furrowed.
 
@@ -145,7 +145,7 @@ He tapped his staff and pointed it toward the distant swamp.
 
 "Do not waste time with theatrics," he said. "End them quickly."
 
-The mage inclined his head. Mana gathered at the tip of his staff, slow and deliberate at first, then faster as he wove multiple rune circles into existence—one nested inside another. Instead of a simple fireball, he constructed a layered spell: an outer shell of compressed flame, an inner core of volatile gas, and a thin stone casing to hold them together until impact.
+The mage inclined his head. Mana gathered at the tip of his staff, slow and deliberate at first, then faster as he wove multiple rune circles into existence, one nested inside another. Instead of a simple fireball, he constructed a layered spell: an outer shell of compressed flame, an inner core of volatile gas, and a thin stone casing to hold them together until impact.
 
 When the final rune locked into place, the mage flicked his staff.
 
@@ -155,7 +155,7 @@ The projectile streaked into the sky like a falling star in reverse, vanishing i
 
 Valen did not hesitate.
 
-He stepped to Amber’s side and wrapped one arm around her shoulders, pulling her close. With his free hand, he traced rapid runes in the air. Mana surged out of him in layered waves, forming a dome around them—a barrier of interlocking plates, each plate braced against the next.
+He stepped to Amber’s side and wrapped one arm around her shoulders, pulling her close. With his free hand, he traced rapid runes in the air. Mana surged out of him in layered waves, forming a dome around them: a barrier of interlocking plates, each plate braced against the next.
 
 "Valen?" Amber’s voice trembled. The swamp gas hissed softly around them.
 
@@ -165,7 +165,7 @@ The sky above them flared orange‑white.
 
 The spell struck the swamp a short distance away.
 
-For an instant, there was silence—just a point of impossible light, small and concentrated.
+For an instant, there was silence: just a point of impossible light, small and concentrated.
 
 Then the world ignited.
 
@@ -229,11 +229,11 @@ He extended his awareness through the earth beneath the shallow water, feeling t
 
 Next, he shaped one of the stones.
 
-Runes of compression and spiral motion etched themselves across its surface in faint lines of light. The rock softened at the edges, turning partially molten, then hardened again—like cooled metal forged under invisible hammers. Thin grooves spiraled from base to tip, forming rifling.
+Runes of compression and spiral motion etched themselves across its surface in faint lines of light. The rock softened at the edges, turning partially molten, then hardened again, like cooled metal forged under invisible hammers. Thin grooves spiraled from base to tip, forming rifling.
 
 Above it, another construct took shape: a barrel formed from transformed stone, reinforced with layered barriers along its interior. A crude cannon, born from swamp mud and mana.
 
-Simultaneously, Valen wove a triad of Force Runes, each compressed to the limit his Rank 1 core could safely sustain. He felt the strain—that fine, brittle edge where power and collapse met—but held steady.
+Simultaneously, Valen wove a triad of Force Runes, each compressed to the limit his Rank 1 core could safely sustain. He felt the strain (that fine, brittle edge where power and collapse met) but held steady.
 
 "Mana circulation at eighty‑nine percent of safe threshold," Iris reported. "Do not exceed ninety‑five."
 
@@ -245,13 +245,13 @@ Amber watched, wide‑eyed, as the cannon lowered itself, aligning along an unse
 
 "If their mage can see us," Valen said, "then our lines of fire are already connected."
 
-He slotted the prepared projectile—a dense, rune‑marked stone bullet—into the barrel. The Force Runes locked into place behind it, ready to detonate.
+He slotted the prepared projectile (a dense, rune‑marked stone bullet) into the barrel. The Force Runes locked into place behind it, ready to detonate.
 
 For a heartbeat, everything stilled.
 
 Then he fired.
 
-The explosion was not loud so much as deep—a concentrated boom that punched through the humid air. The cannon belched light and steam. The projectile tore free, spinning along its spiral grooves, wrapped in invisible pressure that howled as it broke the sound barrier.
+The explosion was not loud so much as deep: a concentrated boom that punched through the humid air. The cannon belched light and steam. The projectile tore free, spinning along its spiral grooves, wrapped in invisible pressure that howled as it broke the sound barrier.
 
 Trees between them and the distant ridge blurred as the bullet passed, bark splitting from the compressed shock wave alone.
 
@@ -259,7 +259,7 @@ On the ridge, the mage felt something terrible bearing down on him.
 
 Every instinct he possessed screamed at once.
 
-He snapped a barrier into place—a quickly woven shield of overlapping circles, the sort that had shrugged off many desperate counterattacks over the years.
+He snapped a barrier into place: a quickly woven shield of overlapping circles, the sort that had shrugged off many desperate counterattacks over the years.
 
 The projectile hit.
 
@@ -283,7 +283,7 @@ His pupils shrank.
 
 "If that was a Rank 1 spell," the leader cut in, voice like iron, "I have no intention of discovering what else he can do. Move."
 
-His survival instinct, honed by years of walking the edge between profit and annihilation, shouted that this hunt had just turned into a massacre waiting to happen—with him as the quarry.
+His survival instinct, honed by years of walking the edge between profit and annihilation, shouted that this hunt had just turned into a massacre waiting to happen, with him as the quarry.
 
 He turned and fled into the trees without a backward glance. The remaining Rank 2s exchanged a single look, then scrambled after him, abandoning the battlefield and their half‑finished prey.
 
@@ -295,7 +295,7 @@ Raylan risked a glance toward the ridge and saw only scattered silhouettes retre
 
 The ghost seized the moment. Boy. Now. Use that wind spell I showed you.
 
-Raylan raised his staff, gathering air mana, and swept it in a sharp arc before him. A crescent of compressed wind roared out—not at the men themselves, but at the ground, trees, and undergrowth between them, tearing roots from earth and snapping branches.
+Raylan raised his staff, gathering air mana, and swept it in a sharp arc before him. A crescent of compressed wind roared out, not at the men themselves, but at the ground, trees, and undergrowth between them, tearing roots from earth and snapping branches.
 
 Dust, leaves, and splinters exploded into the air, forming a blinding curtain.
 
@@ -303,7 +303,7 @@ Dust, leaves, and splinters exploded into the air, forming a blinding curtain.
 
 Elara hauled Marcus to his feet, and the three of them plunged into the gap the spell had created, vanishing into the swirling debris and fog.
 
-Behind them, one of the remaining Dark Guild men cursed and gave half‑hearted chase before the ghostly voice reached his ears—a whisper carried on lingering mana.
+Behind them, one of the remaining Dark Guild men cursed and gave half‑hearted chase before the ghostly voice reached his ears: a whisper carried on lingering mana.
 
 If I were you, it said, I would not linger. You are already abandoned.
 

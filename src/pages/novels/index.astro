@@ -28,12 +28,12 @@ const novelsByStatus = STATUS_ORDER
   .filter(group => group.novels.length > 0);
 ---
 
-<BaseLayout title="Webnovels" description="Original web novels by Debangan Thakuria — fantasy, isekai, academy, slice-of-life.">
+<BaseLayout title="Webnovels" description="Original web novels by Debangan Thakuria: fantasy, isekai, academy, slice-of-life.">
   <section>
     <div class="page-header">
       <p class="ui-label" style="font-size:0.75rem; margin-bottom:0.5rem;">The Bookshelf</p>
       <h1>Books &amp; Sagas</h1>
-      <p class="subtitle">Original fiction — fantasy, isekai, academy, and slice-of-life stories I've been writing over the years.</p>
+      <p class="subtitle">Original fiction: fantasy, isekai, academy, and slice-of-life stories I've been writing over the years.</p>
     </div>
 
     {novelsByStatus.map(({ status, novels: group }, i) => (

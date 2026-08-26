@@ -13,11 +13,11 @@ Theodore leaned in closer, lowering his voice. “After that comes the in-person
 
 Lucian nodded slowly, absorbing every detail.
 
-“The third and final stage is a direct meeting with the Grand Chancellor. Just last year, Vivienne Grey—the youngest Archmage in history—assumed that role. No one really knows how she assesses the candidates.”
+“The third and final stage is a direct meeting with the Grand Chancellor. Just last year, Vivienne Grey, the youngest Archmage in history, assumed that role. No one really knows how she assesses the candidates.”
 
 “A Grey?” Lucian asked, a mix of intrigue in his tone.
 
-“Indeed. Vivienne was an orphan, raised by the old Chancellor. She shunned the limelight until, after his mysterious disappearance, she revealed herself as a prodigy. To be crowned the youngest Archmage ever—holy son of light! Even Magnus the Hero couldn’t have ascended so swiftly.”
+“Indeed. Vivienne was an orphan, raised by the old Chancellor. She shunned the limelight until, after his mysterious disappearance, she revealed herself as a prodigy. To be crowned the youngest Archmage ever. Holy son of light! Even Magnus the Hero couldn’t have ascended so swiftly.”
 
 “How old is she?” Lucian inquired.
 
@@ -29,11 +29,11 @@ Theo’s gaze turned somber. “Master Lucian, fame and success always come at a
 
 “True Demon or not, an Archmage of her age is nothing short of a wonder,” Lucian mused.
 
-"Sigh. Can't deny that." Theo offered a resigned smile. “Rest here for today, Master Lucian. You can take the written test this coming Sunday. Tomorrow’s Saturday—perfect for poring over past exam papers.”
+"Sigh. Can't deny that." Theo offered a resigned smile. “Rest here for today, Master Lucian. You can take the written test this coming Sunday. Tomorrow’s Saturday, perfect for poring over past exam papers.”
 
 Lucian allowed himself a wry chuckle. “That suits me. I must also upgrade my Mage License; it still reads Formal Mage Lucian Grey.”
 
-“Right, please do upgrade it, Master Lucian—the License is our pride,” Theodore teased.
+“Right, please do upgrade it, Master Lucian; the License is our pride,” Theodore teased.
 
 “But more than that,” Theodore added, his tone turning playful, “we must also upgrade your style.”
 
@@ -43,7 +43,7 @@ Theodore’s eyes softened as he observed Lucian. Clad in the attire of a wander
 
 Theodore chuckled good-naturedly. “Master Lucian, people don’t dress like wandering mages anymore.”
 
-At that moment, Theodore’s wife, Elinor, stepped forward with a gentle smile. “Come here, Master Lucian—I’ll give you a makeover.”
+At that moment, Theodore’s wife, Elinor, stepped forward with a gentle smile. “Come here, Master Lucian. I’ll give you a makeover.”
 
 Within the hour, Lucian emerged transformed. His hair now sported a neat side-and-back fade with a crisp side part, and his once rugged face was clean-shaven. His attire had been replaced by a finely tailored woolen suit and matching trousers, accented by a tasteful tie and polished brown leather shoes.
 
@@ -53,11 +53,11 @@ Lucian offered a wry, bittersweet laugh. “Even in another world, I can’t esc
 
 After exchanging thanks with the couple, Lucian retired upstairs to rest for the night.
 
-The following morning, after a refreshing bath and a light breakfast, Lucian set out for his first destination—the Mages Guild. 
+The following morning, after a refreshing bath and a light breakfast, Lucian set out for his first destination: the Mages Guild. 
 
 This venerable institution, the oldest and largest mage organization on the continent, now found itself fragmented. Its various branches were controlled by the local kings, yet its authority endured, especially as all Mage Licenses were issued under its banner.
 
-Lucian strolled leisurely toward the distant tall spire—the iconic landmark of Highspire, the global headquarters of the Mages Guild. 
+Lucian strolled leisurely toward the distant tall spire: the iconic landmark of Highspire, the global headquarters of the Mages Guild. 
 
 Highspire, an ancient city at the heart of the continent, had never been claimed by any major power due to it being the global hub of free mages. 
 
@@ -67,7 +67,7 @@ This neutrality, however, had allowed Highspire to blossom into a unique global 
 
 Emerging from narrow alleys onto the bustling main road, Lucian marveled at the city’s transformation. 
 
-Majestic new buildings—about ten stories tall with ornate, Victorian-like decorative motifs—flanked both sides of the wide, multi-lane roads. Elegant carriages pulled by horses and even dinosaur-like beasts dashed past. From a nearby building came the constant hum of a steam engine—not fueled by coal, but powered by mana crystals.
+Majestic new buildings (about ten stories tall with ornate, Victorian-like decorative motifs) flanked both sides of the wide, multi-lane roads. Elegant carriages pulled by horses and even dinosaur-like beasts dashed past. From a nearby building came the constant hum of a steam engine, not fueled by coal but powered by mana crystals.
 
 It was already 8 a.m., and the streets teemed with people. Lucian noted that more than half of those he passed were mages, all blending seamlessly into everyday life in accordance with the Mages Guild’s new code of conduct.
 
@@ -77,9 +77,9 @@ After about an hour of walking, he finally reached the base of the towering spir
 
 Lucian paid the fee, received a receipt, and showed it to a nearby guard before entering the cozy lounge area.
 
-The lounge was luxurious and tranquil with few guests. A waitress soon served him a steaming cup of tea. As he sipped, Lucian picked up a newspaper left on the tea table—The Magister’s Review.
+The lounge was luxurious and tranquil with few guests. A waitress soon served him a steaming cup of tea. As he sipped, Lucian picked up a newspaper left on the tea table: The Magister’s Review.
 
-This newspaper was published by the same organisation behind Theodore. Though it presented itself as a reputable news organization, its true livelihood came from espionage and the sale of information—a case of “hiding in plain sight,” as the saying went.
+This newspaper was published by the same organisation behind Theodore. Though it presented itself as a reputable news organization, its true livelihood came from espionage and the sale of information: a case of “hiding in plain sight,” as the saying went.
 
 The front-page headline warned of a Mana Storm only 60 kilometers from Highspire. As its scale was modest, Academy students were dispatched to clear it. 
 
@@ -89,7 +89,7 @@ Then, Lucian’s eyes landed on news about the upcoming Academy admissions. This
 
 Normally, the Academy selected students solely on merit, but this year an extra 200 seats had been added to the overall capacity of the Academy. And these have been reserved for these elite students. 
 
-However, this was old news. The current edition of The Magister’s Review stated that many talented noble heirs had declared they would forgo the reserved quota in favor of earning their place on merit—a move that had sent ripples of excitement and concern through Highspire.
+However, this was old news. The current edition of The Magister’s Review stated that many talented noble heirs had declared they would forgo the reserved quota in favor of earning their place on merit, a move that had sent ripples of excitement and concern through Highspire.
 
 “Sounds like trouble,” Lucian murmured, a sigh of resignation escaping him.
 

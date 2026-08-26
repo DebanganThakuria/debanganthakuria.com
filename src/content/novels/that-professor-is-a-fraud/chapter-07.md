@@ -15,7 +15,7 @@ Penny Holloway knocked at thirteen minutes to four.
 
 "You're early," Lucian said.
 
-"I'm punctual," she said, coming in. "Four o'clock is when the lesson starts. If I arrive at four, we spend the first quarter hour on how I am, and Mother says I am to stop telling people how I am, because I tell them." She took the second chair, set a paper bag on the desk — Mottram's, tied with string — and folded her hands in a fair imitation of a model student. "Those are for the middle of the lesson. There's always a bad patch in the middle. Where do we begin?"
+"I'm punctual," she said, coming in. "Four o'clock is when the lesson starts. If I arrive at four, we spend the first quarter hour on how I am, and Mother says I am to stop telling people how I am, because I tell them." She took the second chair, set a paper bag on the desk (Mottram's, tied with string) and folded her hands in a fair imitation of a model student. "Those are for the middle of the lesson. There's always a bad patch in the middle. Where do we begin?"
 
 Lucian regarded his second student.
 
@@ -27,13 +27,13 @@ He had taught Clara Vance on Tuesday and would teach her again on Friday, and th
 
 "From the lessons."
 
-Penny considered it seriously — visibly, thoroughly, at length, in the way of a person taking an examination she had not studied for and did not intend to fail.
+Penny considered it seriously, visibly, thoroughly, at length, in the way of a person taking an examination she had not studied for and did not intend to fail.
 
 "Wednesdays," she said at last.
 
 "Wednesdays."
 
-"I have Wednesdays," she explained, "and nothing in them. Clara has a purpose now; you gave her one on Tuesday, she wrote to me about it, four pages, both sides — she's never crossed her lines in her life and she crossed them twice. Tomas — you don't know Tomas yet — has a purpose, he was born with one, it's exhausting. I have an allowance and a great many opinions." She squared the biscuit bag by a quarter inch. "My tutors say I lack application. I've decided to apply myself somewhere on purpose and see what happens."
+"I have Wednesdays," she explained, "and nothing in them. Clara has a purpose now; you gave her one on Tuesday, she wrote to me about it, four pages, both sides; she's never crossed her lines in her life and she crossed them twice. Tomas (you don't know Tomas yet) has a purpose, he was born with one, it's exhausting. I have an allowance and a great many opinions." She squared the biscuit bag by a quarter inch. "My tutors say I lack application. I've decided to apply myself somewhere on purpose and see what happens."
 
 "Why me?"
 
@@ -49,7 +49,7 @@ That was not an answer, and it was also, he noted, a completely accurate predict
 
 It was, to the visible portion of a percent. He set out the College's standard reading-frame and a lens, and did with instruments what the cloud had done from the doorway of the plate-room a fortnight ago, and confirmed, at the pace the instruments permitted, what he already knew.
 
-Penelope Holloway, Circle 2, fourth stage. Density: adequate. Quality: adequate. Lattice: regular, right-handed, textbook. No mirror. No scarring. No anomaly of any classification. He had read several hundred souls since the cloud had given him the means, and hers was, by a wide margin, the most ordinary among them — ordinary to a degree that approached distinction, a soul the Whitsun surveys could have used for their frontispiece.
+Penelope Holloway, Circle 2, fourth stage. Density: adequate. Quality: adequate. Lattice: regular, right-handed, textbook. No mirror. No scarring. No anomaly of any classification. He had read several hundred souls since the cloud had given him the means, and hers was, by a wide margin, the most ordinary among them, ordinary to a degree that approached distinction, a soul the Whitsun surveys could have used for their frontispiece.
 
 "Well?" said Penny, who had held still for the lens with her eyes crossed slightly, in case that helped.
 
@@ -73,7 +73,7 @@ She took this in.
 
 "Show me. The Whitsun third form, [Ward-knot], as drilled. Ten repetitions."
 
-She drew her wand — service pattern, scuffed, a strap of ribbon around the grip for no reason he could establish — and began the third form, and Lucian watched the most instructive collapse he had seen in his teaching career, which was, admittedly, eight days long.
+She drew her wand (service pattern, scuffed, a strap of ribbon around the grip for no reason he could establish) and began the third form, and Lucian watched the most instructive collapse he had seen in his teaching career, which was, admittedly, eight days long.
 
 Repetition one: clean. Textbook. Better than Clara's best.
 
@@ -87,7 +87,7 @@ Repetition four did not occur. Penny had stopped, wand lowered, and was looking 
 
 "There," she said, returning. "You see. Three. That's my record in company. The loop was new, though. Did you like the loop?"
 
-"Set the wand down." He took the chalk, considered his second student, and revised the entire premise of the session — which, one thread observed, was becoming the defining activity of his teaching practice. Tuesday's problem had been a curriculum printed in the wrong direction. Wednesday's problem was not the curriculum at all. Her forms were sound. Her soul was sound. It was her attention that would not drill — it engaged and vanished on its own schedule, and no repetition survived it.
+"Set the wand down." He took the chalk, considered his second student, and revised the entire premise of the session (which, one thread observed, was becoming the defining activity of his teaching practice). Tuesday's problem had been a curriculum printed in the wrong direction. Wednesday's problem was not the curriculum at all. Her forms were sound. Her soul was sound. It was her attention that would not drill: it engaged and vanished on its own schedule, and no repetition survived it.
 
 So he stopped asking her to repeat things.
 
@@ -99,7 +99,7 @@ Penny's whole posture changed. She came forward in the chair.
 
 "Yours."
 
-"The villain," she said, took up the wand, and cast the counter-release to the third form — a form she had never completed ten repetitions of in her life — cleanly, precisely, and backward from the standard order, starting from the knot's far anchor and unwinding it the direction nobody was taught to.
+"The villain," she said, took up the wand, and cast the counter-release to the third form (a form she had never completed ten repetitions of in her life) cleanly, precisely, and backward from the standard order, starting from the knot's far anchor and unwinding it the direction nobody was taught to.
 
 Lucian looked at the dissolved ward-knot for a moment.
 
@@ -107,9 +107,9 @@ Lucian looked at the dissolved ward-knot for a moment.
 
 She did it again. Different route. Also clean.
 
-He ran the trial six ways over the following hour, and the pattern held through every one. Ask her to drill a form: three repetitions and the harbor fog. Put the same form inside a story — a locked parcel, a stuck window, a wager with an imaginary porter who grew, over the hour, into a figure of considerable villainy and a name (Mr. Grimble) — and she executed it instantly, exactly, and by routes he could not predict. The forms came out correct and reversed, correct and inverted, correct and reassembled, as if she had taken the lock apart in her lap and put it back together her own way, every single time, without ever having been taught the standard way properly at all.
+He ran the trial six ways over the following hour, and the pattern held through every one. Ask her to drill a form: three repetitions and the harbor fog. Put the same form inside a story: a locked parcel, a stuck window, a wager with an imaginary porter who grew, over the hour, into a figure of considerable villainy and a name (Mr. Grimble). She executed it instantly, exactly, and by routes he could not predict. The forms came out correct and reversed, correct and inverted, correct and reassembled, as if she had taken the lock apart in her lap and put it back together her own way, every single time, without ever having been taught the standard way properly at all.
 
-"Diagnosis," he said at last, setting down the chalk. He gave it to her plainly, colleague to colleague, because Tuesday had taught him that this was the only kind of telling worth doing. "There is nothing peculiar in your soul. The peculiarity is in your attention. It does not repeat — it solves. A drill is a solved problem repeated ten times, which is why a drill is four hours wide: you finished it at repetition one and served the other nine as a sentence. Your tutors have been drilling a student who is only present for problems. So. My curriculum for you will contain no drills. It will contain problems that happen, incidentally, to require the drilled forms. You will do every drill in the book this term, Miss Holloway. You will simply never be told which one you are doing."
+"Diagnosis," he said at last, setting down the chalk. He gave it to her plainly, colleague to colleague, because Tuesday had taught him that this was the only kind of telling worth doing. "There is nothing peculiar in your soul. The peculiarity is in your attention. It does not repeat; it solves. A drill is a solved problem repeated ten times, which is why a drill is four hours wide: you finished it at repetition one and served the other nine as a sentence. Your tutors have been drilling a student who is only present for problems. So. My curriculum for you will contain no drills. It will contain problems that happen, incidentally, to require the drilled forms. You will do every drill in the book this term, Miss Holloway. You will simply never be told which one you are doing."
 
 Penny had listened to this with her chin in her hands.
 
@@ -125,7 +125,7 @@ He had prepared it while he spoke, two threads assembling the term's disguises w
 
 "You'll never know."
 
-"Professor," said Penny, with enormous satisfaction, "neither will you." She stood, retrieved one biscuit from the bag as commission, and left him the rest — payment, apparently, for the villainy of Mr. Grimble — and gathered her coat. At the door she paused, struck by business.
+"Professor," said Penny, with enormous satisfaction, "neither will you." She stood, retrieved one biscuit from the bag as commission, and left him the rest (payment, apparently, for the villainy of Mr. Grimble) and gathered her coat. At the door she paused, struck by business.
 
 "Three things. One: when Clara's ready to show someone the mirror-writing, she'll want it to be me, so I ought to attend a Friday, purely as furniture. Two: the station house. When's our next crime? Sergeant Bell's youngest is teething and I promised the desk a report. Three—" she frowned, recovering it. "Three was about the sundial. It'll come back to me. Good afternoon, Professor."
 

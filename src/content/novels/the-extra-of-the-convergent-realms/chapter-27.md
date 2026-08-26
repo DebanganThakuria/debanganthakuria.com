@@ -53,7 +53,7 @@ The old man’s gaze narrowed.
 
 Torren’s words tumbled out in clipped fragments as he fought to keep them precise. The others added what details they remembered: the blood-inscribed circle, the bound man at its center, the robed figures chanting, the pressure of mana building with each heartbeat.
 
-"A Rank 6 stood at the heart of it," Mara said quietly. "And others of Rank 4 and above. They noticed our divination. Sent three cultists up. The Academy pair—Valen and Amber—stayed behind to hold them while we climbed out."
+"A Rank 6 stood at the heart of it," Mara said quietly. "And others of Rank 4 and above. They noticed our divination. Sent three cultists up. The Academy pair, Valen and Amber, stayed behind to hold them while we climbed out."
 
 The old man’s expression did not change at the mention of another Rank 6. His eyes, however, sharpened further.
 
@@ -185,7 +185,7 @@ Then the energy moved.
 
 It did not simply rise. It tore.
 
-A pillar of distorted light speared upward, not along a straight line, but along a path that felt old—worn into reality by some forgotten precedent. Stone did not shatter as it passed; it twisted aside, the world itself making way to avoid direct contact.
+A pillar of distorted light speared upward, not along a straight line, but along a path that felt old, worn into reality by some forgotten precedent. Stone did not shatter as it passed; it twisted aside, the world itself making way to avoid direct contact.
 
 The pillar broke through the cavern’s ceiling, through the mountain’s flesh, through the air above the valley.
 
@@ -263,7 +263,7 @@ From one tear, a horned figure stepped, its body a black silhouette limned in du
 
 From another portal, a cluster of insectoid creatures spilled out, chitin glistening as if perpetually wet. Their eyes were facets of onyx. Their wings did not flap; they flickered, leaving afterimages in the air like torn pieces of space.
 
-A third tear vomited forth a crawling mass that defied easy categorization—limbs and mouths and eyes arranged according to a logic that had never heard of symmetry.
+A third tear vomited forth a crawling mass that defied easy categorization: limbs and mouths and eyes arranged according to a logic that had never heard of symmetry.
 
 Partial invasion.
 
@@ -383,13 +383,13 @@ The field before them was no longer empty.
 
 An army had gathered.
 
-Guild adventurers formed the bulk of the lines—ranks of armored men and women, weapons bared, faces set. Their gear varied wildly in style and quality, but the way they stood in formation told its own story. These were not green novices. They were accustomed to standing on the edge of death.
+Guild adventurers formed the bulk of the lines: ranks of armored men and women, weapons bared, faces set. Their gear varied wildly in style and quality, but the way they stood in formation told its own story. These were not green novices. They were accustomed to standing on the edge of death.
 
 Banners fluttered weakly in the disturbed air, each bearing symbols of different guild branches and independent companies. Colors and emblems mingled, but the line they formed was solid.
 
 Interspersed among them stood the Academy contingent.
 
-Students in grey cloaks clustered around more experienced figures in colored trim. Instructors occupied nodal positions along the line, their mana signatures distinct and heavy. A few individuals carried presences that pressed even against Valen’s senses—those would be visiting elders or high-ranking combat faculty.
+Students in grey cloaks clustered around more experienced figures in colored trim. Instructors occupied nodal positions along the line, their mana signatures distinct and heavy. A few individuals carried presences that pressed even against Valen’s senses; those would be visiting elders or high-ranking combat faculty.
 
 At their center stood Instructor Aelindra.
 

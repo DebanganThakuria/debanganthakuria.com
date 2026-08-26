@@ -5,15 +5,15 @@ chapterTitle: "The Ritual Below"
 novel: "the-extra-of-the-convergent-realms"
 ---
 
-The air grew colder with each step. The smell of earth and old stone thickened, joined now by something metallic and faintly sour—the lingering scent of ancient blood that had seeped into stone and never fully faded.
+The air grew colder with each step. The smell of earth and old stone thickened, joined now by something metallic and faintly sour: the lingering scent of ancient blood that had seeped into stone and never fully faded.
 
-Torchlight and mage-light revealed murals carved into the walls—faded depictions of warriors standing over kneeling figures, lines of chained prisoners, robed figures raising hands toward a sky filled with unnatural stars.
+Torchlight and mage-light revealed murals carved into the walls: faded depictions of warriors standing over kneeling figures, lines of chained prisoners, robed figures raising hands toward a sky filled with unnatural stars.
 
 This had once belonged to someone important. Someone who demanded more than a simple grave.
 
 They entered a second chamber.
 
-This one was larger, with a high, domed ceiling supported by squat stone pillars carved in the shape of armored guardians. Coins lay scattered across the floor—old, tarnished, some fused together by time and damp. Jewelry glinted here and there: rings, pendants, brooches, all corroded but still faintly valuable.
+This one was larger, with a high, domed ceiling supported by squat stone pillars carved in the shape of armored guardians. Coins lay scattered across the floor: old, tarnished, some fused together by time and damp. Jewelry glinted here and there: rings, pendants, brooches, all corroded but still faintly valuable.
 
 Grave goods.
 
@@ -23,7 +23,7 @@ Valen’s gaze swept the room, cataloging.
 
 Ten sarcophagi. Six looted in the past. Four untouched. Spirit activity: present but quiescent. No awakenings yet.
 
-He bent down, picked up a coin between thumb and forefinger, and brushed off the grime. The design was unfamiliar—an ancient crest that predated the current empire.
+He bent down, picked up a coin between thumb and forefinger, and brushed off the grime. The design was unfamiliar: an ancient crest that predated the current empire.
 
 "This tomb is older than your guild’s records, likely," Valen said. "It has been disturbed before, but not thoroughly."
 
@@ -31,13 +31,13 @@ He bent down, picked up a coin between thumb and forefinger, and brushed off the
 
 Amber shrugged slightly. "The dead do not spend coins. Grave goods were always meant to be offerings, not investments."
 
-Valen flicked the coin once, then slipped it into a pouch—not out of greed, but as a potential data point. Old currencies sometimes carried unique alloys, trace enchantments, or clues about lost enchantment traditions.
+Valen flicked the coin once, then slipped it into a pouch, not out of greed, but as a potential data point. Old currencies sometimes carried unique alloys, trace enchantments, or clues about lost enchantment traditions.
 
 "We can argue ethics later," Amber said. "For now, we find your senior."
 
 Torren checked the tracker again. The needle turned, pointing toward a far corner of the chamber where the shadows seemed deeper.
 
-There, half-hidden behind a pillar, a narrow passage slanted even further downward. The stone here was different—less refined, more recent. Excavation rather than original construction.
+There, half-hidden behind a pillar, a narrow passage slanted even further downward. The stone here was different: less refined, more recent. Excavation rather than original construction.
 
 Valen’s eyes narrowed.
 
@@ -57,11 +57,11 @@ Master, Iris’s voice sharpened, dropping its usual light tone. Detecting recen
 
 The mental image streamed into Valen’s awareness.
 
-A wide, circular chamber, its floor inscribed with a complex array of symbols carved directly into the stone. Fresh blood traced the grooves, still glistening wet in places. At the circle’s center lay an unconscious man bound in chains—broad-shouldered, scarred, mid-thirties. Rank 3 warrior, if the density of his physique and the remnants of aura around him were any indication.
+A wide, circular chamber, its floor inscribed with a complex array of symbols carved directly into the stone. Fresh blood traced the grooves, still glistening wet in places. At the circle’s center lay an unconscious man bound in chains: broad-shouldered, scarred, mid-thirties. Rank 3 warrior, if the density of his physique and the remnants of aura around him were any indication.
 
 Henrik.
 
-Around the circle stood four robed figures, hoods up. Power clung to them in uneven layers—three at Rank 3 to 4, and one whose presence pressed against the air even through the spirit’s senses. Rank 6, easily. 
+Around the circle stood four robed figures, hoods up. Power clung to them in uneven layers: three at Rank 3 to 4, and one whose presence pressed against the air even through the spirit’s senses. Rank 6, easily. 
 
 They were chanting, voices low and steady, weaving mana into the air in slow, deliberate patterns. Each word sank into the circle beneath their feet, feeding lines of power that pulsed in time with a distant, unseen rhythm.
 
@@ -71,7 +71,7 @@ Just as Terminal D began to drift sideways for a different angle, one of the rob
 
 His gaze snapped upward.
 
-He could not see the spirit construct, but his hand rose, fingers curling in a quick, practiced gesture. A ripple of mana swept through the chamber—like a wave of fine sand grinding against glass.
+He could not see the spirit construct, but his hand rose, fingers curling in a quick, practiced gesture. A ripple of mana swept through the chamber, like a wave of fine sand grinding against glass.
 
 Terminal D flickered.
 
@@ -79,13 +79,13 @@ Detection spell, Iris reported. Crude, but wide enough to brush my projection. S
 
 The lead ritualist did not break his chant, but his voice deepened, forcing the others to adjust their cadence. Without looking away from the circle, he snapped his fingers.
 
-Three additional figures detached themselves from the shadows near the walls—lesser cultists, armored lightly, faces masked, weapons already drawn.
+Three additional figures detached themselves from the shadows near the walls: lesser cultists, armored lightly, faces masked, weapons already drawn.
 
 "Someone watches," one of the robed men said between verses. "Divination magic. From above."
 
 "Deal with it," the Rank 6 ritualist said coldly. "The ritual takes precedence. Nothing breaks."
 
-The three lesser cultists moved toward a side tunnel—the same new passage that led up, toward Valen’s group.
+The three lesser cultists moved toward a side tunnel, the same new passage that led up, toward Valen’s group.
 
 Terminal D withdrew, slipping back through stone, evading the tightening net of detection.
 
@@ -195,9 +195,9 @@ He lifted his hand.
 
 Her smile was thin. "No promises."
 
-Valen drew barrier mana to his palm—dense, resilient, meant to form walls and domes. Instead of letting it solidify, he compressed it into a thin, circular frame no wider than his forearm. Around that frame he wound streams of sand and water, fine as dust and sharp as broken glass.
+Valen drew barrier mana to his palm: dense, resilient, meant to form walls and domes. Instead of letting it solidify, he compressed it into a thin, circular frame no wider than his forearm. Around that frame he wound streams of sand and water, fine as dust and sharp as broken glass.
 
-The construct hummed as it took shape—a spinning ring of translucent force, its edge blurred by the high-speed flow of grit-laden water.
+The construct hummed as it took shape: a spinning ring of translucent force, its edge blurred by the high-speed flow of grit-laden water.
 
 Compound Spell: Chakra of Water Jet.
 
@@ -209,7 +209,7 @@ The pair hovered in the air before his hands, spinning lazily. Each subtle shift
 
 He nodded.
 
-The first cultist burst into view at the tunnel mouth—a tall man in layered leather and half-plate, mask concealing everything but his eyes. He carried a curved blade that dripped faint, oily darkness.
+The first cultist burst into view at the tunnel mouth: a tall man in layered leather and half-plate, mask concealing everything but his eyes. He carried a curved blade that dripped faint, oily darkness.
 
 He saw Valen and Amber and moved without a word, blade coming up in a smooth killing arc.
 
@@ -255,7 +255,7 @@ The man tried to dodge, but the spinning construct curved with him, tracking his
 
 He screamed, dark lightning bursting uncontrolled from the severed limb, scorching the walls and ceiling.
 
-Amber seized the opening. Her next spell was smaller than the one in the Draugr chamber, but far more focused—a concentrated bolt of golden light that punched cleanly through his chest.
+Amber seized the opening. Her next spell was smaller than the one in the Draugr chamber, but far more focused: a concentrated bolt of golden light that punched cleanly through his chest.
 
 He fell without another sound.
 

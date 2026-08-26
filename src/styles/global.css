@@ -6,7 +6,7 @@
 @import "@fontsource/almendra/700.css";
 
 @theme {
-  /* Storybook day — soft painted parchment */
+  /* Storybook day: soft painted parchment */
   --color-bg: #f4e9cf;              /* page parchment */
   --color-parchment: #f4e9cf;
   --color-parchment-deep: #ead9b4;  /* cards */
@@ -18,14 +18,14 @@
   --color-gold-bright: #c2913e;
 
   /* Inks (legacy names kept so existing components inherit the theme) */
-  --color-coral: #a34e2f;           /* dusty terracotta — primary accent */
-  --color-sky: #46708f;             /* blue ink — Tech */
-  --color-purple: #7c5f93;          /* violet ink — Anime */
-  --color-sun: #96650f;             /* amber ink — Writing */
-  --color-mint: #5d7a45;            /* green ink — Life */
+  --color-coral: #a34e2f;           /* dusty terracotta, primary accent */
+  --color-sky: #46708f;             /* blue ink: Tech */
+  --color-purple: #7c5f93;          /* violet ink: Anime */
+  --color-sun: #96650f;             /* amber ink: Writing */
+  --color-mint: #5d7a45;            /* green ink: Life */
   --color-sage: #5d7a45;            /* alias kept for novel pages */
 
-  /* Tag chips — soft pastel tints */
+  /* Tag chips: soft pastel tints */
   --color-tag-tech-bg: #dbe0cd;
   --color-tag-tech-text: #46708f;
   --color-tag-anime-bg: #e6d8d3;
@@ -40,7 +40,7 @@
   --font-family-mono: "JetBrains Mono", "Fira Code", monospace;
 }
 
-/* Storybook night — twilight over the meadow */
+/* Storybook night: twilight over the meadow */
 html.dark {
   --color-bg: #272138;
   --color-parchment: #272138;
@@ -147,7 +147,7 @@ html.dark .card-lift:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
 
-/* ── Prose (post body) — manuscript styling ──────────────── */
+/* ── Prose (post body): manuscript styling ──────────────── */
 .prose {
   color: var(--color-text);
   max-width: 72ch;
@@ -169,7 +169,7 @@ html.dark .card-lift:hover {
   margin-bottom: 1.25rem;
 }
 
-/* Illuminated drop cap on the opening paragraph — post/chapter body only */
+/* Illuminated drop cap on the opening paragraph, post/chapter body only */
 #post-content.prose > p:first-of-type::first-letter {
   font-family: var(--font-family-heading);
   font-size: 3.4em;

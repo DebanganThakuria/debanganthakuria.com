@@ -23,7 +23,7 @@ At the entry gate, he flashed both their Academy IDs to the startled guard and r
 
 He burst directly into the emergency ward and lowered Amber onto an unoccupied bed.
 
-Male and female apprentice healers came running. Valen explained the situation in clipped sentences—Dawn Forest, Blight exposure, sudden fever, delirium, increasing mutations.
+Male and female apprentice healers came running. Valen explained the situation in clipped sentences: Dawn Forest, Blight exposure, sudden fever, delirium, increasing mutations.
 
 A female apprentice ran to summon a senior healer.
 
@@ -35,7 +35,7 @@ Iris analyzed his mana signature.
 
 Rank 4.
 
-The healer moved quickly to Amber's bedside and took her wrist. His eyes half-closed as he began casting—some diagnostic spell that sent threads of pale green light into her skin.
+The healer moved quickly to Amber's bedside and took her wrist. His eyes half-closed as he began casting, some diagnostic spell that sent threads of pale green light into her skin.
 
 Amber twisted on the bed, turning her head from side to side, legs curling and uncurling. Pain, even unconscious.
 
@@ -67,7 +67,7 @@ The healer pulled a whistle from his coat and blew a sharp, piercing note.
 
 Within seconds, powerful Rank 3 warriors arrived and restrained her, holding her down against the bed as she thrashed.
 
-The healer moved with calm efficiency, preparing a metallic syringe and filling it with a dark purple potion. His close aide—a senior apprentice who had been trailing him—prepared a second syringe with a different substance.
+The healer moved with calm efficiency, preparing a metallic syringe and filling it with a dark purple potion. His close aide, a senior apprentice who had been trailing him, prepared a second syringe with a different substance.
 
 Both plunged their needles into Amber's arms simultaneously.
 
@@ -85,9 +85,9 @@ He paused, studying Valen's expression.
 
 "Will she be safe?" Valen asked.
 
-"It depends." The healer looked down at Amber's mutated features—the claws, the sharpened teeth, the still-glowing eyes. "She is a Lumis. She has also awakened another bloodline, likely from her mother's side, as a side effect of the corruption. Her lifeforce is strong. Strong enough to fight this on her own."
+"It depends." The healer looked down at Amber's mutated features: the claws, the sharpened teeth, the still-glowing eyes. "She is a Lumis. She has also awakened another bloodline, likely from her mother's side, as a side effect of the corruption. Her lifeforce is strong. Strong enough to fight this on her own."
 
-He issued commands to the apprentice healers stationed in the emergency ward—timing for additional doses, monitoring intervals, warning signs to watch for.
+He issued commands to the apprentice healers stationed in the emergency ward: timing for additional doses, monitoring intervals, warning signs to watch for.
 
 "Give her another shot in half a day. No food. I will return before midnight to check on her. Send word to the administration office."
 
@@ -103,7 +103,7 @@ Valen sat down on a stool near her bed and closed his eyes to rest.
 
 A quarter hour later, someone brought his tea.
 
-He checked Amber every few minutes. After around an hour, her body stopped burning, though the mutations remained—claws, fangs, the faint glow in her eyes.
+He checked Amber every few minutes. After around an hour, her body stopped burning, though the mutations remained: claws, fangs, the faint glow in her eyes.
 
 When hunger finally made itself known, he pulled out a piece of roasted meat he had kept frozen with Ice Breath. He thawed it with a minor flame spell and ate in silence.
 
@@ -113,7 +113,7 @@ Valen tuned it all out.
 
 During dusk, Raylan and his companions arrived in the ward.
 
-They had crossed the forest at their fastest speed and come here directly. Small injuries marked their arms and legs—cuts, bruises, minor burns—but after drinking a few healing potions, the wounds sealed quickly.
+They had crossed the forest at their fastest speed and come here directly. Small injuries marked their arms and legs: cuts, bruises, minor burns. But after drinking a few healing potions, the wounds sealed quickly.
 
 Valen explained Amber's condition in brief, clinical terms.
 
@@ -137,7 +137,7 @@ Then Marcus spoke again, voice quieter.
 
 Valen glanced at him.
 
-Marcus was looking at him with that unsettling, too-perceptive gaze—the kind that saw more than most people wanted to reveal.
+Marcus was looking at him with that unsettling, too-perceptive gaze, the kind that saw more than most people wanted to reveal.
 
 "Others may not realize it," Marcus continued, "but I can see it in your eyes. Those are the eyes of someone who is extremely confident in their strength."
 

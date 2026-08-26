@@ -11,7 +11,7 @@ Raylan dropped through a choking cloud of dust and loose soil, the world reduced
 
 He twisted his body, trying to orient himself.
 
-Shapes flickered in the dust around him—chunks of stone, splintered roots—and something darker. A demonic silhouette tumbled through the collapsing shaft as well, but its movements were controlled, deliberate.
+Shapes flickered in the dust around him: chunks of stone, splintered roots, and something darker. A demonic silhouette tumbled through the collapsing shaft as well, but its movements were controlled, deliberate.
 
 The Rank 4.
 
@@ -31,7 +31,7 @@ Dust rained from above, followed by heavier chunks of debris that shattered arou
 
 He pushed himself to his feet.
 
-He had fallen into a broad passage—too structured to be a natural cave. Carved stone walls rose on either side, etched with faded lines that might once have been patterns.
+He had fallen into a broad passage, too structured to be a natural cave. Carved stone walls rose on either side, etched with faded lines that might once have been patterns.
 
 A labyrinth.
 
@@ -71,7 +71,7 @@ The demon’s eyes narrowed.
 
 "Interesting," it said.
 
-Its next attack was a flurry—short, brutal blows aimed at joints and vital points, testing his defense. Raylan parried some, slipped past others by the width of a hair. Even so, a glancing strike caught his side once, sending pain lancing through his ribs.
+Its next attack was a flurry: short, brutal blows aimed at joints and vital points, testing his defense. Raylan parried some, slipped past others by the width of a hair. Even so, a glancing strike caught his side once, sending pain lancing through his ribs.
 
 He gritted his teeth, forcing his breathing to remain steady.
 
@@ -91,7 +91,7 @@ Raylan moved.
 
 One moment, he was in the demon’s direct path. The next, he was a body-length to the side.
 
-It was not true invisibility or speed. It was absence—his presence slipping out of one point and reasserting itself in another, the world taking a heartbeat to notice the change.
+It was not true invisibility or speed. It was absence: his presence slipping out of one point and reasserting itself in another, the world taking a heartbeat to notice the change.
 
 The demon’s strike passed through where his head had been.
 
@@ -109,7 +109,7 @@ Raylan did not understand.
 
 He blinked again.
 
-Short-range displacement—blink—tugged at his senses. It felt unstable, like stepping onto a bridge that might decide at any moment that it preferred to be a river.
+Short-range displacement (blink) tugged at his senses. It felt unstable, like stepping onto a bridge that might decide at any moment that it preferred to be a river.
 
 He used it anyway.
 
@@ -125,7 +125,7 @@ In the narrow window that followed each dodge, his sword struck.
 
 Cuts accumulated.
 
-Superficial wounds at first—lines across limbs, shallow stabs into joints—but Chaos Energy ate at them from within. The demon’s regenerative capabilities, whatever they were, did not have time to fully engage before the next injury layered on top.
+Superficial wounds at first (lines across limbs, shallow stabs into joints) but Chaos Energy ate at them from within. The demon’s regenerative capabilities, whatever they were, did not have time to fully engage before the next injury layered on top.
 
 Then he realized something.
 
@@ -149,7 +149,7 @@ For a heartbeat, nothing happened.
 
 Then the cut flared from within.
 
-Cracks spiderwebbed through the demon’s carapace, radiating out from the wound. The burning lines raced across its form, tracing its internal pathways. Its eyes widened—not with fear, but with a flicker of something like recognition.
+Cracks spiderwebbed through the demon’s carapace, radiating out from the wound. The burning lines raced across its form, tracing its internal pathways. Its eyes widened, not with fear, but with a flicker of something like recognition.
 
 "Ah," it whispered. "So that is—"
 
@@ -159,7 +159,7 @@ Not in a burst of fire, but in a violent, outward rush of shredded flesh and arm
 
 He forced himself up onto one knee.
 
-The space where the demon had stood was now a crater of scorched stone and smoking fragments. No cohesive body remained. Only scattered remnants of demonic matter—and traces of Chaos Energy drifting like invisible smoke.
+The space where the demon had stood was now a crater of scorched stone and smoking fragments. No cohesive body remained. Only scattered remnants of demonic matter, and traces of Chaos Energy drifting like invisible smoke.
 
 He involuntarily drew that energy in with his next breath.
 
@@ -295,7 +295,7 @@ A search pattern.
 
 It should have overwhelmed him.
 
-Even a basic wide-area tracing spell generated streams of geometric data—intersections, angles, distances— enough to bury an ordinary mage’s senses in tangled information.
+Even a basic wide-area tracing spell generated streams of geometric data (intersections, angles, distances), enough to bury an ordinary mage’s senses in tangled information.
 
 Valen’s expression did not change.
 
@@ -303,7 +303,7 @@ Behind his calm eyes, Iris moved.
 
 "Input received," she said. "Converting spatial branches to a weighted graph. Initiating layered search. You may ignore the noise, Master. I will chew through it."
 
-The flood of data that should have crashed down on his mind instead hit a barrier—then funneled sideways, drawn into the vast processing capacity of Iris.
+The flood of data that should have crashed down on his mind instead hit a barrier, then funneled sideways, drawn into the vast processing capacity of Iris.
 
 "Left branches are dead ends," Iris reported. "The primary escape path is descending, angling toward the central node of the labyrinth. It is following a designed route, not improvising."
 
@@ -325,7 +325,7 @@ The wood swallowed it in an instant, its body dissolving into strands of bark an
 
 Valen straightened slowly.
 
-Light patterns continued to flicker at the edge of his perception—lines representing possible paths, nodes, branch points. Iris’s presence glowed brighter in his mind, threads of attention stretching in multiple directions at once.
+Light patterns continued to flicker at the edge of his perception: lines representing possible paths, nodes, branch points. Iris’s presence glowed brighter in his mind, threads of attention stretching in multiple directions at once.
 
 "I can maintain partial trace," she said. "But the network is complex, and it is actively obfuscating. Some branches are decoys. It is trying to drown us in false routes."
 
@@ -355,7 +355,7 @@ He had just proved that the power would answer when he called. That was enough f
 
 He looked around.
 
-The labyrinth passage stretched in both directions, vanishing into shadow. The walls bore patterns half-eroded by time—a language he could not read, symbols worn down by centuries of pressure.
+The labyrinth passage stretched in both directions, vanishing into shadow. The walls bore patterns half-eroded by time: a language he could not read, symbols worn down by centuries of pressure.
 
 The air felt old.
 
@@ -369,7 +369,7 @@ Raylan tightened his grip on his sword.
 
 "This is not my dungeon yet," he muttered under his breath.
 
-He turned toward the direction where the collapsed ground seemed closest—the shaft through which he had fallen. Loose debris still settled there, dust drifting like thin mist.
+He turned toward the direction where the collapsed ground seemed closest: the shaft through which he had fallen. Loose debris still settled there, dust drifting like thin mist.
 
 He gathered mana into his legs, not Chaos this time, just his own refined reserves. He dashed forward, using footholds in the rough stone, leaping from shattered outcrop to jutting slab.
 
@@ -379,7 +379,7 @@ He caught himself, fingers biting into a crack in the wall.
 
 The memory of blinking tugged at him.
 
-It would be simple to use it now—to fold space and reappear halfway up, then again, and again, until he reached the surface.
+It would be simple to use it now: to fold space and reappear halfway up, then again, and again, until he reached the surface.
 
 He did not.
 
@@ -389,7 +389,7 @@ He climbed.
 
 Hand over hand, foot over foot, he forced his way upward through the fracture. Dust filled his throat. Stone scraped his palms raw.
 
-Eventually, light appeared above—a thin grey glow, broken by moving shapes.
+Eventually, light appeared above: a thin grey glow, broken by moving shapes.
 
 The sounds of battle returned, louder now.
 
@@ -409,4 +409,4 @@ Good.
 
 He took a slow breath, forcing his heartbeat back under control.
 
-Then he pushed himself upright and moved to rejoin the battle—not as a hunted target in a maze, but as one more blade in the storm.
+Then he pushed himself upright and moved to rejoin the battle, not as a hunted target in a maze, but as one more blade in the storm.

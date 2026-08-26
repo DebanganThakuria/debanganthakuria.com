@@ -31,7 +31,7 @@ Marcus listened attentively, his gaze flicking between Amber and Raylan as he he
 
 Valen leaned back and tuned them out.
 
-Instead, he sorted through the information Iris had been gathering all evening—snippets of conversation from the hall below, overheard while her hidden constructs perched in the cracks and shadows.
+Instead, he sorted through the information Iris had been gathering all evening: snippets of conversation from the hall below, overheard while her hidden constructs perched in the cracks and shadows.
 
 Apparently, Dawn Forest had once been part of the capital territory of an ancient kingdom called the Dawn Kingdom, which had ruled this land before the Radiant Empire ever rose.
 
@@ -51,7 +51,7 @@ Valen sipped his ale.
 
 "Master," Iris said, her tone brightening, "we have much to learn and explore in this world."
 
-She gave him an excited smile—visible only to his eyes.
+She gave him an excited smile, visible only to his eyes.
 
 Valen smiled as well.
 
@@ -73,7 +73,7 @@ The musicians hurried their tempo as the two of them joined the throng. They dan
 
 While they moved, Valen noticed something on the first floor.
 
-Kale and his party had approached the trio's table. Words were exchanged—sharp ones, judging by the tightness in Elara's posture and the way Marcus leaned back slightly, assessing.
+Kale and his party had approached the trio's table. Words were exchanged: sharp ones, judging by the tightness in Elara's posture and the way Marcus leaned back slightly, assessing.
 
 Standard protagonist confrontation.
 
@@ -89,7 +89,7 @@ The evening passed without major incident. A few drunkards tussled and fought, b
 
 The next day, most of the survivors prepared to depart from Dawn Forest.
 
-The trio—Marcus, Raylan, and Elara—asked to join Amber and Valen on the journey back.
+The trio (Marcus, Raylan, and Elara) asked to join Amber and Valen on the journey back.
 
 Valen could not come up with a reasonable excuse to reject them.
 
@@ -97,7 +97,7 @@ Much to his dismay, they traveled together.
 
 On the first day, they crossed the Stinky River without incident.
 
-To Valen's relief, there were no accidents—though monster attacks were frequent enough to slow their pace. By evening, they had to set up camp on high ground near a stream.
+To Valen's relief, there were no accidents, though monster attacks were frequent enough to slow their pace. By evening, they had to set up camp on high ground near a stream.
 
 Amber had been quieter during the day.
 
@@ -167,13 +167,13 @@ Coming out of his tent, he saw Amber already awake but still not dressed. She wa
 
 "You are usually ready before I wake," Valen called out. "Did you not sleep well?"
 
-She turned her head quickly and glared at him—sharp, angry, for reasons he could not determine.
+She turned her head quickly and glared at him, sharp, angry, for reasons he could not determine.
 
 "It is all right," he said carefully. "Take your time."
 
 He retreated into the forest to attend to his morning needs.
 
-When Valen returned, Amber was dressed—but her hair remained tangled and her cloak sat unevenly on her shoulders. She still watched him with irritated eyes.
+When Valen returned, Amber was dressed, but her hair remained tangled and her cloak sat unevenly on her shoulders. She still watched him with irritated eyes.
 
 Elara emerged from her tent and paused, looking between them.
 
@@ -185,13 +185,13 @@ Sometime later, they broke camp and continued their journey.
 
 Amber was more whimsical and moody as the day wore on.
 
-In the early morning fog, they came across a Rank 2 ghost drifting through the mist—a pale, formless thing that flickered in and out of visibility.
+In the early morning fog, they came across a Rank 2 ghost drifting through the mist: a pale, formless thing that flickered in and out of visibility.
 
 Suddenly, Amber erupted with mana.
 
 She tore her saber from its sheath and charged after the ghost, hacking at it wildly. Each swing passed through the spectral form without effect. Physical attacks could not harm spirits.
 
-Neither could the ghost harm her—Valen had already wrapped her in a Spirit Ward.
+Neither could the ghost harm her; Valen had already wrapped her in a Spirit Ward.
 
 Valen immediately knew something was wrong.
 
@@ -211,7 +211,7 @@ Valen was alarmed.
 
 "She is delirious."
 
-His mind raced through everything he had read in the Academy library—books on herbs, alchemical texts, etc
+His mind raced through everything he had read in the Academy library: books on herbs, alchemical texts, etc
 
 Nothing fit.
 

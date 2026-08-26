@@ -16,7 +16,7 @@ Weekends, he had decided. Weekdays belonged to the gray helmet and the thirty-fi
 
 Lydia had left the door unlatched for him.
 
-"Come at morning," she had said last night, tying her apron strings. "The mountain is best at morning. And you will come as a guest, master — I will have no cooking out of you under my roof. It is my turn."
+"Come at morning," she had said last night, tying her apron strings. "The mountain is best at morning. And you will come as a guest, master. I will have no cooking out of you under my roof. It is my turn."
 
 Her turn. He had thought about that phrase more than he meant to.
 
@@ -34,15 +34,15 @@ The game had wind. The game had beautiful wind, artist-directed, tuned in review
 
 He went outside.
 
-The Sweetwater Inn stood on its road with its sign creaking in that untuned wind, and past the sign the world went on. Down: the road, falling away along the shoulder of the mountain, a silver line of ford, a valley opening green and enormous below, patched with distant forest, hazed with distance — real distance, the kind that kept going after you stopped being able to prove it. Up: the pass, gray stone and old snow. And over all of it a sky.
+The Sweetwater Inn stood on its road with its sign creaking in that untuned wind, and past the sign the world went on. Down: the road, falling away along the shoulder of the mountain, a silver line of ford, a valley opening green and enormous below, patched with distant forest, hazed with distance: real distance, the kind that kept going after you stopped being able to prove it. Up: the pass, gray stone and old snow. And over all of it a sky.
 
 He had seen ten thousand skies in Worldroot. He had stood on the Amberfall terraces under a golden hour so beautiful people crossed the world to photograph it.
 
 He stood in the inn yard with his head back and understood that he had never seen a sky before.
 
-It was not better. That was the strange part. It was plainer — a workaday blue, some thin cloud, nothing composed about it, no artist had placed that cloud. It was simply *on*, all of it, everywhere, at full detail, with nobody watching to justify the cost. The game's sky was a masterpiece painted on a ceiling. This one just went up forever, indifferent, free.
+It was not better. That was the strange part. It was plainer: a workaday blue, some thin cloud, nothing composed about it, no artist had placed that cloud. It was simply *on*, all of it, everywhere, at full detail, with nobody watching to justify the cost. The game's sky was a masterpiece painted on a ceiling. This one just went up forever, indifferent, free.
 
-"Streaming," he said to himself, out of habit. "Some kind of — procedural..."
+"Streaming," he said to himself, out of habit. "Some kind of... procedural..."
 
 He stopped, because the word did not survive contact with the cloud.
 
@@ -58,7 +58,7 @@ The endgame content, he concluded, was showing off. Fine. Let it.
 
 They walked the road after the bread went in.
 
-She wore her apron even walking — he suspected she would wear it to a coronation — and she walked her road the way he moved in his kitchen: no waste, no hurry, everything known. Here the flat stone where the carters watered. Here the elm row, replanted, twelve small trees she touched, one by one, without seeming to notice she did it. Here the ford, running clear over brown stones, and in the pool below it, trout holding in the current.
+She wore her apron even walking (he suspected she would wear it to a coronation) and she walked her road the way he moved in his kitchen: no waste, no hurry, everything known. Here the flat stone where the carters watered. Here the elm row, replanted, twelve small trees she touched, one by one, without seeming to notice she did it. Here the ford, running clear over brown stones, and in the pool below it, trout holding in the current.
 
 Devan looked at the trout the way he looked at everything now: with his whole professional soul.
 
@@ -68,15 +68,15 @@ Devan looked at the trout the way he looked at everything now: with his whole pr
 
 "You are a guest today." A pause. "Tomorrow I will lend you a line."
 
-They crossed the ford on the old stepping stones. She named things as they went, unprompted, in the voice of a woman airing rooms shut too long — this ridge, that shepherd's ruin, the high meadow where fairs were held before her grandmother's time. Two hundred years of no one to say the names to. He listened the way he read patch notes, completely, and asked the kind of questions that made her keep going, which was, though neither of them said it, its own kind of meal being served.
+They crossed the ford on the old stepping stones. She named things as they went, unprompted, in the voice of a woman airing rooms shut too long: this ridge, that shepherd's ruin, the high meadow where fairs were held before her grandmother's time. Two hundred years of no one to say the names to. He listened the way he read patch notes, completely, and asked the kind of questions that made her keep going, which was, though neither of them said it, its own kind of meal being served.
 
 Half a mile on, at the third bend, they came to a waist-high gray stone, and Lydia stopped walking.
 
-She stopped the way a tide stops — nothing dramatic, simply the end of her reach. She rested her hand on the stone, and he saw, for one moment, morning light coming thinly through her fingers.
+She stopped the way a tide stops: nothing dramatic, simply the end of her reach. She rested her hand on the stone, and he saw, for one moment, morning light coming thinly through her fingers.
 
 "The boundary," she said. "The innkeep's land ends here. Go on, master. See what the valley does. I will wait."
 
-He went on a hundred paces, to where the road turned open around the mountain's shoulder, and the whole north country unrolled below — the far towns smoking faintly, a river with barges on it small as grains, the world's roads webbed silver across the green, all of it going on and on, busy, unmapped by any wiki, wholly unaware of him.
+He went on a hundred paces, to where the road turned open around the mountain's shoulder, and the whole north country unrolled below: the far towns smoking faintly, a river with barges on it small as grains, the world's roads webbed silver across the green, all of it going on and on, busy, unmapped by any wiki, wholly unaware of him.
 
 He walked back and described it to her. The towns, the barges, the roads.
 
@@ -90,7 +90,7 @@ She nodded, once, the way she accepted a fair price.
 
 ---
 
-The duck — one of her own, from the pen by the south wall — was already turning when they got back. He had smelled it from the yard and stopped talking mid-sentence, and she had permitted herself one small professional smile at that, and stationed him at the long table with a cup of well water and instructions not to help.
+The duck (one of her own, from the pen by the south wall) was already turning when they got back. He had smelled it from the yard and stopped talking mid-sentence, and she had permitted herself one small professional smile at that, and stationed him at the long table with a cup of well water and instructions not to help.
 
 So the strongest entity in two worlds sat in a sunlit common room, drinking the water the house was named for, and watched his employee cook.
 
@@ -108,7 +108,7 @@ It was not the best thing he had ever tasted. His own pantry held flavors no mor
 
 And no one had cooked it for him.
 
-That was the thing. That was the whole thing. He tried to remember the last time anyone had made him a meal — not sold him one, not microwaved one at him, *made* him one, watched his face while he ate it — and the arithmetic went back and back through convenience counters and vending machines and office lunches, back past numbers he was willing to look at, and found nothing, and quietly put itself away.
+That was the thing. That was the whole thing. He tried to remember the last time anyone had made him a meal (not sold him one, not microwaved one at him, *made* him one, watched his face while he ate it) and the arithmetic went back and back through convenience counters and vending machines and office lunches, back past numbers he was willing to look at, and found nothing, and quietly put itself away.
 
 Devan set down his knife and fork, and sat still a moment.
 
@@ -124,7 +124,7 @@ Something settled in her shoulders, some account balancing at last after long ar
 
 "...Fair."
 
-"Not yet," she amended, and looked around her own walls, at the light in her fourteen impossible windows. "A house keeps one secret, master. When this one has guests enough to need a second pair of hands at the spit — ask again."
+"Not yet," she amended, and looked around her own walls, at the light in her fourteen impossible windows. "A house keeps one secret, master. When this one has guests enough to need a second pair of hands at the spit, ask again."
 
 Guests enough. On the road nobody used, in the inn the maps had forgotten. He looked at her and thought: even the optimism was well written.
 
@@ -134,15 +134,15 @@ Guests enough. On the road nobody used, in the inn the maps had forgotten. He lo
 
 He spent the afternoon being a tourist, thoroughly and methodically.
 
-He walked the high meadow. He lay in it. He watched the untuned wind run visible through the grass for the better part of an hour, doing nothing, earning nothing, no drops, no progress bar, and could not remember an afternoon like it since before the office, possibly since before being tall. He inspected the shepherd's ruin. He skipped stones at the ford until the trout despaired of him. He came back sunburnt — sunburnt; he checked the meter twice out of sheer disbelief while his skin reported heat from a star he could not find on any server — and Lydia looked at his face and sent him to wash for supper with the exact voice she must have used on carters all her life.
+He walked the high meadow. He lay in it. He watched the untuned wind run visible through the grass for the better part of an hour, doing nothing, earning nothing, no drops, no progress bar, and could not remember an afternoon like it since before the office, possibly since before being tall. He inspected the shepherd's ruin. He skipped stones at the ford until the trout despaired of him. He came back sunburnt (sunburnt; he checked the meter twice out of sheer disbelief while his skin reported heat from a star he could not find on any server) and Lydia looked at his face and sent him to wash for supper with the exact voice she must have used on carters all her life.
 
 Supper was leftovers. Duck on bread, at the kitchen table, informal.
 
 Leftovers, he decided, might be the whole point of civilization.
 
-Dusk came down the mountain slow and enormous. They sat on the doorstep to watch it, innkeeper and guest, cups of the sweet water, saying not much. The traveler's lamp kindled over their heads at full dark — bottled evening from one world, lighting the doorstep of another — and far down the valley the first stars came up over the towns he had seen from the bend.
+Dusk came down the mountain slow and enormous. They sat on the doorstep to watch it, innkeeper and guest, cups of the sweet water, saying not much. The traveler's lamp kindled over their heads at full dark (bottled evening from one world, lighting the doorstep of another) and far down the valley the first stars came up over the towns he had seen from the bend.
 
-He did not look at the stars too closely. Some part of him — the part fourteen years deep in patch notes, the part that had noticed the shape of certain constellations on certain loading screens — chose, deliberately, gently, not to look up for long.
+He did not look at the stars too closely. Some part of him (the part fourteen years deep in patch notes, the part that had noticed the shape of certain constellations on certain loading screens) chose, deliberately, gently, not to look up for long.
 
 Not tonight. Tonight was not for noticing things.
 
@@ -154,17 +154,17 @@ Not tonight. Tonight was not for noticing things.
 
 She said it plainly, a fact of him, filed with the others. He wondered, briefly, what else was in that file, and decided he was better off not knowing, and was more right than he could have measured.
 
-At the kitchen door — his door, her door — she stopped him with one finger, went to the dresser, and brought back a book. New-bound, plain, the first page white as morning.
+At the kitchen door (his door, her door) she stopped him with one finger, went to the dresser, and brought back a book. New-bound, plain, the first page white as morning.
 
 "The house ledger," she said. "Every guest of the Sweetwater signs. Two hundred years, and you are the first name in the new book. It should be yours."
 
 She set out ink and a pen cut that afternoon, and stood waiting, hands folded, entirely serious, and Devan looked down at the empty page of an inn's guestbook in another world.
 
-His name floated up — the real one, the account name, fifteen years old, with the ligature. He could not write *Glasses Knight* in a book like this. He could not quite, even now, write the other thing either.
+His name floated up: the real one, the account name, fifteen years old, with the ligature. He could not write *Glasses Knight* in a book like this. He could not quite, even now, write the other thing either.
 
 So he wrote what he was. In his own letters, the ones his hand knew: the sharp clean characters of a world away, unreadable on this whole mountain, in this whole kingdom, by anyone but him.
 
-**DÆMON** — and beneath it, smaller: *first guest. the duck is famous for a reason.*
+**DÆMON**, and beneath it, smaller: *first guest. the duck is famous for a reason.*
 
 Lydia studied the marks for a long moment. Letters from beyond the world, in the hand of the master of the house of the dead, on the first page of her book. She had suspected for some time that no one alive would ever read them, and was already, in the deep quiet way of her, at peace with what that meant about her clientele.
 
@@ -174,11 +174,11 @@ Lydia studied the marks for a long moment. Letters from beyond the world, in the
 
 "Good morning, master. Mind the step."
 
-He stepped through the door, and was home — lamplight, cold stoves, the spore-snow ticking against the still-glass — smelling of woodsmoke, thyme, and sunburn, with duck grease on his cuff and four hours of another world's night left unspent in the meter.
+He stepped through the door, and was home (lamplight, cold stoves, the spore-snow ticking against the still-glass), smelling of woodsmoke, thyme, and sunburn, with duck grease on his cuff and four hours of another world's night left unspent in the meter.
 
 The restaurant stood around him, warm and small.
 
-Funny, he thought, hanging up his coat. He had built this room to be the biggest thing in his life, and it had been, for four years — the whole lit end of the world.
+Funny, he thought, hanging up his coat. He had built this room to be the biggest thing in his life, and it had been, for four years: the whole lit end of the world.
 
 Now it felt, pleasantly, dangerously, for the first time, close to the door of something larger.
 
@@ -190,4 +190,4 @@ Devan rolled up his sleeves.
 
 Some things about a man are simply consistent.
 
-*— end of chapter 6 —*
+*end of chapter 6*

@@ -77,7 +77,7 @@ The winds were still strong here. Alfred put on his long windbreaker and departe
 
 An enormously tall and large wall immediately caught his attention. "At least sixty meters tall. Several defensive magic arrays, both in sight and hidden. Built with the best Transmutation Magic," Alfred analyzed. "I guess it is necessary for safety from both man and nature."
 
-The wall extended in both east and west to join the two great mountains. Atop the wall, there was a large banner adorned with a crest of an Oak sewn in Mithril — the crest of Elysion.
+The wall extended in both east and west to join the two great mountains. Atop the wall, there was a large banner adorned with a crest of an Oak sewn in Mithril: the crest of Elysion.
 
 "Greetings, Sir Alfred." It was the elves from Goldenwind. Alfred turned around to find that they had also departed from their carriage, dressed in warm furs. They didn't seem much impressed by the massive border wall. "Maybe it is not their first time visiting Elysion," Alfred thought.
 
@@ -103,7 +103,7 @@ There was a large line of carriages going through customs checks at the gate. Bu
 
 During the checks, Alfred produced his hundred-and-fifty-year-old Mage ID card, which showed his associated guild as Lord's Tea Party and his rank as a Rank 4 Spell Mage.
 
-In reality, of course, Alfred was not a Spell Mage at all. He had never undergone Spirit Tempering and possessed no internal mana reserves. His true advancement was through Body Tempering — today he was a Rank 5 Battle Mage. But a Battle Mage who can cast spells invites too many questions. So, long ago, he had acquired a Spell Mage ID by using Vita Fons to convert his life force into mana and mimic conventional spellcasting during the assessment. To any observer, he looked like an ordinary Spell Mage channeling his own reserves. Nobody suspected that the mana fueling his spells was being generated on the spot from a body that could never run dry.
+In reality, of course, Alfred was not a Spell Mage at all. He had never undergone Spirit Tempering and possessed no internal mana reserves. His true advancement was through Body Tempering; today he was a Rank 5 Battle Mage. But a Battle Mage who can cast spells invites too many questions. So, long ago, he had acquired a Spell Mage ID by using Vita Fons to convert his life force into mana and mimic conventional spellcasting during the assessment. To any observer, he looked like an ordinary Spell Mage channeling his own reserves. Nobody suspected that the mana fueling his spells was being generated on the spot from a body that could never run dry.
 
 The fake Spell Mage identity served him well. It explained away any magic he performed in public without drawing attention to his true nature.
 
@@ -115,7 +115,7 @@ After clearing the checks, they crossed through a tunnel in the wall and finally
 
 Alfred was struck by the beautiful atmosphere inside. The road was finely paved, with trees planted at equal intervals on the sides. And although the air was dry and cold, the place was bustling with activity.
 
-Alfred boarded another expensive carriage meant for Mages, along with the elves. This time the carriages were pulled by a velociraptor-looking Magic Beast, simply called a Runner Lizard in this world — a Rank 2 Magic Beast.
+Alfred boarded another expensive carriage meant for Mages, along with the elves. This time the carriages were pulled by a velociraptor-looking Magic Beast, simply called a Runner Lizard in this world, a Rank 2 Magic Beast.
 
 ---
 

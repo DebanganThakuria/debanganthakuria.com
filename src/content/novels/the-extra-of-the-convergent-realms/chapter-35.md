@@ -11,7 +11,7 @@ Amber affirmed it with a small nod.
 
 Valen held her hand and silently established the Spirit Channel again. Mana surged into her, and she activated her self-restoration spell. Strength filled every cell, muscles steadying, breath evening out.
 
-But her external mutations remained—the elongated nails, the wildly grown hair, the enhanced musculature visible beneath her skin.
+But her external mutations remained: the elongated nails, the wildly grown hair, the enhanced musculature visible beneath her skin.
 
 Valen slowly explained what had happened to her.
 
@@ -123,7 +123,7 @@ Rain began to fall outside.
 
 He brought a chair to the window and sat down with a cup of tea in hand.
 
-The sound of rain filled the silence—steady, rhythmic, washing over the Academy grounds in sheets. Water pooled in the courtyard below, rippling outward wherever drops struck the surface.
+The sound of rain filled the silence: steady, rhythmic, washing over the Academy grounds in sheets. Water pooled in the courtyard below, rippling outward wherever drops struck the surface.
 
 Valen's mind calmed.
 
@@ -157,7 +157,7 @@ His breathing steadied.
 
 He closed his eyes.
 
-The Mana Core sat at the center of his awareness—a sphere of condensed energy, glowing faintly with accumulated power. Hairline cracks were already forming along its surface, fractures spreading slowly outward as pressure built within.
+The Mana Core sat at the center of his awareness, a sphere of condensed energy, glowing faintly with accumulated power. Hairline cracks were already forming along its surface, fractures spreading slowly outward as pressure built within.
 
 The breakthrough was inevitable now.
 
@@ -167,7 +167,7 @@ Valen reached inward and grasped the first spell structure.
 
 Solid Barrier.
 
-The formation unfolded in his mind—geometric precision, interlocking planes, the concept of resistance woven into every angle. He fed mana into it, letting the structure stabilize and harden until it felt as permanent as stone.
+The formation unfolded in his mind: geometric precision, interlocking planes, the concept of resistance woven into every angle. He fed mana into it, letting the structure stabilize and harden until it felt as permanent as stone.
 
 The first crack in his core widened.
 
@@ -177,7 +177,7 @@ He did not stop.
 
 Earth Control.
 
-The second structure rose beside the first—heavier, denser, rooted in the idea of mass and permanence. Stone obeyed will. Ground shifted at command. Valen poured mana into the spell until it felt as natural as breathing.
+The second structure rose beside the first, heavier, denser, rooted in the idea of mass and permanence. Stone obeyed will. Ground shifted at command. Valen poured mana into the spell until it felt as natural as breathing.
 
 Another crack spread.
 
@@ -203,7 +203,7 @@ One spell remained.
 
 Self-Healing.
 
-The final structure was the most complex—interwoven layers of restoration, vitality, and balance. It required precision. A single mistake could weaken the entire foundation.
+The final structure was the most complex: interwoven layers of restoration, vitality, and balance. It required precision. A single mistake could weaken the entire foundation.
 
 Valen built it carefully.
 
@@ -215,7 +215,7 @@ When the spell settled into place, his core shattered.
 
 Light exploded outward.
 
-For an instant, there was only formless energy—raw, uncontained, flooding through every channel in his body. It burned along his meridians, seared through his limbs, pressed against the edges of his awareness like a wave breaking over stone.
+For an instant, there was only formless energy, raw, uncontained, flooding through every channel in his body. It burned along his meridians, seared through his limbs, pressed against the edges of his awareness like a wave breaking over stone.
 
 Then the six spell structures flared.
 
@@ -223,7 +223,7 @@ They absorbed the chaotic energy, drawing it inward, shaping it, defining it.
 
 The light condensed.
 
-The formless mana crystallized into something new—not a single core, but a lattice of interconnected structures, each spell anchored within the whole, supporting and reinforcing the others.
+The formless mana crystallized into something new: not a single core, but a lattice of interconnected structures, each spell anchored within the whole, supporting and reinforcing the others.
 
 His new Rank 2 Mana Core solidified.
 
@@ -239,7 +239,7 @@ Clearer.
 
 He lifted his hand.
 
-A barrier shimmered into existence above his palm—faster than before, stronger, requiring less conscious effort. He dismissed it and reached for the earth beneath the floorboards. Stone responded instantly, eager to obey.
+A barrier shimmered into existence above his palm, faster than before, stronger, requiring less conscious effort. He dismissed it and reached for the earth beneath the floorboards. Stone responded instantly, eager to obey.
 
 Water condensed from the air around him.
 
@@ -277,6 +277,6 @@ Now came the real work.
 
 Valen pulled out his first Chaos Crystal from his pocket. He had collected more during the Dawn Forest incident.
 
-The dark gem caught the dim light from the window, its surface swirling with faint, oily patterns. Even now, after the breakthrough, he could feel the choas energy radiating from it—foreign energy that his newly stabilized core recognized and rejected instinctively.
+The dark gem caught the dim light from the window, its surface swirling with faint, oily patterns. Even now, after the breakthrough, he could feel the choas energy radiating from it, foreign energy that his newly stabilized core recognized and rejected instinctively.
 
 He turned it slowly between his fingers.

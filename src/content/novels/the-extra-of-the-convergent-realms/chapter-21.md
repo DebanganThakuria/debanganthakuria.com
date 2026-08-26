@@ -23,7 +23,7 @@ Raylan collapsed against a tree trunk once they were sure no pursuit followed. H
 
 "Should we try to find them?" Raylan asked. "At least offer thanks."
 
-The ghost laughed—a dry, bitter sound. "Boy, whoever cast that spell had no desire to be found. They ended the threat and vanished. If they wanted gratitude, they would have stepped forward. Leave them be."
+The ghost laughed: a dry, bitter sound. "Boy, whoever cast that spell had no desire to be found. They ended the threat and vanished. If they wanted gratitude, they would have stepped forward. Leave them be."
 
 Raylan looked toward the distant swamp, now swallowed completely by mist and gathering darkness.
 
@@ -35,7 +35,7 @@ Amber and Valen reached the Worm Outpost as night’s first shadows crept across
 
 The Outpost stood on slightly higher ground, a low plateau rising out of the swamp like an island. Wooden palisades and stone walls ringed a cramped collection of buildings that looked as though they had grown there haphazardly over decades. Smoke from dozens of chimneys drifted upward, mingling with the mist.
 
-Unlike New Castle Outpost, which belonged wholly to the Radiant Academy, Worm Outpost was public ground—maintained by local guilds and frontier merchants who made their living on the edge of Dawn Forest. Its ownership changed hands through coin and influence, but its function remained the same: last safe rest before entering the deeper labyrinth beneath.
+Unlike New Castle Outpost, which belonged wholly to the Radiant Academy, Worm Outpost was public ground, maintained by local guilds and frontier merchants who made their living on the edge of Dawn Forest. Its ownership changed hands through coin and influence, but its function remained the same: last safe rest before entering the deeper labyrinth beneath.
 
 Because of that, it never truly slept.
 
@@ -45,19 +45,19 @@ Amber and Valen approached the gate, where two guards in mismatched leather sat 
 
 "Academy," Valen said, presenting his Radiant insignia.
 
-The guard barely glanced at the token before waving them through. Students were a familiar sight—and lucrative customers—here.
+The guard barely glanced at the token before waving them through. Students were a familiar sight (and lucrative customers) here.
 
 Inside, the Outpost felt like a compressed city.
 
-Narrow lanes wound between crooked buildings of stone and timber, some three or four stories high but so thin they looked ready to topple. Signboards creaked overhead: inns, healing halls, weapon‑smiths, alchemists, pawnshops. Voices overlapped in a constant low roar—haggling, orders shouted, arguments flaring and dying.
+Narrow lanes wound between crooked buildings of stone and timber, some three or four stories high but so thin they looked ready to topple. Signboards creaked overhead: inns, healing halls, weapon‑smiths, alchemists, pawnshops. Voices overlapped in a constant low roar: haggling, orders shouted, arguments flaring and dying.
 
 Closer by, Valen noted a stall where a scarred woman in muted colors bought monster claws by weight, tossing them into crates marked with various sigils. Further away, standing above the rooftops, a stone archway jutted from the plateau’s far edge and plunged down into darkness.
 
 Even at this distance, he could feel the cold mana leaking from that arch.
 
-The Worm Cave entrance, he thought. Local labyrinth. High undead concentration. That chill—death‑aligned mana mixed with something burrowing and wrong. Fitting name.
+The Worm Cave entrance, he thought. Local labyrinth. High undead concentration. That chill: death‑aligned mana mixed with something burrowing and wrong. Fitting name.
 
-Small shrines were built around the arch, offerings piled at their bases—candles, coins, carved wooden charms. Frontier folk paying respect to whatever spirits watched the depths.
+Small shrines were built around the arch, offerings piled at their bases: candles, coins, carved wooden charms. Frontier folk paying respect to whatever spirits watched the depths.
 
 North walls and market belong to the Merchant Guilds, Valen recalled. South side is the Guild State’s territory. East is the local lord’s tax office. No one claims the Cave entrance itself. Too many have died trying.
 
@@ -87,7 +87,7 @@ Honest self‑assessment, Valen noted. Rare in nobles. Or anyone, really.
 
 Amber gave a humorless smile. Her hand brushed the hilt of her saber. "If I run now, I do not know if I will ever be able to pick this up with the same confidence again."
 
-They stood for a moment in the noise‑filled street—market shouts, clanging hammers, muttered prayers near the cavern gate.
+They stood for a moment in the noise‑filled street: market shouts, clanging hammers, muttered prayers near the cavern gate.
 
 "I have a way to increase your strength," Valen said at last. "Enough that even such ambushes will not catch you helpless."
 
@@ -101,11 +101,11 @@ More specifically, nothing that requires exposing Iris, he thought. A Spirit Cha
 
 "We will speak inside."
 
-He pushed open the mansion door. A wave of heavy, stew‑laden air rolled out, mixed with faint swamp stench that seeped even through stone. The ground floor was a simple dining hall—wooden tables, benches, a tired woman ladling soup into bowls. A few Academy cloaks dotted the room, their wearers eating in weary silence.
+He pushed open the mansion door. A wave of heavy, stew‑laden air rolled out, mixed with faint swamp stench that seeped even through stone. The ground floor was a simple dining hall: wooden tables, benches, a tired woman ladling soup into bowls. A few Academy cloaks dotted the room, their wearers eating in weary silence.
 
 Valen doubted anything here tasted entirely pleasant with the swamp’s odor in the background, but food was food.
 
-They checked in with the steward, received brass room tokens, and climbed the cramped staircase. Their rooms were small and nearly identical—bare stone walls, a narrow bed, a stool, and a wash basin. Like cells more than chambers, but they were dry and relatively clean.
+They checked in with the steward, received brass room tokens, and climbed the cramped staircase. Their rooms were small and nearly identical: bare stone walls, a narrow bed, a stool, and a wash basin. Like cells more than chambers, but they were dry and relatively clean.
 
 Valen set down his backpack and removed his cloak, hanging it from a peg. He changed clothes, then used a combination of water, rotation, tempered heat, and air spells to wash and dry the used garments. He had shown Amber the same technique during their travels.
 
@@ -153,7 +153,7 @@ Amber looked down at her hands, then back at him. "You are asking me to let your
 
 "Yes."
 
-She studied him a long moment. Memories flickered behind her eyes—their first meeting, his calm in the face of chaos, the absolute focus in his eyes when he stood between her and an incoming inferno.
+She studied him a long moment. Memories flickered behind her eyes: their first meeting, his calm in the face of chaos, the absolute focus in his eyes when he stood between her and an incoming inferno.
 
 Amber snorted softly despite herself. "Very well. Let us try."
 
@@ -165,13 +165,13 @@ She reached out and clasped it. Her grip was firm, faintly cold.
 
 She nodded, closing her eyes.
 
-Valen did the same, drawing his awareness inward. He followed the familiar pathways of mana through his spirit, then extended a thin, precise tendril outward through their joined hands. It brushed against Amber’s presence—bright, taut with tightly coiled will.
+Valen did the same, drawing his awareness inward. He followed the familiar pathways of mana through his spirit, then extended a thin, precise tendril outward through their joined hands. It brushed against Amber’s presence: bright, taut with tightly coiled will.
 
 For him, the sensation was almost routine. He had practiced similar links dozens of times with the spirits under Iris’s control. Mapping pathways. Testing limits.
 
 For Amber, it felt like standing at the edge of a cliff and stepping forward.
 
-A foreign current touched her core—not cold or hot at first, simply other. Her spirit flinched by instinct, throwing up reflexive walls. She forced herself to breathe, to remember that she had agreed to this.
+A foreign current touched her core, not cold or hot at first, simply other. Her spirit flinched by instinct, throwing up reflexive walls. She forced herself to breathe, to remember that she had agreed to this.
 
 Trust him. Or turn back now, she thought.
 
@@ -181,13 +181,13 @@ The channel snapped into place.
 
 Mana poured into her like floodwater breaking through a dam.
 
-Heat bloomed in her chest, racing along her channels. For an instant, it burned—sharp, prickling, as though every nerve were being scoured from the inside. Her fingers tightened around Valen’s hand.
+Heat bloomed in her chest, racing along her channels. For an instant, it burned: sharp, prickling, as though every nerve were being scoured from the inside. Her fingers tightened around Valen’s hand.
 
 "Focus," Valen’s voice came, calm and close. "Guide it. Do not let it pool."
 
 Amber dragged in a breath and casted the internal Self‑Restoration spell. Healing runes she had repeated countless times flared to life, now supercharged. The foreign mana obeyed her intent, merging with her own and flowing along prescribed routes.
 
-Pain shifted into something else—warmth, relief.
+Pain shifted into something else: warmth, relief.
 
 The constant ache in her limbs from trekking faded. The lingering bruises from the Ironback Bear fight dissolved, muscles unknotting as if smoothed by unseen hands. The faint headache from swamp fumes cleared.
 
@@ -209,7 +209,7 @@ Warmth bloomed in her chest again, unrelated to mana this time.
 
 She opened her eyes.
 
-Colors seemed a bit sharper. Her thoughts moved more quickly, yet with an underlying calm—as though a weight she had not known she carried every day had quietly been lifted.
+Colors seemed a bit sharper. Her thoughts moved more quickly, yet with an underlying calm, as though a weight she had not known she carried every day had quietly been lifted.
 
 "How do you feel?" Valen asked.
 
@@ -227,7 +227,7 @@ They descended the narrow staircase back to the common hall.
 
 The smell of stew and burned bread hit first. Then the ever‑present hint of swamp. Voices overlapped in weary conversation.
 
-Amber spotted three familiar figures at a corner table—Raylan, Marcus, and Elara. They were bandaged, tired, but alive. Seated with them was an old, tall mage with a long white beard, and a flowing dark robe that marked him unmistakably as an instructor of the Radiant Academy.
+Amber spotted three familiar figures at a corner table: Raylan, Marcus, and Elara. They were bandaged, tired, but alive. Seated with them was an old, tall mage with a long white beard, and a flowing dark robe that marked him unmistakably as an instructor of the Radiant Academy.
 
 Valen paused on the last step, eyes narrowing slightly.
 

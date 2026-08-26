@@ -15,7 +15,7 @@ For an instant, Valen felt as if he had dipped his thoughts into ice-cold water.
 
 Then the strand died.
 
-Not snapped, not cut—killed. Whatever it had touched snuffed it out, and the death spread along the spell like rot.
+Not snapped, not cut: killed. Whatever it had touched snuffed it out, and the death spread along the spell like rot.
 
 "Master," Iris said sharply. "One of the search threads just—"
 
@@ -53,7 +53,7 @@ Valen crouched, pressing his palm to the fractured stone.
 
 He cast the familiar spell.
 
-The column that surged up beneath his feet was narrower than the earlier ones he had used with Amber—space was tighter here—but the principle was the same. Stone responded to his will, coalescing into a thick pillar that launched him toward a crack in the cavern ceiling, the path carved by Raylan's earlier fall and ascent.
+The column that surged up beneath his feet was narrower than the earlier ones he had used with Amber (space was tighter here) but the principle was the same. Stone responded to his will, coalescing into a thick pillar that launched him toward a crack in the cavern ceiling, the path carved by Raylan's earlier fall and ascent.
 
 Rock scraped against his boots and shoulders as he passed through the ragged opening. He landed on the cliff and repeated the spell again, moving skillfully through tight pockets.
 
@@ -97,7 +97,7 @@ Her weight sagged back against his chest with a low, breathless exhale.
 
 Valen did not answer that.
 
-He closed his eyes briefly, focusing inward. The thin link between their Spirits—the Spirit Channel he had woven once before—was reforged again.
+He closed his eyes briefly, focusing inward. The thin link between their Spirits, the Spirit Channel he had woven once before, was reforged again.
 
 Dark blue light, visible only in the inner world, flared along the channel as he poured mana through it. The connection hummed with power as endless mana flowed through the link into her core.
 
@@ -143,13 +143,13 @@ She pushed off his chest, testing her weight on her healed leg. It held.
 
 A roar cut across their brief calm.
 
-A Blight, larger than most, barreled toward them through the thinning line—some twisted cross between a bear and an insect, plates of bone overlapping across its back and shoulders. Its maw gaped wide, spewing a cloud of greenish vapor that corroded the grass in its path.
+A Blight, larger than most, barreled toward them through the thinning line: some twisted cross between a bear and an insect, plates of bone overlapping across its back and shoulders. Its maw gaped wide, spewing a cloud of greenish vapor that corroded the grass in its path.
 
 Poison breath.
 
 Valen's gaze flicked to the forest floor around them.
 
-Roots crisscrossed the ground here—some belonging to ordinary trees, others to deeper networks tied to the forest's older, stranger structures.
+Roots crisscrossed the ground here: some belonging to ordinary trees, others to deeper networks tied to the forest's older, stranger structures.
 
 He reached down with his will and grabbed one.
 
@@ -167,7 +167,7 @@ There was a series of wet cracks as bones snapped and plates of bone-armor shatt
 
 The ground swallowed both.
 
-After a moment, something small and hard was spat back up—a glimmering shard of condensed, twisted energy that tumbled onto the blood-streaked grass.
+After a moment, something small and hard was spat back up: a glimmering shard of condensed, twisted energy that tumbled onto the blood-streaked grass.
 
 A Chaos Crystal.
 
@@ -191,7 +191,7 @@ Far above them, at the center of the ritual's ruined site where the original cir
 
 The man who had led the ritual stood within a crater of scorched stone and dried blood.
 
-He had once been merely human—albeit a powerful Rank 6, already standing on a peak few ever reached. Now his body trembled as purified Chaos Energy poured into him from the still-glowing remnants of the ritual.
+He had once been merely human, albeit a powerful Rank 6, already standing on a peak few ever reached. Now his body trembled as purified Chaos Energy poured into him from the still-glowing remnants of the ritual.
 
 The circle's lines no longer held form. They had broken, burned, shattered under the strain. But the conduit they had opened remained for a little longer, thin and flickering.
 
@@ -203,7 +203,7 @@ Pain should have broken him.
 
 He laughed instead.
 
-Raw sound tore from his throat—a jagged, ecstatic noise that had little to do with reason.
+Raw sound tore from his throat, a jagged, ecstatic noise that had little to do with reason.
 
 "At last," he shouted to the broken sky. "At last!"
 
@@ -219,7 +219,7 @@ Rank 7.
 
 For a moment, the world around him seemed to tilt.
 
-His eyes blazed with power—and something else. Hairline fractures spiderwebbed through his irises, small flecks of unnatural color that did not belong to any human bloodline. His mana roared, but beneath it ran a faint, discordant note.
+His eyes blazed with power, and something else. Hairline fractures spiderwebbed through his irises, small flecks of unnatural color that did not belong to any human bloodline. His mana roared, but beneath it ran a faint, discordant note.
 
 His mind and core bore the mark of what he had consumed.
 
@@ -227,7 +227,7 @@ He rose into the air, lifted by raw force, cloak snapping in the turbulent field
 
 He threw his head back and laughed again.
 
-"Do you see?" he yelled at the cracked sky. "Do you see, all of you who doubted? I stand at your level now! No—beyond!"
+"Do you see?" he yelled at the cracked sky. "Do you see, all of you who doubted? I stand at your level now! No, beyond!"
 
 His gaze swept downward over the battlefield.
 
@@ -321,7 +321,7 @@ His body arched.
 
 His soul-light flickered, half-drawn from his flesh.
 
-He screamed—not in triumph this time, but in a raw, dragged-out sound that had little of language left.
+He screamed, not in triumph this time, but in a raw, dragged-out sound that had little of language left.
 
 Then the sky changed.
 

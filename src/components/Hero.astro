@@ -8,7 +8,7 @@ interface Props {
 const { size = 'short' } = Astro.props;
 
 // Drop AI-generated art at src/assets/images/hero-day.{png,jpg,webp} and
-// hero-night.{png,jpg,webp} — they replace the built-in vector scene.
+// hero-night.{png,jpg,webp}; they replace the built-in vector scene.
 const heroGlob = import.meta.glob<{ default: ImageMetadata }>(
   '../assets/images/hero-{day,night}.{png,jpg,jpeg,webp}',
   { eager: true }
@@ -103,7 +103,7 @@ const nightArt = Object.entries(heroGlob).find(([k]) => k.includes('hero-night')
     object-position: center bottom;
   }
 
-  /* The paintings' bottom third is mist (by design, for the page fade) —
+  /* The paintings' bottom third is mist (by design, for the page fade);
      on the short band, aim the crop at the cottage instead */
   .hero.short .hero-art {
     object-position: center 68%;
@@ -125,7 +125,7 @@ const nightArt = Object.entries(heroGlob).find(([k]) => k.includes('hero-night')
     pointer-events: none;
   }
 
-  /* ── Vector scene palette — day ─────────────────────────── */
+  /* ── Vector scene palette: day ─────────────────────────── */
   .hero {
     --sky-top: #b8d4dd;
     --sky-low: #f0dfc0;
@@ -159,7 +159,7 @@ const nightArt = Object.entries(heroGlob).find(([k]) => k.includes('hero-night')
     stroke-linecap: round;
   }
 
-  /* ── Vector scene palette — twilight ────────────────────── */
+  /* ── Vector scene palette: twilight ────────────────────── */
   :global(html.dark) .hero {
     --sky-top: #221d3a;
     --sky-low: #463659;

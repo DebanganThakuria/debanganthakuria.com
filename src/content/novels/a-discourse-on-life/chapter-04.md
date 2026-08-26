@@ -39,7 +39,7 @@ Alfred looked around the ground floor. The walls were adorned with shelves made 
 
 Suddenly, Alfred felt the presence of death from the far end of the shop.
 
-He turned around to look at the old man again. The man had grey skin and a pair of ram horns atop his head — the characteristics of the Demons.
+He turned around to look at the old man again. The man had grey skin and a pair of ram horns atop his head: the characteristics of the Demons.
 
 Thinking about it again, Alfred ignored the feeling. The main religion of the Demons is the Church of Spirit. Their main deity is the Tree of Souls. So it is not uncommon for some lingering souls to be attracted to them.
 
@@ -87,7 +87,7 @@ Getting out of the carriage, Alfred was shocked to see a greater hustle and bust
 
 ---
 
-Strolling around for a few minutes, Alfred found the crowd congregating in front of a large gate. A giant signboard above read — "National Elysion University." But Alfred heard the people referring to it as The New.
+Strolling around for a few minutes, Alfred found the crowd congregating in front of a large gate. A giant signboard above read: "National Elysion University." But Alfred heard the people referring to it as The New.
 
 ---
 
@@ -111,7 +111,7 @@ In the arena, a muscular and blonde human youth was battling against an orc yout
 
 The orc youth seemed to have endless stamina as he swung his mace around in a relentless wave of attacks. However, it was the human youth who was surprising everybody with his precise blocks and parries. His control of the long sword he was wielding was commendable. He handled all the attacks with minimal effort while counterattacking his opponent.
 
-The orc youth gave up after a few more tries. Next came another human youth. He was a Rank 1 Stage 1 Spell Mage — basically a newly advanced mage. He maintained his distance and attacked with the few spells he knew. After emptying out his mana, he left the arena. The blonde youth stood there without any injury.
+The orc youth gave up after a few more tries. Next came another human youth. He was a Rank 1 Stage 1 Spell Mage, basically a newly advanced mage. He maintained his distance and attacked with the few spells he knew. After emptying out his mana, he left the arena. The blonde youth stood there without any injury.
 
 ---
 
@@ -209,4 +209,4 @@ The round noble had been in Elysion since his school days. Hence, he knew the fa
 
 Miss Eva then turned to look at Alfred. In fact, she had actually been looking for him. When she returned to The New, the guard at the gate had notified her that an unknown person with a Rank 4 ID had entered the campus. The guard found it strange because the person looked far too young to be a Rank 4. This piqued her intrigue.
 
-"He is indeed very young — doesn't look a day older than twenty-five. But..." She studied him more carefully. His body radiated an almost imperceptible warmth, the kind of vitality that only the most powerful Body Tempering practitioners possessed. And the density of it was staggering. "A Rank 5 Battle Mage! Such talent — almost the same as me." Eva was lost in her thoughts as she observed him. "...Or is he using some artifact to change his looks?"
+"He is indeed very young; he doesn't look a day older than twenty-five. But..." She studied him more carefully. His body radiated an almost imperceptible warmth, the kind of vitality that only the most powerful Body Tempering practitioners possessed. And the density of it was staggering. "A Rank 5 Battle Mage! Such talent, almost the same as me." Eva was lost in her thoughts as she observed him. "...Or is he using some artifact to change his looks?"

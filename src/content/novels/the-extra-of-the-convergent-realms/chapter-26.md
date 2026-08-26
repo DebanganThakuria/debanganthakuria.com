@@ -35,7 +35,7 @@ The air shuddered. Colors within the anomaly twisted violently, collapsing inwar
 
 Then it hit them.
 
-Pressure slammed into Raylan's senses, a tidal wave of chaotic mana that made his breath catch. His awareness—always half-extended, tasting the flows of energy around him—was suddenly drowned in noise.
+Pressure slammed into Raylan's senses, a tidal wave of chaotic mana that made his breath catch. His awareness, always half-extended, tasting the flows of energy around him, was suddenly drowned in noise.
 
 The Convergence's growth had skipped stages. What should have been a gradual increase over days and weeks spiked in the space of heartbeats.
 
@@ -51,11 +51,11 @@ They burst through the distorting veil as if spat out, armor scorched, robes tor
 
 "The growth phase ended too quickly!" someone shouted. "It has matured!"
 
-A gout of warped space surged outward from the Convergence's center, slamming into the ground and tearing a jagged rift into existence. Something pushed through—an arm made of too many joints, covered in plates of chitin slick with dark fluid.
+A gout of warped space surged outward from the Convergence's center, slamming into the ground and tearing a jagged rift into existence. Something pushed through: an arm made of too many joints, covered in plates of chitin slick with dark fluid.
 
 It planted itself in the dirt and hauled the rest of its body into the world.
 
-The creature that emerged was terrifying even by the standards of monsters. Its torso bent at angles that defied anatomy, hindlegs jointed backward, forelimbs splitting into three from the elbow down. Its head—if that misshapen knot of bone and horn could be called a head—turned in jerky increments, eye-clusters blinking independently.
+The creature that emerged was terrifying even by the standards of monsters. Its torso bent at angles that defied anatomy, hindlegs jointed backward, forelimbs splitting into three from the elbow down. Its head (if that misshapen knot of bone and horn could be called a head) turned in jerky increments, eye-clusters blinking independently.
 
 A Blight.
 
@@ -73,9 +73,9 @@ But discipline was a habit. Enough of the older fighters responded automatically
 
 Kale Krust seized the moment.
 
-"Forward!" he roared, drawing his greatsword in a single sweeping motion. Mana flared around him—a hot, crackling aura that dragged lesser wills along in its wake. "We strike the first wave! Show them the pride of the northern line!"
+"Forward!" he roared, drawing his greatsword in a single sweeping motion. Mana flared around him: a hot, crackling aura that dragged lesser wills along in its wake. "We strike the first wave! Show them the pride of the northern line!"
 
-His team surged with him, charging down the slope toward the emerging creatures. To an outside observer, it was a heroic image—gleaming armor, unified advance, a young leader at their head.
+His team surged with him, charging down the slope toward the emerging creatures. To an outside observer, it was a heroic image: gleaming armor, unified advance, a young leader at their head.
 
 Raylan watched with narrowed eyes.
 
@@ -87,9 +87,9 @@ Marcus snorted. "You sound almost disappointed."
 
 More Blights pushed through the torn edges of space.
 
-Some were semi-Blights, twisted versions of recognizable beasts—boars with too many tusks and stone plates embedded in their hides, wolves whose shadows moved out of sync with their bodies, a serpent whose scales leaked mist that ate holes in the grass.
+Some were semi-Blights, twisted versions of recognizable beasts: boars with too many tusks and stone plates embedded in their hides, wolves whose shadows moved out of sync with their bodies, a serpent whose scales leaked mist that ate holes in the grass.
 
-Others were harder to classify—amalgams of bone and crystal, pulsing sacks of flesh that floated and dripped corrosive ichor, winged shapes that blurred at the edges as if the world could not fully decide what they were.
+Others were harder to classify: amalgams of bone and crystal, pulsing sacks of flesh that floated and dripped corrosive ichor, winged shapes that blurred at the edges as if the world could not fully decide what they were.
 
 The valley devolved into chaos.
 
@@ -115,9 +115,9 @@ The lines were already starting to bend inward. Panic flared in pockets where fo
 
 "About time," Marcus rumbled, baring his teeth.
 
-They advanced—not directly toward the largest beast, but at an angle that would intersect with the line Kale's group was unknowingly forming.
+They advanced, not directly toward the largest beast, but at an angle that would intersect with the line Kale's group was unknowingly forming.
 
-A smaller semi-Blight lunged toward them—a wolf-like creature whose body was half bone, half crackling black crystal. Its eyes burned with pale, fever-bright light.
+A smaller semi-Blight lunged toward them: a wolf-like creature whose body was half bone, half crackling black crystal. Its eyes burned with pale, fever-bright light.
 
 Marcus met it head on.
 
@@ -137,9 +137,9 @@ He did not draw.
 
 Not yet.
 
-He reached instead for the power that shadowed him, the half-seen flicker at the edge of his awareness—another Raylan that was fusing with him, the Raylan from another timeline who had mastered the sword.
+He reached instead for the power that shadowed him, the half-seen flicker at the edge of his awareness: another Raylan that was fusing with him, the Raylan from another timeline who had mastered the sword.
 
-The first creature—a floating sack of flesh bristling with bony spines—spat a volley of needles.
+The first creature, a floating sack of flesh bristling with bony spines, spat a volley of needles.
 
 The world seemed to slow.
 
@@ -157,7 +157,7 @@ For a heartbeat, nothing happened.
 
 Then the creature split cleanly in two, the halves sliding apart in eerie silence before collapsing into a stinking heap.
 
-The second monster—a boar with stone plates and too many tusks—charged, earth shaking under its hooves.
+The second monster, a boar with stone plates and too many tusks, charged, earth shaking under its hooves.
 
 Raylan did not meet it head on.
 
@@ -183,7 +183,7 @@ They carved a narrow corridor through the roiling chaos.
 
 Kale noticed.
 
-He cut down another beast—a lizard-thing with glassy scales—and turned briefly, eyes locking onto Raylan's group.
+He cut down another beast, a lizard-thing with glassy scales, and turned briefly, eyes locking onto Raylan's group.
 
 For an instant, irritation flashed across his features.
 
@@ -195,7 +195,7 @@ He bared his teeth.
 
 His team responded with a ragged cheer and redoubled their efforts.
 
-The valley became a patchwork of micro-battles—pockets of order holding against waves of blighted creatures. Guild and Academy instructors directed spells that flattened whole ranks. Earth walls rose and fell. Lines formed, broke, and reformed.
+The valley became a patchwork of micro-battles: pockets of order holding against waves of blighted creatures. Guild and Academy instructors directed spells that flattened whole ranks. Earth walls rose and fell. Lines formed, broke, and reformed.
 
 And still, more things pushed through the tears in reality.
 
