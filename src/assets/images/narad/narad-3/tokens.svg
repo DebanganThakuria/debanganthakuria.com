@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 320" width="760" height="320"><style>text{font-family:Georgia,"Times New Roman",serif;fill:#4b3621}.s{font-size:15px}.m{font-size:17px}.b{font-weight:bold}.h{font-size:19px;font-weight:bold}.r{fill:#a34e2f}.g{fill:#4f6b2c}.c{text-anchor:middle}.e{text-anchor:end}</style><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4b3621"/></marker></defs>
+<rect width="760" height="320" rx="14" fill="#f4e9cf"/>
+<rect x="20" y="40" width="210" height="220" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="125" y="72" class="m b c">Node B</text>
+<circle cx="125" cy="150" r="24" fill="#f4e9cf" stroke="#4b3621"/><text x="125" y="156" class="s c">R</text><text x="125" y="200" class="s c">a reader is waiting</text>
+<rect x="530" y="40" width="210" height="220" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="635" y="72" class="m b c">Node A</text><text x="635" y="92" class="s c">owns a partition</text>
+<rect x="565" y="128" width="140" height="36" rx="8" fill="#9fb07a"/><text x="635" y="151" class="s c">2. a message lands</text>
+<line x1="232" y1="110" x2="527" y2="110" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><text x="380" y="102" class="s c">1. "tell me if something shows up"</text>
+<line x1="528" y1="190" x2="234" y2="190" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><text x="380" y="182" class="s c">3. "something's here"</text>
+<line x1="232" y1="235" x2="527" y2="235" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><text x="380" y="227" class="s c">4. "I'll take one"</text>
+<text x="380" y="295" class="m b c">The note in step 1 reserves nothing. Only step 4 does.</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 330" width="760" height="330"><style>text{font-family:Georgia,"Times New Roman",serif;fill:#4b3621}.s{font-size:15px}.m{font-size:17px}.b{font-weight:bold}.h{font-size:19px;font-weight:bold}.r{fill:#a34e2f}.g{fill:#4f6b2c}.c{text-anchor:middle}.e{text-anchor:end}</style><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4b3621"/></marker></defs>
+<rect width="760" height="330" rx="14" fill="#f4e9cf"/>
+<text x="20" y="36" class="h">The busy path: sending, reading, acking</text>
+<rect x="130" y="52" width="225" height="30" rx="4" fill="#c9b48a"/><text x="363" y="73" class="s">75</text><text x="122" y="73" class="s e">suspected</text>
+<rect x="130" y="88" width="174" height="30" rx="4" fill="#d9b56a"/><text x="312" y="109" class="s">58 (+12 maybe)</text><text x="122" y="109" class="s e">held up</text>
+<rect x="130" y="124" width="210" height="30" rx="4" fill="#9fb07a"/><text x="348" y="145" class="s">all 70, each with a test</text><text x="122" y="145" class="s e">fixed</text>
+<text x="20" y="196" class="h">The control plane: topics, users, moves</text>
+<rect x="130" y="212" width="252" height="30" rx="4" fill="#c9b48a"/><text x="390" y="233" class="s">84</text><text x="122" y="233" class="s e">suspected</text>
+<rect x="130" y="248" width="246" height="30" rx="4" fill="#d9b56a"/><text x="384" y="269" class="s">82, or 43 distinct bugs (2 critical)</text><text x="122" y="269" class="s e">held up</text>
+<rect x="130" y="284" width="129" height="30" rx="4" fill="#9fb07a"/><text x="267" y="305" class="s">the bugs, in v3.1.0 (a few feature ideas declined)</text><text x="122" y="305" class="s e">fixed</text>
+</svg>

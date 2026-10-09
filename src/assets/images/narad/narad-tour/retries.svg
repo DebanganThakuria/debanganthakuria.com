@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340"><style>text{font-family:Georgia,"Times New Roman",serif;fill:#4b3621}.s{font-size:15px}.m{font-size:17px}.b{font-weight:bold}.h{font-size:19px;font-weight:bold}.r{fill:#a34e2f}.g{fill:#4f6b2c}.c{text-anchor:middle}.e{text-anchor:end}</style><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4b3621"/></marker></defs>
+<rect width="760" height="340" rx="14" fill="#f4e9cf"/>
+<rect x="20" y="50" width="160" height="62" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="100" y="76" class="m b c">orders</text><text x="100" y="96" class="s c">new work</text><text x="100" y="114" class="s c"></text>
+<rect x="300" y="50" width="160" height="62" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="380" y="76" class="m b c">Your reader</text><text x="380" y="96" class="s c">tries the work</text><text x="380" y="114" class="s c"></text>
+<rect x="580" y="50" width="160" height="62" rx="10" fill="#efd3b8" stroke="#a34e2f" stroke-width="1.5"/><text x="660" y="76" class="m b c r">orders-dead</text><text x="660" y="96" class="s c">look at these later</text>
+<line x1="182" y1="81" x2="297" y2="81" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><text x="240" y="73" class="s c">consume</text>
+<line x1="462" y1="81" x2="577" y2="81" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><text x="520" y="73" class="s c">5th failure</text>
+<rect x="180" y="200" width="180" height="62" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="270" y="226" class="m b c">orders-retry</text><text x="270" y="246" class="s c">failed copies go here</text><text x="270" y="264" class="s c"></text>
+<rect x="450" y="200" width="200" height="62" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="550" y="226" class="m b c">orders-retry-1m</text><text x="550" y="246" class="s c">delay child: 1 min later</text><text x="550" y="264" class="s c"></text>
+<line x1="345" y1="114" x2="285" y2="197" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><text x="288" y="160" class="s e">failed: send a copy</text><text x="282" y="178" class="s e">with tries + 1</text>
+<line x1="362" y1="231" x2="447" y2="231" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/>
+<line x1="540" y1="198" x2="420" y2="115" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><text x="500" y="160" class="s">try again</text>
+<text x="380" y="300" class="m b c">No retry engine in the broker.</text><text x="380" y="322" class="s c">The rules live in your reader, built from topics, leases and acks.</text>
+</svg>

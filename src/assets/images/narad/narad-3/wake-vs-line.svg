@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" width="760" height="340"><style>text{font-family:Georgia,"Times New Roman",serif;fill:#4b3621}.s{font-size:15px}.m{font-size:17px}.b{font-weight:bold}.h{font-size:19px;font-weight:bold}.r{fill:#a34e2f}.g{fill:#4f6b2c}.c{text-anchor:middle}.e{text-anchor:end}</style><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4b3621"/></marker></defs>
+<rect width="760" height="340" rx="14" fill="#f4e9cf"/>
+<text x="180" y="34" class="h c">Before: wake everyone</text>
+<rect x="120" y="58" width="150" height="42" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="195" y="85" class="m c">new message</text>
+<line x1="195" y1="102" x2="50" y2="176" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><circle cx="50" cy="200" r="22" fill="#efd3b8" stroke="#4b3621"/><text x="50" y="206" class="s c">R</text><text x="50" y="255" class="s c r">nothing</text><line x1="195" y1="102" x2="115" y2="176" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><circle cx="115" cy="200" r="22" fill="#efd3b8" stroke="#4b3621"/><text x="115" y="206" class="s c">R</text><text x="115" y="255" class="s c r">nothing</text><line x1="195" y1="102" x2="180" y2="176" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><circle cx="180" cy="200" r="22" fill="#9fb07a" stroke="#4b3621"/><text x="180" y="206" class="s c">R</text><text x="180" y="255" class="s c g b">got it</text><line x1="195" y1="102" x2="245" y2="176" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><circle cx="245" cy="200" r="22" fill="#efd3b8" stroke="#4b3621"/><text x="245" y="206" class="s c">R</text><text x="245" y="255" class="s c r">nothing</text><line x1="195" y1="102" x2="310" y2="176" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/><circle cx="310" cy="200" r="22" fill="#efd3b8" stroke="#4b3621"/><text x="310" y="206" class="s c">R</text><text x="310" y="255" class="s c r">nothing</text>
+<text x="180" y="300" class="s c">Five readers wake up and race.</text><text x="180" y="320" class="s c">Four of them wasted the trip.</text>
+<line x1="380" y1="20" x2="380" y2="320" stroke="#c9b48a" stroke-width="1.5"/>
+<text x="575" y="34" class="h c">After: wait in line</text>
+<rect x="400" y="58" width="150" height="42" rx="10" fill="#ead9b4" stroke="#4b3621" stroke-width="1.5"/><text x="475" y="85" class="m c">new message</text>
+<line x1="475" y1="102" x2="475" y2="176" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/>
+<rect x="400" y="180" width="150" height="42" rx="10" fill="#f4e9cf" stroke="#a0793d" stroke-width="2"/><text x="475" y="207" class="m c">dispatcher</text>
+<text x="660" y="160" class="s c">readers in line</text>
+<line x1="552" y1="201" x2="583" y2="201" stroke="#4b3621" stroke-width="2" marker-end="url(#a)"/>
+<circle cx="608" cy="201" r="22" fill="#9fb07a" stroke="#4b3621"/><text x="608" y="207" class="s c">R</text>
+<circle cx="663" cy="201" r="22" fill="#ead9b4" stroke="#4b3621"/><text x="663" y="207" class="s c">R</text>
+<circle cx="718" cy="201" r="22" fill="#ead9b4" stroke="#4b3621"/><text x="718" y="207" class="s c">R</text>
+<text x="608" y="255" class="s c g b">got it</text>
+<text x="575" y="300" class="s c">One message goes to the first</text><text x="575" y="320" class="s c">reader in line. Nobody else wakes.</text>
+</svg>

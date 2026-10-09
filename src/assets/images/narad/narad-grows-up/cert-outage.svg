@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380"><style>text{font-family:Georgia,"Times New Roman",serif;fill:#4b3621}.s{font-size:15px}.m{font-size:17px}.b{font-weight:bold}.h{font-size:19px;font-weight:bold}.r{fill:#a34e2f}.g{fill:#4f6b2c}.c{text-anchor:middle}.e{text-anchor:end}</style><defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#4b3621"/></marker></defs>
+<rect width="760" height="380" rx="14" fill="#f4e9cf"/>
+<text x="20" y="34" class="h">September: the 24-hour certificate</text>
+<text x="150" y="80" class="s e">Raft (control)</text><rect x="160" y="64" width="580" height="22" rx="4" fill="#9fb07a"/><text x="450" y="80" class="s c">its own long-lived certificates: looked healthy</text>
+<text x="150" y="140" class="s e">Node 3</text><rect x="204" y="124" width="129" height="22" fill="#9fb07a"/><rect x="333" y="124" width="407" height="22" fill="#d99a7a"/>
+<text x="150" y="180" class="s e">Node 2</text><rect x="500" y="164" width="129" height="22" fill="#9fb07a"/><rect x="629" y="164" width="111" height="22" fill="#d99a7a"/>
+<text x="150" y="220" class="s e">Node 1</text><rect x="575" y="204" width="128" height="22" fill="#9fb07a"/><rect x="703" y="204" width="37" height="22" fill="#d99a7a"/>
+<line x1="160" y1="245" x2="740" y2="245" stroke="#4b3621"/>
+<text x="160" y="265" class="s c">Sep 12</text><text x="289" y="265" class="s c">13</text><text x="418" y="265" class="s c">14</text><text x="547" y="265" class="s c">15</text><text x="676" y="265" class="s c">16</text>
+<line x1="504" y1="110" x2="504" y2="290" stroke="#a34e2f" stroke-width="2" stroke-dasharray="5 4"/><text x="498" y="305" class="s e r b">first alarms</text>
+<line x1="703" y1="110" x2="703" y2="320" stroke="#a34e2f" stroke-width="2" stroke-dasharray="5 4"/><text x="697" y="320" class="s e r b">all three expired</text>
+<rect x="20" y="342" width="16" height="14" fill="#9fb07a"/><text x="42" y="354" class="s">certificate valid</text>
+<rect x="200" y="342" width="16" height="14" fill="#d99a7a"/><text x="222" y="354" class="s">expired: no node can open a new connection to it</text>
+</svg>
