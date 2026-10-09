@@ -30,6 +30,8 @@ And every time I added a new structure, I caught myself trying to keep it consis
 
 Then it clicked: the index is a *cache*. It is not the source of truth. The log is. If the index is wrong, you throw it away and rebuild it from the log, which is the only thing that's actually authoritative. That single change in framing simplified an unreasonable amount of code. Indexes became disposable. Recovery became "read the log, rebuild the auxiliary state." Crash safety became a property of one file, not five.
 
+![Diagram: the append-only log in the middle is the only truth. Around it, an offset index, a sparse index and an index file on disk are all caches that can be rebuilt from the log. If a cache is wrong, throw it away and rebuild it from the log.](../../../assets/images/narad/notes-from-inside-the-crab/log-and-caches.svg)
+
 This is the real reason append-only logs win, by the way. Not because appends are fast (they are), and not because sequential IO is friendlier to the kernel (it is). It is because the log is a *single place to be honest*. Every other piece of state can be wrong and recoverable. The log can't be wrong.
 
 There's a related lesson about data structures here that I almost missed. I started reaching for trees and balanced search structures the way you do when your brain has been recently trained on algorithms textbooks. They're the wrong shape. The workload is sequential and append-only; offsets are monotonic; reads are usually "give me everything from here onward." A slice with a sparse positional index beats a tree at every operation that matters. The lesson is that workload patterns matter more than asymptotic complexity, and the systems engineer's job is largely about noticing which patterns you're actually serving before reaching for the textbook structure.
@@ -41,6 +43,8 @@ I'd been calling Narad a queue because the API I want at the surface is queue-sh
 A log is immutable, ordered, and oblivious to consumers. Once a record is written, it is there forever (or until retention deletes it), and nothing the consumer does changes it.
 
 A queue is mutable per-consumer state pretending to be a thing. Visibility timeouts, in-flight messages, retry counts, dead-letter handling, ack/nack: none of that lives in the log. It lives in a side table that says, for each consumer of each message, *what's happening with it right now*. And that side table is potentially bigger and more contentious than the log itself, because it changes constantly while the log just grows.
+
+![Diagram: a log of offsets 0 to 9 that never changes. Offsets 0 to 3 are done and a line marks acked up to here. Offsets 4 and 6 are leased right now, 5 was acked out of order, and 7 to 9 are waiting. The queue state changes all the time; the log records what was sent, the queue state records what is happening to it.](../../../assets/images/narad/notes-from-inside-the-crab/log-vs-queue.svg)
 
 The trap is to try to bake all of it into the log. You can't. The log is a record of what was *produced*. Consumer state is a record of what is being *consumed*, and those have fundamentally different lifetimes. The trick the real systems use is to track only the *interesting* consumer state: the inflight ones, the failing ones, the retried ones. The boring path (produced, consumed, acked, gone) leaves no trace beyond the consumer's offset.
 
@@ -67,6 +71,8 @@ Here's the realisation that took the longest to land: most of the actual difficu
 When I write `ack`, what does that mean? Does it mean the message was delivered? Processed? Persisted somewhere downstream? Removed from the queue? Each of those is a different contract, and the bugs almost always live in the gap between what the code does and what the operator thinks it does.
 
 "Durable" is another loaded word. Durable when written to the leader's page cache? When fsynced on the leader? When replicated to a follower? When fsynced on a follower? When fsynced on a quorum? Every one of those is a defensible definition, and every one gives you a different system under failure. Most of the bad incidents I've seen in messaging systems aren't the code being wrong; they're *durability* meaning a slightly different thing in two places that needed to agree.
+
+![Diagram: a staircase of meanings for durable, each safer and slower than the last: in memory in the page cache, fsynced on the leader, copied to a follower, fsynced on a follower, fsynced on a quorum. Each is a fair definition; bugs live where two parts of a system pick different ones.](../../../assets/images/narad/notes-from-inside-the-crab/durable-ladder.svg)
 
 Once I noticed this, I started seeing it everywhere. "Replicated." "Committed." "Delivered." "Visible." "Owned." Every one of these is a contract, and the contract is the load-bearing structure. The Go is just an attempt to encode it without bugs.
 

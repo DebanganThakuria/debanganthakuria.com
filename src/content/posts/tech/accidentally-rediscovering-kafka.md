@@ -35,6 +35,8 @@ Should partition counts be dynamic, like Pulsar? In principle, sure, but that re
 
 You can see where this is going. Each individual answer was reasonable. Each individual answer was also exactly what Kafka does.
 
+![Diagram: four design questions and their answers. Two nodes both write offset 100? One leader per partition. What if the leader dies? Followers with copies on disk. Who knows which node leads what? A metadata layer. What if nodes join or leave? A rebalancing protocol. Each answer was reasonable; put together, they were Kafka.](../../../assets/images/narad/rediscovering-kafka/questions.svg)
+
 ## The crab
 
 Halfway through, I stopped and looked at what I was sketching. Topics. Partitions. Per-partition leaders. Followers. Replication. Monotonic offsets. A schema registry. A durable on-disk log with index files for fast seeks. Recovery on restart.
@@ -56,6 +58,8 @@ The shape I want at the surface is SQS. Consumers attach to a queue, pull messag
 Fan-out collapses into the same primitive. Instead of bolting on a separate topic abstraction, one queue can subscribe to another. A producer writes to one queue, and any number of downstream queues subscribe to it, each with its own consumers, its own offsets, its own ack state. The pub/sub case becomes a wiring decision, not a different system.
 
 Underneath, it's a durable log. The queue API is the friendly face; the log is the truth. Replay is just rewinding an offset. Schema validation lives at the produce path. The whole thing is one Go binary, small enough to run without hiring a platform team to babysit it.
+
+![Diagram: on top, a queue that your app sees: pull a message, ack it, and a timeout hides it from everyone else while you work; one queue can subscribe to another. It reads from a durable log underneath, offsets 0 to 9. Replay is just rewinding the offset.](../../../assets/images/narad/rediscovering-kafka/queue-on-log.svg)
 
 The whole system, in one line: an opinionated queue with durable logs.
 

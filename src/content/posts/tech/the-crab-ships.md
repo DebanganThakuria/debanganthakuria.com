@@ -21,6 +21,8 @@ I built Narad without it. On purpose.
 
 Every partition in Narad has exactly one owner, and that owner's disk holds the only copy of the data. Durability is not "it's on three machines"; it's two fsync points with a CRC read-back between them: the record hits the write-ahead log durably before the producer gets its 202, and hits the partition log durably, verified, before any consumer can see it. If the volume survives, the data survives. If the volume is destroyed, that partition's retained data is gone, and the docs say so in bold instead of a footnote.
 
+![Diagram: a producer sends a message to the write-ahead log on the node it hit, which fsyncs it and answers 202. Later the message goes to the partition log on the owner, which fsyncs it again and reads it back, and only then can readers see it. One copy, two checkpoints: if the disk survives, the data survives.](../../../assets/images/narad/the-crab-ships/two-fsyncs.svg)
+
 The reason is honesty about what the system is *for*. Replication buys you availability of old data through permanent machine loss, and it charges you for it in quorum writes, consistency protocols, and the exact operational complexity I built Narad to avoid. But a queue is not a database. The working set is messages that live for minutes between produce and ack; retention exists for replay, not archival. For that workload, "any surviving node accepts your writes, and disks are durable" covers the failure modes people actually hit (nodes crash and come back) while staying a system one person can operate and read.
 
 The same honesty applies to ordering: Narad doesn't guarantee it, and says so in the second paragraph of its docs rather than in an appendix about partition semantics. If the owner of your key's partition is down, your message goes to a live partition instead of waiting for a dead machine. Availability and durability are the priorities; order is not. Narad is an AP system and would rather deliver your message somewhere than make you wait for the right somewhere.
@@ -33,6 +35,8 @@ Narad has had race-enabled unit tests, end-to-end tests, and three-node chaos sm
 
 Here's the bug that taught me. A few days into one soak window, the ledger showed hundreds of thousands of duplicate deliveries over seven hours. No losses (every message accounted for), just an absurd storm of redelivery. The chain, once I dug it out: consumers were acking out of order, which is legal; the per-partition set that tracks out-of-order acks filled to its cap, which is by design; the broker started refusing further acks with a 503, which is documented; the harness didn't retry failed acks, which was my bug; so the unacked messages hit their visibility timeouts and were redelivered, which is the at-least-once contract working exactly as specified. Six correct behaviors composing into one pathological system.
 
+![Diagram: a loop of six correct behaviours. Readers ack out of order, which is allowed. The out-of-order set fills, by design. The broker refuses acks with 503, as documented. The harness doesn't retry, which was my bug. Leases run out, as specified. Messages come back, at least once, and readers ack out of order again. The fix: when the set is full, hand out only the one message holding everything up.](../../../assets/images/narad/the-crab-ships/ack-spiral.svg)
+
 No unit test finds that, because every unit was right. The fix was a design change: when the ack-tracking set is full, the broker now hands out only the *one message the frontier is stuck on*, instead of cheerfully redelivering the whole backlog so it can fail to ack again. The spiral can't form. But I'd never have known the spiral existed without letting the system run long enough for statistics to do their work.
 
 That became the operating principle for the entire last stretch: the test suite proves the parts, the soak proves the composition. The final window ran 47 and a half hours at 1,000 msg/s through a produce→consume→ack flow with a fan-out child and a delayed child: 170.9 million messages, zero lost, four produce retries total, and not one delayed message fired early.
@@ -44,6 +48,8 @@ The best bug of the project, the one I'd put in a textbook, came from crash-reco
 Narad's control plane is Raft. A node that wins an election is guaranteed, by the algorithm, to have every committed log entry. What the algorithm does *not* guarantee is that the node's state machine has *applied* those entries yet. A leader restored from an old snapshot can win a legitimate election (its log is complete) and then serve reads from a state machine that is still hours in the past, because replaying the log takes time and nothing forces it to finish first.
 
 My fresh leader woke up, looked at its stale memory, concluded that some fan-out consumer cursors didn't belong to any live configuration, and cleaned them up. The cleanup was destructive. The cursors were real. 2,106 messages fell through the gap.
+
+![Diagram: a freshly elected Raft leader has a complete Raft log, which is what the election checks, but its applied state, which is what the code reads, is hours behind. The leader decided some cursors were unused at that point; they weren't, and 2,106 messages were lost. The fix: a new leader waits for a Raft barrier until both match, then decides.](../../../assets/images/narad/the-crab-ships/barrier.svg)
 
 The fix is one call: a freshly elected leader must issue a Raft barrier (wait for its state machine to catch up to its log) and re-read before making any "my local state is authoritative" decision. Cheap, boring, and invisible until the exact moment it saves you. The general form of the lesson is the one I keep re-learning in this project: *winning leadership is a statement about your log, not about your memory*, and every line of code that trusted the memory was wrong in a way no amount of reading about Raft had prepared me to notice.
 
@@ -94,6 +100,8 @@ So v1.1.0 shipped the same day: create a topic with a `parent` field, and its pa
 ```bash
 curl -u $AUTH -X POST $NARAD/v1/topics   -d '{"name": "orders-replica", "parent": "orders"}'
 ```
+
+![Diagram: three nodes. Node A holds orders partition 0 and the replica of partition 2, node B holds partition 1 and the replica of partition 0, node C holds partition 2 and the replica of partition 1. Each copy lands on a different disk from its original.](../../../assets/images/narad/the-crab-ships/replica-placement.svg)
 
 No replication subsystem was built. No quorums, no consistency protocol, none of the machinery I amputated the claw to avoid: just a placement rule on the fan-out path the soak had already hammered for days, honest fine print included (it's async DR, not transparent failover). It turns out the best feature I added all year came from refusing to build the feature and then noticing the system could already almost do it.
 

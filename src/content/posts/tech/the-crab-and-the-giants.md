@@ -43,6 +43,8 @@ Published numbers only go so far because they're all from different years on dif
 
 The order is mostly just the durability column. The brokers that don't flush before confirming are at the top, which is the trade-off you'd expect.
 
+![Bar chart of produce messages per second on the same hardware: NATS JetStream 39,525, Redis Streams 31,643, Kafka 14,728, RabbitMQ quorum 13,014, Pulsar standalone 7,632 and Narad 5,597. Only RabbitMQ quorum and Narad fsync before the ack; the other four ack before the disk.](../../../assets/images/narad/the-crab-and-the-giants/throughput.svg)
+
 The row I kept looking at was RabbitMQ. It makes the same promise Narad does, an fsync before the confirm, and it was still producing about 2.3x faster.
 
 ## Reading RabbitMQ's source
@@ -67,6 +69,8 @@ fdatasync  n=500  avg=3.005ms  p50=2.992ms
 ```
 
 About three microseconds apart on a three-millisecond operation. The metadata commit is riding along inside the same round trip, so on EBS the change is a rounding error.
+
+![Diagram: on a local SSD, fsync flushes data and then metadata while fdatasync flushes only data, so fdatasync is about twice as fast. On EBS, both are one network round trip of about 3 ms, because the metadata rides in the same trip, so they cost the same.](../../../assets/images/narad/the-crab-and-the-giants/fsync-ebs.svg)
 
 I was a bit deflated by this, but the microbenchmark did give me something the 2x number couldn't, which is a clear picture of where the time actually goes. That three-millisecond flush is a network round trip, and there's no syscall or WAL trick that makes it go away. On EBS, the cost of a flush is fixed, and the only thing that changes the math is how many messages you manage to fit into each one. Narad's produce API takes one message per HTTP request, so every message pays for its own flush. Kafka and RabbitMQ batch aggressively on the way in, and I think that's most of the reason they beat Narad in the table above. Their disks aren't faster than mine, their batches are just bigger.
 
