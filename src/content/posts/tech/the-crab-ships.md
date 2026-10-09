@@ -4,7 +4,7 @@ description: "A year ago I set out to build a message broker to learn distribute
 date: 2026-07-15
 tags: ["Tech"]
 draft: false
-cover_image: ../../../assets/images/narad/v1-cover.png
+cover_image: ../../../assets/images/narad/narad-cover.png
 ---
 
 Two posts ago, I wrote about how designing a message queue from scratch kept converging on the shape of Kafka: carcinization, but for infrastructure. The follow-up was about the lessons you only learn standing inside that shape, and it ended with me admitting that replication and the consumer protocol were "still slightly intimidating words on a whiteboard."

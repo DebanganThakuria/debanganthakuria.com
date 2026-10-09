@@ -3,7 +3,7 @@ title: "The crab molts: Narad 2.0"
 description: "The v1.0 post ended with an honest column of three things Narad refused to claim. Four days later, one of them fell: the cluster can now rebalance and shrink itself. This is how you move the only copy of a partition between machines without losing a record, plus a CLI, a fuzz harness, and eight releases in two weeks."
 date: 2026-08-02
 tags: ["Tech"]
-cover_image: ../../../assets/images/narad/v1-cover.png
+cover_image: ../../../assets/images/narad/narad-cover.png
 ---
 
 The last post ended with an honest column, the three things a 1.0 refused to claim: no replication, no ordering guarantee, and no partition rebalancing. "New nodes serve new topics until the rebalance-and-decommission work ships in a future release," I wrote, with the comfortable vagueness of someone who assumed *future* meant months.

@@ -3,7 +3,7 @@ title: "Notes from inside the crab"
 description: "A few weeks ago I wrote about how every distributed event streaming system converges on the same shape. This is about the lessons I learned standing inside that shape: the ones you can't get from a design sketch, only from the act of building."
 date: 2026-05-10
 tags: ["Tech"]
-cover_image: ../../../assets/images/narad/brand_design.png
+cover_image: ../../../assets/images/narad/narad-brand.png
 ---
 
 A few weeks ago I wrote about how trying to design a small message queue from scratch led, inevitably, to me sketching something that looked exactly like Kafka. The carcinization metaphor (that nature keeps reinventing the crab) turned out to map cleanly onto distributed systems. The constraints are real, the design space is narrow, and the existing systems aren't popular by accident.
