@@ -4,7 +4,7 @@ description: "Fourteen years into a dead VR game, its only completionist opens a
 genre: ["Slice of Life", "Fantasy", "Sci-fi", "VRMMO", "Comedy", "Mystery"]
 tags: ["Cooking", "Calm Protagonist", "Overpowered Protagonist", "Male Protagonist", "Misunderstandings", "Restaurant", "Monster Cuisine", "Alternate World", "Gentle Mystery"]
 order: 3
-status: "ongoing"
+status: "dropped"
 ---
 
 Devan is an unremarkable employee with one extraordinary habit: he has played *Worldroot Online* for fourteen years: through its golden age, its decline, its official ending, and its long afterlife as a tourist attraction where people wander the old zones on free Level 1 accounts. The studio dissolved years ago. The servers were scheduled for shutdown.
