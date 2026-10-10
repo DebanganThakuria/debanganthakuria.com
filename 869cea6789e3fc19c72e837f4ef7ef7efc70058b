@@ -1,0 +1,6 @@
+src/components/inn/SkillBar.astro
+  fc1361c8-5298-473c-9604-7a75136d4ca1:2026-10-10T11:46:37.298Z 1-16,18-20,22-36,38-77
+src/data/bio.ts
+  fc1361c8-5298-473c-9604-7a75136d4ca1:2026-10-10T11:46:24.711Z 1-10,12,14-20,22-29,31-35
+---
+{"schema_version": "authorship/3.0.0", "base_commit_sha": "HEAD~1", "prompts": {"fc1361c8-5298-473c-9604-7a75136d4ca1:2026-10-10T11:46:37.298Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 74, "overriden_lines": 0}, "fc1361c8-5298-473c-9604-7a75136d4ca1:2026-10-10T11:46:24.711Z": {"agent_id": {"tool": "claude_code", "model": ""}, "human_author": "debangan.thakuria@razorpay.com", "accepted_lines": 31, "overriden_lines": 0}}}
