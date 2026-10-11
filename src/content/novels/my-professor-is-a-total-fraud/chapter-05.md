@@ -29,13 +29,9 @@ Croft looked at Leon.
 
 "At seven in the evening? In Meridian?" Croft said it gently.
 
-Then he turned to Lucian. His face was hopeful. It was also, unfortunately, awkward about it.
+Then he turned to Lucian. His face was hopeful, but it was also, unfortunately, awkward about it.
 
-There were four hotels in this city where a man of Lucian's profession slept for nothing. The Alliance paid the bills and never asked about them. He had used two of them already, under two other names.
-
-He could hardly say so.
-
-So he said nothing. Croft took the silence entirely the wrong way.
+There were four hotels in this city where a man of Lucian's profession slept for nothing; the Alliance paid the bills and never asked about them. He had used two of them already, under two other names, and he could hardly say so. So he said nothing, and Croft misread the silence entirely.
 
 "Right." Croft put his hat on. "That settles it. I am stopping at my uncle's. Uncle Croft. The house is in the Queen's District, and it is a good deal bigger than his family needs. He can certainly find room for two more."
 
@@ -47,9 +43,7 @@ Croft was off the step and into the road, hand up, before anybody could stop him
 
 ***
 
-The girls were met.
-
-A chauffeur came out of the crowd for Clara. Another waited further down for Penny. Both cars were long and quiet, the colour of good boots.
+The girls were met. A chauffeur came out of the crowd for Clara, and another waited further down for Penny. Both cars were long and quiet, the colour of good boots.
 
 "Goodbye, Mr. Grey," said Penny.
 
@@ -61,9 +55,7 @@ A chauffeur came out of the crowd for Clara. Another waited further down for Pen
 
 She looked at him a moment longer than was comfortable. Then somebody put her carpet bag into the motor car and she was gone.
 
-The three men got a public cab.
-
-It was a motor-cab. Leon stopped dead in front of it. There was no horse.
+The three men got a public cab. It was a motor-cab, and Leon stopped dead in front of it; there was no horse.
 
 "Get in, lad."
 
@@ -77,11 +69,9 @@ Croft took the seat in front, beside the driver. Then he turned round to talk to
 
 "Yes, sir," said Leon.
 
-"Good. Good." Croft was, unmistakably, pleased about something. "My uncle made it big, you know. The only one in the family who ever did. He sat the civil service papers at twenty-two and went straight into Internal Affairs. He has been there ever since. Thirty-eight years."
+"Good. Good." Croft was, unmistakably, pleased. "My uncle made it big, you know. The only one in the family who ever did. He sat the civil service papers at twenty-two and went straight into Internal Affairs. He has been there ever since. Thirty-eight years."
 
-Lucian put one mind on Croft. The other eight went to work.
-
-Internal Affairs was the ministry that held the Watch, the registry of licensed mages, the border offices, and the department that read other people's letters.
+Lucian put one mind on Croft while the other eight went to work. Internal Affairs was the ministry that held the Watch, the registry of licensed mages, the border offices, and the department that read other people's letters.
 
 *Thirty-eight years,* said one mind.
 
@@ -121,13 +111,9 @@ Nobody said anything for a while. Outside, the trees went past.
 
 *There it is,* said one of Lucian's minds.
 
-The Alliance had wanted that answer for twenty years. How does one kingdom keep three times the archmages of anybody else?
+The Alliance had wanted that answer for twenty years: how does one kingdom keep three times the archmages of anybody else? It was not talent, and it was not even the Wells, though the Wells helped.
 
-It was not talent. It was not even the Wells, though the Wells helped.
-
-Ashfox does not train mages. It buys them in advance, with an education. The higher a man climbs, the longer the kingdom owns him.
-
-And every one of them signs. They queue up to sign. A boy of fifteen cannot understand what fifty years is.
+Ashfox does not train mages; it buys them in advance, with an education. The higher a man climbs, the longer the kingdom owns him, and every one of them signs. They queue up to sign; a boy of fifteen cannot understand what fifty years is.
 
 "And if you do not want to serve?" said Leon.
 
@@ -141,13 +127,11 @@ The cab went on.
 
 "That," said Croft, "is what I am going for."
 
-Then the cab slowed. Then it stopped.
-
-The driver leaned out of his window, looked up the road, and sat back.
+Then the cab slowed, and then it stopped. The driver leaned out of his window, looked up the road, and sat back.
 
 "We shall be a while, gentlemen."
 
-Ahead of them the road was shut. Two mounted men in grey stood across it. Behind them came carriages, four of them, black, with outriders front and back. A standard went past on a short pole. Leon put his head out of the window to see it.
+Ahead of them the road was shut, and two mounted men in grey stood across it. Behind them came carriages, four of them, black, with outriders front and back. A standard went past on a short pole, and Leon put his head out of the window to see it.
 
 "Veldran," said the driver.
 
@@ -159,7 +143,7 @@ Ahead of them the road was shut. Two mounted men in grey stood across it. Behind
 
 "I counted them on Tuesday as well."
 
-The side street was narrow and badly lit. The driver took it at the same speed as the main road.
+The side street was narrow and badly lit, but the driver took it at the same speed as the main road.
 
 "They have opened the College to them. First time since anybody's grandfather." He did not turn round. "My brother's boy sat those papers. Placed, too. Signed his five years. Now he is up at the fever hospital, and there he stops until he is twenty-five, whether he cares for it or not."
 
@@ -185,9 +169,7 @@ The driver's eyes came up to the mirror.
 
 "You would not." Lucian said it without any edge in it. "We came down from Ostley this afternoon in a third class carriage. There was a girl on the seat opposite who gave her name as Clara and nothing after it. Vance, as it happens. One of the three houses that put their names to the founding charter of this kingdom."
 
-The cab went quiet.
-
-Leon looked at the window. Then at Croft. Then, slowly, at Lucian.
+The cab went quiet. Leon looked at the window, then at Croft, then, slowly, at Lucian.
 
 "That was a princess?"
 
@@ -203,43 +185,25 @@ Leon looked at the window. Then at Croft. Then, slowly, at Lucian.
 
 *They all are,* said a third, *until one of them is not.*
 
-While one mind stayed on Croft, the other eight opened the mission file.
+While one mind stayed on Croft, the other eight opened the mission file. First, Lara Allard, of the Allards, who had been putting mages into that College since before the kingdom had a parliament. Diamond graduate at sixty-one, one of the youngest the College ever turned out. After that, nothing at all.
 
-First, Lara Allard. Of the Allards, who had been putting mages into that College since before the kingdom had a parliament.
+She asked for a coastal appointment in the north-east, and served twenty years of her fifty there, doing quiet work in a quiet place. She wrote nothing, she joined nothing, and she took no side in the war, or in anything else.
 
-Diamond graduate at sixty-one, one of the youngest the College ever turned out.
-
-After that, nothing at all.
-
-She asked for a coastal appointment in the north-east, and served twenty years of her fifty there, doing quiet work in a quiet place. She wrote nothing. She joined nothing. She took no side in the war, or in anything else.
-
-She lived those twenty years with a man, in his hometown. He had been Circle 2, then Circle 3. At seventy-six he began trying for Circle 4, which is not a thing a man of that Circle attempts at that age.
-
-An apprentice mage, Circles 1 to 3, has no more than a hundred years of lifespan. The attempt damaged him. He died at eighty.
+She lived those twenty years with a man, in his hometown. He had been Circle 2, then Circle 3, and at seventy-six he began trying for Circle 4, which no man of that Circle attempts at that age. An apprentice mage, Circles 1 to 3, has no more than a hundred years of lifespan. The attempt damaged him, and he died at eighty.
 
 Three months later, Lara Allard advanced to Circle 7.
 
-Then she came back to Meridian. Within the year she was headmistress of the Royal College of Ashfox.
+Then she came back to Meridian, and within the year she was headmistress of the Royal College of Ashfox. Lucian had turned that over a great many times.
 
-Lucian had turned that over a great many times.
+Nobody knows how many Circle 7 mages there are. Every nation knows its own, then guesses at everybody else's, and the guessing is most of what the intelligence services do. A mage of the seventh Circle is the backbone of a nation; wars are planned around where one of them is standing.
 
-Nobody knows how many Circle 7 mages there are. Every nation knows its own. Then it guesses at everybody else's, and the guessing is most of what the intelligence services do. A mage of the seventh Circle is the backbone of a nation. Wars are planned around where one of them is standing.
+And this one had spent eighty years being nobody. That was the part that would not sit still. She had never taken a post that mattered, and she published nothing until she was old. She had never quarrelled with anybody, never been seen at court, never sat for a photograph. In eighty years she had not once done anything that told the world what she wanted.
 
-And this one had spent eighty years being nobody.
+Every service on the continent kept a file on her. Lucian had read three, and they agreed on the dates and on nothing else. The Veldrans had her down as a recluse; the Alliance had her down as a Crown asset.
 
-That was the part that would not sit still.
+And there was one old Ashfox report, written by a man who had since retired. It said the Headmistress was the most dangerous person in Meridian, and it said he could not prove it. Then it said, rather bleakly, that he did not expect anybody ever would.
 
-She had never taken a post that mattered. She published nothing until she was old. She had never quarrelled with anybody, never been seen at court, never sat for a photograph. In eighty years she had not once done anything that told the world what she wanted.
-
-Every service on the continent kept a file on her. Lucian had read three. They agreed on the dates and on nothing else.
-
-The Veldrans had her down as a recluse.
-
-The Alliance had her down as a Crown asset.
-
-And there was one old Ashfox report, written by a man who had since retired. It said the Headmistress was the most dangerous person in Meridian. It said he could not prove it. Then it said, rather bleakly, that he did not expect anybody ever would.
-
-She was eighty years old. A Circle 7 lives to three hundred. She had done in eighty years what the best men on the continent needed two centuries for, and she had done the last step of it in the three months after a funeral.
+She was eighty years old, and a Circle 7 lives to three hundred. She had done in eighty years what the best men on the continent needed two centuries for, and she had done the last step of it in the three months after a funeral.
 
 And she still owed the Crown thirty years.
 
@@ -249,17 +213,13 @@ And she still owed the Crown thirty years.
 
 *Nobody is ever held by paper,* said a third, *who has not agreed to be.*
 
-Second, the foreign admissions.
-
-For the first time in four hundred years, Ashfox had opened the College to students from abroad. Nobody had said why. Nobody had said whether the service years would apply to them either, which was the question every foreign ministry on the continent was asking its own people this month, and the reason Lucian was in a cab.
+Second, the foreign admissions. For the first time in four hundred years, Ashfox had opened the College to students from abroad. Nobody had said why. Nobody had said whether the service years would apply to them either, which was the question every foreign ministry on the continent was asking its own people this month, and the reason Lucian was in a cab.
 
 "Here we are," said Croft.
 
 ***
 
-The house was not large.
-
-It stood behind a low wall, on a road where every house stood behind a low wall. It had eight windows at the front and a lamp over the door. And it was worth more than every building in the parish Leon was born in, combined.
+The house was not large. It stood behind a low wall, on a road where every house stood behind a low wall, with eight windows at the front and a lamp over the door. And it was worth more than every building in the parish Leon was born in, combined.
 
 "That is it?" said Leon, and then went red.
 
@@ -267,15 +227,9 @@ It stood behind a low wall, on a road where every house stood behind a low wall.
 
 *All civil servants are rich,* thought Lucian. *No matter which world.*
 
-Croft paid the cab.
+Croft paid the cab, and Lucian watched him do it. A cloth purse, not a note case. Coins counted twice before they left his hand, and a fifth of a mark over for the driver, which was too much for a man who had been careful about the first four.
 
-Lucian watched him do it. A cloth purse, not a note case. Coins counted twice before they left his hand, and a fifth of a mark over for the driver, which was too much for a man who had been careful about the first four.
-
-The fog had come down properly now as the temperature dropped. Along the road the lamps were going on, one after another.
-
-Croft stood on the step with his satchel and looked up at the door.
-
-Then he pulled the bell.
+The fog had come down properly now as the temperature dropped, and along the road the lamps were going on, one after another. Croft stood on the step with his satchel and looked up at the door. Then he pulled the bell.
 
 A maid answered it. She considered three men on a step, in the fog, with luggage, at seven in the evening.
 
@@ -291,7 +245,7 @@ A maid answered it. She considered three men on a step, in the fog, with luggage
 
 "Ah," said Croft again.
 
-At the far end of the hall, a door opened. A young man came out of it with a glass in his hand. Perhaps twenty-five, and very well turned out. He came down the hall at his leisure, then looked over the maid's shoulder.
+At the far end of the hall, a door opened, and a young man came out of it with a glass in his hand, perhaps twenty-five and very well turned out. He came down the hall at his leisure, then looked over the maid's shoulder.
 
 "Barnaby," he said. "Good God. It really is you."
 
@@ -307,9 +261,7 @@ At the far end of the hall, a door opened. A young man came out of it with a gla
 
 "She has a delicate constitution," said Gerald. "Which you would know, if you came up more than once a year."
 
-The fog moved across the step. Somewhere down the road, a horse went past, entirely unhurried.
-
-Gerald had got very interested in his glass.
+The fog moved across the step, and somewhere down the road a horse went past, entirely unhurried. Gerald had got very interested in his glass.
 
 "Well," said Croft. "There is the old schoolroom."
 
@@ -319,13 +271,9 @@ Gerald had got very interested in his glass.
 
 And there it was.
 
-Lucian had been watching the young man's hands. They were soft. His shoes were new. His face had been pleased about something since the moment it came down the hall.
+Lucian had been watching the young man's hands, which were soft. His shoes were new, and his face had looked pleased since the moment it came down the hall.
 
-Nobody had insulted anybody.
-
-But Barnaby Croft, second in the kingdom, who had been talking about this house for forty minutes with his whole chest, had gone a colour that owed nothing to the cold.
-
-Lucian had been in three wars and two prisons. He had never found anything as unpleasant as a hallway.
+Nobody had insulted anybody. But Barnaby Croft, second in the kingdom, who had been talking about this house for forty minutes with his whole chest, had gone a colour that owed nothing to the cold. Lucian had been in three wars and two prisons. He had never found anything as unpleasant as a hallway.
 
 "Of course," he said.
 
@@ -347,7 +295,7 @@ Croft opened his mouth.
 
 "You have a second rank in the entire kingdom." Lucian said it pleasantly, and at a volume that carried perfectly well down a hall. "I should not be in any hurry about the room over the stable."
 
-Gerald's face did something very small.
+Gerald's face changed, very slightly.
 
 The three of them stood in the fog for a moment longer. Then Croft said, "Right," in a voice that was almost his own again, and came down the step after them.
 
